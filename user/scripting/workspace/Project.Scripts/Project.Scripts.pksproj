@@ -1,0 +1,18 @@
+ProductName: Project.Scripts
+ProductIdentifier: ctrmap.White2Upgrade.Project.Scripts
+MultiRelease: false
+SingleTargetPlatform: EV_SWAN
+SourceDirectories:
+  - EV_SWAN: src
+
+DepPaths:
+  - Type: LIBRARY
+    ResourceType: INTERNAL
+    ResourcePath: scripting/cm_ide/sdk/EV_GEN_V/SDK5-B2W2-Generated.lib
+  - Type: DIRECTORY
+    ResourceType: ON_DISK
+    ResourcePath: "C:/Users/L33TG/Documents/White2Upgrade/user/scripting/include"
+
+Definitions:
+  - SWAN
+
