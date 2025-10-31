@@ -1468,6 +1468,9 @@ Symbols:
   - Name: getNumberOfForms
     Segment: 0x0
     Address: 0x200d3a9
+  - Name: GetPkmDataFromPokedex
+    Segment: 0x0
+    Address: 0x200d3C9
   - Name: addPkmToDex
     Segment: 0x0
     Address: 0x200d569
@@ -3759,7 +3762,14 @@ Symbols:
     Address: 0x2020f39
   - Name: PokeParty_GetIconIndex
     Segment: 0x0
+<<<<<<< HEAD:pmc/IRDO.yml
     Address: 0x2020FC1
+=======
+    Address: 0x2020FC0
+  - Name: PokeParty_GetIconPalette
+    Segment: 0x0
+    Address: 0x2021061
+>>>>>>> 62f3aa40415676fe1295d857f99e0e33fd55f8ab:pmc/ESDB.yml
   - Name: getOBJTileMapping_MainEng
     Segment: 0x0
     Address: 0x20211bd
@@ -4417,6 +4427,9 @@ Symbols:
   - Name: getUINarcIdx
     Segment: 0x0
     Address: 0x202d80d
+  - Name: GetPokemonTypeIconPalette
+    Segment: 0x0
+    Address: 0x202d815
   - Name: PlayerActionPerms_SetActionBlocked
     Segment: 0x0
     Address: 0x202ea01
@@ -5839,6 +5852,12 @@ Symbols:
   - Name: MakePokeGraArcHandle
     Segment: 0x0
     Address: 0x2033e51
+  - Name: LoadNCLRFromMonData
+    Segment: 0x0
+    Address: 0x2033e61
+  - Name: LoadNCLRFromBoxPkm
+    Segment: 0x0
+    Address: 0x2033f59
   - Name: GFL_G3DScreenTexCreate
     Segment: 0x0
     Address: 0x2034cad
@@ -7933,6 +7952,9 @@ Symbols:
   - Name: ClActSys_Create
     Segment: 0x0
     Address: 0x204b6d5
+  - Name: LoadNCLR
+    Segment: 0x0
+    Address: 0x204bbe5
   - Name: v1
     Segment: 0x0
     Address: 0x204cc79

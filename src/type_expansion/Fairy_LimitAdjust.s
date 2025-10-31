@@ -223,10 +223,6 @@ FULL_COPY_167_0x21BD1AC:
 FULL_COPY_167_0x21BD318:
     .byte TypeCnt
     .size FULL_COPY_167_0x21BD318, . - FULL_COPY_167_0x21BD318
-
-FULL_COPY_ARM9_0x20920C8:
-    .byte 0, 2
-    .size FULL_COPY_ARM9_0x20920C8, . - FULL_COPY_ARM9_0x20920C8
 	
 @ Instances where type 17 is checked for type none
 @ DoesMonHaveType - used for Conversion, Color Change

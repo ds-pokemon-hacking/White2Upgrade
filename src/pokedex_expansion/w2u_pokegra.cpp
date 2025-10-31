@@ -1,5 +1,6 @@
-#include "Personal.h"
-#include "Species.h"
+#include "personal.h"
+#include "species.h"
+#include "util/filesystem.h"
 #include "pml/poke_param.h"
 #include "pml/poke_party.h"
 #include "pml/poke_data.h"
@@ -11,13 +12,13 @@
 #define RARE_FORM_START 17953
 #define REGIONAL_DEX_FILE_INDEX 826
 
-#define FORM_ICON_START 1456
+#define ICON_FORM_START 1456
 
 namespace w2u {
     namespace pokegra {
         extern "C" u32 PML_PersonalGetParamSingle(u32, u32, u32);
-        extern "C" void THUMB_BRANCH_SAFESTACK_GetPokemonDataIDBase(int ARCID, int Species, int Form, int Sex, b32 isRare, b32 isBackSprite, int isEgg, u32 *SpeciesData, u32 *OffsetBase, u32 *pGender, u32 *pValidRarity, u32 *pValidRareForme, b32 linearGraphics) {
-            u32 actual_index = 0;
+        extern "C" void THUMB_BRANCH_SAFESTACK_GetPokemonDataIDBase(u32 ARCID, u32 Species, u32 Form, u32 Gender, b32 isRare, b32 isBackSprite, b32 isEgg, u32 *SpeciesData, u32 *OffsetBase, u32 *pGender, u32 *pValidRarity, u32 *pValidRareForme, b32 linearGraphics) {
+			u32 actual_index = 0;
             // An actual Pokémon; calculate its base index.
             // Should be, by default, 20 * Species.
             u32 expected_index = 20 * Species;
@@ -64,17 +65,17 @@ namespace w2u {
             }
 
             // Handle the gender attributes.
-            switch (Sex) {
+            switch (Gender) {
             case 1:
                 // In case of female Pokemon, check for alternate gender sprite.
                 if (!GFL_ArcSysGetDataLength(ARCID, actual_index + 1)) {
                     // Set to default if ther is none.
-                    Sex = 0;
+                    Gender = 0;
                 }
                 break;
             case 2:
                 // Set genderless Pokemon to default.
-                Sex = 0;
+                Gender = 0;
                 break;
             }
 
@@ -88,18 +89,18 @@ namespace w2u {
             }
 
             if (pGender) {
-                *pGender = Sex;
+                *pGender = Gender;
             }
 
             if (pValidRarity) {
                 *pValidRarity = isRare;
-            }       
+            }
         }
 
-        extern "C" s32 THUMB_BRANCH_PokeParty_GetIconIndex(s32 Species, s32 Form, s32 Gender, s32 isEgg) {
-            // An actual Pokémon; calculate its icon index.
+        extern "C" s32 THUMB_BRANCH_PokeParty_GetIconIndex(u32 Species, u32 Form, u32 Gender, u32 isEgg) {
+			// An actual Pokémon; calculate its icon index.
             // Should be, by default, 2 * Species + 8.
-            s32 iconIndex = 2 * Species + 8;
+            u32 iconIndex = 2 * Species + 8;
             
             if (isEgg) {
                 // Egg; check if it is Manaphy first.
@@ -110,15 +111,15 @@ namespace w2u {
             else if (Form) {
                 // Handle forms.
                 // The starting index has been pushed back.
-                u32 formeCount = PML_PersonalGetParamSingle(Species, 0, Personal_FormeCount);
-                u32 formeSpriteOffset = PML_PersonalGetParamSingle(Species, 0, Personal_FormeSpritesOffset);
-                u32 formeSprite = PML_PersonalGetParamSingle(Species, 0, Personal_SpriteForme);
+                u32 formCount = PML_PersonalGetParamSingle(Species, 0, Personal_FormeCount);
+                u32 formSpriteOffset = PML_PersonalGetParamSingle(Species, 0, Personal_FormeSpritesOffset);
+                u32 formSprite = PML_PersonalGetParamSingle(Species, 0, Personal_SpriteForme);
                 // Forme is valid.
-                if (Form < formeCount && !formeSprite) {
-                    iconIndex = 2 * (formeSpriteOffset + Form - 1) + FORM_ICON_START;
+				if (Form < formCount && !formSprite) {
+                    iconIndex = 2 * (formSpriteOffset + Form - 1) + ICON_FORM_START;
                 }
             }
-
+			
             // Handle the gender attributes.
             switch (Gender) {
             case 1:
@@ -133,8 +134,43 @@ namespace w2u {
                 Gender = 0;
                 break;
             }
-
+            
             return iconIndex + Gender;
         }
+
+		extern "C" u32 THUMB_BRANCH_PokeParty_GetIconPalette(u32 Species, u32 Form, u32 Gender, u32 IsEgg) {
+			// The palette index and species match unless there are any special cases
+			u32 paletteIndex = Species;
+
+			if (IsEgg) {
+				// Egg; check if it is Manaphy first.
+				u32 isManaphy = Species == 490;
+				// Calculate the new index.
+				paletteIndex = isManaphy + EGG_INDEX;
+			}
+			else if (Form) {
+				// Handle forms.
+                // The starting index has been pushed back.
+				u32 formSpriteOffset = PML_PersonalGetParamSingle(Species, 0, Personal_FormeSpritesOffset);
+				u32 formSprite = PML_PersonalGetParamSingle(Species, 0, Personal_SpriteForme);
+				u32 formCount = PML_PersonalGetParamSingle(Species, 0, Personal_FormeCount);
+				// Form is valid.
+				if (Form < formCount && !formSprite) {
+					paletteIndex = formSpriteOffset + (Form - 1) + (EGG_INDEX + 2);
+				}   
+				
+			}
+
+			u32 palette = ReadByteFromFile("pokeicon_palette_map.bin", paletteIndex);
+			// Each Pokémon entry has 2 posible palettes, first 4 bits for male and the last 4 bits for female.
+			// (this is only used for frillish and jellycent in vanilla but the new icons don't make use of if for now)
+			if (Gender) {
+				palette = (palette & 0xF0u) >> 4;
+			}
+			else {
+				palette = palette & 0xF;
+			}
+			return palette;
+		}
     }
 }

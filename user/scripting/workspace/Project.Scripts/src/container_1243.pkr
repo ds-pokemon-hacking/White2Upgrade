@@ -1,0 +1,447 @@
+main_1:
+	ActorPauseAll 
+	SEPlay 1351
+	FlagGet 2404, 32784
+	StackPush 32784
+	StackPushConst 1
+	StackCmp 1
+	VMJumpIf 255, LABEL_009d
+	VMCall sub_00ed
+	VMJump LABEL_00e7
+LABEL_009d:
+	PokePartyHasMoveAny 32784, 70
+	StackPush 32784
+	StackPushConst 6
+	StackCmp 1
+	VMJumpIf 255, LABEL_00c2
+	VMCall sub_00f9
+	VMJump LABEL_00e7
+LABEL_00c2:
+	MsgSystem 6, 2
+	YesNoWin 32784
+	MsgSystemClose 
+	StackPush 32784
+	StackPushConst 0
+	StackCmp 1
+	VMJumpIf 255, LABEL_00e7
+	VMCall sub_0105
+LABEL_00e7:
+	RTFinishSubEvents 
+	ActorUnlockAll 
+	VMHalt 
+
+sub_00ed:
+	MsgSystem 9, 2
+	InputWaitLast 
+	MsgSystemClose 
+	VMReturn 
+
+sub_00f9:
+	MsgSystem 8, 2
+	InputWaitLast 
+	MsgSystemClose 
+	VMReturn 
+
+sub_0105:
+	WorkSetConst 32801, 0
+	FlagSet 2404
+	CMD_1DD 1, 70, 0
+	PokePartyHasMoveAny 32801, 70
+	WordSetPartyPokeName 0, 32801
+	MsgSystem 10, 2
+	MsgSystemClose 
+	VMCall sub_005c
+	PlayHMCutInEffect 32801
+	VMCall sub_006c
+	MsgSystem 11, 2
+	InputWaitLast 
+	MsgSystemClose 
+	WorkSetConst 32801, 0
+	VMReturn 
+
+sub_005c:
+	PlayerSetSpecialSequence 128
+	ActorCmdExec 255, -20
+	ActorCmdWait 
+	VMReturn 
+
+sub_006c:
+	PlayerSetSpecialSequence 8
+	VMReturn 
+
+main_2:
+	ActorPauseAll 
+	FlagGet 2404, 32784
+	StackPush 32784
+	StackPushConst 1
+	StackCmp 1
+	VMJumpIf 255, LABEL_0173
+	VMCall sub_00ed
+	VMJump LABEL_01a6
+LABEL_0173:
+	FlagSet 2404
+	CMD_1DD 1, 70, 0
+	WordSetPartyPokeName 0, 32768
+	MsgSystem 10, 2
+	MsgSystemClose 
+	VMCall sub_005c
+	PlayHMCutInEffect 32768
+	VMCall sub_006c
+	MsgSystem 11, 2
+	InputWaitLast 
+	MsgSystemClose 
+LABEL_01a6:
+	RTFinishSubEvents 
+	ActorUnlockAll 
+	VMHalt 
+
+main_3:
+	ActorPauseAll 
+	SEPlay 1351
+	PokePartyHasMoveAny 32784, 57
+	StackPush 32784
+	StackPushConst 6
+	StackCmp 1
+	VMJumpIf 255, LABEL_01d7
+	VMCall sub_0226
+	VMJump LABEL_0220
+LABEL_01d7:
+	StackPushFlag 2406
+	StackPushConst 1
+	StackCmp 1
+	VMJumpIf 255, LABEL_01fb
+	WordSetMoveName 0, 57
+	VMCall sub_0048
+	VMJump LABEL_0220
+LABEL_01fb:
+	MsgSystem 13, 2
+	YesNoWin 32784
+	MsgSystemClose 
+	StackPush 32784
+	StackPushConst 0
+	StackCmp 1
+	VMJumpIf 255, LABEL_0220
+	VMCall sub_0232
+LABEL_0220:
+	RTFinishSubEvents 
+	ActorUnlockAll 
+	VMHalt 
+
+sub_0226:
+	MsgSystem 15, 2
+	InputWaitLast 
+	MsgSystemClose 
+	VMReturn 
+
+sub_0048:
+	MsgSystem 33, 2
+	InputWaitLast 
+	MsgSystemClose 
+	VMReturn 
+
+sub_0232:
+	PokePartyHasMoveAny 32784, 57
+	WorkGet 32776, 32784
+	WordSetPartyPokeName 0, 32784
+	MsgSystem 14, 2
+	MsgSystemClose 
+	VMCall sub_005c
+	PlayHMCutInEffect 32776
+	PlayerSetSpecialSequence 1
+	HMCallSurf 
+	CMD_1DD 1, 57, 0
+	VMReturn 
+
+main_4:
+	ActorPauseAll 
+	WordSetPartyPokeName 0, 32768
+	MsgSystem 14, 2
+	MsgSystemClose 
+	VMCall sub_005c
+	PlayHMCutInEffect 32768
+	VMCall sub_006c
+	HMCallSurf 
+	CMD_1DD 1, 57, 0
+	RTFinishSubEvents 
+	ActorUnlockAll 
+	VMHalt 
+
+main_5:
+	ActorPauseAll 
+	SEPlay 1351
+	PokePartyHasMoveAny 32784, 15
+	StackPush 32784
+	StackPushConst 6
+	StackCmp 1
+	VMJumpIf 255, LABEL_02bf
+	VMCall sub_02f0
+	VMJump LABEL_02ea
+LABEL_02bf:
+	MsgSystem 0, 2
+	YesNoWin 32784
+	StackPush 32784
+	StackPushConst 0
+	StackCmp 1
+	VMJumpIf 255, LABEL_02e8
+	VMCall sub_02fc
+	VMJump LABEL_02ea
+LABEL_02e8:
+	MsgSystemClose 
+LABEL_02ea:
+	RTFinishSubEvents 
+	ActorUnlockAll 
+	VMHalt 
+
+sub_02f0:
+	MsgSystem 2, 2
+	InputWaitLast 
+	MsgSystemClose 
+	VMReturn 
+
+sub_02fc:
+	PokePartyHasMoveAny 32784, 15
+	WorkGet 32776, 32784
+	WordSetPartyPokeName 0, 32784
+	MsgSystem 1, 2
+	MsgSystemClose 
+	VMCall sub_005c
+	PlayHMCutInEffect 32776
+	VMCall sub_006c
+	HMCallCut 
+	CMD_1DD 1, 15, 0
+	VMSleep 3
+	ActorDelete 32785
+	SEPlay 1651
+	VMSleep 1
+	VMReturn 
+
+main_6:
+	ActorPauseAll 
+	SEPlay 1351
+	WordSetPartyPokeName 0, 32768
+	MsgSystem 1, 2
+	MsgSystemClose 
+	VMCall sub_005c
+	PlayHMCutInEffect 32768
+	VMCall sub_006c
+	HMCallCut 
+	CMD_1DD 1, 15, 0
+	VMSleep 3
+	WorkSetConst 32802, 0
+	WorkSetConst 32803, 0
+	PlayerGetActorInFront 32802, 32803
+	StackPush 32803
+	StackPushConst 1
+	StackCmp 1
+	VMJumpIf 255, LABEL_039b
+	ActorDelete 32802
+LABEL_039b:
+	WorkSetConst 32803, 0
+	WorkSetConst 32802, 0
+	SEPlay 1651
+	RTFinishSubEvents 
+	ActorUnlockAll 
+	VMHalt 
+
+main_7:
+	ActorPauseAll 
+	SEPlay 1351
+	PokePartyHasMoveAny 32784, 127
+	StackPush 32784
+	StackPushConst 6
+	StackCmp 1
+	VMJumpIf 255, LABEL_03dc
+	VMCall sub_042b
+	VMJump LABEL_0425
+LABEL_03dc:
+	StackPushFlag 2406
+	StackPushConst 1
+	StackCmp 1
+	VMJumpIf 255, LABEL_0400
+	WordSetMoveName 0, 127
+	VMCall sub_0048
+	VMJump LABEL_0425
+LABEL_0400:
+	MsgSystem 23, 2
+	YesNoWin 32784
+	MsgSystemClose 
+	StackPush 32784
+	StackPushConst 0
+	StackCmp 1
+	VMJumpIf 255, LABEL_0425
+	VMCall sub_0437
+LABEL_0425:
+	RTFinishSubEvents 
+	ActorUnlockAll 
+	VMHalt 
+
+sub_042b:
+	MsgSystem 25, 2
+	InputWaitLast 
+	MsgSystemClose 
+	VMReturn 
+
+sub_0437:
+	WorkSetConst 32804, 0
+	PokePartyHasMoveAny 32804, 127
+	WordSetPartyPokeName 0, 32804
+	MsgSystem 24, 2
+	MsgSystemClose 
+	VMCall sub_005c
+	PlayHMCutInEffect 32804
+	VMCall sub_006c
+	HMCallWaterfall 32804
+	CMD_1DD 1, 127, 0
+	WorkSetConst 32804, 0
+	VMReturn 
+
+main_8:
+	ActorPauseAll 
+	WordSetPartyPokeName 0, 32768
+	MsgSystem 24, 2
+	MsgSystemClose 
+	PlayHMCutInEffect 32768
+	HMCallWaterfall 32768
+	CMD_1DD 1, 127, 0
+	RTFinishSubEvents 
+	ActorUnlockAll 
+	VMHalt 
+
+main_9:
+	ActorPauseAll 
+	WordSetPartyPokeName 0, 32768
+	MsgSystem 27, 2
+	MsgSystemClose 
+	VMCall sub_005c
+	PlayHMCutInEffect 32768
+	VMCall sub_006c
+	RTFinishSubEvents 
+	ActorUnlockAll 
+	VMHalt 
+
+main_10:
+	ActorPauseAll 
+	WordSetPartyPokeName 0, 32768
+	MsgSystem 28, 2
+	MsgSystemClose 
+	VMCall sub_005c
+	PlayHMCutInEffect 32768
+	VMCall sub_006c
+	RTFinishSubEvents 
+	ActorUnlockAll 
+	VMHalt 
+
+main_11:
+	ActorPauseAll 
+	WordSetPartyPokeName 0, 32768
+	MsgSystem 29, 2
+	MsgSystemClose 
+	VMCall sub_005c
+	PlayHMCutInEffect 32768
+	VMCall sub_006c
+	RTFinishSubEvents 
+	ActorUnlockAll 
+	VMHalt 
+
+main_12:
+	ActorPauseAll 
+	PokePartyHasMoveAny 32784, 291
+	StackPush 32784
+	StackPushConst 6
+	StackCmp 1
+	VMJumpIf 255, LABEL_053f
+	MsgSystem 30, 2
+	InputWaitLast 
+	MsgSystemClose 
+	VMJump LABEL_0599
+LABEL_053f:
+	StackPushFlag 2406
+	StackPushConst 1
+	StackCmp 1
+	VMJumpIf 255, LABEL_0563
+	WordSetMoveName 0, 291
+	VMCall sub_0048
+	VMJump LABEL_0599
+LABEL_0563:
+	MsgSystem 31, 2
+	YesNoWin 32784
+	MsgSystemClose 
+	StackPush 32784
+	StackPushConst 0
+	StackCmp 1
+	VMJumpIf 255, LABEL_0599
+	PokePartyHasMoveAny 32784, 291
+	WorkGet 32776, 32784
+	WordSetPartyPokeName 0, 32784
+	VMCall sub_059f
+LABEL_0599:
+	RTFinishSubEvents 
+	ActorUnlockAll 
+	VMHalt 
+
+sub_059f:
+	MsgSystem 32, 2
+	MsgSystemClose 
+	VMCall sub_005c
+	PlayHMCutInEffect 32776
+	VMCall sub_006c
+	HMCallDiving 0
+	CMD_1DD 1, 291, 0
+	VMReturn 
+
+main_13:
+	ActorPauseAll 
+	WordSetPartyPokeName 0, 32768
+	WorkGet 32776, 32768
+	VMCall sub_059f
+	RTFinishSubEvents 
+	ActorUnlockAll 
+	VMHalt 
+
+main_14:
+	ActorPauseAll 
+	FlagGet 215, 32784
+	StackPush 32784
+	StackPushConst 0
+	StackCmp 1
+	VMJumpIf 255, LABEL_0616
+	WordSetPartyPokeName 0, 32768
+	MsgSystem 27, 2
+	MsgSystemClose 
+	VMCall sub_005c
+	PlayHMCutInEffect 32768
+	VMCall sub_006c
+LABEL_0616:
+	RTFinishSubEvents 
+	ActorUnlockAll 
+	VMHalt 
+
+main_15:
+	ActorPauseAll 
+	FlagGet 214, 32784
+	StackPush 32784
+	StackPushConst 0
+	StackCmp 1
+	VMJumpIf 255, LABEL_0654
+	WordSetPartyPokeName 0, 32768
+	MsgSystem 10, 2
+	MsgSystemClose 
+	VMCall sub_005c
+	PlayHMCutInEffect 32768
+	VMCall sub_006c
+LABEL_0654:
+	RTFinishSubEvents 
+	ActorUnlockAll 
+	VMHalt 
+
+main_16:
+	ActorPauseAll 
+	HMCallWaterfall 0
+	RTFinishSubEvents 
+	ActorUnlockAll 
+	VMHalt 
+
+ActionSequence_0054:
+	action 162, 1
+	action 254, 0
+

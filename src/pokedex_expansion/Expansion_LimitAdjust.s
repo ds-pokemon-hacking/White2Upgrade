@@ -27,6 +27,34 @@ FULL_COPY_PML_PkmDecryptCheck_0x32:
     nop
     .size FULL_COPY_PML_PkmDecryptCheck_0x32, . - FULL_COPY_PML_PkmDecryptCheck_0x32
 
+@ Enable PersonalData load of "egg indexes"
+FULL_COPY_PML_PersonalGetDatID_0x5C:
+    .word 0xFFFF - PkmnCnt 
+    .size FULL_COPY_PML_PersonalGetDatID_0x5C, . - FULL_COPY_PML_PersonalGetDatID_0x5C
+
+@ Expand evolution methods...
+@ Add 6 bytes to file size
+FULL_COPY_CheckEvolveSpecies_0xAC:
+    movs r1, #0x30
+    .size FULL_COPY_CheckEvolveSpecies_0xAC, . - FULL_COPY_CheckEvolveSpecies_0xAC
+
+@ Read 1 more entry
+FULL_COPY_CheckEvolveSpecies_0x33E:
+    cmp r0, #8
+    .size FULL_COPY_CheckEvolveSpecies_0x33E, . - FULL_COPY_CheckEvolveSpecies_0x33E
+
+FULL_COPY_CheckEvolveSpecies_0x36E:
+    cmp r0, #8
+    .size FULL_COPY_CheckEvolveSpecies_0x36E, . - FULL_COPY_CheckEvolveSpecies_0x36E
+
+FULL_COPY_CheckEvolveSpecies_0x3EC:
+    cmp r0, #8
+    .size FULL_COPY_CheckEvolveSpecies_0x3EC, . - FULL_COPY_CheckEvolveSpecies_0x3EC
+    
+FULL_COPY_CheckEvolveSpecies_0x44C:
+    cmp r0, #8
+    .size FULL_COPY_CheckEvolveSpecies_0x44C, . - FULL_COPY_CheckEvolveSpecies_0x44C
+
 @ Overlay 299 Patches
 @ Expand the space allocated by the process.
 

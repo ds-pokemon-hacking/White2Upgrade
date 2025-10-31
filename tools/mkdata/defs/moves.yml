@@ -1,0 +1,43 @@
+INCLUDE:
+  - enum/types.yml
+  - enum/btl_stat.yml
+  - enum/btl_inflict.yml
+  - enum/btl_eff.yml
+  - enum/btl_target.yml
+  - enum/move_flags.yml
+  - enum/pss.yml
+  - enum/status.yml
+STRUCTURE:
+  - Type: u8
+  - Quality: u8
+  - Category: u8
+  - Power: u8
+  - Accuracy: u8
+  - Base PP: u8
+  - Priority: s8
+  - Hit: u8
+  - Inflict Status: u16
+  - Inflict Chance: u8
+  - Inflict Duration: u8
+  - Turn (min): u8
+  - Turn (max): u8
+  - Critical Hit Stage: u8
+  - Flinch Rate: u8
+  - Move Animation ID: u16
+  - Recoil: s8
+  - Heal: s8
+  - Target: u8
+  - Status Change Stats:
+    - s8
+    - s8
+    - s8
+  - Status Change Stages:
+    - s8
+    - s8
+    - s8
+  - Status Change Chances:
+    - s8
+    - s8
+    - s8
+  - Padding: u16
+  - Flags: u32

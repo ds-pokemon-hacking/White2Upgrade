@@ -1,0 +1,36 @@
+STRUCTURE:
+  - Price: u16
+  - Held Effect: u8
+  - Held Argument: u8
+  - Natural Gift Effect: u8
+  - Fling Effect: u8
+  - Fling Power: u8
+  - Natural Gift Power: u8
+  - Packed: u16
+  - Effect Field: u8
+  - Effect Battle: u8
+  - Has Battle Stats: u8
+  - Item Class: u8
+  - Consumable: u8
+  - Sort Index: u8
+  - Battle Stats:
+    - Cure Inflict: u8
+    - Boost:
+      - u8
+      - u8
+      - u8
+      - u8
+    - Function Flags: u16
+    - EV (HP): u8
+    - EV (ATK): u8
+    - EV (DEF): u8
+    - EV (SPE): u8
+    - EV (SPA): u8
+    - EV (SPD): u8
+    - Heal Amount: u8
+    - PP Gain: u8
+    - Friendship 1: u8
+    - Friendship 2: u8
+    - Friendship 3: u8
+    - field_1F: u8
+    - field_20: u8

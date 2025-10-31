@@ -29,6 +29,7 @@ Once the repository is setup, run `make -j$(nproc)`. If all goes well, you shall
 
 ## Creators
 - [PlatinumMaster](https://github.com/PlatinumMaster)
+- [Dararo](https://github.com/Paideieitor)
 - [BluRose](https://github.com/BluRosie)
 - [SpagoAsparago](https://github.com/SpagoAsparago)
 - [Bubble791](https://github.com/Bubble791)

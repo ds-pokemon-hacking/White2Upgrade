@@ -1,0 +1,45 @@
+INCLUDE:
+  - 'enum/types.yml'
+  
+STRUCTURE:
+- Base HP: u8
+- Base Attack: u8
+- Base Defense: u8
+- Base Speed: u8
+- Base Special Attack: u8
+- Base Special Defense: u8
+- Primary Type: u8
+- Secondary Type: u8
+- Capture Rate: u8
+- Evolution Stage: u8
+- EV Yield: u16
+- Wild Item (50%): u16
+- Wild Item (5%): u16
+- Wild Item (1%): u16
+- Gender Probability: u8
+- Egg Happiness: u8
+- Base Happiness: u8
+- Experience Group: u8
+- Egg Group 1: u8
+- Egg Group 2: u8
+- Primary Ability : u8
+- Secondary Ability: u8
+- Hidden Ability: u8
+- Escape Rate: u8
+- Form Data Offset: u16
+- Form Sprite Offset: u16
+- Form Count: u8
+- Color: u8
+- Base Experience: u16
+- Height (cm): u16
+- Weight (cg): u16
+- TMHM1: s32
+- TMHM2: s32
+- TMHM3: s32
+- TMHM4: s32
+- Type Tutors: s32
+- Special Tutors: 
+  - s32
+  - s32
+  - s32
+  - s32

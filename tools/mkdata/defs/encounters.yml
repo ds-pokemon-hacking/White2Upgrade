@@ -1,0 +1,981 @@
+STRUCTURE: 
+
+- SEASON_SPRING: 
+     - GRASS_SINGLES: u8 
+     - GRASS_DOUBLES: u8 
+     - GRASS_RARE: u8 
+     - SURF_SINGLES: u8 
+     - SURF_RARE: u8 
+     - FISH_SINGLES: u8 
+     - FISH_RARE: u8 
+     - UNKNOWN: u8 
+
+    - GRASS:
+      - GRASS_SINGLES: 
+        - 20%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 20%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 5%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 5%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 4%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 4%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 1%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 1%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+      - GRASS_DOUBLES: 
+        - 20%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 20%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 5%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 5%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 4%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 4%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 1%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 1%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+      - GRASS_RARE: 
+        - 20%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 20%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 5%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 5%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 4%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 4%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 1%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 1%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+
+    - WATER:
+      - SURF_SINGLES: 
+        - 60%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 30%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 5%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 4%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 1%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+      - SURF_RARE: 
+        - 60%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 30%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 5%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 4%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 1%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+      - FISH_SINGLES: 
+        - 60%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 30%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 5%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 4%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 1%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+      - FISH_RARE: 
+        - 60%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 30%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 5%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 4%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 1%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+
+- SEASON_SUMMER: 
+     - GRASS_SINGLES: u8 
+     - GRASS_DOUBLES: u8 
+     - GRASS_RARE: u8 
+     - SURF_SINGLES: u8 
+     - SURF_RARE: u8 
+     - FISH_SINGLES: u8 
+     - FISH_RARE: u8 
+     - UNKNOWN: u8 
+
+    - GRASS:
+      - GRASS_SINGLES: 
+        - 20%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 20%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 5%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 5%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 4%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 4%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 1%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 1%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+      - GRASS_DOUBLES: 
+        - 20%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 20%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 5%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 5%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 4%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 4%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 1%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 1%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+      - GRASS_RARE: 
+        - 20%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 20%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 5%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 5%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 4%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 4%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 1%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 1%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+
+    - WATER:
+      - SURF_SINGLES: 
+        - 60%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 30%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 5%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 4%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 1%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+      - SURF_RARE: 
+        - 60%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 30%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 5%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 4%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 1%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+      - FISH_SINGLES: 
+        - 60%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 30%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 5%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 4%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 1%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+      - FISH_RARE: 
+        - 60%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 30%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 5%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 4%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 1%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+
+- SEASON_FALL: 
+     - GRASS_SINGLES: u8 
+     - GRASS_DOUBLES: u8 
+     - GRASS_RARE: u8 
+     - SURF_SINGLES: u8 
+     - SURF_RARE: u8 
+     - FISH_SINGLES: u8 
+     - FISH_RARE: u8 
+     - UNKNOWN: u8 
+
+    - GRASS:
+      - GRASS_SINGLES: 
+        - 20%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 20%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 5%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 5%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 4%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 4%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 1%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 1%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+      - GRASS_DOUBLES: 
+        - 20%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 20%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 5%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 5%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 4%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 4%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 1%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 1%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+      - GRASS_RARE: 
+        - 20%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 20%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 5%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 5%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 4%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 4%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 1%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 1%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+
+    - WATER:
+      - SURF_SINGLES: 
+        - 60%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 30%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 5%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 4%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 1%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+      - SURF_RARE: 
+        - 60%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 30%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 5%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 4%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 1%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+      - FISH_SINGLES: 
+        - 60%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 30%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 5%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 4%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 1%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+      - FISH_RARE: 
+        - 60%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 30%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 5%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 4%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 1%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+
+- SEASON_WINTER: 
+     - GRASS_SINGLES: u8 
+     - GRASS_DOUBLES: u8 
+     - GRASS_RARE: u8 
+     - SURF_SINGLES: u8 
+     - SURF_RARE: u8 
+     - FISH_SINGLES: u8 
+     - FISH_RARE: u8 
+     - UNKNOWN: u8 
+
+    - GRASS:
+      - GRASS_SINGLES: 
+        - 20%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 20%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 5%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 5%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 4%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 4%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 1%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 1%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+      - GRASS_DOUBLES: 
+        - 20%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 20%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 5%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 5%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 4%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 4%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 1%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 1%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+      - GRASS_RARE: 
+        - 20%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 20%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 10%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 5%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 5%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 4%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 4%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 1%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 1%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+
+    - WATER:
+      - SURF_SINGLES: 
+        - 60%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 30%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 5%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 4%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 1%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+      - SURF_RARE: 
+        - 60%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 30%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 5%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 4%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 1%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+      - FISH_SINGLES: 
+        - 60%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 30%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 5%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 4%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 1%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+      - FISH_RARE: 
+        - 60%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 30%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 5%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 4%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
+        - 1%: 
+          - Species: u16 
+          - Minimum Level: u8 
+          - Minimum Level: u8 
