@@ -17,19 +17,20 @@ asm_args = [
     '-r'
 ]
 
-python = find_program('python3', 'python', required: true)
+# Tools
+subdir('tools')
 
 # Custom code patches.  
 subdir('src')
 
 # Assets
-subdir('user')
-
+subdir('data')
+  
 # The ROM itself
 rom = custom_target('White2Upgrade.nds',
   output: 'White2Upgrade.nds',
   input: [
-    vfs_files
+    vfs_files,
   ],
-  command: ['java', '-cp', 'tools/CTRMap/CTRMapV-dirty.jar', 'ctrmap.cli.ROMBuilder', '--input', 'White2Upgrade.cmproj', '--output', '@OUTPUT@']
+  command: ['java', '-cp', ctrmap_jar, 'ctrmap.cli.ROMBuilder', '--input', 'White2Upgrade.cmproj', '--output', '@OUTPUT@']
 )

@@ -255,6 +255,7 @@ class LZSerializer(Serializer):
 
     def Serialize(self, Arguments: dict) -> None:
         with Path(Arguments.input) as InputPath, Path(Arguments.output) as OutputPath:
+            OutputPath.parent.mkdir(exist_ok=True, parents=True)
             self.compress_nlz11(InputPath.read_bytes(), OutputPath.open('wb'))
 
     #dump_compress_nlz11(data, stdout)

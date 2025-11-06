@@ -23,12 +23,14 @@ class TrainerSerializer(Serializer):
             UserSpecifiedMoves = any(['MOVES' in x for x in TrainerConfiguration['PARTY']])
             UserSpecifiedHeldItem = any(['HELD_ITEM' in x for x in TrainerConfiguration['PARTY']])
 
-            [load_defines(x, defines) for x in [
-                'tools/mkdata/enum/species.yml',
-                'tools/mkdata/enum/moves.yml',
-                'tools/mkdata/enum/items.yml',
-                'tools/mkdata/enum/btl_gender.yml',
-                'tools/mkdata/enum/btl_abil.yml',
+            ScriptPath = Path(__file__).resolve().parent.parent
+
+            [load_defines((ScriptPath / x).as_posix(), defines) for x in [
+                'enum/species.yml',
+                'enum/moves.yml',
+                'enum/items.yml',
+                'enum/btl_gender.yml',
+                'enum/btl_abil.yml',
             ]]
 
             if Arguments.ex_parameters['output_type'] == 'trpoke':

@@ -1,7 +1,7 @@
 subdir('pokedex_expansion')
 subdir('type_expansion')
 
-main = executable('w2u_main',
+w2u_dll = executable('w2u_main',
     sources: [
         pokedex_expansion,
         type_expansion,
@@ -19,5 +19,5 @@ main = executable('w2u_main',
     ),
     name_suffix: 'elf',
     cpp_args: cpp_args,
-    link_args: link_args,
+    link_args: [],
 )

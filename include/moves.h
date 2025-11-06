@@ -7,7 +7,7 @@
 
 #define INFLICT_DURATION_NONE        0
 #define INFLICT_DURATION_PERMANENT   1 // permanent status
-#define INFLICT_DURATION_TRUN        2 // minturn ~ maxturn status
+#define INFLICT_DURATION_TURN        2 // minturn ~ maxturn status
 #define INFLICT_DURATION_POKE        3
 #define INFLICT_DURATION_POKE_TURN   4
 

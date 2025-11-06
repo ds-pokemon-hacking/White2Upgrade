@@ -10,7 +10,9 @@
 
 namespace w2u {
     namespace pml {
-        struct Poke_form {
+
+        struct Poke_form
+        {
             u16 species;
             u16 form_count;
         };
@@ -36,7 +38,9 @@ namespace w2u {
 		extern "C" PersonalData* PML_PersonalLoad(u16 species, u16 form, u16 heapId);
 		extern "C" u32 PML_PersonalGetParam(PersonalData* personal, PersonalField field);
 		extern "C" void PML_PersonalFree(PersonalData* personal);
+
         extern ArcTool **g_PMLPersonalArcBW2 = (ArcTool **)0x2141428;
+
         extern "C" bool THUMB_BRANCH_PML_PkmIsBadMonsNo(u32 species) {
             // A "Bad" Pokemon is a Pokemon that's outside of the range (or 0).
             return !species || species > SPECIES_CNT;

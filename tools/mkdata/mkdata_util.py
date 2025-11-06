@@ -1,10 +1,18 @@
 from pathlib import Path
 import yaml
 
-def flatten_dict(iterable):
+def flatten(iterable):
     flat = {}
-    for e in iterable:
-        flat |= e
+    if isinstance(iterable, dict):
+        for e in iterable.items():
+            if isinstance(e, tuple):
+                e_ = { e[0] : e[1] }
+            else:
+                e_ = e
+            flat |= e_
+    else:
+        for e in iterable:
+            flat |= e
     return flat
 
 def flatten_yaml_tree(items):
@@ -36,7 +44,7 @@ def resolve_label(item, defines):
 def load_defines(path, defines : dict):
     with Path(path).open('r') as INCLUDE_RAW:
         INCLUDE = yaml.safe_load(INCLUDE_RAW)
-        defines |= flatten_dict(INCLUDE['DEFINE'])
+        defines |= flatten(INCLUDE['DEFINE'])
 
 def format_extra_parameters(params: list):
     parameters = {}

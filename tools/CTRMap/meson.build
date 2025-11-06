@@ -1,0 +1,1 @@
+ctrmap_jar = find_program('CTRMapV-dirty.jar', native: true)

@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from pathlib import Path
 from argparse import ArgumentParser
 
@@ -20,7 +22,6 @@ def main():
     Parser.add_argument('ex_parameters', nargs='*')
     Arguments = Parser.parse_args()
     SerializerObject = None
-    print(Arguments.type)
     match Arguments.type:
         case 'generic':
             SerializerObject = GenericSerializer()
@@ -35,7 +36,7 @@ def main():
         case 'y9':
             SerializerObject = OverlayTableSerializer()
     Arguments.ex_parameters = format_extra_parameters(Arguments.ex_parameters)
-    SerializerObject.Serialize(Arguments)
+    return SerializerObject.Serialize(Arguments)
         
 if __name__ == '__main__':
     exit(main())

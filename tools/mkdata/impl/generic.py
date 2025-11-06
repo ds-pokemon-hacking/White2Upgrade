@@ -9,8 +9,10 @@ class GenericSerializer(Serializer):
         
     def Serialize(self, Arguments : dict) -> None:
         # Structure file; check if it exists.
-        StructConfig = Path(f'tools/mkdata/defs/{Arguments.ex_parameters["format"]}.yml')
+        ScriptPath = Path(__file__).resolve().parent.parent
+        StructConfig = ScriptPath / Path(f'defs/{Arguments.ex_parameters["format"]}.yml')
         Input, Output = Path(Arguments.input), Path(Arguments.output)
+        Output.parent.mkdir(exist_ok=True, parents=True)
         if not StructConfig.exists():
             print(f'Structure configuration "{Arguments.ex_parameters["format"]}.yml" does not exist. Exiting.')
             return 1
@@ -22,12 +24,12 @@ class GenericSerializer(Serializer):
                 print(f'Invalid number of keys in "{Arguments.ex_parameters["format"]}.yml"!')
                 return 1
             
-            structure = flatten_dict(Configuration['STRUCTURE'])
+            structure = flatten(Configuration['STRUCTURE'])
             
             defines = {}
             if 'INCLUDE' in Configuration.keys():
                 for include in Configuration['INCLUDE']:
-                    load_defines(f'tools/mkdata/{include}', defines)
+                    load_defines((ScriptPath / include).as_posix(), defines)
 
             format_string = ''
             tree = structure.values()
@@ -80,7 +82,7 @@ class GenericSerializer(Serializer):
                 return -1
 
             
-            IN_DATA_FLAT = flatten_yaml_tree(flatten_dict(IN_DATA_RAW[IN_DATA_RAW_KEYS[0]]).values())
+            IN_DATA_FLAT = flatten_yaml_tree(flatten(IN_DATA_RAW[IN_DATA_RAW_KEYS[0]]).values())
             OUT_DATA_BUFFER = [resolve(item) for item in IN_DATA_FLAT]
             while len(format_string) != len(OUT_DATA_BUFFER):
                 format_string = format_string[:-1]

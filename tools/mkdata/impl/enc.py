@@ -14,11 +14,13 @@ class EncounterSerializer(Serializer):
         if not Input.exists():
             print(f'"{Arguments.input}" does not exist. Exiting.')
             return 1
-        
-        load_defines(f'tools/mkdata/enum/species.yml', defines)
+
+        ScriptPath = Path(__file__).resolve().parent.parent
+        load_defines((ScriptPath / 'enum/species.yml').as_posix(), defines)
         
         with Input.open('r') as DATA:
             Encounters = yaml.safe_load(DATA)
+            Output.parent.mkdir(exist_ok=True, parents=True)
             with Output.open('wb') as DATA_SERIALIZED:
                 for Key in Encounters.keys():
                     DATA_SERIALIZED.write(struct.pack('B', Encounters[Key]['GRASS_SINGLES']))

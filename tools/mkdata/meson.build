@@ -1,0 +1,1 @@
+mkdata_py = find_program('mkdata.py', native: true)
