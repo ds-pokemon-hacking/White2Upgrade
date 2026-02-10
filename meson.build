@@ -1,5 +1,4 @@
-project('White2Upgrade', 'cpp', 
-    version: '0.0.1')
+project('White2Upgrade', 'cpp', version: '0.0.1')
 
 fs = import('fs')
 incdir = include_directories('include')
@@ -31,6 +30,7 @@ rom = custom_target('White2Upgrade.nds',
   output: 'White2Upgrade.nds',
   input: [
     vfs_files,
+    w2u_main_dll
   ],
-  command: ['java', '-cp', ctrmap_jar, 'ctrmap.cli.ROMBuilder', '--input', 'White2Upgrade.cmproj', '--output', '@OUTPUT@']
+  command: ['java', '-cp', ctrmap_jar, 'ctrmap.cli.ROMBuilder', '--input', meson.project_source_root() / 'White2Upgrade.cmproj', '--output', '@OUTPUT@']
 )

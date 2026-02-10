@@ -1,0 +1,2 @@
+.arc
+compress default auto
