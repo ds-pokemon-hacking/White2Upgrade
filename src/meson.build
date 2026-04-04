@@ -32,7 +32,7 @@ w2u_main_dll = custom_target(
   'w2u_main.dll',
   input: w2u_main_elf,
   output: 'w2u_main.dll',
-  command: ['java', '-cp', rpmauthoring_jar, 'rpm.cli.RPMTool', 
+  command: ['java', '-cp', ctrmap_jar, 'rpm.cli.RPMTool', 
         '-i', '@INPUT@', 
         '--fourcc', 'DLXF', 
         '-o', meson.project_source_root() / 'vfs' / 'data' / 'patches' / 'w2u_main.dll', 
