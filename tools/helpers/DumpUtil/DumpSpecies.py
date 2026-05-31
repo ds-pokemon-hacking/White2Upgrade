@@ -1,26 +1,10 @@
-# SpeciesNames = []
+#!/usr/bin/env python3
+from pathlib import Path
+import sys
 
-# with open('txtdmp/Species.txt') as Species:
-#     while (CurrSpecies := Species.readline()) != '':
-#         SpeciesNames.append(CurrSpecies.upper().replace('\X2019', '').replace('É', 'E').replace('.', '').replace('-', '').replace(' ', '_').replace('\'', '')[:-1])
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from dump_game_data import main
 
-# with open('include/Species.h', 'w') as SpeciesH:
-#     SpeciesH.write('''
-# #ifndef __SPECIES_H
-# #define __SPECIES_H\n
-# ''')
-#     for x in range(827):
-#         SpeciesH.write(f'#define SPECIES_{SpeciesNames[x] if x in range(len(SpeciesNames)) else x} {x}\n')
-#     SpeciesH.write('''
-# #endif
-#     ''')
+if __name__ == "__main__":
+    raise SystemExit(main(["species", *sys.argv[1:]]))
 
-SpeciesNames = []
-
-with open('txtdmp/Species.txt') as Species:
-    while (CurrSpecies := Species.readline()) != '':
-        SpeciesNames.append(CurrSpecies.upper().replace('\X2019', '').replace('É', 'E').replace('.', '').replace('-', '').replace(' ', '_').replace('\'', '')[:-1])
-
-with open('species.yml', 'w') as SpeciesH:
-    for x in range(827):
-        SpeciesH.write(f'- SPECIES_{SpeciesNames[x] if x in range(len(SpeciesNames)) else x}: {x}\n')
