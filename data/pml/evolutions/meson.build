@@ -784,12 +784,20 @@ evolutions = [
 
 # Evolutions (/a/0/1/9)
 evolutions_arc = 'a' / '0' / '1' / '9'
+evolution_files = []
 foreach evolution : evolutions
   evolution_name = fs.replace_suffix(evolution, '')
-  vfs_files += custom_target(
+  evolution_files += custom_target(
     'evolution_' + evolution_name,
     input: meson.current_source_dir() / evolution,
     output: evolution_name,
     command: [mkdata_py, 'generic', '@INPUT@', meson.project_build_root() / '@OUTPUT@', 'format', 'evolutions'],
   )
 endforeach
+
+vfs_files += custom_target(
+  'pack_evolutions_narc',
+  input: evolution_files,
+  output: 'pack_evolutions_narc.stamp',
+  command: [pack_narc_py, '@OUTPUT@', meson.project_source_root() / 'vfs' / 'data' / evolutions_arc, '@INPUT@'],
+)

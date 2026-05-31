@@ -137,12 +137,21 @@ encounters = [
 ]
 
 # Encounters (/a/1/2/7)
+encounters_arc = 'a' / '1' / '2' / '7'
+encounter_files = []
 foreach encounter : encounters
   encounter_name = fs.replace_suffix(encounter, '')
-  vfs_files += custom_target(
+  encounter_files += custom_target(
     'encounter_' + encounter_name,
     input: meson.current_source_dir() / encounter,
     output: encounter_name,
     command: [mkdata_py, 'encounter', '@INPUT@', meson.project_build_root() / '@OUTPUT@'],
   )
 endforeach
+
+vfs_files += custom_target(
+  'pack_encounters_narc',
+  input: encounter_files,
+  output: 'pack_encounters_narc.stamp',
+  command: [pack_narc_py, '@OUTPUT@', meson.project_source_root() / 'vfs' / 'data' / encounters_arc, '@INPUT@'],
+)

@@ -625,12 +625,20 @@ moves = [
 
 # Moves (/a/0/2/1)
 moves_arc = 'a' / '0' / '2' / '1'
+move_files = []
 foreach move : moves
   move_name = fs.replace_suffix(move, '')
-  vfs_files += custom_target(
+  move_files += custom_target(
     'move_' + move_name,
     input: meson.current_source_dir() / move,
     output: move_name,
     command: [mkdata_py, 'generic', '@INPUT@', meson.project_build_root() / '@OUTPUT@', 'format', 'moves'],
   )
 endforeach
+
+vfs_files += custom_target(
+  'pack_moves_narc',
+  input: move_files,
+  output: 'pack_moves_narc.stamp',
+  command: [pack_narc_py, '@OUTPUT@', meson.project_source_root() / 'vfs' / 'data' / moves_arc, '@INPUT@'],
+)

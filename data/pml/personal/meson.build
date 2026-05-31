@@ -828,12 +828,20 @@ personal = [
 ]
 
 personal_arc = 'a' / '0' / '1' / '6'
+personal_files = []
 foreach personal_file : personal
   personal_name = fs.replace_suffix(personal_file, '')
-  vfs_files += custom_target(
+  personal_files += custom_target(
     'personal_' + personal_name,
     input: meson.current_source_dir() / personal_file,
     output: personal_name,
     command: [mkdata_py, 'generic', '@INPUT@', meson.project_build_root() / '@OUTPUT@', 'format', 'personal'],
   )
 endforeach
+
+vfs_files += custom_target(
+  'pack_personal_narc',
+  input: personal_files,
+  output: 'pack_personal_narc.stamp',
+  command: [pack_narc_py, '@OUTPUT@', meson.project_source_root() / 'vfs' / 'data' / personal_arc, '@INPUT@'],
+)

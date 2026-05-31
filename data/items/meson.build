@@ -642,12 +642,20 @@ items = [
 
 # Items (/a/0/2/4)
 items_arc = 'a' / '0' / '2' / '4'
+item_files = []
 foreach item : items
   item_name = fs.replace_suffix(item, '')
-  vfs_files += custom_target(
+  item_files += custom_target(
     'item_' + item_name,
     input: meson.current_source_dir() / item,
     output: item_name,
     command: [mkdata_py, 'generic', '@INPUT@', meson.project_build_root() / '@OUTPUT@', 'format', 'items'],
   )
 endforeach
+
+vfs_files += custom_target(
+  'pack_items_narc',
+  input: item_files,
+  output: 'pack_items_narc.stamp',
+  command: [pack_narc_py, '@OUTPUT@', meson.project_source_root() / 'vfs' / 'data' / items_arc, '@INPUT@'],
+)

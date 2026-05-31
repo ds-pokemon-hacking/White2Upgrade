@@ -829,12 +829,20 @@ learnsets = [
 
 # Learnsets (/a/0/1/8)
 learnsets_arc = 'a' / '0' / '1' / '8'
+learnset_files = []
 foreach learnset : learnsets
   learnset_name = fs.replace_suffix(learnset, '')
-  vfs_files += custom_target(
+  learnset_files += custom_target(
     'learnset_' + learnset_name,
     input: meson.current_source_dir() / learnset,
     output: learnset_name,
     command: [mkdata_py, 'generic', '@INPUT@', meson.project_build_root() / '@OUTPUT@', 'format', 'learnsets'],
   )
 endforeach
+
+vfs_files += custom_target(
+  'pack_learnsets_narc',
+  input: learnset_files,
+  output: 'pack_learnsets_narc.stamp',
+  command: [pack_narc_py, '@OUTPUT@', meson.project_source_root() / 'vfs' / 'data' / learnsets_arc, '@INPUT@'],
+)

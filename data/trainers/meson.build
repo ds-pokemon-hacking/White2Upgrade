@@ -819,10 +819,12 @@ trainers = [
 trdata_arc = 'a' / '0' / '9' / '1'
 trpoke_arc = 'a' / '0' / '9' / '2'
 
+trdata_files = []
+trpoke_files = []
 foreach trainer : trainers
   # trdata (/a/0/9/1)
   tr_name = fs.replace_suffix(trainer, '')
-  vfs_files += custom_target(
+  trdata_files += custom_target(
     'trdata_' + tr_name,
     input: meson.current_source_dir() / trainer,
     output: 'trdata_' + tr_name,
@@ -831,10 +833,24 @@ foreach trainer : trainers
 
   # trpoke (/a/0/9/2)
   tr_name = fs.replace_suffix(trainer, '')
-  vfs_files += custom_target(
+  trpoke_files += custom_target(
     'trpoke_' + tr_name,
     input: meson.current_source_dir() / trainer,
     output: 'trpoke_' + tr_name,
     command: [mkdata_py, 'trainer', '@INPUT@', meson.project_build_root() / '@OUTPUT@', 'output_type', 'trpoke'],
   )
 endforeach
+
+vfs_files += custom_target(
+  'pack_trdata_narc',
+  input: trdata_files,
+  output: 'pack_trdata_narc.stamp',
+  command: [pack_narc_py, '@OUTPUT@', meson.project_source_root() / 'vfs' / 'data' / trdata_arc, '@INPUT@'],
+)
+
+vfs_files += custom_target(
+  'pack_trpoke_narc',
+  input: trpoke_files,
+  output: 'pack_trpoke_narc.stamp',
+  command: [pack_narc_py, '@OUTPUT@', meson.project_source_root() / 'vfs' / 'data' / trpoke_arc, '@INPUT@'],
+)
