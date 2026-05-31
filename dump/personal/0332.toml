@@ -1,0 +1,48 @@
+[personal]
+index = 332
+species = "SPECIES_CACTURNE"
+capture_rate = 60
+evolution_stage = 2
+ev_yield = 260
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 35
+experience_group = 3
+egg_groups = [7, 8]
+escape_rate = 60
+color = 3
+base_experience = 166
+height_cm = 13
+weight_cg = 774
+
+[personal.base_stats]
+hp = 70
+attack = 115
+defense = 60
+speed = 55
+special_attack = 115
+special_defense = 60
+
+[personal.typing]
+primary = "TYPE_GRASS"
+secondary = "TYPE_DARK"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_STICKY_BARB"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 8
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 11
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1003403488, 1083742736, -2107112402, 4]
+type_tutors = 0
+special_tutors = [4672, 4362, 3114, 8198]

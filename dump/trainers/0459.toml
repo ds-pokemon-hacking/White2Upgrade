@@ -1,0 +1,65 @@
+[trainer]
+index = 459
+party_format = 1
+trainer_class = 48
+battle_type = 0
+party_count = 5
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 10
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 459
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 200
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 64
+species = "SPECIES_WEAVILE"
+form = 0
+moves = ["MOVE_NIGHT_SLASH", "MOVE_BRICK_BREAK", "MOVE_SWORDS_DANCE", "MOVE_ICE_SHARD"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 200
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 64
+species = "SPECIES_CRYOGONAL"
+form = 0
+moves = ["MOVE_BLIZZARD", "MOVE_SHEER_COLD", "MOVE_CONFUSE_RAY", "MOVE_ACID_ARMOR"]
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 200
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_RANDOM"
+level = 64
+species = "SPECIES_VANILLUXE"
+form = 0
+moves = ["MOVE_BLIZZARD", "MOVE_SHEER_COLD", "MOVE_HAIL", "MOVE_EXPLOSION"]
+
+[[trainer_party.party]]
+slot = 3
+difficulty_value = 200
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 64
+species = "SPECIES_MAMOSWINE"
+form = 0
+moves = ["MOVE_BLIZZARD", "MOVE_EARTHQUAKE", "MOVE_STONE_EDGE", "MOVE_ICE_SHARD"]
+
+[[trainer_party.party]]
+slot = 4
+difficulty_value = 200
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 64
+species = "SPECIES_LAPRAS"
+form = 0
+moves = ["MOVE_BLIZZARD", "MOVE_SURF", "MOVE_HYDRO_PUMP", "MOVE_ICE_SHARD"]

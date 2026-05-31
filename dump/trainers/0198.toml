@@ -1,0 +1,48 @@
+[trainer]
+index = 198
+party_format = 3
+trainer_class = 164
+battle_type = 0
+party_count = 3
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 50
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 198
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 224
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 74
+species = "SPECIES_INFERNAPE"
+form = 0
+held_item = "ITEM_LIFE_ORB"
+moves = ["MOVE_MACH_PUNCH", "MOVE_FIRE_BLAST", "MOVE_THUNDERPUNCH", "MOVE_WORK_UP"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 224
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 74
+species = "SPECIES_ARCHEOPS"
+form = 0
+held_item = "ITEM_LIECHI_BERRY"
+moves = ["MOVE_STONE_EDGE", "MOVE_UTURN", "MOVE_EARTHQUAKE", "MOVE_FOCUS_BLAST"]
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 224
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 74
+species = "SPECIES_TORNADUS"
+form = 0
+held_item = "ITEM_MENTAL_HERB"
+moves = ["MOVE_HURRICANE", "MOVE_SUPERPOWER", "MOVE_RAIN_DANCE", "MOVE_TAUNT"]

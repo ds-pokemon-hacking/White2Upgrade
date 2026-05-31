@@ -1,0 +1,81 @@
+[trainer]
+index = 698
+party_format = 3
+trainer_class = 145
+battle_type = 0
+party_count = 6
+items = ["ITEM_FULL_RESTORE", "ITEM_FULL_RESTORE", "ITEM_FULL_RESTORE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 25
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 698
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 250
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_RANDOM"
+level = 65
+species = "SPECIES_UNFEZANT"
+form = 0
+held_item = "ITEM_SCOPE_LENS"
+moves = ["MOVE_GIGA_IMPACT", "MOVE_AERIAL_ACE", "MOVE_UTURN", "MOVE_SWAGGER"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 250
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 65
+species = "SPECIES_SIMISEAR"
+form = 0
+held_item = "ITEM_SALAC_BERRY"
+moves = ["MOVE_ROCK_SLIDE", "MOVE_FOCUS_BLAST", "MOVE_ACROBATICS", "MOVE_FLAMETHROWER"]
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 250
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 65
+species = "SPECIES_BOUFFALANT"
+form = 0
+held_item = "ITEM_MUSCLE_BAND"
+moves = ["MOVE_HEAD_CHARGE", "MOVE_WILD_CHARGE", "MOVE_MEGAHORN", "MOVE_EARTHQUAKE"]
+
+[[trainer_party.party]]
+slot = 3
+difficulty_value = 250
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 65
+species = "SPECIES_FLYGON"
+form = 0
+held_item = "ITEM_DRAGON_GEM"
+moves = ["MOVE_EARTHQUAKE", "MOVE_FIRE_BLAST", "MOVE_DRACO_METEOR", "MOVE_STONE_EDGE"]
+
+[[trainer_party.party]]
+slot = 4
+difficulty_value = 250
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 65
+species = "SPECIES_EELEKTROSS"
+form = 0
+held_item = "ITEM_LEFTOVERS"
+moves = ["MOVE_WILD_CHARGE", "MOVE_FLAMETHROWER", "MOVE_DRAGON_CLAW", "MOVE_CRUNCH"]
+
+[[trainer_party.party]]
+slot = 5
+difficulty_value = 250
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 67
+species = "SPECIES_SERPERIOR"
+form = 0
+held_item = "ITEM_FOCUS_SASH"
+moves = ["MOVE_LEAF_STORM", "MOVE_LEAF_BLADE", "MOVE_DRAGON_TAIL", "MOVE_COIL"]

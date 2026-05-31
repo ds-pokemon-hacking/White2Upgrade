@@ -1,0 +1,48 @@
+[personal]
+index = 473
+species = "SPECIES_MAMOSWINE"
+capture_rate = 50
+evolution_stage = 3
+ev_yield = 12
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 5
+egg_groups = [5, 5]
+escape_rate = 0
+color = 5
+base_experience = 239
+height_cm = 25
+weight_cg = 2910
+
+[personal.base_stats]
+hp = 110
+attack = 130
+defense = 80
+speed = 80
+special_attack = 70
+special_defense = 60
+
+[personal.typing]
+primary = "TYPE_ICE"
+secondary = "TYPE_GROUND"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 12
+secondary = 81
+hidden = 47
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1911295376, 39505, 574660680, 4]
+type_tutors = 0
+special_tutors = [32, 1286, 6, 12544]

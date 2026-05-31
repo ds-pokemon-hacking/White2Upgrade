@@ -1,0 +1,48 @@
+[personal]
+index = 244
+species = "SPECIES_ENTEI"
+capture_rate = 3
+evolution_stage = 3
+ev_yield = 9
+gender_probability = 255
+egg_happiness = 80
+base_happiness = 35
+experience_group = 5
+egg_groups = [15, 15]
+escape_rate = 0
+color = 5
+base_experience = 261
+height_cm = 21
+weight_cg = 1980
+
+[personal.base_stats]
+hp = 115
+attack = 115
+defense = 85
+speed = 100
+special_attack = 90
+special_defense = 75
+
+[personal.typing]
+primary = "TYPE_FIRE"
+secondary = "TYPE_FIRE"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 46
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 18
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1405925832, 469929525, -499109784, 4]
+type_tutors = 0
+special_tutors = [32, 65536, 18, 8192]

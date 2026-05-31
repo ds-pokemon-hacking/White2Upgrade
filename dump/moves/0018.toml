@@ -1,0 +1,44 @@
+[move]
+index = 18
+name = "MOVE_WHIRLWIND"
+type = "TYPE_NORMAL"
+quality = "EFFECT_FORCE_SWITCH_OUT"
+category = "SPLIT_STATUS"
+power = 0
+accuracy = 100
+base_pp = 20
+priority = -6
+critical_hit_stage = 0
+flinch_rate = 0
+animation_id = 28
+recoil = 0
+heal = 0
+target = "TARGET_OTHER_SELECT"
+padding = 21331
+flags = ["FLAG_BLOCKED_BY_PROTECT", "FLAG_REFLECTED_BY_MAGIC_COAT", "FLAG_COPIED_BY_MIRROR_MOVE", "FLAG_HITS_THROUGH_SUBSTITUTE"]
+
+[move.hits]
+minimum = 0
+maximum = 0
+
+[move.inflict]
+status = "INFLICT_DURATION_NONE"
+chance = 0
+duration = 0
+turn_min = 0
+turn_max = 0
+
+[[move.stat_changes]]
+stat = "STATUS_NONE"
+stages = 0
+chance = 0
+
+[[move.stat_changes]]
+stat = "STATUS_NONE"
+stages = 0
+chance = 0
+
+[[move.stat_changes]]
+stat = "STATUS_NONE"
+stages = 0
+chance = 0

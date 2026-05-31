@@ -1,0 +1,48 @@
+[personal]
+index = 291
+species = "SPECIES_NINJASK"
+capture_rate = 120
+evolution_stage = 2
+ev_yield = 128
+gender_probability = 127
+egg_happiness = 15
+base_happiness = 70
+experience_group = 1
+egg_groups = [3, 3]
+escape_rate = 0
+color = 2
+base_experience = 160
+height_cm = 8
+weight_cg = 120
+
+[personal.base_stats]
+hp = 61
+attack = 90
+defense = 45
+speed = 160
+special_attack = 50
+special_defense = 50
+
+[personal.typing]
+primary = "TYPE_BUG"
+secondary = "TYPE_FLYING"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = "BATTLE_ABILITY_HIDDEN"
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 151
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1406056927, 2144912, -2092889048, 0]
+type_tutors = 0
+special_tutors = [2049, 0, 5122, 8196]

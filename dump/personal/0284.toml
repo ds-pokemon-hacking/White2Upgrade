@@ -1,0 +1,48 @@
+[personal]
+index = 284
+species = "SPECIES_MASQUERAIN"
+capture_rate = 75
+evolution_stage = 2
+ev_yield = 1280
+gender_probability = 127
+egg_happiness = 15
+base_happiness = 70
+experience_group = 0
+egg_groups = [2, 3]
+escape_rate = 90
+color = 1
+base_experience = 145
+height_cm = 8
+weight_cg = 36
+
+[personal.base_stats]
+hp = 70
+attack = 60
+defense = 62
+speed = 60
+special_attack = 80
+special_defense = 82
+
+[personal.typing]
+primary = "TYPE_BUG"
+secondary = "TYPE_FLYING"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_SILVER_POWDER"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 22
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 127
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1540131296, 5290624, 54532136, 0]
+type_tutors = 0
+special_tutors = [17, 1024, 5250, 8192]

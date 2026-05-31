@@ -1,0 +1,42 @@
+[trainer]
+index = 295
+party_format = 0
+trainer_class = 25
+battle_type = 2
+party_count = 3
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 135
+can_heal = 0
+reward_money = 15
+reward_item = "ITEM_SITRUS_BERRY"
+raw_size = 20
+
+[trainer_party]
+index = 295
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 50
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 39
+species = "SPECIES_LARVESTA"
+form = 0
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 50
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 39
+species = "SPECIES_FLAREON"
+form = 0
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 50
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 39
+species = "SPECIES_VIBRAVA"
+form = 0

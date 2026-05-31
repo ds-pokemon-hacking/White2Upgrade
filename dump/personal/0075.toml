@@ -1,0 +1,48 @@
+[personal]
+index = 75
+species = "SPECIES_GRAVELER"
+capture_rate = 120
+evolution_stage = 2
+ev_yield = 32
+gender_probability = 127
+egg_happiness = 15
+base_happiness = 70
+experience_group = 3
+egg_groups = [10, 10]
+escape_rate = 60
+color = 5
+base_experience = 137
+height_cm = 10
+weight_cg = 1050
+
+[personal.base_stats]
+hp = 55
+attack = 95
+defense = 115
+speed = 35
+special_attack = 45
+special_defense = 45
+
+[personal.typing]
+primary = "TYPE_ROCK"
+secondary = "TYPE_GROUND"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_EVERSTONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 69
+secondary = 5
+hidden = 8
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-833550816, -2071946636, 574661200, 4]
+type_tutors = 0
+special_tutors = [12288, 326, 2, 12288]

@@ -1,0 +1,48 @@
+[personal]
+index = 12
+species = "SPECIES_BUTTERFREE"
+capture_rate = 45
+evolution_stage = 3
+ev_yield = 1536
+gender_probability = 127
+egg_happiness = 15
+base_happiness = 70
+experience_group = 0
+egg_groups = [3, 3]
+escape_rate = 0
+color = 8
+base_experience = 173
+height_cm = 11
+weight_cg = 320
+
+[personal.base_stats]
+hp = 60
+attack = 45
+defense = 50
+speed = 70
+special_attack = 80
+special_defense = 80
+
+[personal.typing]
+primary = "TYPE_BUG"
+secondary = "TYPE_FLYING"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_SILVER_POWDER"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 14
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 110
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1271183584, 537967232, 55580712, 0]
+type_tutors = 0
+special_tutors = [17, 512, 5250, 24576]

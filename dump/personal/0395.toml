@@ -1,0 +1,48 @@
+[personal]
+index = 395
+species = "SPECIES_EMPOLEON"
+capture_rate = 45
+evolution_stage = 3
+ev_yield = 768
+gender_probability = 31
+egg_happiness = 20
+base_happiness = 70
+experience_group = 3
+egg_groups = [2, 5]
+escape_rate = 0
+color = 1
+base_experience = 239
+height_cm = 17
+weight_cg = 845
+
+[personal.base_stats]
+hp = 84
+attack = 86
+defense = 88
+speed = 60
+special_attack = 111
+special_defense = 101
+
+[personal.typing]
+primary = "TYPE_WATER"
+secondary = "TYPE_STEEL"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 67
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 128
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-837586319, 146905792, -1495227383, 30]
+type_tutors = 36
+special_tutors = [18, 1088, 6, 12288]

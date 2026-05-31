@@ -1,0 +1,48 @@
+[personal]
+index = 385
+species = "SPECIES_JIRACHI"
+capture_rate = 3
+evolution_stage = 3
+ev_yield = 3
+gender_probability = 255
+egg_happiness = 120
+base_happiness = 100
+experience_group = 5
+egg_groups = [15, 15]
+escape_rate = 0
+color = 2
+base_experience = 270
+height_cm = 3
+weight_cg = 11
+
+[personal.base_stats]
+hp = 100
+attack = 100
+defense = 100
+speed = 100
+special_attack = 100
+special_defense = 100
+
+[personal.typing]
+primary = "TYPE_STEEL"
+secondary = "TYPE_PSYCHIC"
+
+[personal.wild_items]
+common_50 = "ITEM_STAR_PIECE"
+rare_5 = "ITEM_STAR_PIECE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 32
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = "BATTLE_ABILITY_RANDOM"
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1247820244, 26249873, 259002664, 0]
+type_tutors = 0
+special_tutors = [30768, 9425, 2050, 29808]

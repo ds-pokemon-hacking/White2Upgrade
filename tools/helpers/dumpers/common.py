@@ -137,6 +137,16 @@ def toml_scalar(value: Any) -> str:
     raise TypeError(f"Unsupported TOML scalar: {value!r}")
 
 
+def toml_key(key: str) -> str:
+    if key.isascii() and key.replace("_", "").replace("-", "").isalnum() and not key[0].isdigit():
+        return key
+    return '"' + key.replace("\\", "\\\\").replace('"', '\\"') + '"'
+
+
+def toml_table(table: str) -> str:
+    return ".".join(toml_key(part) for part in table.split("."))
+
+
 def write_toml(path: Path, data: dict[str, Any]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     lines: list[str] = []
@@ -148,7 +158,7 @@ def write_toml(path: Path, data: dict[str, Any]) -> None:
         for key, value in values.items():
             if isinstance(value, dict) or is_array_of_tables(value):
                 continue
-            lines.append(f"{key} = {toml_scalar(value)}")
+            lines.append(f"{toml_key(key)} = {toml_scalar(value)}")
 
     def emit_children(table: str, values: dict[str, Any]) -> None:
         for key, value in values.items():
@@ -160,22 +170,24 @@ def write_toml(path: Path, data: dict[str, Any]) -> None:
     def emit_array_of_tables(table: str, values: list[dict[str, Any]]) -> None:
         for item in values:
             lines.append("")
-            lines.append(f"[[{table}]]")
+            lines.append(f"[[{toml_table(table)}]]")
             emit_assignments(item)
             emit_children(table, item)
 
     def emit_table(table: str, values: dict[str, Any]) -> None:
         if lines:
             lines.append("")
-        lines.append(f"[{table}]")
+        lines.append(f"[{toml_table(table)}]")
         emit_assignments(values)
         emit_children(table, values)
 
     for key, value in data.items():
         if isinstance(value, dict):
             emit_table(key, value)
+        elif is_array_of_tables(value):
+            emit_array_of_tables(key, value)
         else:
-            lines.append(f"{key} = {toml_scalar(value)}")
+            lines.append(f"{toml_key(key)} = {toml_scalar(value)}")
     path.write_text("\n".join(lines) + "\n")
 
 

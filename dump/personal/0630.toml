@@ -1,0 +1,48 @@
+[personal]
+index = 630
+species = "SPECIES_MANDIBUZZ"
+capture_rate = 60
+evolution_stage = 2
+ev_yield = 512
+gender_probability = 254
+egg_happiness = 20
+base_happiness = 35
+experience_group = 5
+egg_groups = [4, 4]
+escape_rate = 0
+color = 5
+base_experience = 179
+height_cm = 12
+weight_cg = 395
+
+[personal.base_stats]
+hp = 110
+attack = 65
+defense = 105
+speed = 80
+special_attack = 55
+special_defense = 95
+
+[personal.typing]
+primary = "TYPE_DARK"
+secondary = "TYPE_FLYING"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 145
+secondary = 142
+hidden = 133
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1542238688, 1140898752, -473952242, 1]
+type_tutors = 0
+special_tutors = [0, 4170, 4502, 10240]

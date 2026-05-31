@@ -1,0 +1,48 @@
+[personal]
+index = 400
+species = "SPECIES_BIBAREL"
+capture_rate = 127
+evolution_stage = 2
+ev_yield = 8
+gender_probability = 127
+egg_happiness = 15
+base_happiness = 70
+experience_group = 0
+egg_groups = [2, 5]
+escape_rate = 60
+color = 5
+base_experience = 144
+height_cm = 10
+weight_cg = 315
+
+[personal.base_stats]
+hp = 79
+attack = 85
+defense = 60
+speed = 71
+special_attack = 55
+special_defense = 60
+
+[personal.typing]
+primary = "TYPE_NORMAL"
+secondary = "TYPE_WATER"
+
+[personal.wild_items]
+common_50 = "ITEM_ORAN_BERRY"
+rare_5 = "ITEM_SITRUS_BERRY"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 86
+secondary = 109
+hidden = 141
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1382842848, 29473280, -1562107636, 30]
+type_tutors = 0
+special_tutors = [6, 68992, 2, 12288]

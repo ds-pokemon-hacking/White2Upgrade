@@ -1,0 +1,45 @@
+[trainer]
+index = 700
+party_format = 1
+trainer_class = 3
+battle_type = 0
+party_count = 3
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 1
+can_heal = 0
+reward_money = 4
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 700
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 0
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 1
+species = "SPECIES_HIPPOWDON"
+form = 0
+moves = ["MOVE_FISSURE", "MOVE_DOUBLEEDGE", "MOVE_EARTHQUAKE", "MOVE_CRUNCH"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 0
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 63
+species = "SPECIES_STOUTLAND"
+form = 0
+moves = ["MOVE_RETALIATE", "MOVE_CRUNCH", "MOVE_FIRE_FANG", "MOVE_SURF"]
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 0
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 63
+species = "SPECIES_SANDSLASH"
+form = 0
+moves = ["MOVE_EARTHQUAKE", "MOVE_STONE_EDGE", "MOVE_DOUBLE_TEAM", "MOVE_FOCUS_BLAST"]

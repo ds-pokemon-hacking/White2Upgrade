@@ -1,0 +1,48 @@
+[personal]
+index = 466
+species = "SPECIES_ELECTIVIRE"
+capture_rate = 30
+evolution_stage = 3
+ev_yield = 12
+gender_probability = 63
+egg_happiness = 25
+base_happiness = 70
+experience_group = 0
+egg_groups = [8, 8]
+escape_rate = 0
+color = 2
+base_experience = 243
+height_cm = 18
+weight_cg = 1386
+
+[personal.base_stats]
+hp = 75
+attack = 123
+defense = 67
+speed = 95
+special_attack = 95
+special_defense = 85
+
+[personal.typing]
+primary = "TYPE_ELECTRIC"
+secondary = "TYPE_ELECTRIC"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_ELECTIRIZER"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 78
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 72
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-543962592, 25754436, 843096488, 4]
+type_tutors = 0
+special_tutors = [29210, 66080, 2, 8208]

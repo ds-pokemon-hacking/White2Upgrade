@@ -1,0 +1,48 @@
+[personal]
+index = 687
+species = "SPECIES_MALAMAR"
+capture_rate = 3
+evolution_stage = 3
+ev_yield = 192
+gender_probability = 255
+egg_happiness = 120
+base_happiness = 0
+experience_group = 5
+egg_groups = [15, 15]
+escape_rate = 0
+color = 0
+base_experience = 270
+height_cm = 17
+weight_cg = 608
+
+[personal.base_stats]
+hp = 50
+attack = 95
+defense = 90
+speed = 180
+special_attack = 95
+special_defense = 90
+
+[personal.typing]
+primary = "TYPE_PSYCHIC"
+secondary = "TYPE_PSYCHIC"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 46
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = "BATTLE_ABILITY_RANDOM"
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 4
+
+[personal.compatibility]
+tmhm = [-171975124, 27052993, -1367830232, 4]
+type_tutors = 0
+special_tutors = [29200, 8209, 2087, 31904]

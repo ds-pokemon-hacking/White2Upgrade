@@ -1,0 +1,45 @@
+[trainer]
+index = 423
+party_format = 1
+trainer_class = 71
+battle_type = 2
+party_count = 3
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 135
+can_heal = 0
+reward_money = 20
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 423
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 200
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_RANDOM"
+level = 68
+species = "SPECIES_KINGDRA"
+form = 0
+moves = ["MOVE_DRAGON_PULSE", "MOVE_HYDRO_PUMP", "MOVE_ICE_BEAM", "MOVE_AGILITY"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 200
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 68
+species = "SPECIES_SKARMORY"
+form = 0
+moves = ["MOVE_NIGHT_SLASH", "MOVE_STEEL_WING", "MOVE_ROCK_SLIDE", "MOVE_SWORDS_DANCE"]
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 200
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 68
+species = "SPECIES_DONPHAN"
+form = 0
+moves = ["MOVE_EARTHQUAKE", "MOVE_STONE_EDGE", "MOVE_POISON_JAB", "MOVE_SCARY_FACE"]

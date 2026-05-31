@@ -1,0 +1,48 @@
+[personal]
+index = 307
+species = "SPECIES_MEDITITE"
+capture_rate = 180
+evolution_stage = 1
+ev_yield = 64
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 0
+egg_groups = [8, 8]
+escape_rate = 90
+color = 1
+base_experience = 56
+height_cm = 6
+weight_cg = 112
+
+[personal.base_stats]
+hp = 30
+attack = 40
+defense = 55
+speed = 60
+special_attack = 40
+special_defense = 55
+
+[personal.typing]
+primary = "TYPE_FIGHTING"
+secondary = "TYPE_PSYCHIC"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 74
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 140
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-199784788, 8968769, 578588708, 4]
+type_tutors = 0
+special_tutors = [29200, 8209, 2594, 9264]

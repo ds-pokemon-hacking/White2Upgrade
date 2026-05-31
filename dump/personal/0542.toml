@@ -1,0 +1,48 @@
+[personal]
+index = 542
+species = "SPECIES_LEAVANNY"
+capture_rate = 45
+evolution_stage = 3
+ev_yield = 12
+gender_probability = 127
+egg_happiness = 15
+base_happiness = 70
+experience_group = 3
+egg_groups = [3, 3]
+escape_rate = 0
+color = 2
+base_experience = 221
+height_cm = 12
+weight_cg = 205
+
+[personal.base_stats]
+hp = 75
+attack = 103
+defense = 80
+speed = 92
+special_attack = 70
+special_defense = 70
+
+[personal.typing]
+primary = "TYPE_BUG"
+secondary = "TYPE_GRASS"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_MENTAL_HERB"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 68
+secondary = 34
+hidden = 142
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2076588503, 3185281, -2105996241, 0]
+type_tutors = 0
+special_tutors = [81, 577, 1102, 8210]

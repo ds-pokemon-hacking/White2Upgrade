@@ -1,0 +1,42 @@
+[trainer]
+index = 15
+party_format = 0
+trainer_class = 57
+battle_type = 0
+party_count = 3
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 1
+can_heal = 0
+reward_money = 6
+reward_item = "ITEM_DUSK_BALL"
+raw_size = 20
+
+[trainer_party]
+index = 15
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 0
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 60
+species = "SPECIES_MIGHTYENA"
+form = 0
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 0
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 60
+species = "SPECIES_SKUNTANK"
+form = 0
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 0
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 60
+species = "SPECIES_CRAWDAUNT"
+form = 0

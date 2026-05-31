@@ -1,0 +1,45 @@
+[trainer]
+index = 689
+party_format = 1
+trainer_class = 192
+battle_type = 3
+party_count = 3
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 135
+can_heal = 0
+reward_money = 45
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 689
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 100
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_RANDOM"
+level = 67
+species = "SPECIES_BANETTE"
+form = 0
+moves = ["MOVE_SHADOW_CLAW", "MOVE_SUCKER_PUNCH", "MOVE_PSYCHIC", "MOVE_WILLOWISP"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 100
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_RANDOM"
+level = 65
+species = "SPECIES_BISHARP"
+form = 0
+moves = ["MOVE_NIGHT_SLASH", "MOVE_IRON_HEAD", "MOVE_LOW_SWEEP", "MOVE_SCARY_FACE"]
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 100
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 65
+species = "SPECIES_BISHARP"
+form = 0
+moves = ["MOVE_NIGHT_SLASH", "MOVE_XSCISSOR", "MOVE_GUILLOTINE", "MOVE_SWORDS_DANCE"]

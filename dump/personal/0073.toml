@@ -1,0 +1,48 @@
+[personal]
+index = 73
+species = "SPECIES_TENTACRUEL"
+capture_rate = 60
+evolution_stage = 2
+ev_yield = 2048
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 5
+egg_groups = [9, 9]
+escape_rate = 0
+color = 1
+base_experience = 180
+height_cm = 16
+weight_cg = 550
+
+[personal.base_stats]
+hp = 80
+attack = 70
+defense = 65
+speed = 100
+special_attack = 80
+special_defense = 120
+
+[personal.typing]
+primary = "TYPE_WATER"
+secondary = "TYPE_POISON"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_POISON_BARB"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 29
+secondary = 64
+hidden = 44
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2078575776, 4241930, -2109209590, 26]
+type_tutors = 0
+special_tutors = [0, 1025, 1031, 8192]

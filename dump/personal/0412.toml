@@ -1,0 +1,48 @@
+[personal]
+index = 412
+species = "SPECIES_BURMY"
+capture_rate = 120
+evolution_stage = 1
+ev_yield = 1024
+gender_probability = 127
+egg_happiness = 15
+base_happiness = 70
+experience_group = 0
+egg_groups = [3, 3]
+escape_rate = 0
+color = 7
+base_experience = 45
+height_cm = 2
+weight_cg = 34
+
+[personal.base_stats]
+hp = 40
+attack = 29
+defense = 45
+speed = 36
+special_attack = 29
+special_defense = 45
+
+[personal.typing]
+primary = "TYPE_BUG"
+secondary = "TYPE_BUG"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 61
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 142
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 33
+count = 3
+
+[personal.compatibility]
+tmhm = [0, 0, 0, 0]
+type_tutors = 0
+special_tutors = [1, 512, 2, 0]

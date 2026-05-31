@@ -1,0 +1,48 @@
+[personal]
+index = 614
+species = "SPECIES_BEARTIC"
+capture_rate = 60
+evolution_stage = 2
+ev_yield = 8
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 0
+egg_groups = [5, 5]
+escape_rate = 0
+color = 8
+base_experience = 170
+height_cm = 26
+weight_cg = 2600
+
+[personal.base_stats]
+hp = 95
+attack = 110
+defense = 80
+speed = 50
+special_attack = 70
+special_defense = 80
+
+[personal.typing]
+primary = "TYPE_ICE"
+secondary = "TYPE_ICE"
+
+[personal.wild_items]
+common_50 = "ITEM_ASPEAR_BERRY"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 81
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 33
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-871138575, 9018048, -1570708407, 22]
+type_tutors = 0
+special_tutors = [16898, 1280, 2, 8192]

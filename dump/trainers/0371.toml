@@ -1,0 +1,45 @@
+[trainer]
+index = 371
+party_format = 1
+trainer_class = 197
+battle_type = 0
+party_count = 3
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 135
+can_heal = 0
+reward_money = 30
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 371
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 250
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_RANDOM"
+level = 33
+species = "SPECIES_STOUTLAND"
+form = 0
+moves = ["MOVE_STRENGTH", "MOVE_CRUNCH", "MOVE_THUNDER_FANG", "MOVE_ODOR_SLEUTH"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 250
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 31
+species = "SPECIES_WATCHOG"
+form = 0
+moves = ["MOVE_HYPER_FANG", "MOVE_LOW_KICK", "MOVE_CRUNCH", "MOVE_HYPNOSIS"]
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 250
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 31
+species = "SPECIES_CINCCINO"
+form = 0
+moves = ["MOVE_TAIL_SLAP", "MOVE_ROCK_BLAST", "MOVE_BULLET_SEED", "MOVE_WAKEUP_SLAP"]

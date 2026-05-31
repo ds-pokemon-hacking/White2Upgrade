@@ -1,0 +1,48 @@
+[personal]
+index = 230
+species = "SPECIES_KINGDRA"
+capture_rate = 45
+evolution_stage = 3
+ev_yield = 1284
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 0
+egg_groups = [2, 14]
+escape_rate = 0
+color = 1
+base_experience = 243
+height_cm = 18
+weight_cg = 1520
+
+[personal.base_stats]
+hp = 75
+attack = 95
+defense = 95
+speed = 85
+special_attack = 95
+special_defense = 95
+
+[personal.typing]
+primary = "TYPE_WATER"
+secondary = "TYPE_DRAGON"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_DRAGON_SCALE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 33
+secondary = 97
+hidden = 6
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2079100320, 138451456, 104857608, 26]
+type_tutors = 64
+special_tutors = [304, 17408, 2, 8704]

@@ -1,0 +1,65 @@
+[trainer]
+index = 142
+party_format = 1
+trainer_class = 70
+battle_type = 0
+party_count = 5
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 20
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 142
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 150
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 51
+species = "SPECIES_LARVESTA"
+form = 0
+moves = ["MOVE_FLAME_CHARGE", "MOVE_DOUBLEEDGE", "MOVE_WILD_CHARGE", "MOVE_ACROBATICS"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 150
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 51
+species = "SPECIES_PINSIR"
+form = 0
+moves = ["MOVE_XSCISSOR", "MOVE_BRICK_BREAK", "MOVE_BULLDOZE", "MOVE_BULK_UP"]
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 150
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 51
+species = "SPECIES_HERACROSS"
+form = 0
+moves = ["MOVE_AERIAL_ACE", "MOVE_BRICK_BREAK", "MOVE_ROCK_SLIDE", "MOVE_SWORDS_DANCE"]
+
+[[trainer_party.party]]
+slot = 3
+difficulty_value = 150
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_RANDOM"
+level = 51
+species = "SPECIES_LEAVANNY"
+form = 0
+moves = ["MOVE_XSCISSOR", "MOVE_LEAF_BLADE", "MOVE_SHADOW_CLAW", "MOVE_SWORDS_DANCE"]
+
+[[trainer_party.party]]
+slot = 4
+difficulty_value = 150
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 51
+species = "SPECIES_SCOLIPEDE"
+form = 0
+moves = ["MOVE_XSCISSOR", "MOVE_POISON_JAB", "MOVE_ROCK_SLIDE", "MOVE_SWORDS_DANCE"]

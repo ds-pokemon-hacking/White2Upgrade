@@ -1,0 +1,81 @@
+[trainer]
+index = 776
+party_format = 3
+trainer_class = 193
+battle_type = 0
+party_count = 6
+items = ["ITEM_FULL_RESTORE", "ITEM_FULL_RESTORE", "ITEM_FULL_RESTORE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 50
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 776
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 250
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 57
+species = "SPECIES_HYDREIGON"
+form = 0
+held_item = "ITEM_WISE_GLASSES"
+moves = ["MOVE_FIRE_BLAST", "MOVE_FOCUS_BLAST", "MOVE_DRAGON_PULSE", "MOVE_SURF"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 250
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 57
+species = "SPECIES_DRUDDIGON"
+form = 0
+held_item = "ITEM_LIFE_ORB"
+moves = ["MOVE_FIRE_PUNCH", "MOVE_THUNDERPUNCH", "MOVE_OUTRAGE", "MOVE_FOCUS_BLAST"]
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 250
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 57
+species = "SPECIES_ARCHEOPS"
+form = 0
+held_item = "ITEM_FLYING_GEM"
+moves = ["MOVE_ACROBATICS", "MOVE_STONE_EDGE", "MOVE_DRAGON_CLAW", "MOVE_ENDEAVOR"]
+
+[[trainer_party.party]]
+slot = 3
+difficulty_value = 250
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 57
+species = "SPECIES_AGGRON"
+form = 0
+held_item = "ITEM_MUSCLE_BAND"
+moves = ["MOVE_EARTHQUAKE", "MOVE_DOUBLEEDGE", "MOVE_HEAD_SMASH", "MOVE_AUTOTOMIZE"]
+
+[[trainer_party.party]]
+slot = 4
+difficulty_value = 250
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_RANDOM"
+level = 57
+species = "SPECIES_LAPRAS"
+form = 0
+held_item = "ITEM_WIDE_LENS"
+moves = ["MOVE_HYDRO_PUMP", "MOVE_BLIZZARD", "MOVE_THUNDER", "MOVE_SING"]
+
+[[trainer_party.party]]
+slot = 5
+difficulty_value = 250
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 59
+species = "SPECIES_HAXORUS"
+form = 0
+held_item = "ITEM_FOCUS_SASH"
+moves = ["MOVE_EARTHQUAKE", "MOVE_XSCISSOR", "MOVE_OUTRAGE", "MOVE_DRAGON_DANCE"]

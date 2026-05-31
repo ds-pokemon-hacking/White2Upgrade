@@ -1,0 +1,48 @@
+[personal]
+index = 306
+species = "SPECIES_AGGRON"
+capture_rate = 45
+evolution_stage = 3
+ev_yield = 48
+gender_probability = 127
+egg_happiness = 35
+base_happiness = 35
+experience_group = 5
+egg_groups = [1, 1]
+escape_rate = 0
+color = 7
+base_experience = 239
+height_cm = 21
+weight_cg = 3600
+
+[personal.base_stats]
+hp = 70
+attack = 110
+defense = 180
+speed = 50
+special_attack = 60
+special_defense = 60
+
+[personal.typing]
+primary = "TYPE_STEEL"
+secondary = "TYPE_ROCK"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_HARD_STONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 5
+secondary = 69
+hidden = 134
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-806126029, 76061428, -1505582757, 6]
+type_tutors = 0
+special_tutors = [31264, 89446, 2, 13060]

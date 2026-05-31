@@ -1,0 +1,48 @@
+[personal]
+index = 531
+species = "SPECIES_AUDINO"
+capture_rate = 255
+evolution_stage = 2
+ev_yield = 2
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 4
+egg_groups = [6, 6]
+escape_rate = 0
+color = 9
+base_experience = 390
+height_cm = 11
+weight_cg = 310
+
+[personal.base_stats]
+hp = 103
+attack = 60
+defense = 86
+speed = 50
+special_attack = 60
+special_defense = 86
+
+[personal.typing]
+primary = "TYPE_NORMAL"
+secondary = "TYPE_NORMAL"
+
+[personal.wild_items]
+common_50 = "ITEM_ORAN_BERRY"
+rare_5 = "ITEM_SITRUS_BERRY"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 131
+secondary = 144
+hidden = 103
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1111493076, 92379685, 443814180, 2]
+type_tutors = 0
+special_tutors = [31250, 107665, 2662, 26648]

@@ -1,0 +1,48 @@
+[personal]
+index = 344
+species = "SPECIES_CLAYDOL"
+capture_rate = 90
+evolution_stage = 2
+ev_yield = 2048
+gender_probability = 255
+egg_happiness = 20
+base_happiness = 70
+experience_group = 0
+egg_groups = [10, 10]
+escape_rate = 0
+color = 4
+base_experience = 175
+height_cm = 15
+weight_cg = 1080
+
+[personal.base_stats]
+hp = 60
+attack = 70
+defense = 105
+speed = 75
+special_attack = 70
+special_defense = 120
+
+[personal.typing]
+primary = "TYPE_GROUND"
+secondary = "TYPE_PSYCHIC"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 26
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = "BATTLE_ABILITY_RANDOM"
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1098918356, -2130408879, 712028792, 4]
+type_tutors = 0
+special_tutors = [144, 8213, 2, 29856]

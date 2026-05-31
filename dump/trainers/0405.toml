@@ -1,0 +1,51 @@
+[trainer]
+index = 405
+party_format = 0
+trainer_class = 27
+battle_type = 0
+party_count = 4
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 1
+can_heal = 0
+reward_money = 6
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 405
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 0
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 62
+species = "SPECIES_KABUTO"
+form = 0
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 0
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 62
+species = "SPECIES_LILEEP"
+form = 0
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 0
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 62
+species = "SPECIES_CRANIDOS"
+form = 0
+
+[[trainer_party.party]]
+slot = 3
+difficulty_value = 0
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 62
+species = "SPECIES_CARRACOSTA"
+form = 0

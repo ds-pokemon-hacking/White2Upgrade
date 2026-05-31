@@ -1,0 +1,48 @@
+[personal]
+index = 327
+species = "SPECIES_SPINDA"
+capture_rate = 255
+evolution_stage = 2
+ev_yield = 256
+gender_probability = 127
+egg_happiness = 15
+base_happiness = 70
+experience_group = 4
+egg_groups = [5, 8]
+escape_rate = 60
+color = 69
+base_experience = 126
+height_cm = 11
+weight_cg = 50
+
+[personal.base_stats]
+hp = 60
+attack = 60
+defense = 60
+speed = 60
+special_attack = 60
+special_defense = 60
+
+[personal.typing]
+primary = "TYPE_NORMAL"
+secondary = "TYPE_NORMAL"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_CHESTO_BERRY"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 20
+secondary = 77
+hidden = 126
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-65337816, 8436288, 978620452, 4]
+type_tutors = 0
+special_tutors = [31234, 42112, 2082, 27696]

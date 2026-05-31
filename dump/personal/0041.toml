@@ -1,0 +1,48 @@
+[personal]
+index = 41
+species = "SPECIES_ZUBAT"
+capture_rate = 255
+evolution_stage = 1
+ev_yield = 64
+gender_probability = 127
+egg_happiness = 15
+base_happiness = 70
+experience_group = 0
+egg_groups = [4, 4]
+escape_rate = 90
+color = 6
+base_experience = 49
+height_cm = 8
+weight_cg = 75
+
+[personal.base_stats]
+hp = 40
+attack = 45
+defense = 35
+speed = 55
+special_attack = 30
+special_defense = 40
+
+[personal.typing]
+primary = "TYPE_POISON"
+secondary = "TYPE_FLYING"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 39
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 151
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1542254816, 536918920, 62914562, 1]
+type_tutors = 0
+special_tutors = [2052, 8192, 5266, 10240]

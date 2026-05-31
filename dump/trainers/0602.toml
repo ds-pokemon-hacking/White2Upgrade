@@ -1,0 +1,35 @@
+[trainer]
+index = 602
+party_format = 1
+trainer_class = 50
+battle_type = 0
+party_count = 2
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 135
+can_heal = 0
+reward_money = 15
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 602
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 100
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_RANDOM"
+level = 55
+species = "SPECIES_DURANT"
+form = 0
+moves = ["MOVE_IRON_HEAD", "MOVE_BUG_BITE", "MOVE_CRUNCH", "MOVE_SHADOW_CLAW"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 100
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 55
+species = "SPECIES_FERROTHORN"
+form = 0
+moves = ["MOVE_IRON_HEAD", "MOVE_POWER_WHIP", "MOVE_PAYBACK", "MOVE_INGRAIN"]

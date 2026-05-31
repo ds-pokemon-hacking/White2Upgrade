@@ -1,0 +1,48 @@
+[personal]
+index = 392
+species = "SPECIES_INFERNAPE"
+capture_rate = 45
+evolution_stage = 3
+ev_yield = 324
+gender_probability = 31
+egg_happiness = 20
+base_happiness = 70
+experience_group = 3
+egg_groups = [5, 8]
+escape_rate = 0
+color = 5
+base_experience = 240
+height_cm = 12
+weight_cg = 550
+
+[personal.base_stats]
+hp = 76
+attack = 104
+defense = 71
+speed = 108
+special_attack = 104
+special_defense = 71
+
+[personal.typing]
+primary = "TYPE_FIRE"
+secondary = "TYPE_FIGHTING"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 66
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 89
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-835629383, 881516516, -1553161139, 4]
+type_tutors = 18
+special_tutors = [13834, 65536, 50, 12560]

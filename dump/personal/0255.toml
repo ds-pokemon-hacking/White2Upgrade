@@ -1,0 +1,48 @@
+[personal]
+index = 255
+species = "SPECIES_TORCHIC"
+capture_rate = 45
+evolution_stage = 1
+ev_yield = 256
+gender_probability = 31
+egg_happiness = 20
+base_happiness = 70
+experience_group = 3
+egg_groups = [5, 5]
+escape_rate = 0
+color = 0
+base_experience = 62
+height_cm = 4
+weight_cg = 25
+
+[personal.base_stats]
+hp = 45
+attack = 60
+defense = 40
+speed = 45
+special_attack = 70
+special_defense = 50
+
+[personal.typing]
+primary = "TYPE_FIRE"
+secondary = "TYPE_FIRE"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 66
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = "BATTLE_ABILITY_HIDDEN"
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1945041375, 335781604, -1572830207, 4]
+type_tutors = 2
+special_tutors = [768, 128, 18, 8208]

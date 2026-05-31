@@ -1,0 +1,35 @@
+[trainer]
+index = 594
+party_format = 1
+trainer_class = 50
+battle_type = 0
+party_count = 2
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 15
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 594
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 100
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_RANDOM"
+level = 55
+species = "SPECIES_GOLURK"
+form = 0
+moves = ["MOVE_SHADOW_PUNCH", "MOVE_HEAVY_SLAM", "MOVE_MEGA_PUNCH", "MOVE_BULLDOZE"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 100
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 55
+species = "SPECIES_SIGILYPH"
+form = 0
+moves = ["MOVE_AIR_SLASH", "MOVE_PSYCHIC", "MOVE_ICE_BEAM", "MOVE_COSMIC_POWER"]

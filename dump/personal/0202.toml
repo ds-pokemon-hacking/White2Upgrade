@@ -1,0 +1,48 @@
+[personal]
+index = 202
+species = "SPECIES_WOBBUFFET"
+capture_rate = 45
+evolution_stage = 2
+ev_yield = 2
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 0
+egg_groups = [11, 11]
+escape_rate = 60
+color = 1
+base_experience = 142
+height_cm = 13
+weight_cg = 285
+
+[personal.base_stats]
+hp = 190
+attack = 33
+defense = 58
+speed = 33
+special_attack = 33
+special_defense = 58
+
+[personal.typing]
+primary = "TYPE_PSYCHIC"
+secondary = "TYPE_PSYCHIC"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 23
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 140
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [0, 0, 0, 0]
+type_tutors = 0
+special_tutors = [0, 0, 0, 0]

@@ -1,0 +1,48 @@
+[personal]
+index = 29
+species = "SPECIES_NIDORAN_M"
+capture_rate = 235
+evolution_stage = 1
+ev_yield = 1
+gender_probability = 254
+egg_happiness = 20
+base_happiness = 70
+experience_group = 3
+egg_groups = [1, 5]
+escape_rate = 90
+color = 1
+base_experience = 55
+height_cm = 4
+weight_cg = 70
+
+[personal.base_stats]
+hp = 55
+attack = 47
+defense = 52
+speed = 41
+special_attack = 40
+special_defense = 40
+
+[personal.typing]
+primary = "TYPE_POISON"
+secondary = "TYPE_POISON"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 38
+secondary = 79
+hidden = 55
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1919731935, 47752, -1572339711, 4]
+type_tutors = 0
+special_tutors = [4, 65536, 2, 8208]

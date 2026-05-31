@@ -1,0 +1,48 @@
+[personal]
+index = 248
+species = "SPECIES_TYRANITAR"
+capture_rate = 45
+evolution_stage = 3
+ev_yield = 12
+gender_probability = 127
+egg_happiness = 40
+base_happiness = 35
+experience_group = 5
+egg_groups = [1, 1]
+escape_rate = 0
+color = 3
+base_experience = 270
+height_cm = 20
+weight_cg = 2020
+
+[personal.base_stats]
+hp = 100
+attack = 134
+defense = 110
+speed = 61
+special_attack = 95
+special_defense = 100
+
+[personal.typing]
+primary = "TYPE_ROCK"
+secondary = "TYPE_DARK"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 45
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 127
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-808223181, 76061684, -498949793, 6]
+type_tutors = 0
+special_tutors = [31264, 88398, 2, 12804]

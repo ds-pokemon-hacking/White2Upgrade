@@ -1,0 +1,48 @@
+[personal]
+index = 310
+species = "SPECIES_MANECTRIC"
+capture_rate = 45
+evolution_stage = 2
+ev_yield = 128
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 5
+egg_groups = [5, 5]
+escape_rate = 90
+color = 2
+base_experience = 166
+height_cm = 15
+weight_cg = 402
+
+[personal.base_stats]
+hp = 70
+attack = 75
+defense = 60
+speed = 105
+special_attack = 105
+special_defense = 60
+
+[personal.typing]
+primary = "TYPE_ELECTRIC"
+secondary = "TYPE_ELECTRIC"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 9
+secondary = 31
+hidden = 58
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2053914064, 16955908, 1379926440, 4]
+type_tutors = 0
+special_tutors = [2064, 65568, 2, 8192]

@@ -1,0 +1,48 @@
+[personal]
+index = 53
+species = "SPECIES_PERSIAN"
+capture_rate = 90
+evolution_stage = 2
+ev_yield = 128
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 0
+egg_groups = [5, 5]
+escape_rate = 0
+color = 2
+base_experience = 154
+height_cm = 10
+weight_cg = 320
+
+[personal.base_stats]
+hp = 65
+attack = 70
+defense = 60
+speed = 115
+special_attack = 65
+special_defense = 65
+
+[personal.typing]
+primary = "TYPE_NORMAL"
+secondary = "TYPE_NORMAL"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_QUICK_CLAW"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 7
+secondary = 101
+hidden = 127
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1382855119, 1073855360, -2091642833, 0]
+type_tutors = 0
+special_tutors = [3138, 103560, 6, 10244]

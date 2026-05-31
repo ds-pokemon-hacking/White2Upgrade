@@ -1,0 +1,48 @@
+[personal]
+index = 101
+species = "SPECIES_ELECTRODE"
+capture_rate = 60
+evolution_stage = 2
+ev_yield = 128
+gender_probability = 255
+egg_happiness = 20
+base_happiness = 70
+experience_group = 0
+egg_groups = [10, 10]
+escape_rate = 0
+color = 0
+base_experience = 168
+height_cm = 12
+weight_cg = 666
+
+[personal.base_stats]
+hp = 60
+attack = 50
+defense = 70
+speed = 140
+special_attack = 80
+special_defense = 80
+
+[personal.typing]
+primary = "TYPE_ELECTRIC"
+secondary = "TYPE_ELECTRIC"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 43
+secondary = 9
+hidden = 106
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2053912032, -2130662656, 306185128, 0]
+type_tutors = 0
+special_tutors = [16, 41, 2, 8192]

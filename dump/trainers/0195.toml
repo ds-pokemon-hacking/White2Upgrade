@@ -1,0 +1,48 @@
+[trainer]
+index = 195
+party_format = 3
+trainer_class = 159
+battle_type = 0
+party_count = 3
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 50
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 195
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 192
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 71
+species = "SPECIES_MILOTIC"
+form = 0
+held_item = "ITEM_LEFTOVERS"
+moves = ["MOVE_HYDRO_PUMP", "MOVE_DRAGON_TAIL", "MOVE_RECOVER", "MOVE_HYPNOSIS"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 192
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_RANDOM"
+level = 71
+species = "SPECIES_MAMOSWINE"
+form = 0
+held_item = "ITEM_LIFE_ORB"
+moves = ["MOVE_EARTHQUAKE", "MOVE_ICE_SHARD", "MOVE_SUPERPOWER", "MOVE_STONE_EDGE"]
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 192
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 71
+species = "SPECIES_LUCARIO"
+form = 0
+held_item = "ITEM_FOCUS_SASH"
+moves = ["MOVE_EXTREMESPEED", "MOVE_AURA_SPHERE", "MOVE_DRAGON_PULSE", "MOVE_SWORDS_DANCE"]

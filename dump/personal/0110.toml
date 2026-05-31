@@ -1,0 +1,48 @@
+[personal]
+index = 110
+species = "SPECIES_WEEZING"
+capture_rate = 60
+evolution_stage = 2
+ev_yield = 32
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 0
+egg_groups = [11, 11]
+escape_rate = 60
+color = 6
+base_experience = 172
+height_cm = 12
+weight_cg = 95
+
+[personal.base_stats]
+hp = 65
+attack = 90
+defense = 120
+speed = 60
+special_attack = 85
+special_defense = 70
+
+[personal.typing]
+primary = "TYPE_POISON"
+secondary = "TYPE_POISON"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_SMOKE_BALL"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 26
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = "BATTLE_ABILITY_RANDOM"
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1517072608, -1811891412, 37749290, 0]
+type_tutors = 0
+special_tutors = [2048, 4096, 514, 8196]

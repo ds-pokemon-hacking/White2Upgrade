@@ -1,0 +1,44 @@
+[move]
+index = 47
+name = "MOVE_SING"
+type = "TYPE_NORMAL"
+quality = "EFFECT_STATUS_INFLICTING"
+category = "SPLIT_STATUS"
+power = 0
+accuracy = 55
+base_pp = 15
+priority = 0
+critical_hit_stage = 0
+flinch_rate = 0
+animation_id = 1
+recoil = 0
+heal = 0
+target = "TARGET_OTHER_SELECT"
+padding = 21331
+flags = ["FLAG_BLOCKED_BY_PROTECT", "FLAG_REFLECTED_BY_MAGIC_COAT", "FLAG_COPIED_BY_MIRROR_MOVE", "FLAG_SOUND_MOVE"]
+
+[move.hits]
+minimum = 0
+maximum = 0
+
+[move.inflict]
+status = "INFLICT_DURATION_TURN"
+chance = 0
+duration = 2
+turn_min = 2
+turn_max = 4
+
+[[move.stat_changes]]
+stat = "STATUS_NONE"
+stages = 0
+chance = 0
+
+[[move.stat_changes]]
+stat = "STATUS_NONE"
+stages = 0
+chance = 0
+
+[[move.stat_changes]]
+stat = "STATUS_NONE"
+stages = 0
+chance = 0

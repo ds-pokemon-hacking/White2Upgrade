@@ -1,0 +1,48 @@
+[personal]
+index = 120
+species = "SPECIES_STARYU"
+capture_rate = 225
+evolution_stage = 1
+ev_yield = 64
+gender_probability = 255
+egg_happiness = 20
+base_happiness = 70
+experience_group = 5
+egg_groups = [9, 9]
+escape_rate = 0
+color = 69
+base_experience = 68
+height_cm = 8
+weight_cg = 345
+
+[personal.base_stats]
+hp = 30
+attack = 45
+defense = 55
+speed = 85
+special_attack = 70
+special_defense = 55
+
+[personal.typing]
+primary = "TYPE_WATER"
+secondary = "TYPE_WATER"
+
+[personal.wild_items]
+common_50 = "ITEM_STARDUST"
+rare_5 = "ITEM_STAR_PIECE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 35
+secondary = 30
+hidden = 148
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1785482656, 4229633, 104862496, 26]
+type_tutors = 0
+special_tutors = [16, 1041, 514, 9216]

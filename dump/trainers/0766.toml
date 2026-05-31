@@ -1,0 +1,59 @@
+[trainer]
+index = 766
+party_format = 3
+trainer_class = 113
+battle_type = 0
+party_count = 4
+items = ["ITEM_HYPER_POTION", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 30
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 766
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 250
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_RANDOM"
+level = 22
+species = "SPECIES_DWEBBLE"
+form = 0
+held_item = "ITEM_SITRUS_BERRY"
+moves = ["MOVE_STRUGGLE_BUG", "MOVE_ROCK_BLAST", "MOVE_FAINT_ATTACK", "MOVE_ROCK_POLISH"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 250
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 22
+species = "SPECIES_SHELMET"
+form = 0
+held_item = "ITEM_NONE"
+moves = ["MOVE_STRUGGLE_BUG", "MOVE_MEGA_DRAIN", "MOVE_ACID", "MOVE_CURSE"]
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 250
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 22
+species = "SPECIES_KARRABLAST"
+form = 0
+held_item = "ITEM_NONE"
+moves = ["MOVE_STRUGGLE_BUG", "MOVE_HEADBUTT", "MOVE_AERIAL_ACE", "MOVE_ENDURE"]
+
+[[trainer_party.party]]
+slot = 3
+difficulty_value = 250
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_RANDOM"
+level = 24
+species = "SPECIES_LEAVANNY"
+form = 0
+held_item = "ITEM_SITRUS_BERRY"
+moves = ["MOVE_STRUGGLE_BUG", "MOVE_RAZOR_LEAF", "MOVE_AERIAL_ACE", "MOVE_GRASSWHISTLE"]

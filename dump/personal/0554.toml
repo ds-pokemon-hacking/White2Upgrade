@@ -1,0 +1,48 @@
+[personal]
+index = 554
+species = "SPECIES_DARUMAKA"
+capture_rate = 120
+evolution_stage = 1
+ev_yield = 4
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 3
+egg_groups = [5, 5]
+escape_rate = 0
+color = 0
+base_experience = 63
+height_cm = 6
+weight_cg = 375
+
+[personal.base_stats]
+hp = 70
+attack = 90
+defense = 45
+speed = 50
+special_attack = 15
+special_defense = 45
+
+[personal.typing]
+primary = "TYPE_FIRE"
+secondary = "TYPE_FIRE"
+
+[personal.wild_items]
+common_50 = "ITEM_RAWST_BERRY"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 55
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 39
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-869200336, 344112740, 593789440, 4]
+type_tutors = 0
+special_tutors = [10240, 8448, 18, 8448]

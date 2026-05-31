@@ -1,0 +1,48 @@
+[personal]
+index = 434
+species = "SPECIES_STUNKY"
+capture_rate = 225
+evolution_stage = 1
+ev_yield = 64
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 0
+egg_groups = [5, 5]
+escape_rate = 0
+color = 6
+base_experience = 66
+height_cm = 4
+weight_cg = 192
+
+[personal.base_stats]
+hp = 63
+attack = 63
+defense = 47
+speed = 74
+special_attack = 41
+special_defense = 41
+
+[personal.typing]
+primary = "TYPE_POISON"
+secondary = "TYPE_DARK"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_PECHA_BERRY"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = "BATTLE_ABILITY_PRIMARY"
+secondary = 106
+hidden = 51
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1408037071, -2080326868, -499122173, 0]
+type_tutors = 0
+special_tutors = [0, 69640, 2, 10240]

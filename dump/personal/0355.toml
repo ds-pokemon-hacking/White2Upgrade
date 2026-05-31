@@ -1,0 +1,48 @@
+[personal]
+index = 355
+species = "SPECIES_DUSKULL"
+capture_rate = 190
+evolution_stage = 1
+ev_yield = 1024
+gender_probability = 127
+egg_happiness = 25
+base_happiness = 35
+experience_group = 4
+egg_groups = [11, 11]
+escape_rate = 120
+color = 4
+base_experience = 59
+height_cm = 8
+weight_cg = 150
+
+[personal.base_stats]
+hp = 20
+attack = 40
+defense = 90
+speed = 25
+special_attack = 30
+special_defense = 90
+
+[personal.typing]
+primary = "TYPE_GHOST"
+secondary = "TYPE_GHOST"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_KASIB_BERRY"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 26
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = "BATTLE_ABILITY_RANDOM"
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1273545176, 1367390976, 173019170, 0]
+type_tutors = 0
+special_tutors = [0, 5136, 514, 26788]

@@ -1,0 +1,48 @@
+[trainer]
+index = 196
+party_format = 3
+trainer_class = 158
+battle_type = 0
+party_count = 3
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 50
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 196
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 192
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 71
+species = "SPECIES_GYARADOS"
+form = 0
+held_item = "ITEM_WACAN_BERRY"
+moves = ["MOVE_AQUA_TAIL", "MOVE_OUTRAGE", "MOVE_EARTHQUAKE", "MOVE_DRAGON_DANCE"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 192
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 71
+species = "SPECIES_DUSKNOIR"
+form = 0
+held_item = "ITEM_LEFTOVERS"
+moves = ["MOVE_ICE_PUNCH", "MOVE_PAIN_SPLIT", "MOVE_TOXIC", "MOVE_WILLOWISP"]
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 192
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 71
+species = "SPECIES_WEAVILE"
+form = 0
+held_item = "ITEM_FOCUS_SASH"
+moves = ["MOVE_ICE_PUNCH", "MOVE_FAKE_OUT", "MOVE_LOW_KICK", "MOVE_ICE_SHARD"]

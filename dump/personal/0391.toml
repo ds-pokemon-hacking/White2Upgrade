@@ -1,0 +1,48 @@
+[personal]
+index = 391
+species = "SPECIES_MONFERNO"
+capture_rate = 45
+evolution_stage = 2
+ev_yield = 320
+gender_probability = 31
+egg_happiness = 20
+base_happiness = 70
+experience_group = 3
+egg_groups = [5, 8]
+escape_rate = 0
+color = 69
+base_experience = 142
+height_cm = 9
+weight_cg = 220
+
+[personal.base_stats]
+hp = 64
+attack = 78
+defense = 52
+speed = 81
+special_attack = 78
+special_defense = 52
+
+[personal.typing]
+primary = "TYPE_FIRE"
+secondary = "TYPE_FIGHTING"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 66
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 89
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-871297375, 881516516, -1553169403, 4]
+type_tutors = 2
+special_tutors = [13834, 65536, 50, 12560]

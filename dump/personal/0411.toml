@@ -1,0 +1,48 @@
+[personal]
+index = 411
+species = "SPECIES_BASTIODON"
+capture_rate = 45
+evolution_stage = 2
+ev_yield = 32
+gender_probability = 31
+egg_happiness = 30
+base_happiness = 70
+experience_group = 1
+egg_groups = [1, 1]
+escape_rate = 0
+color = 7
+base_experience = 173
+height_cm = 13
+weight_cg = 1495
+
+[personal.base_stats]
+hp = 60
+attack = 52
+defense = 168
+speed = 30
+special_attack = 47
+special_defense = 138
+
+[personal.typing]
+primary = "TYPE_ROCK"
+secondary = "TYPE_STEEL"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 5
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 43
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1881965008, 67148660, 641769560, 4]
+type_tutors = 0
+special_tutors = [32, 65639, 2, 12800]

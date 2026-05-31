@@ -1,0 +1,48 @@
+[personal]
+index = 405
+species = "SPECIES_LUXRAY"
+capture_rate = 45
+evolution_stage = 3
+ev_yield = 12
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 3
+egg_groups = [5, 5]
+escape_rate = 0
+color = 1
+base_experience = 235
+height_cm = 14
+weight_cg = 420
+
+[personal.base_stats]
+hp = 80
+attack = 120
+defense = 79
+speed = 70
+special_attack = 95
+special_defense = 79
+
+[personal.typing]
+primary = "TYPE_ELECTRIC"
+secondary = "TYPE_ELECTRIC"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 79
+secondary = 22
+hidden = 62
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2053914064, 16824832, 1379926440, 4]
+type_tutors = 0
+special_tutors = [16, 65824, 2, 8192]

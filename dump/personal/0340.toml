@@ -1,0 +1,48 @@
+[personal]
+index = 340
+species = "SPECIES_WHISCASH"
+capture_rate = 75
+evolution_stage = 2
+ev_yield = 2
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 0
+egg_groups = [12, 12]
+escape_rate = 0
+color = 1
+base_experience = 164
+height_cm = 9
+weight_cg = 236
+
+[personal.base_stats]
+hp = 110
+attack = 78
+defense = 73
+speed = 60
+special_attack = 76
+special_defense = 71
+
+[personal.typing]
+primary = "TYPE_WATER"
+secondary = "TYPE_GROUND"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 12
+secondary = 107
+hidden = 93
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2045545888, 4233808, 574660680, 30]
+type_tutors = 0
+special_tutors = [256, 11268, 2, 8192]

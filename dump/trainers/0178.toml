@@ -1,0 +1,35 @@
+[trainer]
+index = 178
+party_format = 1
+trainer_class = 57
+battle_type = 0
+party_count = 2
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 1
+can_heal = 0
+reward_money = 6
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 178
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 0
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 14
+species = "SPECIES_GRIMER"
+form = 0
+moves = ["MOVE_POUND", "MOVE_POISON_GAS", "MOVE_DISABLE", "MOVE_NONE"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 0
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 14
+species = "SPECIES_KOFFING"
+form = 0
+moves = ["MOVE_TACKLE", "MOVE_ASSURANCE", "MOVE_POISON_GAS", "MOVE_NONE"]

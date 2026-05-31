@@ -1,0 +1,48 @@
+[personal]
+index = 526
+species = "SPECIES_GIGALITH"
+capture_rate = 45
+evolution_stage = 3
+ev_yield = 12
+gender_probability = 127
+egg_happiness = 15
+base_happiness = 70
+experience_group = 3
+egg_groups = [10, 10]
+escape_rate = 0
+color = 1
+base_experience = 227
+height_cm = 17
+weight_cg = 2600
+
+[personal.base_stats]
+hp = 85
+attack = 135
+defense = 130
+speed = 25
+special_attack = 60
+special_defense = 70
+
+[personal.typing]
+primary = "TYPE_ROCK"
+secondary = "TYPE_ROCK"
+
+[personal.wild_items]
+common_50 = "ITEM_EVERSTONE"
+rare_5 = "ITEM_HARD_STONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 5
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 159
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2039397856, -2147444144, 641769560, 4]
+type_tutors = 0
+special_tutors = [32, 342, 2, 12288]

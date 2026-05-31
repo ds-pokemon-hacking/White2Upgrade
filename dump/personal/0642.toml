@@ -1,0 +1,48 @@
+[personal]
+index = 642
+species = "SPECIES_THUNDURUS"
+capture_rate = 3
+evolution_stage = 3
+ev_yield = 12
+gender_probability = 0
+egg_happiness = 120
+base_happiness = 90
+experience_group = 5
+egg_groups = [15, 15]
+escape_rate = 0
+color = 1
+base_experience = 261
+height_cm = 15
+weight_cg = 610
+
+[personal.base_stats]
+hp = 79
+attack = 115
+defense = 70
+speed = 111
+special_attack = 125
+special_defense = 80
+
+[personal.typing]
+primary = "TYPE_ELECTRIC"
+secondary = "TYPE_FLYING"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 158
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 128
+
+[personal.forms]
+data_offset = 707
+sprite_offset = 56
+count = 2
+
+[personal.compatibility]
+tmhm = [-707573088, 1200143114, 929038730, 5]
+type_tutors = 0
+special_tutors = [6144, 69896, 38, 8192]

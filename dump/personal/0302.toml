@@ -1,0 +1,48 @@
+[personal]
+index = 302
+species = "SPECIES_SABLEYE"
+capture_rate = 45
+evolution_stage = 2
+ev_yield = 20
+gender_probability = 127
+egg_happiness = 25
+base_happiness = 35
+experience_group = 3
+egg_groups = [8, 8]
+escape_rate = 0
+color = 6
+base_experience = 133
+height_cm = 5
+weight_cg = 110
+
+[personal.base_stats]
+hp = 50
+attack = 75
+defense = 75
+speed = 50
+special_attack = 65
+special_defense = 65
+
+[personal.typing]
+primary = "TYPE_DARK"
+secondary = "TYPE_GHOST"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 51
+secondary = 100
+hidden = 158
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-65597911, 1417739200, -497545177, 0]
+type_tutors = 0
+special_tutors = [29200, 13337, 38, 10404]

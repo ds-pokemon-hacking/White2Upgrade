@@ -1,0 +1,24 @@
+[trainer]
+index = 667
+party_format = 0
+trainer_class = 25
+battle_type = 0
+party_count = 1
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 15
+reward_item = "ITEM_RAWST_BERRY"
+raw_size = 20
+
+[trainer_party]
+index = 667
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 50
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 23
+species = "SPECIES_MAGBY"
+form = 0

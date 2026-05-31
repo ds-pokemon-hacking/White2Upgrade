@@ -1,0 +1,48 @@
+[personal]
+index = 300
+species = "SPECIES_SKITTY"
+capture_rate = 255
+evolution_stage = 1
+ev_yield = 64
+gender_probability = 191
+egg_happiness = 15
+base_happiness = 70
+experience_group = 4
+egg_groups = [5, 6]
+escape_rate = 0
+color = 9
+base_experience = 52
+height_cm = 6
+weight_cg = 110
+
+[personal.base_stats]
+hp = 50
+attack = 45
+defense = 45
+speed = 50
+special_attack = 35
+special_defense = 35
+
+[personal.typing]
+primary = "TYPE_NORMAL"
+secondary = "TYPE_NORMAL"
+
+[personal.wild_items]
+common_50 = "ITEM_PECHA_BERRY"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 56
+secondary = 96
+hidden = 147
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1380239832, 16882176, 309596454, 0]
+type_tutors = 0
+special_tutors = [2050, 107648, 66, 8208]

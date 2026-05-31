@@ -1,0 +1,24 @@
+[trainer]
+index = 63
+party_format = 0
+trainer_class = 7
+battle_type = 0
+party_count = 1
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 25
+reward_item = "ITEM_PROTEIN"
+raw_size = 20
+
+[trainer_party]
+index = 63
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 100
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 64
+species = "SPECIES_FORRETRESS"
+form = 0

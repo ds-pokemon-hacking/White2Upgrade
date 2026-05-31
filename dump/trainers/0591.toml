@@ -1,0 +1,81 @@
+[trainer]
+index = 591
+party_format = 3
+trainer_class = 196
+battle_type = 0
+party_count = 6
+items = ["ITEM_FULL_RESTORE", "ITEM_FULL_RESTORE", "ITEM_FULL_RESTORE", "ITEM_FULL_RESTORE"]
+ai = 7
+can_heal = 0
+reward_money = 20
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 591
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 250
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_FEMALE"
+level = 76
+species = "SPECIES_CLEFABLE"
+form = 0
+held_item = "ITEM_LEFTOVERS"
+moves = ["MOVE_COSMIC_POWER", "MOVE_STORED_POWER", "MOVE_METRONOME", "MOVE_SING"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 250
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 76
+species = "SPECIES_WIGGLYTUFF"
+form = 0
+held_item = "ITEM_LEFTOVERS"
+moves = ["MOVE_HYPER_VOICE", "MOVE_THUNDERBOLT", "MOVE_FLAMETHROWER", "MOVE_ICE_BEAM"]
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 250
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 76
+species = "SPECIES_AZUMARILL"
+form = 0
+held_item = "ITEM_LEFTOVERS"
+moves = ["MOVE_AQUA_TAIL", "MOVE_DOUBLEEDGE", "MOVE_SUPERPOWER", "MOVE_BULLDOZE"]
+
+[[trainer_party.party]]
+slot = 3
+difficulty_value = 250
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 76
+species = "SPECIES_ALOMOMOLA"
+form = 0
+held_item = "ITEM_LEFTOVERS"
+moves = ["MOVE_TOXIC", "MOVE_AQUA_JET", "MOVE_PROTECT", "MOVE_WISH"]
+
+[[trainer_party.party]]
+slot = 4
+difficulty_value = 250
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_RANDOM"
+level = 76
+species = "SPECIES_LICKILICKY"
+form = 0
+held_item = "ITEM_LEFTOVERS"
+moves = ["MOVE_POWER_WHIP", "MOVE_EARTHQUAKE", "MOVE_FIRE_BLAST", "MOVE_BLIZZARD"]
+
+[[trainer_party.party]]
+slot = 5
+difficulty_value = 250
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 78
+species = "SPECIES_SNORLAX"
+form = 0
+held_item = "ITEM_LEFTOVERS"
+moves = ["MOVE_SUPERPOWER", "MOVE_CRUNCH", "MOVE_BODY_SLAM", "MOVE_YAWN"]

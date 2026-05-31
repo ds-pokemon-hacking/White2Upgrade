@@ -1,0 +1,48 @@
+[personal]
+index = 381
+species = "SPECIES_LATIOS"
+capture_rate = 3
+evolution_stage = 3
+ev_yield = 768
+gender_probability = 0
+egg_happiness = 120
+base_happiness = 90
+experience_group = 5
+egg_groups = [15, 15]
+escape_rate = 0
+color = 1
+base_experience = 270
+height_cm = 20
+weight_cg = 600
+
+[personal.base_stats]
+hp = 80
+attack = 90
+defense = 80
+speed = 110
+special_attack = 130
+special_defense = 110
+
+[personal.typing]
+primary = "TYPE_DRAGON"
+secondary = "TYPE_PSYCHIC"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 26
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = "BATTLE_ABILITY_RANDOM"
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1212164545, 17865361, -2106576595, 27]
+type_tutors = 64
+special_tutors = [0, 25729, 4226, 8880]

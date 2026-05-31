@@ -1,0 +1,48 @@
+[personal]
+index = 371
+species = "SPECIES_BAGON"
+capture_rate = 45
+evolution_stage = 1
+ev_yield = 4
+gender_probability = 127
+egg_happiness = 40
+base_happiness = 35
+experience_group = 5
+egg_groups = [14, 14]
+escape_rate = 90
+color = 1
+base_experience = 60
+height_cm = 6
+weight_cg = 421
+
+[personal.base_stats]
+hp = 45
+attack = 75
+defense = 60
+speed = 50
+special_attack = 40
+special_defense = 30
+
+[personal.typing]
+primary = "TYPE_DRAGON"
+secondary = "TYPE_DRAGON"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_DRAGON_FANG"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 69
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 125
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1005386189, 67148516, -1572831231, 4]
+type_tutors = 64
+special_tutors = [0, 57344, 2, 8704]

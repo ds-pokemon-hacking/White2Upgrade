@@ -1,0 +1,48 @@
+[personal]
+index = 117
+species = "SPECIES_SEADRA"
+capture_rate = 75
+evolution_stage = 2
+ev_yield = 272
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 0
+egg_groups = [2, 14]
+escape_rate = 0
+color = 1
+base_experience = 154
+height_cm = 12
+weight_cg = 250
+
+[personal.base_stats]
+hp = 55
+attack = 65
+defense = 95
+speed = 85
+special_attack = 95
+special_defense = 45
+
+[personal.typing]
+primary = "TYPE_WATER"
+secondary = "TYPE_WATER"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_DRAGON_SCALE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 38
+secondary = 97
+hidden = 6
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2079100320, 4233728, 104857608, 26]
+type_tutors = 0
+special_tutors = [272, 17408, 2, 8704]

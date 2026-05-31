@@ -1,0 +1,48 @@
+[personal]
+index = 49
+species = "SPECIES_VENOMOTH"
+capture_rate = 75
+evolution_stage = 2
+ev_yield = 320
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 0
+egg_groups = [3, 3]
+escape_rate = 0
+color = 6
+base_experience = 158
+height_cm = 15
+weight_cg = 125
+
+[personal.base_stats]
+hp = 70
+attack = 65
+defense = 60
+speed = 90
+special_attack = 90
+special_defense = 75
+
+[personal.typing]
+primary = "TYPE_BUG"
+secondary = "TYPE_POISON"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_SHED_SHELL"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 19
+secondary = 110
+hidden = 147
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1808709856, 537967240, 54528040, 0]
+type_tutors = 0
+special_tutors = [17, 8192, 5250, 24576]

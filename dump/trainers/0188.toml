@@ -1,0 +1,48 @@
+[trainer]
+index = 188
+party_format = 3
+trainer_class = 152
+battle_type = 0
+party_count = 3
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 50
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 188
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 96
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_RANDOM"
+level = 59
+species = "SPECIES_BOUFFALANT"
+form = 0
+held_item = "ITEM_MUSCLE_BAND"
+moves = ["MOVE_HEAD_CHARGE", "MOVE_MEGAHORN", "MOVE_WILD_CHARGE", "MOVE_SCARY_FACE"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 96
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 59
+species = "SPECIES_SWANNA"
+form = 0
+held_item = "ITEM_WACAN_BERRY"
+moves = ["MOVE_SCALD", "MOVE_BRAVE_BIRD", "MOVE_ICE_BEAM", "MOVE_FEATHERDANCE"]
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 96
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_RANDOM"
+level = 59
+species = "SPECIES_SCOLIPEDE"
+form = 0
+held_item = "ITEM_LIFE_ORB"
+moves = ["MOVE_MEGAHORN", "MOVE_EARTHQUAKE", "MOVE_ROCK_SLIDE", "MOVE_SWORDS_DANCE"]

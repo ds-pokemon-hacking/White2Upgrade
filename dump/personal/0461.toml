@@ -1,0 +1,48 @@
+[personal]
+index = 461
+species = "SPECIES_WEAVILE"
+capture_rate = 45
+evolution_stage = 2
+ev_yield = 68
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 35
+experience_group = 3
+egg_groups = [5, 5]
+escape_rate = 0
+color = 4
+base_experience = 179
+height_cm = 11
+weight_cg = 340
+
+[personal.base_stats]
+hp = 70
+attack = 120
+defense = 65
+speed = 125
+special_attack = 45
+special_defense = 85
+
+[personal.typing]
+primary = "TYPE_DARK"
+secondary = "TYPE_ICE"
+
+[personal.wild_items]
+common_50 = "ITEM_GRIP_CLAW"
+rare_5 = "ITEM_QUICK_CLAW"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 46
+secondary = 46
+hidden = 124
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-334266775, 1084816257, -497478641, 6]
+type_tutors = 0
+special_tutors = [16896, 70664, 6, 10244]

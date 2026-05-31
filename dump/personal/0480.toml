@@ -1,0 +1,48 @@
+[personal]
+index = 480
+species = "SPECIES_UXIE"
+capture_rate = 3
+evolution_stage = 3
+ev_yield = 1056
+gender_probability = 255
+egg_happiness = 80
+base_happiness = 140
+experience_group = 5
+egg_groups = [15, 15]
+escape_rate = 0
+color = 2
+base_experience = 261
+height_cm = 3
+weight_cg = 3
+
+[personal.base_stats]
+hp = 75
+attack = 75
+defense = 130
+speed = 95
+special_attack = 75
+special_defense = 130
+
+[personal.typing]
+primary = "TYPE_PSYCHIC"
+secondary = "TYPE_PSYCHIC"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 26
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = "BATTLE_ABILITY_RANDOM"
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1245723092, 563120657, 191893800, 0]
+type_tutors = 0
+special_tutors = [28688, 73737, 1126, 29936]

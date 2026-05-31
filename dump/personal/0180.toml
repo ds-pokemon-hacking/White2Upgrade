@@ -1,0 +1,48 @@
+[personal]
+index = 180
+species = "SPECIES_FLAAFFY"
+capture_rate = 120
+evolution_stage = 2
+ev_yield = 512
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 3
+egg_groups = [1, 5]
+escape_rate = 0
+color = 9
+base_experience = 128
+height_cm = 8
+weight_cg = 133
+
+[personal.base_stats]
+hp = 70
+attack = 55
+defense = 55
+speed = 45
+special_attack = 80
+special_defense = 60
+
+[personal.typing]
+primary = "TYPE_ELECTRIC"
+secondary = "TYPE_ELECTRIC"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 9
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 57
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-979664352, 25270784, 843055520, 4]
+type_tutors = 0
+special_tutors = [12304, 65568, 66, 8200]

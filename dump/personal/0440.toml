@@ -1,0 +1,48 @@
+[personal]
+index = 440
+species = "SPECIES_HAPPINY"
+capture_rate = 130
+evolution_stage = 1
+ev_yield = 1
+gender_probability = 254
+egg_happiness = 40
+base_happiness = 140
+experience_group = 4
+egg_groups = [15, 15]
+escape_rate = 0
+color = 9
+base_experience = 110
+height_cm = 6
+weight_cg = 244
+
+[personal.base_stats]
+hp = 100
+attack = 5
+defense = 5
+speed = 30
+special_attack = 15
+special_defense = 65
+
+[personal.typing]
+primary = "TYPE_NORMAL"
+secondary = "TYPE_NORMAL"
+
+[personal.wild_items]
+common_50 = "ITEM_OVAL_STONE"
+rare_5 = "ITEM_LUCKY_EGG"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 30
+secondary = 32
+hidden = 132
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1271167392, 75602468, 41160992, 0]
+type_tutors = 0
+special_tutors = [2050, 42128, 2114, 9488]

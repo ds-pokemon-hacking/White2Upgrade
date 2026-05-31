@@ -1,0 +1,48 @@
+[personal]
+index = 319
+species = "SPECIES_SHARPEDO"
+capture_rate = 60
+evolution_stage = 2
+ev_yield = 8
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 35
+experience_group = 5
+egg_groups = [12, 12]
+escape_rate = 0
+color = 1
+base_experience = 161
+height_cm = 18
+weight_cg = 888
+
+[personal.base_stats]
+hp = 70
+attack = 120
+defense = 40
+speed = 95
+special_attack = 95
+special_defense = 40
+
+[personal.typing]
+primary = "TYPE_WATER"
+secondary = "TYPE_DARK"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_DEEP_SEA_TOOTH"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 24
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = "BATTLE_ABILITY_HIDDEN"
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2045543824, 4242240, 1648893966, 30]
+type_tutors = 0
+special_tutors = [2308, 13312, 2, 8196]

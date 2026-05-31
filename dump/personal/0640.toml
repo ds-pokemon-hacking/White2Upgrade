@@ -1,0 +1,48 @@
+[personal]
+index = 640
+species = "SPECIES_VIRIZION"
+capture_rate = 3
+evolution_stage = 3
+ev_yield = 3072
+gender_probability = 255
+egg_happiness = 80
+base_happiness = 35
+experience_group = 5
+egg_groups = [15, 15]
+escape_rate = 0
+color = 3
+base_experience = 261
+height_cm = 20
+weight_cg = 2000
+
+[personal.base_stats]
+hp = 91
+attack = 90
+defense = 72
+speed = 108
+special_attack = 90
+special_defense = 129
+
+[personal.typing]
+primary = "TYPE_GRASS"
+secondary = "TYPE_FIGHTING"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 154
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = "BATTLE_ABILITY_RANDOM"
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2076586440, 3705473, -1570433940, 4]
+type_tutors = 0
+special_tutors = [320, 8450, 1034, 8210]

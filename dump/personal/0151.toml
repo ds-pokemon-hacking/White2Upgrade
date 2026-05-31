@@ -1,0 +1,48 @@
+[personal]
+index = 151
+species = "SPECIES_MEW"
+capture_rate = 45
+evolution_stage = 3
+ev_yield = 3
+gender_probability = 255
+egg_happiness = 120
+base_happiness = 100
+experience_group = 3
+egg_groups = [15, 15]
+escape_rate = 0
+color = 9
+base_experience = 270
+height_cm = 4
+weight_cg = 40
+
+[personal.base_stats]
+hp = 100
+attack = 100
+defense = 100
+speed = 100
+special_attack = 100
+special_defense = 100
+
+[personal.typing]
+primary = "TYPE_PSYCHIC"
+secondary = "TYPE_PSYCHIC"
+
+[personal.wild_items]
+common_50 = "ITEM_LUM_BERRY"
+rare_5 = "ITEM_LUM_BERRY"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 28
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = "BATTLE_ABILITY_RANDOM"
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1, -1, -1, 31]
+type_tutors = 0
+special_tutors = [32767, 131071, 8191, 32767]

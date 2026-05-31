@@ -1,0 +1,42 @@
+[trainer]
+index = 677
+party_format = 0
+trainer_class = 51
+battle_type = 0
+party_count = 3
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 3
+can_heal = 0
+reward_money = 8
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 677
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 50
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 62
+species = "SPECIES_THROH"
+form = 0
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 50
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 62
+species = "SPECIES_HITMONTOP"
+form = 0
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 50
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 62
+species = "SPECIES_MACHAMP"
+form = 0

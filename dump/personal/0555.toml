@@ -1,0 +1,48 @@
+[personal]
+index = 555
+species = "SPECIES_DARMANITAN"
+capture_rate = 60
+evolution_stage = 2
+ev_yield = 8
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 3
+egg_groups = [5, 5]
+escape_rate = 0
+color = 0
+base_experience = 168
+height_cm = 13
+weight_cg = 929
+
+[personal.base_stats]
+hp = 105
+attack = 140
+defense = 55
+speed = 95
+special_attack = 30
+special_defense = 55
+
+[personal.typing]
+primary = "TYPE_FIRE"
+secondary = "TYPE_FIRE"
+
+[personal.wild_items]
+common_50 = "ITEM_RAWST_BERRY"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 125
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 161
+
+[personal.forms]
+data_offset = 701
+sprite_offset = 48
+count = 2
+
+[personal.compatibility]
+tmhm = [-562999632, 344637284, 593797706, 4]
+type_tutors = 0
+special_tutors = [10240, 8448, 18, 8448]

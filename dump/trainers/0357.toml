@@ -1,0 +1,26 @@
+[trainer]
+index = 357
+party_format = 3
+trainer_class = 196
+battle_type = 0
+party_count = 1
+items = ["ITEM_SUPER_POTION", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 20
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 357
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 0
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_FEMALE"
+level = 16
+species = "SPECIES_CLEFAIRY"
+form = 0
+held_item = "ITEM_LEFTOVERS"
+moves = ["MOVE_DOUBLESLAP", "MOVE_GROWL", "MOVE_ENCORE", "MOVE_NONE"]

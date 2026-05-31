@@ -1,0 +1,48 @@
+[personal]
+index = 183
+species = "SPECIES_MARILL"
+capture_rate = 190
+evolution_stage = 2
+ev_yield = 2
+gender_probability = 127
+egg_happiness = 10
+base_happiness = 70
+experience_group = 4
+egg_groups = [2, 6]
+escape_rate = 60
+color = 1
+base_experience = 88
+height_cm = 4
+weight_cg = 85
+
+[personal.base_stats]
+hp = 70
+attack = 20
+defense = 50
+speed = 40
+special_attack = 20
+special_defense = 50
+
+[personal.typing]
+primary = "TYPE_WATER"
+secondary = "TYPE_WATER"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 47
+secondary = 37
+hidden = 157
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-871124384, 12622336, 576978944, 30]
+type_tutors = 0
+special_tutors = [16642, 101632, 6, 8208]

@@ -56,8 +56,8 @@ class GenericSerializer(Serializer):
             for e in tree_flat:
                 add_field(e)
 
-        with Input.open('r') as IN_DATA, Output.open('wb') as OUT_DATA:
-            IN_DATA_RAW = yaml.safe_load(IN_DATA)
+        with Output.open('wb') as OUT_DATA:
+            IN_DATA_RAW = load_source_data(Input)
             IN_DATA_RAW_KEYS = list(IN_DATA_RAW.keys())
 
             if not 0 < len(IN_DATA_RAW_KEYS) <= 1:

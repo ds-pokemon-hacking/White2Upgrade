@@ -1,0 +1,48 @@
+[personal]
+index = 451
+species = "SPECIES_SKORUPI"
+capture_rate = 120
+evolution_stage = 1
+ev_yield = 16
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 5
+egg_groups = [3, 9]
+escape_rate = 120
+color = 6
+base_experience = 66
+height_cm = 8
+weight_cg = 120
+
+[personal.base_stats]
+hp = 40
+attack = 50
+defense = 90
+speed = 65
+special_attack = 30
+special_defense = 55
+
+[personal.typing]
+primary = "TYPE_POISON"
+secondary = "TYPE_BUG"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_POISON_BARB"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 4
+secondary = 97
+hidden = 51
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-334295263, 10533832, -1572271070, 4]
+type_tutors = 0
+special_tutors = [1, 71680, 6, 8192]

@@ -1,0 +1,48 @@
+[personal]
+index = 500
+species = "SPECIES_EMBOAR"
+capture_rate = 45
+evolution_stage = 3
+ev_yield = 12
+gender_probability = 31
+egg_happiness = 20
+base_happiness = 70
+experience_group = 3
+egg_groups = [5, 5]
+escape_rate = 0
+color = 64
+base_experience = 238
+height_cm = 16
+weight_cg = 1500
+
+[personal.base_stats]
+hp = 110
+attack = 123
+defense = 65
+speed = 65
+special_attack = 100
+special_defense = 65
+
+[personal.typing]
+primary = "TYPE_FIRE"
+secondary = "TYPE_FIGHTING"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 66
+secondary = 66
+hidden = 120
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-965652816, 348905060, 845980232, 4]
+type_tutors = 18
+special_tutors = [12834, 65794, 18, 8464]

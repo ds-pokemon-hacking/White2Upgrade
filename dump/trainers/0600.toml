@@ -1,0 +1,35 @@
+[trainer]
+index = 600
+party_format = 1
+trainer_class = 71
+battle_type = 0
+party_count = 2
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 20
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 600
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 150
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 55
+species = "SPECIES_SIGILYPH"
+form = 0
+moves = ["MOVE_PSYCHIC", "MOVE_AIR_SLASH", "MOVE_CHARGE_BEAM", "MOVE_HYPNOSIS"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 150
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 55
+species = "SPECIES_CROBAT"
+form = 0
+moves = ["MOVE_AIR_SLASH", "MOVE_POISON_FANG", "MOVE_SHADOW_BALL", "MOVE_XSCISSOR"]

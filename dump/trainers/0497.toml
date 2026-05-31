@@ -1,0 +1,45 @@
+[trainer]
+index = 497
+party_format = 1
+trainer_class = 191
+battle_type = 0
+party_count = 3
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 45
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 497
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 150
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 49
+species = "SPECIES_CRYOGONAL"
+form = 0
+moves = ["MOVE_ICE_BEAM", "MOVE_REFLECT", "MOVE_SLASH", "MOVE_CONFUSE_RAY"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 150
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 49
+species = "SPECIES_CRYOGONAL"
+form = 0
+moves = ["MOVE_ICE_BEAM", "MOVE_LIGHT_SCREEN", "MOVE_SLASH", "MOVE_CONFUSE_RAY"]
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 150
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 51
+species = "SPECIES_WEAVILE"
+form = 0
+moves = ["MOVE_NIGHT_SLASH", "MOVE_SLASH", "MOVE_ICE_SHARD", "MOVE_METAL_CLAW"]

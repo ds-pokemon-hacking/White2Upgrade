@@ -1,0 +1,48 @@
+[personal]
+index = 520
+species = "SPECIES_TRANQUILL"
+capture_rate = 120
+evolution_stage = 2
+ev_yield = 8
+gender_probability = 127
+egg_happiness = 15
+base_happiness = 70
+experience_group = 3
+egg_groups = [4, 4]
+escape_rate = 0
+color = 7
+base_experience = 125
+height_cm = 6
+weight_cg = 150
+
+[personal.base_stats]
+hp = 62
+attack = 77
+defense = 62
+speed = 65
+special_attack = 50
+special_defense = 42
+
+[personal.typing]
+primary = "TYPE_NORMAL"
+secondary = "TYPE_FLYING"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 145
+secondary = 105
+hidden = 79
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2079125984, 105088, 63176704, 1]
+type_tutors = 0
+special_tutors = [2048, 0, 4498, 8192]

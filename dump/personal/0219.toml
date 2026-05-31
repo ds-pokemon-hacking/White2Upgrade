@@ -1,0 +1,48 @@
+[personal]
+index = 219
+species = "SPECIES_MAGCARGO"
+capture_rate = 75
+evolution_stage = 2
+ev_yield = 32
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 0
+egg_groups = [11, 11]
+escape_rate = 0
+color = 0
+base_experience = 144
+height_cm = 8
+weight_cg = 550
+
+[personal.base_stats]
+hp = 50
+attack = 50
+defense = 120
+speed = 30
+special_attack = 80
+special_defense = 80
+
+[personal.typing]
+primary = "TYPE_FIRE"
+secondary = "TYPE_ROCK"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 40
+secondary = 49
+hidden = 133
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2039364064, -1811767691, 574661208, 4]
+type_tutors = 0
+special_tutors = [0, 68, 530, 12296]

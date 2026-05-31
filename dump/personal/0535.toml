@@ -1,0 +1,48 @@
+[personal]
+index = 535
+species = "SPECIES_TYMPOLE"
+capture_rate = 255
+evolution_stage = 1
+ev_yield = 64
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 3
+egg_groups = [2, 2]
+escape_rate = 0
+color = 1
+base_experience = 59
+height_cm = 5
+weight_cg = 45
+
+[personal.base_stats]
+hp = 50
+attack = 50
+defense = 40
+speed = 64
+special_attack = 50
+special_defense = 40
+
+[personal.typing]
+primary = "TYPE_WATER"
+secondary = "TYPE_WATER"
+
+[personal.wild_items]
+common_50 = "ITEM_PECHA_BERRY"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 33
+secondary = 93
+hidden = 11
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2079128992, 4299274, 37748736, 2]
+type_tutors = 0
+special_tutors = [2304, 33796, 2, 8448]

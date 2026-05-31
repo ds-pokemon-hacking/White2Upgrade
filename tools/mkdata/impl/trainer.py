@@ -16,47 +16,46 @@ class TrainerSerializer(Serializer):
             print(f'"{Arguments.input}" does not exist. Exiting.')
             return 1
 
-        with Input.open('r') as DATA:
-            TrainerConfiguration = yaml.safe_load(DATA)
+        TrainerConfiguration = load_source_data(Input)
 
-            # Traverse data and resolve to integers
-            UserSpecifiedMoves = any(['MOVES' in x for x in TrainerConfiguration['PARTY']])
-            UserSpecifiedHeldItem = any(['HELD_ITEM' in x for x in TrainerConfiguration['PARTY']])
+        # Traverse data and resolve to integers
+        UserSpecifiedMoves = any(['MOVES' in x for x in TrainerConfiguration['PARTY']])
+        UserSpecifiedHeldItem = any(['HELD_ITEM' in x for x in TrainerConfiguration['PARTY']])
 
-            ScriptPath = Path(__file__).resolve().parent.parent
+        ScriptPath = Path(__file__).resolve().parent.parent
 
-            [load_defines((ScriptPath / x).as_posix(), defines) for x in [
-                'enum/species.yml',
-                'enum/moves.yml',
-                'enum/items.yml',
-                'enum/btl_gender.yml',
-                'enum/btl_abil.yml',
-            ]]
+        [load_defines((ScriptPath / x).as_posix(), defines) for x in [
+            'enum/species.yml',
+            'enum/moves.yml',
+            'enum/items.yml',
+            'enum/btl_gender.yml',
+            'enum/btl_abil.yml',
+        ]]
 
-            if Arguments.ex_parameters['output_type'] == 'trpoke':
-                with Output.open('wb') as TRPOKE:
-                    for member in TrainerConfiguration['PARTY']:
-                        TRPOKE.write(struct.pack('B', resolve_label(member['DIFFICULTY_VALUE'], defines)))
-                        TRPOKE.write(struct.pack('B', (resolve_label(member['ABILITY'], defines) << 0x4) | resolve_label(member['GENDER'], defines) & 0xF))
-                        TRPOKE.write(struct.pack('<H', resolve_label(member['LEVEL'], defines)))
-                        TRPOKE.write(struct.pack('<H', resolve_label(member['SPECIES'], defines)))
-                        TRPOKE.write(struct.pack('<H', resolve_label(member['FORM'], defines)))
-                        if UserSpecifiedHeldItem:
-                            TRPOKE.write(struct.pack('<H', resolve_label(member['HELD_ITEM'], defines)))
-                        if UserSpecifiedMoves:
-                            for move in member['MOVES']:
-                                TRPOKE.write(struct.pack('<H', resolve_label(move, defines)))
-            elif Arguments.ex_parameters['output_type'] == 'trdata':
-                with Output.open('wb') as TRDATA:
-                    # Determine format.
-                    TRPOKE_FORMAT = (1 << 1 if UserSpecifiedHeldItem else 0) | (1 if UserSpecifiedMoves else 0)
-                    TRDATA.write(struct.pack('B', TRPOKE_FORMAT))
-                    TRDATA.write(struct.pack('B', resolve_label(TrainerConfiguration['CLASS'], defines)))
-                    TRDATA.write(struct.pack('B', resolve_label(TrainerConfiguration['BATTLE_TYPE'], defines)))
-                    TRDATA.write(struct.pack('B', len(TrainerConfiguration['PARTY'])))
-                    for item in TrainerConfiguration['ITEMS']:
-                        TRDATA.write(struct.pack('<H', resolve_label(item, defines)))
-                    TRDATA.write(struct.pack('<I', TrainerConfiguration['AI']))
-                    TRDATA.write(struct.pack('B', TrainerConfiguration['CAN_HEAL']))
-                    TRDATA.write(struct.pack('B', TrainerConfiguration['REWARD_MONEY']))
-                    TRDATA.write(struct.pack('<H', resolve_label(TrainerConfiguration['REWARD_ITEM'], defines)))
+        if Arguments.ex_parameters['output_type'] == 'trpoke':
+            with Output.open('wb') as TRPOKE:
+                for member in TrainerConfiguration['PARTY']:
+                    TRPOKE.write(struct.pack('B', resolve_label(member['DIFFICULTY_VALUE'], defines)))
+                    TRPOKE.write(struct.pack('B', (resolve_label(member['ABILITY'], defines) << 0x4) | resolve_label(member['GENDER'], defines) & 0xF))
+                    TRPOKE.write(struct.pack('<H', resolve_label(member['LEVEL'], defines)))
+                    TRPOKE.write(struct.pack('<H', resolve_label(member['SPECIES'], defines)))
+                    TRPOKE.write(struct.pack('<H', resolve_label(member['FORM'], defines)))
+                    if UserSpecifiedHeldItem:
+                        TRPOKE.write(struct.pack('<H', resolve_label(member['HELD_ITEM'], defines)))
+                    if UserSpecifiedMoves:
+                        for move in member['MOVES']:
+                            TRPOKE.write(struct.pack('<H', resolve_label(move, defines)))
+        elif Arguments.ex_parameters['output_type'] == 'trdata':
+            with Output.open('wb') as TRDATA:
+                # Determine format.
+                TRPOKE_FORMAT = (1 << 1 if UserSpecifiedHeldItem else 0) | (1 if UserSpecifiedMoves else 0)
+                TRDATA.write(struct.pack('B', TRPOKE_FORMAT))
+                TRDATA.write(struct.pack('B', resolve_label(TrainerConfiguration['CLASS'], defines)))
+                TRDATA.write(struct.pack('B', resolve_label(TrainerConfiguration['BATTLE_TYPE'], defines)))
+                TRDATA.write(struct.pack('B', len(TrainerConfiguration['PARTY'])))
+                for item in TrainerConfiguration['ITEMS']:
+                    TRDATA.write(struct.pack('<H', resolve_label(item, defines)))
+                TRDATA.write(struct.pack('<I', TrainerConfiguration['AI']))
+                TRDATA.write(struct.pack('B', TrainerConfiguration['CAN_HEAL']))
+                TRDATA.write(struct.pack('B', TrainerConfiguration['REWARD_MONEY']))
+                TRDATA.write(struct.pack('<H', resolve_label(TrainerConfiguration['REWARD_ITEM'], defines)))

@@ -1,0 +1,48 @@
+[personal]
+index = 416
+species = "SPECIES_VESPIQUEN"
+capture_rate = 45
+evolution_stage = 2
+ev_yield = 1040
+gender_probability = 254
+egg_happiness = 15
+base_happiness = 70
+experience_group = 3
+egg_groups = [3, 3]
+escape_rate = 0
+color = 2
+base_experience = 166
+height_cm = 12
+weight_cg = 385
+
+[personal.base_stats]
+hp = 70
+attack = 80
+defense = 102
+speed = 40
+special_attack = 80
+special_defense = 102
+
+[personal.typing]
+primary = "TYPE_BUG"
+secondary = "TYPE_FLYING"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_POISON_BARB"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 46
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 127
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2079111391, 679525000, -2092890072, 0]
+type_tutors = 0
+special_tutors = [17, 0, 4226, 8448]

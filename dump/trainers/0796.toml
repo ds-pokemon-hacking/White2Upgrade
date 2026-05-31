@@ -1,0 +1,45 @@
+[trainer]
+index = 796
+party_format = 2
+trainer_class = 145
+battle_type = 0
+party_count = 3
+items = ["ITEM_HYPER_POTION", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 135
+can_heal = 0
+reward_money = 25
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 796
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 250
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 50
+species = "SPECIES_SERPERIOR"
+form = 0
+held_item = "ITEM_MIRACLE_SEED"
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 250
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 48
+species = "SPECIES_SIMISEAR"
+form = 0
+held_item = "ITEM_CHARCOAL"
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 250
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_RANDOM"
+level = 48
+species = "SPECIES_UNFEZANT"
+form = 0
+held_item = "ITEM_SCOPE_LENS"

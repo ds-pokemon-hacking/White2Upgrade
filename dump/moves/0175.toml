@@ -1,0 +1,44 @@
+[move]
+index = 175
+name = "MOVE_FLAIL"
+type = "TYPE_NORMAL"
+quality = "EFFECT_NO_SPECIAL_EFFECT"
+category = "SPLIT_PHYSICAL"
+power = 1
+accuracy = 100
+base_pp = 15
+priority = 0
+critical_hit_stage = 0
+flinch_rate = 0
+animation_id = 99
+recoil = 0
+heal = 0
+target = "TARGET_OTHER_SELECT"
+padding = 21331
+flags = ["FLAG_CONTACT", "FLAG_BLOCKED_BY_PROTECT", "FLAG_COPIED_BY_MIRROR_MOVE"]
+
+[move.hits]
+minimum = 0
+maximum = 0
+
+[move.inflict]
+status = "INFLICT_DURATION_NONE"
+chance = 0
+duration = 0
+turn_min = 0
+turn_max = 0
+
+[[move.stat_changes]]
+stat = "STATUS_NONE"
+stages = 0
+chance = 0
+
+[[move.stat_changes]]
+stat = "STATUS_NONE"
+stages = 0
+chance = 0
+
+[[move.stat_changes]]
+stat = "STATUS_NONE"
+stages = 0
+chance = 0

@@ -1,0 +1,48 @@
+[personal]
+index = 584
+species = "SPECIES_VANILLUXE"
+capture_rate = 45
+evolution_stage = 3
+ev_yield = 768
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 5
+egg_groups = [10, 10]
+escape_rate = 0
+color = 72
+base_experience = 241
+height_cm = 13
+weight_cg = 575
+
+[personal.base_stats]
+hp = 71
+attack = 95
+defense = 85
+speed = 79
+special_attack = 110
+special_defense = 95
+
+[personal.typing]
+primary = "TYPE_ICE"
+secondary = "TYPE_ICE"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 115
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 133
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2079065504, -2147444224, 104873992, 0]
+type_tutors = 0
+special_tutors = [2064, 1121, 2, 8192]

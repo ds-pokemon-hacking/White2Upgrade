@@ -1,0 +1,48 @@
+[personal]
+index = 556
+species = "SPECIES_MARACTUS"
+capture_rate = 255
+evolution_stage = 2
+ev_yield = 512
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 0
+egg_groups = [7, 7]
+escape_rate = 0
+color = 3
+base_experience = 161
+height_cm = 10
+weight_cg = 280
+
+[personal.base_stats]
+hp = 75
+attack = 86
+defense = 67
+speed = 60
+special_attack = 106
+special_defense = 67
+
+[personal.typing]
+primary = "TYPE_GRASS"
+secondary = "TYPE_GRASS"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_MIRACLE_SEED"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 11
+secondary = 34
+hidden = 114
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2076637664, 1088128, 40370176, 0]
+type_tutors = 0
+special_tutors = [2368, 32768, 3086, 8474]

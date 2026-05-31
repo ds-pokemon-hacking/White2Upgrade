@@ -1,0 +1,48 @@
+[personal]
+index = 569
+species = "SPECIES_GARBODOR"
+capture_rate = 60
+evolution_stage = 2
+ev_yield = 8
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 0
+egg_groups = [10, 10]
+escape_rate = 0
+color = 67
+base_experience = 166
+height_cm = 19
+weight_cg = 1073
+
+[personal.base_stats]
+hp = 80
+attack = 95
+defense = 82
+speed = 75
+special_attack = 60
+special_defense = 82
+
+[personal.typing]
+primary = "TYPE_POISON"
+secondary = "TYPE_POISON"
+
+[personal.wild_items]
+common_50 = "ITEM_BLACK_SLUDGE"
+rare_5 = "ITEM_NUGGET"
+rare_1 = "ITEM_BIG_NUGGET"
+
+[personal.abilities]
+primary = "BATTLE_ABILITY_PRIMARY"
+secondary = 133
+hidden = 106
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1795995872, -2138523126, 37748762, 0]
+type_tutors = 0
+special_tutors = [1088, 4096, 3586, 9220]

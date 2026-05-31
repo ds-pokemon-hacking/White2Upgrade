@@ -1,0 +1,48 @@
+[personal]
+index = 597
+species = "SPECIES_FERROSEED"
+capture_rate = 255
+evolution_stage = 1
+ev_yield = 16
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 0
+egg_groups = [7, 10]
+escape_rate = 0
+color = 7
+base_experience = 61
+height_cm = 6
+weight_cg = 188
+
+[personal.base_stats]
+hp = 44
+attack = 50
+defense = 91
+speed = 10
+special_attack = 24
+special_defense = 86
+
+[personal.typing]
+primary = "TYPE_GRASS"
+secondary = "TYPE_STEEL"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_STICKY_BARB"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 160
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = "BATTLE_ABILITY_RANDOM"
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2068773343, -2146399744, 642253618, 0]
+type_tutors = 0
+special_tutors = [96, 112, 1026, 12546]

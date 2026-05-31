@@ -1,0 +1,48 @@
+[personal]
+index = 3
+species = "SPECIES_VENUSAUR"
+capture_rate = 45
+evolution_stage = 3
+ev_yield = 1536
+gender_probability = 31
+egg_happiness = 20
+base_happiness = 70
+experience_group = 3
+egg_groups = [1, 7]
+escape_rate = 0
+color = 3
+base_experience = 236
+height_cm = 20
+weight_cg = 1000
+
+[personal.base_stats]
+hp = 80
+attack = 82
+defense = 83
+speed = 80
+special_attack = 100
+special_defense = 100
+
+[personal.typing]
+primary = "TYPE_GRASS"
+secondary = "TYPE_POISON"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 65
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 34
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2043033808, 1153544, -1570757592, 4]
+type_tutors = 9
+special_tutors = [64, 2, 1039, 8706]

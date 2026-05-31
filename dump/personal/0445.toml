@@ -1,0 +1,48 @@
+[personal]
+index = 445
+species = "SPECIES_GARCHOMP"
+capture_rate = 45
+evolution_stage = 3
+ev_yield = 12
+gender_probability = 127
+egg_happiness = 40
+base_happiness = 70
+experience_group = 5
+egg_groups = [1, 14]
+escape_rate = 0
+color = 1
+base_experience = 270
+height_cm = 19
+weight_cg = 950
+
+[personal.base_stats]
+hp = 108
+attack = 130
+defense = 95
+speed = 102
+special_attack = 80
+special_defense = 85
+
+[personal.typing]
+primary = "TYPE_DRAGON"
+secondary = "TYPE_GROUND"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_HABAN_BERRY"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 8
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 24
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-837597645, 77634292, -1572166583, 6]
+type_tutors = 64
+special_tutors = [40, 83972, 2, 12800]

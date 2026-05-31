@@ -1,0 +1,55 @@
+[trainer]
+index = 493
+party_format = 1
+trainer_class = 50
+battle_type = 0
+party_count = 4
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 15
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 493
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 100
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 64
+species = "SPECIES_ROTOM"
+form = 0
+moves = ["MOVE_DISCHARGE", "MOVE_SHADOW_BALL", "MOVE_THUNDER_WAVE", "MOVE_REFLECT"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 100
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 64
+species = "SPECIES_WEEZING"
+form = 0
+moves = ["MOVE_SLUDGE_BOMB", "MOVE_FIRE_BLAST", "MOVE_MEMENTO", "MOVE_WILLOWISP"]
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 100
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 64
+species = "SPECIES_GENGAR"
+form = 0
+moves = ["MOVE_SHADOW_BALL", "MOVE_DARK_PULSE", "MOVE_FOCUS_BLAST", "MOVE_WILLOWISP"]
+
+[[trainer_party.party]]
+slot = 3
+difficulty_value = 100
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 64
+species = "SPECIES_EELEKTROSS"
+form = 0
+moves = ["MOVE_WILD_CHARGE", "MOVE_DRAGON_CLAW", "MOVE_GASTRO_ACID", "MOVE_COIL"]

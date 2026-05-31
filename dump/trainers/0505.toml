@@ -1,0 +1,48 @@
+[trainer]
+index = 505
+party_format = 3
+trainer_class = 164
+battle_type = 0
+party_count = 3
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 50
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 505
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 0
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 80
+species = "SPECIES_SUICUNE"
+form = 0
+held_item = "ITEM_GANLON_BERRY"
+moves = ["MOVE_HYDRO_PUMP", "MOVE_ICY_WIND", "MOVE_MIRROR_COAT", "MOVE_CALM_MIND"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 0
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 80
+species = "SPECIES_HEATRAN"
+form = 0
+held_item = "ITEM_AIR_BALLOON"
+moves = ["MOVE_OVERHEAT", "MOVE_EARTHQUAKE", "MOVE_STONE_EDGE", "MOVE_SCARY_FACE"]
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 0
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 80
+species = "SPECIES_LATIOS"
+form = 0
+held_item = "ITEM_WHITE_HERB"
+moves = ["MOVE_DRACO_METEOR", "MOVE_PSYCHIC", "MOVE_ICY_WIND", "MOVE_THUNDERBOLT"]

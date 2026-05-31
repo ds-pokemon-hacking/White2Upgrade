@@ -1,0 +1,48 @@
+[personal]
+index = 580
+species = "SPECIES_DUCKLETT"
+capture_rate = 190
+evolution_stage = 1
+ev_yield = 1
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 0
+egg_groups = [2, 4]
+escape_rate = 0
+color = 1
+base_experience = 61
+height_cm = 5
+weight_cg = 55
+
+[personal.base_stats]
+hp = 62
+attack = 44
+defense = 50
+speed = 55
+special_attack = 44
+special_defense = 50
+
+[personal.typing]
+primary = "TYPE_WATER"
+secondary = "TYPE_FLYING"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 51
+secondary = 145
+hidden = 93
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2079124896, 4233856, 46137344, 19]
+type_tutors = 0
+special_tutors = [2048, 1024, 4226, 8448]

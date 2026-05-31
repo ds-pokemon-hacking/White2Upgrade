@@ -1,0 +1,48 @@
+[personal]
+index = 317
+species = "SPECIES_SWALOT"
+capture_rate = 75
+evolution_stage = 2
+ev_yield = 2
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 2
+egg_groups = [11, 11]
+escape_rate = 0
+color = 6
+base_experience = 163
+height_cm = 17
+weight_cg = 800
+
+[personal.base_stats]
+hp = 100
+attack = 73
+defense = 83
+speed = 55
+special_attack = 73
+special_defense = 83
+
+[personal.typing]
+primary = "TYPE_POISON"
+secondary = "TYPE_POISON"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_BIG_PEARL"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 64
+secondary = 60
+hidden = 82
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1506584800, -2147444214, 575676424, 4]
+type_tutors = 0
+special_tutors = [29760, 2, 1538, 10241]

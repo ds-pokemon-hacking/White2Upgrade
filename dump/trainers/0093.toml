@@ -1,0 +1,55 @@
+[trainer]
+index = 93
+party_format = 1
+trainer_class = 70
+battle_type = 0
+party_count = 4
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 20
+reward_item = "ITEM_PP_MAX"
+raw_size = 20
+
+[trainer_party]
+index = 93
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 200
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 63
+species = "SPECIES_JOLTEON"
+form = 0
+moves = ["MOVE_SHADOW_BALL", "MOVE_RETURN", "MOVE_PIN_MISSILE", "MOVE_THUNDER"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 200
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 63
+species = "SPECIES_SANDSLASH"
+form = 0
+moves = ["MOVE_SLASH", "MOVE_EARTHQUAKE", "MOVE_AERIAL_ACE", "MOVE_TOXIC"]
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 200
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 63
+species = "SPECIES_SKARMORY"
+form = 0
+moves = ["MOVE_AIR_SLASH", "MOVE_SLASH", "MOVE_NIGHT_SLASH", "MOVE_STEEL_WING"]
+
+[[trainer_party.party]]
+slot = 3
+difficulty_value = 200
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 63
+species = "SPECIES_TYRANITAR"
+form = 0
+moves = ["MOVE_STONE_EDGE", "MOVE_PAYBACK", "MOVE_THUNDERBOLT", "MOVE_ICE_BEAM"]

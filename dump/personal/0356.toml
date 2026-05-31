@@ -1,0 +1,48 @@
+[personal]
+index = 356
+species = "SPECIES_DUSCLOPS"
+capture_rate = 90
+evolution_stage = 2
+ev_yield = 1040
+gender_probability = 127
+egg_happiness = 25
+base_happiness = 35
+experience_group = 4
+egg_groups = [11, 11]
+escape_rate = 90
+color = 4
+base_experience = 159
+height_cm = 16
+weight_cg = 306
+
+[personal.base_stats]
+hp = 40
+attack = 70
+defense = 130
+speed = 25
+special_attack = 60
+special_defense = 130
+
+[personal.typing]
+primary = "TYPE_GHOST"
+secondary = "TYPE_GHOST"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_KASIB_BERRY"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 46
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = "BATTLE_ABILITY_RANDOM"
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-166232536, 1367391040, 709931050, 4]
+type_tutors = 0
+special_tutors = [28672, 5136, 515, 26788]

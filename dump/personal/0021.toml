@@ -1,0 +1,48 @@
+[personal]
+index = 21
+species = "SPECIES_SPEAROW"
+capture_rate = 255
+evolution_stage = 1
+ev_yield = 64
+gender_probability = 127
+egg_happiness = 15
+base_happiness = 70
+experience_group = 0
+egg_groups = [4, 4]
+escape_rate = 90
+color = 5
+base_experience = 52
+height_cm = 3
+weight_cg = 20
+
+[personal.base_stats]
+hp = 40
+attack = 60
+defense = 30
+speed = 70
+special_attack = 31
+special_defense = 31
+
+[personal.typing]
+primary = "TYPE_NORMAL"
+secondary = "TYPE_FLYING"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 51
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 97
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2079128032, 2210432, 63176704, 1]
+type_tutors = 0
+special_tutors = [2176, 0, 4498, 8192]

@@ -1,0 +1,48 @@
+[personal]
+index = 184
+species = "SPECIES_AZUMARILL"
+capture_rate = 75
+evolution_stage = 3
+ev_yield = 3
+gender_probability = 127
+egg_happiness = 10
+base_happiness = 70
+experience_group = 4
+egg_groups = [2, 6]
+escape_rate = 0
+color = 1
+base_experience = 185
+height_cm = 8
+weight_cg = 285
+
+[personal.base_stats]
+hp = 100
+attack = 50
+defense = 80
+speed = 50
+special_attack = 50
+special_defense = 80
+
+[personal.typing]
+primary = "TYPE_WATER"
+secondary = "TYPE_WATER"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 47
+secondary = 37
+hidden = 157
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-871108000, 13146624, 576987144, 30]
+type_tutors = 0
+special_tutors = [16642, 101632, 6, 8208]

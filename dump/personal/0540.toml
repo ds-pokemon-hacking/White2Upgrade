@@ -1,0 +1,48 @@
+[personal]
+index = 540
+species = "SPECIES_SEWADDLE"
+capture_rate = 255
+evolution_stage = 1
+ev_yield = 16
+gender_probability = 127
+egg_happiness = 15
+base_happiness = 70
+experience_group = 3
+egg_groups = [3, 3]
+escape_rate = 0
+color = 2
+base_experience = 62
+height_cm = 3
+weight_cg = 25
+
+[personal.base_stats]
+hp = 45
+attack = 53
+defense = 70
+speed = 42
+special_attack = 40
+special_defense = 60
+
+[personal.typing]
+primary = "TYPE_BUG"
+secondary = "TYPE_GRASS"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_MENTAL_HERB"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 68
+secondary = 34
+hidden = 142
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2076604888, 1088000, -2106587102, 0]
+type_tutors = 0
+special_tutors = [81, 577, 1034, 8194]

@@ -1,0 +1,35 @@
+[trainer]
+index = 156
+party_format = 1
+trainer_class = 115
+battle_type = 0
+party_count = 2
+items = ["ITEM_POTION", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 30
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 156
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 50
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 11
+species = "SPECIES_PATRAT"
+form = 0
+moves = ["MOVE_WORK_UP", "MOVE_BITE", "MOVE_TACKLE", "MOVE_NONE"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 50
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_RANDOM"
+level = 13
+species = "SPECIES_LILLIPUP"
+form = 0
+moves = ["MOVE_WORK_UP", "MOVE_BITE", "MOVE_TACKLE", "MOVE_NONE"]

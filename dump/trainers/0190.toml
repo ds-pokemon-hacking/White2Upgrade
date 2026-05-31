@@ -1,0 +1,48 @@
+[trainer]
+index = 190
+party_format = 3
+trainer_class = 154
+battle_type = 0
+party_count = 3
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 50
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 190
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 128
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 62
+species = "SPECIES_GIGALITH"
+form = 0
+held_item = "ITEM_QUICK_CLAW"
+moves = ["MOVE_ROCK_BLAST", "MOVE_BULLDOZE", "MOVE_STEALTH_ROCK", "MOVE_IRON_DEFENSE"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 128
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 62
+species = "SPECIES_SEVIPER"
+form = 0
+held_item = "ITEM_BLACK_SLUDGE"
+moves = ["MOVE_POISON_FANG", "MOVE_VENOSHOCK", "MOVE_DRAGON_TAIL", "MOVE_COIL"]
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 128
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 62
+species = "SPECIES_DURANT"
+form = 0
+held_item = "ITEM_OCCA_BERRY"
+moves = ["MOVE_HONE_CLAWS", "MOVE_IRON_HEAD", "MOVE_ROCK_SLIDE", "MOVE_XSCISSOR"]

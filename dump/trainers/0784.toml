@@ -1,0 +1,81 @@
+[trainer]
+index = 784
+party_format = 3
+trainer_class = 40
+battle_type = 0
+party_count = 6
+items = ["ITEM_FULL_RESTORE", "ITEM_FULL_RESTORE", "ITEM_FULL_RESTORE", "ITEM_FULL_RESTORE"]
+ai = 7
+can_heal = 0
+reward_money = 50
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 784
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 250
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 77
+species = "SPECIES_HIPPOWDON"
+form = 0
+held_item = "ITEM_LIFE_ORB"
+moves = ["MOVE_STONE_EDGE", "MOVE_CRUNCH", "MOVE_SUPERPOWER", "MOVE_STEALTH_ROCK"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 250
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 75
+species = "SPECIES_GASTRODON"
+form = 0
+held_item = "ITEM_SMOOTH_ROCK"
+moves = ["MOVE_EARTH_POWER", "MOVE_MUDDY_WATER", "MOVE_ICE_BEAM", "MOVE_SANDSTORM"]
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 250
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 75
+species = "SPECIES_CRADILY"
+form = 0
+held_item = "ITEM_SMOOTH_ROCK"
+moves = ["MOVE_SANDSTORM", "MOVE_GIGA_DRAIN", "MOVE_CONFUSE_RAY", "MOVE_STOCKPILE"]
+
+[[trainer_party.party]]
+slot = 3
+difficulty_value = 250
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 75
+species = "SPECIES_ARMALDO"
+form = 0
+held_item = "ITEM_NONE"
+moves = ["MOVE_ROCK_SLIDE", "MOVE_XSCISSOR", "MOVE_AQUA_TAIL", "MOVE_ROCK_POLISH"]
+
+[[trainer_party.party]]
+slot = 4
+difficulty_value = 250
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 75
+species = "SPECIES_SCIZOR"
+form = 0
+held_item = "ITEM_NONE"
+moves = ["MOVE_BULLET_PUNCH", "MOVE_DOUBLE_HIT", "MOVE_BUG_BITE", "MOVE_AERIAL_ACE"]
+
+[[trainer_party.party]]
+slot = 5
+difficulty_value = 250
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 75
+species = "SPECIES_RHYPERIOR"
+form = 0
+held_item = "ITEM_NONE"
+moves = ["MOVE_EARTHQUAKE", "MOVE_STONE_EDGE", "MOVE_FIRE_PUNCH", "MOVE_ICE_PUNCH"]

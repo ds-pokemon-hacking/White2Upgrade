@@ -1,0 +1,48 @@
+[personal]
+index = 289
+species = "SPECIES_SLAKING"
+capture_rate = 45
+evolution_stage = 3
+ev_yield = 3
+gender_probability = 127
+egg_happiness = 15
+base_happiness = 70
+experience_group = 5
+egg_groups = [5, 5]
+escape_rate = 0
+color = 5
+base_experience = 252
+height_cm = 20
+weight_cg = 1305
+
+[personal.base_stats]
+hp = 150
+attack = 160
+defense = 100
+speed = 100
+special_attack = 95
+special_defense = 65
+
+[personal.typing]
+primary = "TYPE_NORMAL"
+secondary = "TYPE_NORMAL"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 54
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = "BATTLE_ABILITY_RANDOM"
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-403472719, 210295524, -1572560883, 4]
+type_tutors = 0
+special_tutors = [30210, 1026, 2, 8200]

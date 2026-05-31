@@ -1,0 +1,48 @@
+[trainer]
+index = 193
+party_format = 3
+trainer_class = 157
+battle_type = 0
+party_count = 3
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 50
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 193
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 192
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 68
+species = "SPECIES_TOGEKISS"
+form = 0
+held_item = "ITEM_SALAC_BERRY"
+moves = ["MOVE_AIR_SLASH", "MOVE_AURA_SPHERE", "MOVE_EXTREMESPEED", "MOVE_ENCORE"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 192
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 68
+species = "SPECIES_HERACROSS"
+form = 0
+held_item = "ITEM_FLAME_ORB"
+moves = ["MOVE_MEGAHORN", "MOVE_CLOSE_COMBAT", "MOVE_AERIAL_ACE", "MOVE_NIGHT_SLASH"]
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 192
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 68
+species = "SPECIES_RAMPARDOS"
+form = 0
+held_item = "ITEM_CHOICE_SCARF"
+moves = ["MOVE_HEAD_SMASH", "MOVE_EARTHQUAKE", "MOVE_ZEN_HEADBUTT", "MOVE_OUTRAGE"]

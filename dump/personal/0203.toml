@@ -1,0 +1,48 @@
+[personal]
+index = 203
+species = "SPECIES_GIRAFARIG"
+capture_rate = 60
+evolution_stage = 2
+ev_yield = 512
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 0
+egg_groups = [5, 5]
+escape_rate = 60
+color = 2
+base_experience = 159
+height_cm = 15
+weight_cg = 415
+
+[personal.base_stats]
+hp = 70
+attack = 80
+defense = 65
+speed = 85
+special_attack = 90
+special_defense = 65
+
+[personal.typing]
+primary = "TYPE_NORMAL"
+secondary = "TYPE_PSYCHIC"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_PERSIM_BERRY"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 39
+secondary = 48
+hidden = 157
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1214806484, 17938945, 712257828, 4]
+type_tutors = 0
+special_tutors = [2064, 106521, 2, 25632]

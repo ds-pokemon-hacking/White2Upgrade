@@ -1,0 +1,48 @@
+[personal]
+index = 144
+species = "SPECIES_ARTICUNO"
+capture_rate = 3
+evolution_stage = 3
+ev_yield = 3072
+gender_probability = 255
+egg_happiness = 80
+base_happiness = 35
+experience_group = 5
+egg_groups = [15, 15]
+escape_rate = 0
+color = 1
+base_experience = 261
+height_cm = 17
+weight_cg = 554
+
+[personal.base_stats]
+hp = 90
+attack = 85
+defense = 100
+speed = 85
+special_attack = 95
+special_defense = 125
+
+[personal.typing]
+primary = "TYPE_ICE"
+secondary = "TYPE_FLYING"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 46
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 81
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2079099280, 33589905, 599801864, 1]
+type_tutors = 0
+special_tutors = [16, 1024, 4482, 8192]

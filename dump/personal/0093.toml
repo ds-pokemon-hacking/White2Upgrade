@@ -1,0 +1,48 @@
+[personal]
+index = 93
+species = "SPECIES_HAUNTER"
+capture_rate = 90
+evolution_stage = 2
+ev_yield = 512
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 3
+egg_groups = [11, 11]
+escape_rate = 90
+color = 6
+base_experience = 142
+height_cm = 16
+weight_cg = 1
+
+[personal.base_stats]
+hp = 45
+attack = 50
+defense = 45
+speed = 95
+special_attack = 115
+special_defense = 55
+
+[personal.typing]
+primary = "TYPE_GHOST"
+secondary = "TYPE_POISON"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 26
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = "BATTLE_ABILITY_RANDOM"
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1265168608, -795821304, 173543427, 0]
+type_tutors = 0
+special_tutors = [30720, 5128, 1542, 26788]

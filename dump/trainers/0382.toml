@@ -1,0 +1,37 @@
+[trainer]
+index = 382
+party_format = 3
+trainer_class = 70
+battle_type = 0
+party_count = 2
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 20
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 382
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 150
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 45
+species = "SPECIES_FRAXURE"
+form = 0
+held_item = "ITEM_DRAGON_FANG"
+moves = ["MOVE_DUAL_CHOP", "MOVE_SHADOW_CLAW", "MOVE_XSCISSOR", "MOVE_DRAGON_DANCE"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 150
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 45
+species = "SPECIES_DRUDDIGON"
+form = 0
+held_item = "ITEM_DRAGON_GEM"
+moves = ["MOVE_DRAGON_CLAW", "MOVE_FLAMETHROWER", "MOVE_ROCK_SLIDE", "MOVE_CRUNCH"]

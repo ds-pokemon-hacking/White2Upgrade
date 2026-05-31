@@ -1,0 +1,75 @@
+[trainer]
+index = 42
+party_format = 1
+trainer_class = 70
+battle_type = 0
+party_count = 6
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 20
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 42
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 200
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 62
+species = "SPECIES_GYARADOS"
+form = 0
+moves = ["MOVE_WATERFALL", "MOVE_STONE_EDGE", "MOVE_BLIZZARD", "MOVE_FIRE_BLAST"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 200
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 62
+species = "SPECIES_EXCADRILL"
+form = 0
+moves = ["MOVE_DRILL_RUN", "MOVE_ROCK_SLIDE", "MOVE_SLUDGE_BOMB", "MOVE_TOXIC"]
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 200
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 62
+species = "SPECIES_CROBAT"
+form = 0
+moves = ["MOVE_AIR_SLASH", "MOVE_POISON_FANG", "MOVE_UTURN", "MOVE_RETURN"]
+
+[[trainer_party.party]]
+slot = 3
+difficulty_value = 200
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 62
+species = "SPECIES_DRUDDIGON"
+form = 0
+moves = ["MOVE_OUTRAGE", "MOVE_NIGHT_SLASH", "MOVE_SURF", "MOVE_FLAMETHROWER"]
+
+[[trainer_party.party]]
+slot = 4
+difficulty_value = 200
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 62
+species = "SPECIES_GIGALITH"
+form = 0
+moves = ["MOVE_STONE_EDGE", "MOVE_EARTHQUAKE", "MOVE_FLASH_CANNON", "MOVE_RETURN"]
+
+[[trainer_party.party]]
+slot = 5
+difficulty_value = 200
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 62
+species = "SPECIES_SNORLAX"
+form = 0
+moves = ["MOVE_HEAVY_SLAM", "MOVE_BODY_SLAM", "MOVE_WILD_CHARGE", "MOVE_CRUNCH"]

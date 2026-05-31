@@ -1,0 +1,48 @@
+[personal]
+index = 469
+species = "SPECIES_YANMEGA"
+capture_rate = 30
+evolution_stage = 2
+ev_yield = 8
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 0
+egg_groups = [3, 3]
+escape_rate = 0
+color = 3
+base_experience = 180
+height_cm = 19
+weight_cg = 515
+
+[personal.base_stats]
+hp = 86
+attack = 76
+defense = 86
+speed = 95
+special_attack = 116
+special_defense = 56
+
+[personal.typing]
+primary = "TYPE_BUG"
+secondary = "TYPE_FLYING"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_WIDE_LENS"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = "BATTLE_ABILITY_HIDDEN"
+secondary = 110
+hidden = 119
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1271839200, 47744, 55580712, 0]
+type_tutors = 0
+special_tutors = [2065, 0, 5250, 8192]

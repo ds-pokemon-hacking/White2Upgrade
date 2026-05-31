@@ -1,0 +1,48 @@
+[personal]
+index = 621
+species = "SPECIES_DRUDDIGON"
+capture_rate = 45
+evolution_stage = 2
+ev_yield = 8
+gender_probability = 127
+egg_happiness = 30
+base_happiness = 70
+experience_group = 0
+egg_groups = [14, 1]
+escape_rate = 0
+color = 0
+base_experience = 170
+height_cm = 16
+weight_cg = 1390
+
+[personal.base_stats]
+hp = 77
+attack = 120
+defense = 90
+speed = 48
+special_attack = 60
+special_defense = 90
+
+[personal.typing]
+primary = "TYPE_DRAGON"
+secondary = "TYPE_DRAGON"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_DRAGON_FANG"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 24
+secondary = 125
+hidden = 104
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1907143117, 92838860, -431841265, 6]
+type_tutors = 64
+special_tutors = [13344, 88320, 18, 14848]

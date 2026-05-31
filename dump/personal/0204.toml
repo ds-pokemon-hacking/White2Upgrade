@@ -1,0 +1,48 @@
+[personal]
+index = 204
+species = "SPECIES_PINECO"
+capture_rate = 190
+evolution_stage = 1
+ev_yield = 16
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 0
+egg_groups = [3, 3]
+escape_rate = 0
+color = 7
+base_experience = 58
+height_cm = 6
+weight_cg = 72
+
+[personal.base_stats]
+hp = 50
+attack = 65
+defense = 90
+speed = 15
+special_attack = 35
+special_defense = 35
+
+[personal.typing]
+primary = "TYPE_BUG"
+secondary = "TYPE_BUG"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 5
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 142
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1909356768, -2147444143, 574663170, 4]
+type_tutors = 0
+special_tutors = [129, 80, 1538, 12288]

@@ -1,0 +1,48 @@
+[personal]
+index = 634
+species = "SPECIES_ZWEILOUS"
+capture_rate = 45
+evolution_stage = 2
+ev_yield = 8
+gender_probability = 127
+egg_happiness = 40
+base_happiness = 35
+experience_group = 5
+egg_groups = [14, 14]
+escape_rate = 0
+color = 1
+base_experience = 147
+height_cm = 14
+weight_cg = 500
+
+[personal.base_stats]
+hp = 72
+attack = 85
+defense = 70
+speed = 58
+special_attack = 65
+special_defense = 70
+
+[personal.typing]
+primary = "TYPE_DARK"
+secondary = "TYPE_DRAGON"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 55
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = "BATTLE_ABILITY_RANDOM"
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2079125968, 67156736, 575017216, 4]
+type_tutors = 64
+special_tutors = [2048, 63748, 2, 8708]

@@ -1,0 +1,48 @@
+[personal]
+index = 513
+species = "SPECIES_PANSEAR"
+capture_rate = 190
+evolution_stage = 1
+ev_yield = 64
+gender_probability = 31
+egg_happiness = 20
+base_happiness = 70
+experience_group = 0
+egg_groups = [5, 5]
+escape_rate = 0
+color = 64
+base_experience = 63
+height_cm = 6
+weight_cg = 110
+
+[personal.base_stats]
+hp = 50
+attack = 53
+defense = 48
+speed = 64
+special_attack = 53
+special_defense = 48
+
+[personal.typing]
+primary = "TYPE_FIRE"
+secondary = "TYPE_FIRE"
+
+[personal.wild_items]
+common_50 = "ITEM_ORAN_BERRY"
+rare_5 = "ITEM_PASSHO_BERRY"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 82
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 66
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1942942175, 881000292, -1570504701, 0]
+type_tutors = 0
+special_tutors = [11778, 65536, 54, 9488]

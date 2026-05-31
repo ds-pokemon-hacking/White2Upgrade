@@ -1,0 +1,81 @@
+[trainer]
+index = 813
+party_format = 3
+trainer_class = 235
+battle_type = 0
+party_count = 6
+items = ["ITEM_FULL_RESTORE", "ITEM_FULL_RESTORE", "ITEM_FULL_RESTORE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 50
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 813
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 250
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 72
+species = "SPECIES_MAGNETON"
+form = 0
+held_item = "ITEM_EVIOLITE"
+moves = ["MOVE_VOLT_SWITCH", "MOVE_FLASH_CANNON", "MOVE_TRI_ATTACK", "MOVE_THUNDER_WAVE"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 250
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 72
+species = "SPECIES_ROTOM"
+form = 2
+held_item = "ITEM_LIFE_ORB"
+moves = ["MOVE_DISCHARGE", "MOVE_HYDRO_PUMP", "MOVE_WILLOWISP", "MOVE_SUBSTITUTE"]
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 250
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 72
+species = "SPECIES_METAGROSS"
+form = 0
+held_item = "ITEM_MUSCLE_BAND"
+moves = ["MOVE_METEOR_MASH", "MOVE_ZEN_HEADBUTT", "MOVE_ROCK_SLIDE", "MOVE_AGILITY"]
+
+[[trainer_party.party]]
+slot = 3
+difficulty_value = 250
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 72
+species = "SPECIES_BEHEEYEM"
+form = 0
+held_item = "ITEM_LEFTOVERS"
+moves = ["MOVE_PSYCHIC", "MOVE_ENERGY_BALL", "MOVE_CALM_MIND", "MOVE_RECOVER"]
+
+[[trainer_party.party]]
+slot = 4
+difficulty_value = 250
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 72
+species = "SPECIES_MAGNEZONE"
+form = 0
+held_item = "ITEM_WISE_GLASSES"
+moves = ["MOVE_THUNDERBOLT", "MOVE_FLASH_CANNON", "MOVE_HYPER_BEAM", "MOVE_THUNDER_WAVE"]
+
+[[trainer_party.party]]
+slot = 5
+difficulty_value = 250
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 74
+species = "SPECIES_KLINKLANG"
+form = 0
+held_item = "ITEM_AIR_BALLOON"
+moves = ["MOVE_GEAR_GRIND", "MOVE_WILD_CHARGE", "MOVE_GIGA_IMPACT", "MOVE_SHIFT_GEAR"]

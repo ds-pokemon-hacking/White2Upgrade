@@ -1,0 +1,42 @@
+[trainer]
+index = 409
+party_format = 0
+trainer_class = 24
+battle_type = 0
+party_count = 3
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 15
+reward_item = "ITEM_LUM_BERRY"
+raw_size = 20
+
+[trainer_party]
+index = 409
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 50
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 64
+species = "SPECIES_VIGOROTH"
+form = 0
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 50
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 64
+species = "SPECIES_STANTLER"
+form = 0
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 50
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 64
+species = "SPECIES_VICTREEBEL"
+form = 0

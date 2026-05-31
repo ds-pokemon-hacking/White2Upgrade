@@ -1,0 +1,48 @@
+[personal]
+index = 149
+species = "SPECIES_DRAGONITE"
+capture_rate = 45
+evolution_stage = 3
+ev_yield = 12
+gender_probability = 127
+egg_happiness = 40
+base_happiness = 35
+experience_group = 5
+egg_groups = [2, 14]
+escape_rate = 0
+color = 5
+base_experience = 270
+height_cm = 22
+weight_cg = 2100
+
+[personal.base_stats]
+hp = 91
+attack = 134
+defense = 95
+speed = 80
+special_attack = 100
+special_defense = 100
+
+[personal.typing]
+primary = "TYPE_DRAGON"
+secondary = "TYPE_FLYING"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_DRAGON_SCALE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 39
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 136
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-946080141, 109615860, -1572691640, 31]
+type_tutors = 64
+special_tutors = [28704, 85248, 4243, 8704]

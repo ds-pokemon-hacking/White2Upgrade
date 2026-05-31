@@ -1,0 +1,48 @@
+[trainer]
+index = 200
+party_format = 3
+trainer_class = 162
+battle_type = 0
+party_count = 3
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 50
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 200
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 224
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 77
+species = "SPECIES_HYDREIGON"
+form = 0
+held_item = "ITEM_CHOPLE_BERRY"
+moves = ["MOVE_OUTRAGE", "MOVE_DARK_PULSE", "MOVE_FIRE_BLAST", "MOVE_EARTHQUAKE"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 224
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 77
+species = "SPECIES_ARTICUNO"
+form = 0
+held_item = "ITEM_ICE_GEM"
+moves = ["MOVE_FROST_BREATH", "MOVE_ICE_SHARD", "MOVE_SIGNAL_BEAM", "MOVE_ROOST"]
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 224
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 77
+species = "SPECIES_ENTEI"
+form = 0
+held_item = "ITEM_LIFE_ORB"
+moves = ["MOVE_OVERHEAT", "MOVE_STONE_EDGE", "MOVE_IRON_TAIL", "MOVE_ROAR"]

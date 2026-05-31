@@ -1,0 +1,48 @@
+[personal]
+index = 294
+species = "SPECIES_LOUDRED"
+capture_rate = 120
+evolution_stage = 2
+ev_yield = 2
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 3
+egg_groups = [1, 5]
+escape_rate = 0
+color = 1
+base_experience = 126
+height_cm = 10
+weight_cg = 405
+
+[personal.base_stats]
+hp = 84
+attack = 71
+defense = 43
+speed = 48
+special_attack = 71
+special_defense = 43
+
+[personal.typing]
+primary = "TYPE_NORMAL"
+secondary = "TYPE_NORMAL"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_CHESTO_BERRY"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 43
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 113
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-428655056, 75733860, 574922756, 4]
+type_tutors = 0
+special_tutors = [31232, 41984, 2, 8448]

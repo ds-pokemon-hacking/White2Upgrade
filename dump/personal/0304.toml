@@ -1,0 +1,48 @@
+[personal]
+index = 304
+species = "SPECIES_ARON"
+capture_rate = 180
+evolution_stage = 1
+ev_yield = 16
+gender_probability = 127
+egg_happiness = 35
+base_happiness = 35
+experience_group = 5
+egg_groups = [1, 1]
+escape_rate = 90
+color = 7
+base_experience = 66
+height_cm = 4
+weight_cg = 600
+
+[personal.base_stats]
+hp = 50
+attack = 70
+defense = 100
+speed = 30
+special_attack = 40
+special_defense = 40
+
+[personal.typing]
+primary = "TYPE_STEEL"
+secondary = "TYPE_ROCK"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_HARD_STONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 5
+secondary = 69
+hidden = 134
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1911355855, 39632, -1572823023, 4]
+type_tutors = 0
+special_tutors = [2080, 65892, 2, 12548]

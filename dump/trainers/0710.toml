@@ -1,0 +1,81 @@
+[trainer]
+index = 710
+party_format = 3
+trainer_class = 197
+battle_type = 0
+party_count = 6
+items = ["ITEM_FULL_RESTORE", "ITEM_FULL_RESTORE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 30
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 710
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 250
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 65
+species = "SPECIES_LIEPARD"
+form = 0
+held_item = "ITEM_SITRUS_BERRY"
+moves = ["MOVE_FAKE_OUT", "MOVE_NIGHT_SLASH", "MOVE_SHADOW_CLAW", "MOVE_AERIAL_ACE"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 250
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 65
+species = "SPECIES_UNFEZANT"
+form = 0
+held_item = "ITEM_SCOPE_LENS"
+moves = ["MOVE_AIR_SLASH", "MOVE_QUICK_ATTACK", "MOVE_FACADE", "MOVE_UTURN"]
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 250
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_RANDOM"
+level = 65
+species = "SPECIES_HAXORUS"
+form = 0
+held_item = "ITEM_DRAGON_GEM"
+moves = ["MOVE_OUTRAGE", "MOVE_ROCK_SLIDE", "MOVE_XSCISSOR", "MOVE_SURF"]
+
+[[trainer_party.party]]
+slot = 3
+difficulty_value = 250
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 65
+species = "SPECIES_GIGALITH"
+form = 0
+held_item = "ITEM_LEFTOVERS"
+moves = ["MOVE_STONE_EDGE", "MOVE_STEALTH_ROCK", "MOVE_EARTHQUAKE", "MOVE_GIGA_IMPACT"]
+
+[[trainer_party.party]]
+slot = 4
+difficulty_value = 250
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 65
+species = "SPECIES_SIMISAGE"
+form = 0
+held_item = "ITEM_MIRACLE_SEED"
+moves = ["MOVE_ENERGY_BALL", "MOVE_BRICK_BREAK", "MOVE_PAYBACK", "MOVE_ROCK_SLIDE"]
+
+[[trainer_party.party]]
+slot = 5
+difficulty_value = 250
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 67
+species = "SPECIES_SAMUROTT"
+form = 0
+held_item = "ITEM_FOCUS_SASH"
+moves = ["MOVE_HYDRO_PUMP", "MOVE_AQUA_JET", "MOVE_BLIZZARD", "MOVE_XSCISSOR"]

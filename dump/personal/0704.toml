@@ -1,0 +1,48 @@
+[personal]
+index = 704
+species = "SPECIES_GOOMY"
+capture_rate = 3
+evolution_stage = 3
+ev_yield = 12
+gender_probability = 255
+egg_happiness = 120
+base_happiness = 0
+experience_group = 5
+egg_groups = [15, 15]
+escape_rate = 0
+color = 71
+base_experience = 315
+height_cm = 33
+weight_cg = 3250
+
+[personal.base_stats]
+hp = 125
+attack = 170
+defense = 100
+speed = 95
+special_attack = 120
+special_defense = 90
+
+[personal.typing]
+primary = "TYPE_DRAGON"
+secondary = "TYPE_ICE"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 164
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = "BATTLE_ABILITY_RANDOM"
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 3
+
+[personal.compatibility]
+tmhm = [-1273235869, 9013825, -1505591221, 5]
+type_tutors = 64
+special_tutors = [48, 58372, 4098, 8960]

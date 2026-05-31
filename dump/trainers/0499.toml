@@ -1,0 +1,45 @@
+[trainer]
+index = 499
+party_format = 1
+trainer_class = 192
+battle_type = 0
+party_count = 3
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 45
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 499
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 100
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_RANDOM"
+level = 49
+species = "SPECIES_PAWNIARD"
+form = 0
+moves = ["MOVE_METAL_CLAW", "MOVE_FAINT_ATTACK", "MOVE_SLASH", "MOVE_SCARY_FACE"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 100
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 49
+species = "SPECIES_PAWNIARD"
+form = 0
+moves = ["MOVE_METAL_CLAW", "MOVE_FAINT_ATTACK", "MOVE_SLASH", "MOVE_HONE_CLAWS"]
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 100
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_RANDOM"
+level = 51
+species = "SPECIES_BANETTE"
+form = 0
+moves = ["MOVE_SHADOW_CLAW", "MOVE_SUCKER_PUNCH", "MOVE_PSYCHIC", "MOVE_WILLOWISP"]

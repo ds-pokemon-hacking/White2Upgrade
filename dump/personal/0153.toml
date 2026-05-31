@@ -1,0 +1,48 @@
+[personal]
+index = 153
+species = "SPECIES_BAYLEEF"
+capture_rate = 45
+evolution_stage = 2
+ev_yield = 1040
+gender_probability = 31
+egg_happiness = 20
+base_happiness = 70
+experience_group = 3
+egg_groups = [1, 7]
+escape_rate = 0
+color = 3
+base_experience = 142
+height_cm = 12
+weight_cg = 158
+
+[personal.base_stats]
+hp = 60
+attack = 62
+defense = 80
+speed = 60
+special_attack = 63
+special_defense = 80
+
+[personal.typing]
+primary = "TYPE_GRASS"
+secondary = "TYPE_GRASS"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 65
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 102
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2076604896, 1153537, -1570765792, 4]
+type_tutors = 1
+special_tutors = [64, 65537, 1034, 8194]

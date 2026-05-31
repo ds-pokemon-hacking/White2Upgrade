@@ -1,0 +1,48 @@
+[personal]
+index = 257
+species = "SPECIES_BLAZIKEN"
+capture_rate = 45
+evolution_stage = 3
+ev_yield = 12
+gender_probability = 31
+egg_happiness = 20
+base_happiness = 70
+experience_group = 3
+egg_groups = [5, 5]
+escape_rate = 0
+color = 0
+base_experience = 239
+height_cm = 19
+weight_cg = 520
+
+[personal.base_stats]
+hp = 80
+attack = 120
+defense = 70
+speed = 80
+special_attack = 110
+special_defense = 70
+
+[personal.typing]
+primary = "TYPE_FIRE"
+secondary = "TYPE_FIGHTING"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 66
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = "BATTLE_ABILITY_HIDDEN"
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-835631439, 881581796, -1572035511, 4]
+type_tutors = 18
+special_tutors = [13064, 384, 54, 8208]

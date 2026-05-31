@@ -1,0 +1,55 @@
+[trainer]
+index = 404
+party_format = 1
+trainer_class = 70
+battle_type = 0
+party_count = 4
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 20
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 404
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 200
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 66
+species = "SPECIES_MASQUERAIN"
+form = 0
+moves = ["MOVE_HYDRO_PUMP", "MOVE_BUG_BUZZ", "MOVE_ICE_BEAM", "MOVE_RAIN_DANCE"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 200
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 66
+species = "SPECIES_DRAGONAIR"
+form = 0
+moves = ["MOVE_SURF", "MOVE_THUNDER", "MOVE_DRAGON_RUSH", "MOVE_DRAGON_DANCE"]
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 200
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 66
+species = "SPECIES_SLOWBRO"
+form = 0
+moves = ["MOVE_PSYSHOCK", "MOVE_SURF", "MOVE_GRASS_KNOT", "MOVE_RAIN_DANCE"]
+
+[[trainer_party.party]]
+slot = 3
+difficulty_value = 200
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 66
+species = "SPECIES_MAGNEZONE"
+form = 0
+moves = ["MOVE_THUNDER", "MOVE_FLASH_CANNON", "MOVE_EXPLOSION", "MOVE_THUNDER_WAVE"]

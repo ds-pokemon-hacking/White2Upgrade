@@ -1,0 +1,45 @@
+[trainer]
+index = 574
+party_format = 1
+trainer_class = 65
+battle_type = 2
+party_count = 3
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 129
+can_heal = 0
+reward_money = 8
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 574
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 0
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 60
+species = "SPECIES_CASTFORM"
+form = 0
+moves = ["MOVE_RAIN_DANCE", "MOVE_WEATHER_BALL", "MOVE_THUNDER", "MOVE_ICE_BEAM"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 0
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 60
+species = "SPECIES_JOLTEON"
+form = 0
+moves = ["MOVE_THUNDER", "MOVE_SHADOW_BALL", "MOVE_PIN_MISSILE", "MOVE_DOUBLE_KICK"]
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 0
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_RANDOM"
+level = 60
+species = "SPECIES_LUDICOLO"
+form = 0
+moves = ["MOVE_HYDRO_PUMP", "MOVE_MEGA_DRAIN", "MOVE_UPROAR", "MOVE_ZEN_HEADBUTT"]

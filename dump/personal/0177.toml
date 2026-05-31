@@ -1,0 +1,48 @@
+[personal]
+index = 177
+species = "SPECIES_NATU"
+capture_rate = 190
+evolution_stage = 1
+ev_yield = 256
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 0
+egg_groups = [4, 4]
+escape_rate = 0
+color = 3
+base_experience = 64
+height_cm = 2
+weight_cg = 20
+
+[personal.base_stats]
+hp = 40
+attack = 50
+defense = 45
+speed = 70
+special_attack = 70
+special_defense = 45
+
+[personal.typing]
+primary = "TYPE_PSYCHIC"
+secondary = "TYPE_FLYING"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 28
+secondary = 48
+hidden = 156
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1271429588, 309889, 200282400, 0]
+type_tutors = 0
+special_tutors = [16, 8193, 5778, 24672]

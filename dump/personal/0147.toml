@@ -1,0 +1,48 @@
+[personal]
+index = 147
+species = "SPECIES_DRATINI"
+capture_rate = 45
+evolution_stage = 1
+ev_yield = 4
+gender_probability = 127
+egg_happiness = 40
+base_happiness = 35
+experience_group = 5
+egg_groups = [2, 14]
+escape_rate = 120
+color = 1
+base_experience = 60
+height_cm = 18
+weight_cg = 33
+
+[personal.base_stats]
+hp = 41
+attack = 64
+defense = 45
+speed = 50
+special_attack = 50
+special_defense = 50
+
+[personal.typing]
+primary = "TYPE_DRAGON"
+secondary = "TYPE_DRAGON"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_DRAGON_SCALE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 61
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 63
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2053376416, 67148324, 37880064, 10]
+type_tutors = 64
+special_tutors = [0, 84992, 3, 8704]

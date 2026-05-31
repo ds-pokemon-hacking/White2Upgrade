@@ -1,0 +1,48 @@
+[personal]
+index = 476
+species = "SPECIES_PROBOPASS"
+capture_rate = 60
+evolution_stage = 2
+ev_yield = 2064
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 0
+egg_groups = [10, 10]
+escape_rate = 0
+color = 7
+base_experience = 184
+height_cm = 14
+weight_cg = 3400
+
+[personal.base_stats]
+hp = 60
+attack = 55
+defense = 145
+speed = 40
+special_attack = 75
+special_defense = 150
+
+[personal.typing]
+primary = "TYPE_ROCK"
+secondary = "TYPE_STEEL"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_HARD_STONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 5
+secondary = 42
+hidden = 159
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2016326112, -2147443888, 641769944, 4]
+type_tutors = 0
+special_tutors = [28704, 119, 514, 12288]

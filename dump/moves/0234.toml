@@ -1,0 +1,44 @@
+[move]
+index = 234
+name = "MOVE_MORNING_SUN"
+type = "TYPE_NORMAL"
+quality = "EFFECT_HEALING"
+category = "SPLIT_STATUS"
+power = 0
+accuracy = "MUST_HIT"
+base_pp = 5
+priority = 0
+critical_hit_stage = 0
+flinch_rate = 0
+animation_id = 132
+recoil = 0
+heal = 50
+target = "TARGET_USER"
+padding = 21331
+flags = ["FLAG_STOLEN_BY_SNATCH", "FLAG_HEALING_MOVE"]
+
+[move.hits]
+minimum = 0
+maximum = 0
+
+[move.inflict]
+status = "INFLICT_DURATION_NONE"
+chance = 0
+duration = 0
+turn_min = 0
+turn_max = 0
+
+[[move.stat_changes]]
+stat = "STATUS_NONE"
+stages = 0
+chance = 0
+
+[[move.stat_changes]]
+stat = "STATUS_NONE"
+stages = 0
+chance = 0
+
+[[move.stat_changes]]
+stat = "STATUS_NONE"
+stages = 0
+chance = 0

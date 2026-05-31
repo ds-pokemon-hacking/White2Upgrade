@@ -1,0 +1,48 @@
+[personal]
+index = 187
+species = "SPECIES_HOPPIP"
+capture_rate = 255
+evolution_stage = 1
+ev_yield = 1024
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 3
+egg_groups = [6, 7]
+escape_rate = 90
+color = 9
+base_experience = 50
+height_cm = 4
+weight_cg = 5
+
+[personal.base_stats]
+hp = 35
+attack = 35
+defense = 40
+speed = 50
+special_attack = 35
+special_defense = 55
+
+[personal.typing]
+primary = "TYPE_GRASS"
+secondary = "TYPE_FLYING"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 34
+secondary = 102
+hidden = 151
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2077161952, 537959041, 56628256, 0]
+type_tutors = 0
+special_tutors = [320, 0, 1034, 8210]

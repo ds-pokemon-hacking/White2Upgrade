@@ -1,0 +1,25 @@
+[MOVE_GRASSWHISTLE]
+Type = "TYPE_GRASS"
+Quality = "EFFECT_STATUS_INFLICTING"
+Category = "SPLIT_STATUS"
+Power = 0
+Accuracy = 55
+"Base PP" = 15
+Priority = 0
+Hit = "0 | 0"
+"Inflict Status" = "STATUS_SLEEP"
+"Inflict Chance" = 0
+"Inflict Duration" = "INFLICT_DURATION_TURN"
+"Turn (min)" = 2
+"Turn (max)" = 4
+"Critical Hit Stage" = 0
+"Flinch Rate" = 0
+"Move Animation ID" = 1
+Recoil = 0
+Heal = 0
+Target = "TARGET_OTHER_SELECT"
+"Status Change Stats" = [0, 0, 0]
+"Status Change Stages" = [0, 0, 0]
+"Status Change Chances" = [0, 0, 0]
+Padding = 21331
+Flags = "FLAG_BLOCKED_BY_PROTECT | FLAG_REFLECTED_BY_MAGIC_COAT | FLAG_COPIED_BY_MIRROR_MOVE | FLAG_SOUND_MOVE | FLAG_HITS_THROUGH_SUBSTITUTE"

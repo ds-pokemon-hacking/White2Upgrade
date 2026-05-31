@@ -1,0 +1,48 @@
+[personal]
+index = 287
+species = "SPECIES_SLAKOTH"
+capture_rate = 255
+evolution_stage = 1
+ev_yield = 1
+gender_probability = 127
+egg_happiness = 15
+base_happiness = 70
+experience_group = 5
+egg_groups = [5, 5]
+escape_rate = 0
+color = 5
+base_experience = 56
+height_cm = 8
+weight_cg = 240
+
+[personal.base_stats]
+hp = 60
+attack = 60
+defense = 60
+speed = 30
+special_attack = 35
+special_defense = 35
+
+[personal.typing]
+primary = "TYPE_NORMAL"
+secondary = "TYPE_NORMAL"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 54
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = "BATTLE_ABILITY_RANDOM"
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-441239903, 75537124, -1572569083, 4]
+type_tutors = 0
+special_tutors = [29698, 1024, 2, 8200]

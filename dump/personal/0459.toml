@@ -1,0 +1,48 @@
+[personal]
+index = 459
+species = "SPECIES_SNOVER"
+capture_rate = 120
+evolution_stage = 1
+ev_yield = 4
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 5
+egg_groups = [1, 7]
+escape_rate = 0
+color = 8
+base_experience = 67
+height_cm = 10
+weight_cg = 505
+
+[personal.base_stats]
+hp = 60
+attack = 62
+defense = 50
+speed = 40
+special_attack = 62
+special_defense = 60
+
+[personal.typing]
+primary = "TYPE_GRASS"
+secondary = "TYPE_ICE"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NEVER-MELT_ICE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 117
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 43
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1539591584, 1088000, 39863328, 0]
+type_tutors = 0
+special_tutors = [16448, 66560, 1066, 8194]

@@ -1,0 +1,24 @@
+[trainer]
+index = 118
+party_format = 0
+trainer_class = 61
+battle_type = 0
+party_count = 1
+items = ["ITEM_FULL_HEAL", "ITEM_MAX_POTION", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 15
+reward_item = "ITEM_MAX_REVIVE"
+raw_size = 20
+
+[trainer_party]
+index = 118
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 0
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 62
+species = "SPECIES_CHANSEY"
+form = 0

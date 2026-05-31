@@ -1,0 +1,48 @@
+[personal]
+index = 467
+species = "SPECIES_MAGMORTAR"
+capture_rate = 30
+evolution_stage = 3
+ev_yield = 768
+gender_probability = 63
+egg_happiness = 25
+base_happiness = 70
+experience_group = 0
+egg_groups = [8, 8]
+escape_rate = 0
+color = 64
+base_experience = 243
+height_cm = 16
+weight_cg = 680
+
+[personal.base_stats]
+hp = 75
+attack = 95
+defense = 67
+speed = 83
+special_attack = 125
+special_defense = 95
+
+[personal.typing]
+primary = "TYPE_FIRE"
+secondary = "TYPE_FIRE"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_MAGMARIZER"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 49
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 72
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-693023200, 344653668, 574660616, 4]
+type_tutors = 0
+special_tutors = [12810, 65536, 18, 8208]

@@ -1,0 +1,48 @@
+[personal]
+index = 449
+species = "SPECIES_HIPPOPOTAS"
+capture_rate = 140
+evolution_stage = 1
+ev_yield = 16
+gender_probability = 127
+egg_happiness = 30
+base_happiness = 70
+experience_group = 5
+egg_groups = [5, 5]
+escape_rate = 60
+color = 5
+base_experience = 66
+height_cm = 8
+weight_cg = 495
+
+[personal.base_stats]
+hp = 68
+attack = 72
+defense = 78
+speed = 32
+special_attack = 38
+special_defense = 42
+
+[personal.typing]
+primary = "TYPE_GROUND"
+secondary = "TYPE_GROUND"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 45
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 159
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1911486928, 39504, 574660608, 4]
+type_tutors = 0
+special_tutors = [0, 65796, 2, 12288]

@@ -1,0 +1,48 @@
+[trainer]
+index = 159
+party_format = 3
+trainer_class = 118
+battle_type = 0
+party_count = 3
+items = ["ITEM_HYPER_POTION", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 30
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 159
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 150
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 46
+species = "SPECIES_DRUDDIGON"
+form = 0
+held_item = "ITEM_NONE"
+moves = ["MOVE_DRAGON_TAIL", "MOVE_REVENGE", "MOVE_SLASH", "MOVE_CRUNCH"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 150
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 46
+species = "SPECIES_FLYGON"
+form = 0
+held_item = "ITEM_NONE"
+moves = ["MOVE_DRAGON_TAIL", "MOVE_CRUNCH", "MOVE_EARTH_POWER", "MOVE_ROCK_SLIDE"]
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 200
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 48
+species = "SPECIES_HAXORUS"
+form = 0
+held_item = "ITEM_SITRUS_BERRY"
+moves = ["MOVE_DRAGON_TAIL", "MOVE_SLASH", "MOVE_ASSURANCE", "MOVE_DRAGON_DANCE"]

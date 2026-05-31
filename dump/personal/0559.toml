@@ -1,0 +1,48 @@
+[personal]
+index = 559
+species = "SPECIES_SCRAGGY"
+capture_rate = 180
+evolution_stage = 1
+ev_yield = 4
+gender_probability = 127
+egg_happiness = 15
+base_happiness = 35
+experience_group = 0
+egg_groups = [5, 14]
+escape_rate = 0
+color = 2
+base_experience = 70
+height_cm = 6
+weight_cg = 118
+
+[personal.base_stats]
+hp = 50
+attack = 75
+defense = 70
+speed = 48
+special_attack = 35
+special_defense = 70
+
+[personal.typing]
+primary = "TYPE_DARK"
+secondary = "TYPE_FIGHTING"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_SHED_SHELL"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 61
+secondary = 153
+hidden = 22
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-866971982, 76077896, 1651408966, 4]
+type_tutors = 0
+special_tutors = [29228, 94280, 2054, 10244]

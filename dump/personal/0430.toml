@@ -1,0 +1,48 @@
+[personal]
+index = 430
+species = "SPECIES_HONCHKROW"
+capture_rate = 30
+evolution_stage = 2
+ev_yield = 8
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 35
+experience_group = 3
+egg_groups = [4, 4]
+escape_rate = 0
+color = 4
+base_experience = 177
+height_cm = 9
+weight_cg = 273
+
+[personal.base_stats]
+hp = 100
+attack = 125
+defense = 52
+speed = 71
+special_attack = 105
+special_defense = 52
+
+[personal.typing]
+primary = "TYPE_DARK"
+secondary = "TYPE_FLYING"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 15
+secondary = 105
+hidden = 153
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1273803224, 1275116416, 1120932110, 1]
+type_tutors = 0
+special_tutors = [2048, 5384, 4496, 10244]

@@ -1,0 +1,48 @@
+[personal]
+index = 215
+species = "SPECIES_SNEASEL"
+capture_rate = 60
+evolution_stage = 1
+ev_yield = 64
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 35
+experience_group = 3
+egg_groups = [5, 5]
+escape_rate = 0
+color = 68
+base_experience = 86
+height_cm = 9
+weight_cg = 280
+
+[personal.base_stats]
+hp = 55
+attack = 95
+defense = 55
+speed = 115
+special_attack = 35
+special_defense = 75
+
+[personal.typing]
+primary = "TYPE_DARK"
+secondary = "TYPE_ICE"
+
+[personal.wild_items]
+common_50 = "ITEM_GRIP_CLAW"
+rare_5 = "ITEM_QUICK_CLAW"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 39
+secondary = 51
+hidden = 124
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-334283159, 1084291969, -497478649, 6]
+type_tutors = 0
+special_tutors = [16896, 70664, 6, 10244]

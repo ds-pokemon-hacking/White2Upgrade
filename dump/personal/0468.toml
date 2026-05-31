@@ -1,0 +1,48 @@
+[personal]
+index = 468
+species = "SPECIES_TOGEKISS"
+capture_rate = 30
+evolution_stage = 3
+ev_yield = 1536
+gender_probability = 31
+egg_happiness = 10
+base_happiness = 70
+experience_group = 4
+egg_groups = [4, 6]
+escape_rate = 0
+color = 72
+base_experience = 245
+height_cm = 15
+weight_cg = 380
+
+[personal.base_stats]
+hp = 85
+attack = 50
+defense = 95
+speed = 80
+special_attack = 120
+special_defense = 115
+
+[personal.typing]
+primary = "TYPE_NORMAL"
+secondary = "TYPE_FLYING"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 55
+secondary = 32
+hidden = 105
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-197147100, 75602597, 586420524, 1]
+type_tutors = 0
+special_tutors = [18, 41089, 6610, 8480]

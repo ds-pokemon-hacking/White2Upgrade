@@ -1,0 +1,48 @@
+[personal]
+index = 301
+species = "SPECIES_DELCATTY"
+capture_rate = 60
+evolution_stage = 2
+ev_yield = 65
+gender_probability = 191
+egg_happiness = 15
+base_happiness = 70
+experience_group = 4
+egg_groups = [5, 6]
+escape_rate = 0
+color = 6
+base_experience = 133
+height_cm = 11
+weight_cg = 326
+
+[personal.base_stats]
+hp = 70
+attack = 65
+defense = 65
+speed = 70
+special_attack = 55
+special_defense = 55
+
+[personal.typing]
+primary = "TYPE_NORMAL"
+secondary = "TYPE_NORMAL"
+
+[personal.wild_items]
+common_50 = "ITEM_PECHA_BERRY"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 56
+secondary = 96
+hidden = 147
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1380223448, 16882176, 846467374, 4]
+type_tutors = 0
+special_tutors = [2050, 107648, 66, 8208]

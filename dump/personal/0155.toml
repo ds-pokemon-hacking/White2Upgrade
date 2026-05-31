@@ -1,0 +1,48 @@
+[personal]
+index = 155
+species = "SPECIES_CYNDAQUIL"
+capture_rate = 45
+evolution_stage = 1
+ev_yield = 64
+gender_probability = 31
+egg_happiness = 20
+base_happiness = 70
+experience_group = 3
+egg_groups = [5, 5]
+escape_rate = 0
+color = 2
+base_experience = 62
+height_cm = 5
+weight_cg = 79
+
+[personal.base_stats]
+hp = 39
+attack = 52
+defense = 43
+speed = 65
+special_attack = 60
+special_defense = 50
+
+[personal.typing]
+primary = "TYPE_FIRE"
+secondary = "TYPE_FIRE"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 66
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 18
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1945041376, 335716004, -1841299456, 0]
+type_tutors = 2
+special_tutors = [2, 0, 18, 8192]

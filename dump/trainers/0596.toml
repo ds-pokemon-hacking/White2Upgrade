@@ -1,0 +1,35 @@
+[trainer]
+index = 596
+party_format = 1
+trainer_class = 49
+battle_type = 0
+party_count = 2
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 15
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 596
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 100
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_RANDOM"
+level = 55
+species = "SPECIES_DRIFBLIM"
+form = 0
+moves = ["MOVE_SHADOW_BALL", "MOVE_PAYBACK", "MOVE_BATON_PASS", "MOVE_STOCKPILE"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 100
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 55
+species = "SPECIES_CLAYDOL"
+form = 0
+moves = ["MOVE_EARTH_POWER", "MOVE_PSYCHIC", "MOVE_SHADOW_BALL", "MOVE_COSMIC_POWER"]

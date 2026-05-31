@@ -1,0 +1,48 @@
+[personal]
+index = 264
+species = "SPECIES_LINOONE"
+capture_rate = 90
+evolution_stage = 2
+ev_yield = 128
+gender_probability = 127
+egg_happiness = 15
+base_happiness = 70
+experience_group = 0
+egg_groups = [5, 5]
+escape_rate = 90
+color = 8
+base_experience = 147
+height_cm = 5
+weight_cg = 325
+
+[personal.base_stats]
+hp = 78
+attack = 70
+defense = 61
+speed = 100
+special_attack = 50
+special_defense = 61
+
+[personal.typing]
+primary = "TYPE_NORMAL"
+secondary = "TYPE_NORMAL"
+
+[personal.wild_items]
+common_50 = "ITEM_ORAN_BERRY"
+rare_5 = "ITEM_SITRUS_BERRY"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 53
+secondary = 82
+hidden = 95
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1382844879, 25278976, -1570504435, 6]
+type_tutors = 0
+special_tutors = [1094, 99456, 2, 8240]

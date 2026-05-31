@@ -1,0 +1,42 @@
+[trainer]
+index = 62
+party_format = 0
+trainer_class = 53
+battle_type = 0
+party_count = 3
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 25
+reward_item = "ITEM_CARBOS"
+raw_size = 20
+
+[trainer_party]
+index = 62
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 100
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 62
+species = "SPECIES_TAILLOW"
+form = 0
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 100
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 62
+species = "SPECIES_SNEASEL"
+form = 0
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 100
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 62
+species = "SPECIES_LIEPARD"
+form = 0

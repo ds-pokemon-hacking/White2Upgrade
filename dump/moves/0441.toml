@@ -1,0 +1,44 @@
+[move]
+index = 441
+name = "MOVE_GUNK_SHOT"
+type = "TYPE_POISON"
+quality = "EFFECT_CHANCE_TO_INFLICT_STATUS"
+category = "SPLIT_PHYSICAL"
+power = 120
+accuracy = 70
+base_pp = 5
+priority = 0
+critical_hit_stage = 0
+flinch_rate = 0
+animation_id = 2
+recoil = 0
+heal = 0
+target = "TARGET_OTHER_SELECT"
+padding = 21331
+flags = ["FLAG_BLOCKED_BY_PROTECT", "FLAG_COPIED_BY_MIRROR_MOVE"]
+
+[move.hits]
+minimum = 0
+maximum = 0
+
+[move.inflict]
+status = 5
+chance = 30
+duration = 1
+turn_min = 0
+turn_max = 0
+
+[[move.stat_changes]]
+stat = "STATUS_NONE"
+stages = 0
+chance = 0
+
+[[move.stat_changes]]
+stat = "STATUS_NONE"
+stages = 0
+chance = 0
+
+[[move.stat_changes]]
+stat = "STATUS_NONE"
+stages = 0
+chance = 0

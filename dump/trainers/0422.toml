@@ -1,0 +1,25 @@
+[trainer]
+index = 422
+party_format = 1
+trainer_class = 71
+battle_type = 0
+party_count = 1
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 20
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 422
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 200
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 70
+species = "SPECIES_SALAMENCE"
+form = 0
+moves = ["MOVE_DRACO_METEOR", "MOVE_EARTHQUAKE", "MOVE_FIRE_BLAST", "MOVE_STONE_EDGE"]

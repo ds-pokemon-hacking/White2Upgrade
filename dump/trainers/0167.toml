@@ -1,0 +1,25 @@
+[trainer]
+index = 167
+party_format = 1
+trainer_class = 145
+battle_type = 0
+party_count = 1
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 16
+can_heal = 0
+reward_money = 25
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 167
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 0
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 8
+species = "SPECIES_OSHAWOTT"
+form = 0
+moves = ["MOVE_TACKLE", "MOVE_TAIL_WHIP", "MOVE_NONE", "MOVE_NONE"]

@@ -1,0 +1,48 @@
+[personal]
+index = 158
+species = "SPECIES_TOTODILE"
+capture_rate = 45
+evolution_stage = 1
+ev_yield = 4
+gender_probability = 31
+egg_happiness = 20
+base_happiness = 70
+experience_group = 3
+egg_groups = [1, 2]
+escape_rate = 0
+color = 1
+base_experience = 63
+height_cm = 6
+weight_cg = 95
+
+[personal.base_stats]
+hp = 50
+attack = 65
+defense = 64
+speed = 43
+special_attack = 44
+special_defense = 48
+
+[personal.typing]
+primary = "TYPE_WATER"
+secondary = "TYPE_WATER"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 67
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 125
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-871157149, 12622528, -2109701119, 26]
+type_tutors = 4
+special_tutors = [18944, 68866, 2, 8196]

@@ -1,0 +1,48 @@
+[personal]
+index = 581
+species = "SPECIES_SWANNA"
+capture_rate = 45
+evolution_stage = 2
+ev_yield = 128
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 0
+egg_groups = [2, 4]
+escape_rate = 0
+color = 8
+base_experience = 166
+height_cm = 13
+weight_cg = 242
+
+[personal.base_stats]
+hp = 75
+attack = 87
+defense = 63
+speed = 98
+special_attack = 87
+special_defense = 63
+
+[personal.typing]
+primary = "TYPE_WATER"
+secondary = "TYPE_FLYING"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 51
+secondary = 145
+hidden = 93
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2079108512, 4233856, 46137352, 19]
+type_tutors = 0
+special_tutors = [2048, 1024, 4482, 8448]

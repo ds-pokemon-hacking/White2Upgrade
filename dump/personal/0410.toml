@@ -1,0 +1,48 @@
+[personal]
+index = 410
+species = "SPECIES_SHIELDON"
+capture_rate = 45
+evolution_stage = 1
+ev_yield = 16
+gender_probability = 31
+egg_happiness = 30
+base_happiness = 70
+experience_group = 1
+egg_groups = [1, 1]
+escape_rate = 0
+color = 7
+base_experience = 70
+height_cm = 5
+weight_cg = 570
+
+[personal.base_stats]
+hp = 30
+attack = 42
+defense = 118
+speed = 30
+special_attack = 42
+special_defense = 88
+
+[personal.typing]
+primary = "TYPE_ROCK"
+secondary = "TYPE_STEEL"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 5
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 43
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1881981392, 67148660, 641769552, 4]
+type_tutors = 0
+special_tutors = [32, 65636, 2, 12288]

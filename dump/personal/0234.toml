@@ -1,0 +1,48 @@
+[personal]
+index = 234
+species = "SPECIES_STANTLER"
+capture_rate = 45
+evolution_stage = 2
+ev_yield = 4
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 5
+egg_groups = [5, 5]
+escape_rate = 60
+color = 5
+base_experience = 163
+height_cm = 14
+weight_cg = 712
+
+[personal.base_stats]
+hp = 73
+attack = 95
+defense = 62
+speed = 85
+special_attack = 85
+special_defense = 65
+
+[personal.typing]
+primary = "TYPE_NORMAL"
+secondary = "TYPE_NORMAL"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 22
+secondary = 119
+hidden = 157
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1212971460, 17873409, 441725228, 0]
+type_tutors = 0
+special_tutors = [2320, 73872, 34, 24644]

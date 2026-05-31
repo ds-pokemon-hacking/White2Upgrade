@@ -1,0 +1,35 @@
+[trainer]
+index = 657
+party_format = 1
+trainer_class = 70
+battle_type = 0
+party_count = 2
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 20
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 657
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 150
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 55
+species = "SPECIES_GIGALITH"
+form = 0
+moves = ["MOVE_ROCK_BLAST", "MOVE_BULLDOZE", "MOVE_FLASH_CANNON", "MOVE_SANDSTORM"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 150
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 55
+species = "SPECIES_SKARMORY"
+form = 0
+moves = ["MOVE_STEEL_WING", "MOVE_NIGHT_SLASH", "MOVE_XSCISSOR", "MOVE_SWORDS_DANCE"]

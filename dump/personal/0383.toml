@@ -1,0 +1,48 @@
+[personal]
+index = 383
+species = "SPECIES_GROUDON"
+capture_rate = 5
+evolution_stage = 3
+ev_yield = 12
+gender_probability = 255
+egg_happiness = 120
+base_happiness = 0
+experience_group = 5
+egg_groups = [15, 15]
+escape_rate = 0
+color = 0
+base_experience = 302
+height_cm = 35
+weight_cg = 9500
+
+[personal.base_stats]
+hp = 100
+attack = 150
+defense = 140
+speed = 90
+special_attack = 100
+special_defense = 90
+
+[personal.typing]
+primary = "TYPE_GROUND"
+secondary = "TYPE_GROUND"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 70
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = "BATTLE_ABILITY_RANDOM"
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-805747021, 76188404, -1572686503, 4]
+type_tutors = 0
+special_tutors = [14368, 81926, 2, 12288]

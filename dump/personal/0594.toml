@@ -1,0 +1,48 @@
+[personal]
+index = 594
+species = "SPECIES_ALOMOMOLA"
+capture_rate = 75
+evolution_stage = 2
+ev_yield = 2
+gender_probability = 127
+egg_happiness = 40
+base_happiness = 70
+experience_group = 4
+egg_groups = [2, 12]
+escape_rate = 0
+color = 9
+base_experience = 165
+height_cm = 12
+weight_cg = 316
+
+[personal.base_stats]
+hp = 165
+attack = 75
+defense = 80
+speed = 65
+special_attack = 40
+special_defense = 45
+
+[personal.typing]
+primary = "TYPE_WATER"
+secondary = "TYPE_WATER"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 131
+secondary = 93
+hidden = 144
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1273253272, 4233728, 37752832, 26]
+type_tutors = 0
+special_tutors = [256, 1025, 518, 8208]

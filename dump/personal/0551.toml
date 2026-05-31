@@ -1,0 +1,48 @@
+[personal]
+index = 551
+species = "SPECIES_SANDILE"
+capture_rate = 180
+evolution_stage = 1
+ev_yield = 4
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 3
+egg_groups = [5, 5]
+escape_rate = 0
+color = 5
+base_experience = 58
+height_cm = 7
+weight_cg = 152
+
+[personal.base_stats]
+hp = 50
+attack = 72
+defense = 35
+speed = 65
+special_attack = 35
+special_defense = 35
+
+[personal.typing]
+primary = "TYPE_GROUND"
+secondary = "TYPE_DARK"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 22
+secondary = 153
+hidden = 83
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1911485903, 1140898648, -1035952058, 0]
+type_tutors = 0
+special_tutors = [2048, 71692, 2, 14340]

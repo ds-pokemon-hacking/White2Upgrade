@@ -1,0 +1,48 @@
+[personal]
+index = 363
+species = "SPECIES_SPHEAL"
+capture_rate = 255
+evolution_stage = 1
+ev_yield = 1
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 3
+egg_groups = [2, 5]
+escape_rate = 90
+color = 1
+base_experience = 58
+height_cm = 8
+weight_cg = 395
+
+[personal.base_stats]
+hp = 70
+attack = 40
+defense = 50
+speed = 25
+special_attack = 55
+special_defense = 50
+
+[personal.typing]
+primary = "TYPE_ICE"
+secondary = "TYPE_WATER"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 47
+secondary = 115
+hidden = 12
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2045562272, 105024, 574676992, 30]
+type_tutors = 0
+special_tutors = [20, 68608, 2, 8192]

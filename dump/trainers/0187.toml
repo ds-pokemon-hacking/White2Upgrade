@@ -1,0 +1,48 @@
+[trainer]
+index = 187
+party_format = 3
+trainer_class = 153
+battle_type = 0
+party_count = 3
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 50
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 187
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 96
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_RANDOM"
+level = 59
+species = "SPECIES_STOUTLAND"
+form = 0
+held_item = "ITEM_MUSCLE_BAND"
+moves = ["MOVE_FIRE_FANG", "MOVE_WILD_CHARGE", "MOVE_TAKE_DOWN", "MOVE_WORK_UP"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 96
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 59
+species = "SPECIES_EMOLGA"
+form = 0
+held_item = "ITEM_WIDE_LENS"
+moves = ["MOVE_THUNDER", "MOVE_AIR_SLASH", "MOVE_IRON_TAIL", "MOVE_CHARM"]
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 96
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_RANDOM"
+level = 59
+species = "SPECIES_LEAVANNY"
+form = 0
+held_item = "ITEM_LIFE_ORB"
+moves = ["MOVE_LEAF_STORM", "MOVE_XSCISSOR", "MOVE_AERIAL_ACE", "MOVE_SWORDS_DANCE"]

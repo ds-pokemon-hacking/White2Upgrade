@@ -1,0 +1,48 @@
+[personal]
+index = 161
+species = "SPECIES_SENTRET"
+capture_rate = 255
+evolution_stage = 1
+ev_yield = 4
+gender_probability = 127
+egg_happiness = 15
+base_happiness = 70
+experience_group = 0
+egg_groups = [5, 5]
+escape_rate = 120
+color = 5
+base_experience = 43
+height_cm = 8
+weight_cg = 60
+
+[personal.base_stats]
+hp = 35
+attack = 46
+defense = 34
+speed = 20
+special_attack = 35
+special_defense = 45
+
+[personal.typing]
+primary = "TYPE_NORMAL"
+secondary = "TYPE_NORMAL"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_ORAN_BERRY"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 50
+secondary = 51
+hidden = 119
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-323807711, 25278980, -2090598395, 2]
+type_tutors = 0
+special_tutors = [30726, 100480, 6, 8240]

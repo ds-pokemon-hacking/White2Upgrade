@@ -1,0 +1,44 @@
+[move]
+index = 300
+name = "MOVE_MUD_SPORT"
+type = "TYPE_GROUND"
+quality = "EFFECT_FIELD_EFFCT"
+category = "SPLIT_STATUS"
+power = 0
+accuracy = "MUST_HIT"
+base_pp = 15
+priority = 0
+critical_hit_stage = 0
+flinch_rate = 0
+animation_id = 201
+recoil = 0
+heal = 0
+target = "TARGET_FIELD"
+padding = 21331
+flags = []
+
+[move.hits]
+minimum = 0
+maximum = 0
+
+[move.inflict]
+status = "INFLICT_DURATION_NONE"
+chance = 0
+duration = 0
+turn_min = 0
+turn_max = 0
+
+[[move.stat_changes]]
+stat = "STATUS_NONE"
+stages = 0
+chance = 0
+
+[[move.stat_changes]]
+stat = "STATUS_NONE"
+stages = 0
+chance = 0
+
+[[move.stat_changes]]
+stat = "STATUS_NONE"
+stages = 0
+chance = 0

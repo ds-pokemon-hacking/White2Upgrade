@@ -1,0 +1,48 @@
+[personal]
+index = 136
+species = "SPECIES_FLAREON"
+capture_rate = 45
+evolution_stage = 2
+ev_yield = 8
+gender_probability = 31
+egg_happiness = 35
+base_happiness = 70
+experience_group = 0
+egg_groups = [5, 5]
+escape_rate = 0
+color = 0
+base_experience = 184
+height_cm = 9
+weight_cg = 250
+
+[personal.base_stats]
+hp = 65
+attack = 130
+defense = 60
+speed = 65
+special_attack = 95
+special_defense = 110
+
+[personal.typing]
+primary = "TYPE_FIRE"
+secondary = "TYPE_FIRE"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 18
+secondary = 18
+hidden = 62
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1408022992, 335781412, 574881804, 4]
+type_tutors = 0
+special_tutors = [2, 98688, 82, 8208]

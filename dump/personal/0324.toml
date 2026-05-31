@@ -1,0 +1,48 @@
+[personal]
+index = 324
+species = "SPECIES_TORKOAL"
+capture_rate = 90
+evolution_stage = 2
+ev_yield = 32
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 0
+egg_groups = [5, 5]
+escape_rate = 60
+color = 5
+base_experience = 165
+height_cm = 5
+weight_cg = 804
+
+[personal.base_stats]
+hp = 70
+attack = 85
+defense = 140
+speed = 20
+special_attack = 85
+special_defense = 70
+
+[personal.typing]
+primary = "TYPE_FIRE"
+secondary = "TYPE_FIRE"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 73
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 75
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2043591136, -1811767700, 574661192, 4]
+type_tutors = 0
+special_tutors = [0, 65604, 18, 12296]

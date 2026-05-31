@@ -1,0 +1,48 @@
+[personal]
+index = 113
+species = "SPECIES_CHANSEY"
+capture_rate = 30
+evolution_stage = 2
+ev_yield = 2
+gender_probability = 254
+egg_happiness = 40
+base_happiness = 140
+experience_group = 4
+egg_groups = [6, 6]
+escape_rate = 90
+color = 9
+base_experience = 395
+height_cm = 11
+weight_cg = 346
+
+[personal.base_stats]
+hp = 250
+attack = 5
+defense = 5
+speed = 50
+special_attack = 35
+special_defense = 105
+
+[personal.typing]
+primary = "TYPE_NORMAL"
+secondary = "TYPE_NORMAL"
+
+[personal.wild_items]
+common_50 = "ITEM_LUCKY_PUNCH"
+rare_5 = "ITEM_LUCKY_EGG"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 30
+secondary = 32
+hidden = 131
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-138676632, 92379764, 846508332, 4]
+type_tutors = 0
+special_tutors = [28674, 107664, 2114, 32016]

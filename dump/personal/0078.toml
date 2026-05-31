@@ -1,0 +1,48 @@
+[personal]
+index = 78
+species = "SPECIES_RAPIDASH"
+capture_rate = 60
+evolution_stage = 2
+ev_yield = 128
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 0
+egg_groups = [5, 5]
+escape_rate = 0
+color = 2
+base_experience = 175
+height_cm = 17
+weight_cg = 950
+
+[personal.base_stats]
+hp = 65
+attack = 100
+defense = 70
+speed = 105
+special_attack = 80
+special_defense = 80
+
+[personal.typing]
+primary = "TYPE_FIRE"
+secondary = "TYPE_FIRE"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_SHUCA_BERRY"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 50
+secondary = 18
+hidden = 49
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2077145568, 335781412, 306708488, 4]
+type_tutors = 0
+special_tutors = [896, 65536, 18, 8192]

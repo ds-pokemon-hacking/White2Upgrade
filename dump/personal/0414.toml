@@ -1,0 +1,48 @@
+[personal]
+index = 414
+species = "SPECIES_MOTHIM"
+capture_rate = 45
+evolution_stage = 2
+ev_yield = 260
+gender_probability = 0
+egg_happiness = 15
+base_happiness = 70
+experience_group = 0
+egg_groups = [3, 3]
+escape_rate = 0
+color = 2
+base_experience = 148
+height_cm = 9
+weight_cg = 233
+
+[personal.base_stats]
+hp = 70
+attack = 94
+defense = 50
+speed = 66
+special_attack = 94
+special_defense = 50
+
+[personal.typing]
+primary = "TYPE_BUG"
+secondary = "TYPE_FLYING"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_SILVER_POWDER"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 68
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 110
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1271183584, 537967232, 55580712, 0]
+type_tutors = 0
+special_tutors = [17, 512, 5250, 24576]

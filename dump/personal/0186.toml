@@ -1,0 +1,48 @@
+[personal]
+index = 186
+species = "SPECIES_POLITOED"
+capture_rate = 45
+evolution_stage = 3
+ev_yield = 3072
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 3
+egg_groups = [2, 2]
+escape_rate = 0
+color = 67
+base_experience = 225
+height_cm = 11
+weight_cg = 339
+
+[personal.base_stats]
+hp = 90
+attack = 75
+defense = 75
+speed = 70
+special_attack = 90
+special_defense = 100
+
+[personal.typing]
+primary = "TYPE_WATER"
+secondary = "TYPE_WATER"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_KING'S_ROCK"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 11
+secondary = 6
+hidden = "BATTLE_ABILITY_SECONDARY"
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-569150880, 13220352, 574627850, 30]
+type_tutors = 0
+special_tutors = [16640, 33792, 2, 8464]

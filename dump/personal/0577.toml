@@ -1,0 +1,48 @@
+[personal]
+index = 577
+species = "SPECIES_SOLOSIS"
+capture_rate = 200
+evolution_stage = 1
+ev_yield = 256
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 3
+egg_groups = [11, 11]
+escape_rate = 0
+color = 67
+base_experience = 58
+height_cm = 3
+weight_cg = 10
+
+[personal.base_stats]
+hp = 45
+attack = 30
+defense = 40
+speed = 20
+special_attack = 105
+special_defense = 50
+
+[personal.typing]
+primary = "TYPE_PSYCHIC"
+secondary = "TYPE_PSYCHIC"
+
+[personal.wild_items]
+common_50 = "ITEM_PERSIM_BERRY"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 142
+secondary = 98
+hidden = 144
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1256226260, -1072653759, 240161568, 0]
+type_tutors = 0
+special_tutors = [16, 8209, 546, 27048]

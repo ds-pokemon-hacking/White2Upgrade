@@ -1,0 +1,48 @@
+[personal]
+index = 495
+species = "SPECIES_SNIVY"
+capture_rate = 45
+evolution_stage = 1
+ev_yield = 64
+gender_probability = 31
+egg_happiness = 20
+base_happiness = 70
+experience_group = 3
+egg_groups = [5, 7]
+escape_rate = 0
+color = 3
+base_experience = 62
+height_cm = 6
+weight_cg = 81
+
+[personal.base_stats]
+hp = 45
+attack = 45
+defense = 55
+speed = 63
+special_attack = 45
+special_defense = 55
+
+[personal.typing]
+primary = "TYPE_GRASS"
+secondary = "TYPE_GRASS"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 65
+secondary = 65
+hidden = 126
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2076602840, 1088385, -2107636704, 0]
+type_tutors = 1
+special_tutors = [64, 67584, 1039, 10243]

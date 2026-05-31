@@ -1,0 +1,48 @@
+[personal]
+index = 299
+species = "SPECIES_NOSEPASS"
+capture_rate = 255
+evolution_stage = 1
+ev_yield = 16
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 0
+egg_groups = [10, 10]
+escape_rate = 60
+color = 7
+base_experience = 75
+height_cm = 10
+weight_cg = 970
+
+[personal.base_stats]
+hp = 30
+attack = 45
+defense = 135
+speed = 30
+special_attack = 45
+special_defense = 90
+
+[personal.typing]
+primary = "TYPE_ROCK"
+secondary = "TYPE_ROCK"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_HARD_STONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 5
+secondary = 42
+hidden = 159
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2016342496, -2147443888, 574661072, 4]
+type_tutors = 0
+special_tutors = [28672, 119, 514, 12288]

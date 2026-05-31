@@ -1,0 +1,48 @@
+[trainer]
+index = 504
+party_format = 3
+trainer_class = 161
+battle_type = 0
+party_count = 3
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 50
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 504
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 0
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 80
+species = "SPECIES_ZAPDOS"
+form = 0
+held_item = "ITEM_LIFE_ORB"
+moves = ["MOVE_THUNDER", "MOVE_HEAT_WAVE", "MOVE_DISCHARGE", "MOVE_ROOST"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 0
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 80
+species = "SPECIES_CRESSELIA"
+form = 0
+held_item = "ITEM_GANLON_BERRY"
+moves = ["MOVE_PSYCHIC", "MOVE_SUBSTITUTE", "MOVE_MOONLIGHT", "MOVE_CALM_MIND"]
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 0
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 80
+species = "SPECIES_LATIAS"
+form = 0
+held_item = "ITEM_WHITE_HERB"
+moves = ["MOVE_DRACO_METEOR", "MOVE_PSYCHIC", "MOVE_ICY_WIND", "MOVE_THUNDERBOLT"]

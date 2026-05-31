@@ -1,0 +1,48 @@
+[personal]
+index = 515
+species = "SPECIES_PANPOUR"
+capture_rate = 190
+evolution_stage = 1
+ev_yield = 64
+gender_probability = 31
+egg_happiness = 20
+base_happiness = 70
+experience_group = 0
+egg_groups = [5, 5]
+escape_rate = 0
+color = 1
+base_experience = 63
+height_cm = 6
+weight_cg = 135
+
+[personal.base_stats]
+hp = 50
+attack = 53
+defense = 48
+speed = 64
+special_attack = 53
+special_defense = 48
+
+[personal.typing]
+primary = "TYPE_WATER"
+secondary = "TYPE_WATER"
+
+[personal.wild_items]
+common_50 = "ITEM_ORAN_BERRY"
+rare_5 = "ITEM_RINDO_BERRY"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 82
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 67
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1944896927, 549518144, -1570504701, 26]
+type_tutors = 0
+special_tutors = [19970, 68608, 38, 9488]

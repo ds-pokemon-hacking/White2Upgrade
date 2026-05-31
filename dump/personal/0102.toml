@@ -1,0 +1,48 @@
+[personal]
+index = 102
+species = "SPECIES_EXEGGCUTE"
+capture_rate = 90
+evolution_stage = 1
+ev_yield = 16
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 5
+egg_groups = [7, 7]
+escape_rate = 120
+color = 9
+base_experience = 65
+height_cm = 4
+weight_cg = 25
+
+[personal.base_stats]
+hp = 60
+attack = 40
+defense = 80
+speed = 40
+special_attack = 60
+special_defense = 45
+
+[personal.typing]
+primary = "TYPE_GRASS"
+secondary = "TYPE_PSYCHIC"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 34
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 139
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1808431584, -2146387447, 175117344, 4]
+type_tutors = 0
+special_tutors = [2112, 18, 1034, 24578]

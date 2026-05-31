@@ -1,0 +1,33 @@
+[trainer]
+index = 86
+party_format = 0
+trainer_class = 69
+battle_type = 1
+party_count = 2
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 129
+can_heal = 0
+reward_money = 12
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 86
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 0
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 61
+species = "SPECIES_WHIMSICOTT"
+form = 0
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 0
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_FEMALE"
+level = 61
+species = "SPECIES_LILLIGANT"
+form = 0

@@ -1,0 +1,48 @@
+[personal]
+index = 341
+species = "SPECIES_CORPHISH"
+capture_rate = 205
+evolution_stage = 1
+ev_yield = 4
+gender_probability = 127
+egg_happiness = 15
+base_happiness = 70
+experience_group = 2
+egg_groups = [2, 9]
+escape_rate = 90
+color = 0
+base_experience = 62
+height_cm = 6
+weight_cg = 115
+
+[personal.base_stats]
+hp = 43
+attack = 80
+defense = 65
+speed = 35
+special_attack = 50
+special_defense = 35
+
+[personal.typing]
+primary = "TYPE_WATER"
+secondary = "TYPE_WATER"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 52
+secondary = 75
+hidden = 91
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-871155103, 14719688, -1572764670, 14]
+type_tutors = 0
+special_tutors = [0, 1344, 6, 8452]

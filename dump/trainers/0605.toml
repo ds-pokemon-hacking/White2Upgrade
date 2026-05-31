@@ -1,0 +1,45 @@
+[trainer]
+index = 605
+party_format = 1
+trainer_class = 71
+battle_type = 0
+party_count = 3
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 20
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 605
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 150
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_RANDOM"
+level = 54
+species = "SPECIES_ZEBSTRIKA"
+form = 0
+moves = ["MOVE_DISCHARGE", "MOVE_FLAME_CHARGE", "MOVE_STOMP", "MOVE_PURSUIT"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 150
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_RANDOM"
+level = 54
+species = "SPECIES_SAWK"
+form = 0
+moves = ["MOVE_BRICK_BREAK", "MOVE_ROCK_TOMB", "MOVE_RETALIATE", "MOVE_BULK_UP"]
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 150
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 54
+species = "SPECIES_STARMIE"
+form = 0
+moves = ["MOVE_SURF", "MOVE_PSYSHOCK", "MOVE_FLASH_CANNON", "MOVE_GRASS_KNOT"]

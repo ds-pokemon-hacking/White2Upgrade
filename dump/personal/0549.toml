@@ -1,0 +1,48 @@
+[personal]
+index = 549
+species = "SPECIES_LILLIGANT"
+capture_rate = 75
+evolution_stage = 2
+ev_yield = 512
+gender_probability = 254
+egg_happiness = 20
+base_happiness = 70
+experience_group = 0
+egg_groups = [7, 7]
+escape_rate = 0
+color = 67
+base_experience = 168
+height_cm = 11
+weight_cg = 163
+
+[personal.base_stats]
+hp = 70
+attack = 60
+defense = 75
+speed = 90
+special_attack = 110
+special_defense = 75
+
+[personal.typing]
+primary = "TYPE_GRASS"
+secondary = "TYPE_GRASS"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 34
+secondary = 20
+hidden = 102
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2076588512, 1088000, -2106588120, 0]
+type_tutors = 0
+special_tutors = [66, 0, 1130, 8218]

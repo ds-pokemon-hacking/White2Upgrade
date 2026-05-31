@@ -1,0 +1,48 @@
+[personal]
+index = 259
+species = "SPECIES_MARSHTOMP"
+capture_rate = 45
+evolution_stage = 2
+ev_yield = 8
+gender_probability = 31
+egg_happiness = 20
+base_happiness = 70
+experience_group = 3
+egg_groups = [1, 2]
+escape_rate = 0
+color = 1
+base_experience = 142
+height_cm = 7
+weight_cg = 280
+
+[personal.base_stats]
+hp = 70
+attack = 85
+defense = 70
+speed = 50
+special_attack = 60
+special_defense = 70
+
+[personal.typing]
+primary = "TYPE_WATER"
+secondary = "TYPE_GROUND"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 67
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 6
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-837602720, 12687938, 574660608, 30]
+type_tutors = 4
+special_tutors = [16896, 68868, 2, 12544]

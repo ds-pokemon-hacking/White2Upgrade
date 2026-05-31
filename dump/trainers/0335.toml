@@ -1,0 +1,25 @@
+[trainer]
+index = 335
+party_format = 2
+trainer_class = 34
+battle_type = 0
+party_count = 1
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 1
+can_heal = 0
+reward_money = 10
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 335
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 0
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_RANDOM"
+level = 42
+species = "SPECIES_HEATMOR"
+form = 0
+held_item = "ITEM_SITRUS_BERRY"

@@ -1,0 +1,48 @@
+[personal]
+index = 413
+species = "SPECIES_WORMADAM"
+capture_rate = 45
+evolution_stage = 2
+ev_yield = 2048
+gender_probability = 254
+egg_happiness = 15
+base_happiness = 70
+experience_group = 0
+egg_groups = [3, 3]
+escape_rate = 0
+color = 7
+base_experience = 148
+height_cm = 5
+weight_cg = 65
+
+[personal.base_stats]
+hp = 60
+attack = 59
+defense = 85
+speed = 36
+special_attack = 79
+special_defense = 105
+
+[personal.typing]
+primary = "TYPE_BUG"
+secondary = "TYPE_GRASS"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_SILVER_POWDER"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 107
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 142
+
+[personal.forms]
+data_offset = 688
+sprite_offset = 35
+count = 3
+
+[personal.compatibility]
+tmhm = [-1271183584, 1096192, 40900648, 0]
+type_tutors = 0
+special_tutors = [2129, 512, 1034, 24834]

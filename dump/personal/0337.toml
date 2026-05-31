@@ -1,0 +1,48 @@
+[personal]
+index = 337
+species = "SPECIES_LUNATONE"
+capture_rate = 45
+evolution_stage = 2
+ev_yield = 512
+gender_probability = 255
+egg_happiness = 25
+base_happiness = 70
+experience_group = 4
+egg_groups = [10, 10]
+escape_rate = 60
+color = 2
+base_experience = 154
+height_cm = 10
+weight_cg = 1680
+
+[personal.base_stats]
+hp = 70
+attack = 55
+defense = 65
+speed = 70
+special_attack = 95
+special_defense = 85
+
+[personal.typing]
+primary = "TYPE_ROCK"
+secondary = "TYPE_PSYCHIC"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_MOON_STONE"
+rare_1 = "ITEM_COMET_SHARD"
+
+[personal.abilities]
+primary = 26
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = "BATTLE_ABILITY_RANDOM"
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1235226068, -520058287, 175157880, 0]
+type_tutors = 0
+special_tutors = [48, 9237, 514, 29776]

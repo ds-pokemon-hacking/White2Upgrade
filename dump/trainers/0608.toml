@@ -1,0 +1,35 @@
+[trainer]
+index = 608
+party_format = 1
+trainer_class = 50
+battle_type = 0
+party_count = 2
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 15
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 608
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 100
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 55
+species = "SPECIES_ZWEILOUS"
+form = 0
+moves = ["MOVE_DRAGON_PULSE", "MOVE_BODY_SLAM", "MOVE_THIEF", "MOVE_TORMENT"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 100
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 55
+species = "SPECIES_EELEKTROSS"
+form = 0
+moves = ["MOVE_WILD_CHARGE", "MOVE_FLAMETHROWER", "MOVE_CRUNCH", "MOVE_CRUSH_CLAW"]

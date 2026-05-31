@@ -1,0 +1,24 @@
+[trainer]
+index = 601
+party_format = 0
+trainer_class = 61
+battle_type = 0
+party_count = 1
+items = ["ITEM_FULL_HEAL", "ITEM_MAX_POTION", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 1
+reward_money = 15
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 601
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 0
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 54
+species = "SPECIES_CLEFABLE"
+form = 0

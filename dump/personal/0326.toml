@@ -1,0 +1,48 @@
+[personal]
+index = 326
+species = "SPECIES_GRUMPIG"
+capture_rate = 60
+evolution_stage = 2
+ev_yield = 2048
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 4
+egg_groups = [5, 5]
+escape_rate = 0
+color = 6
+base_experience = 165
+height_cm = 9
+weight_cg = 715
+
+[personal.base_stats]
+hp = 80
+attack = 45
+defense = 65
+speed = 80
+special_attack = 90
+special_defense = 110
+
+[personal.typing]
+primary = "TYPE_PSYCHIC"
+secondary = "TYPE_PSYCHIC"
+
+[personal.wild_items]
+common_50 = "ITEM_PERSIM_BERRY"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 47
+secondary = 20
+hidden = 82
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-199766484, 26786561, 175124778, 0]
+type_tutors = 0
+special_tutors = [28946, 74753, 2146, 27680]

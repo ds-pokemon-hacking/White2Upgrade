@@ -1,0 +1,48 @@
+[personal]
+index = 460
+species = "SPECIES_ABOMASNOW"
+capture_rate = 60
+evolution_stage = 2
+ev_yield = 260
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 5
+egg_groups = [1, 7]
+escape_rate = 0
+color = 8
+base_experience = 173
+height_cm = 22
+weight_cg = 1355
+
+[personal.base_stats]
+hp = 90
+attack = 92
+defense = 75
+speed = 60
+special_attack = 92
+special_defense = 85
+
+[personal.typing]
+primary = "TYPE_GRASS"
+secondary = "TYPE_ICE"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NEVER-MELT_ICE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 117
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 43
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-432278944, 10000960, 576775208, 4]
+type_tutors = 0
+special_tutors = [16448, 66562, 1066, 8706]

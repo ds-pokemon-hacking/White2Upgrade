@@ -1,0 +1,48 @@
+[personal]
+index = 484
+species = "SPECIES_PALKIA"
+capture_rate = 30
+evolution_stage = 3
+ev_yield = 768
+gender_probability = 255
+egg_happiness = 120
+base_happiness = 0
+experience_group = 5
+egg_groups = [15, 15]
+escape_rate = 0
+color = 6
+base_experience = 306
+height_cm = 42
+weight_cg = 3360
+
+[personal.base_stats]
+hp = 90
+attack = 120
+defense = 100
+speed = 100
+special_attack = 150
+special_defense = 120
+
+[personal.typing]
+primary = "TYPE_WATER"
+secondary = "TYPE_DRAGON"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 46
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 140
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-946112781, 76122868, -1438469815, 22]
+type_tutors = 64
+special_tutors = [0, 51220, 2, 8704]

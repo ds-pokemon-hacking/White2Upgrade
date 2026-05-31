@@ -1,0 +1,48 @@
+[personal]
+index = 489
+species = "SPECIES_PHIONE"
+capture_rate = 30
+evolution_stage = 3
+ev_yield = 1
+gender_probability = 255
+egg_happiness = 40
+base_happiness = 70
+experience_group = 5
+egg_groups = [2, 6]
+escape_rate = 0
+color = 1
+base_experience = 216
+height_cm = 4
+weight_cg = 31
+
+[personal.base_stats]
+hp = 80
+attack = 80
+defense = 80
+speed = 80
+special_attack = 80
+special_defense = 80
+
+[personal.typing]
+primary = "TYPE_WATER"
+secondary = "TYPE_WATER"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 93
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = "BATTLE_ABILITY_RANDOM"
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2078592416, 12618240, 56627200, 26]
+type_tutors = 0
+special_tutors = [2322, 1152, 70, 8208]

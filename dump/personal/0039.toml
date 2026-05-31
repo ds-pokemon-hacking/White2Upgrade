@@ -1,0 +1,48 @@
+[personal]
+index = 39
+species = "SPECIES_JIGGLYPUFF"
+capture_rate = 170
+evolution_stage = 2
+ev_yield = 2
+gender_probability = 191
+egg_happiness = 10
+base_happiness = 70
+experience_group = 4
+egg_groups = [6, 6]
+escape_rate = 120
+color = 73
+base_experience = 95
+height_cm = 5
+weight_cg = 55
+
+[personal.base_stats]
+hp = 115
+attack = 45
+defense = 20
+speed = 20
+special_attack = 45
+special_defense = 25
+
+[personal.typing]
+primary = "TYPE_NORMAL"
+secondary = "TYPE_NORMAL"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 56
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 132
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-38029792, 92379685, 309596964, 4]
+type_tutors = 0
+special_tutors = [28930, 33937, 2662, 15632]

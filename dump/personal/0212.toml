@@ -1,0 +1,48 @@
+[personal]
+index = 212
+species = "SPECIES_SCIZOR"
+capture_rate = 25
+evolution_stage = 2
+ev_yield = 8
+gender_probability = 127
+egg_happiness = 25
+base_happiness = 70
+experience_group = 0
+egg_groups = [3, 3]
+escape_rate = 0
+color = 0
+base_experience = 175
+height_cm = 18
+weight_cg = 1180
+
+[personal.base_stats]
+hp = 70
+attack = 130
+defense = 100
+speed = 65
+special_attack = 55
+special_defense = 80
+
+[personal.typing]
+primary = "TYPE_BUG"
+secondary = "TYPE_STEEL"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 68
+secondary = 101
+hidden = 135
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1004812512, 547404432, -1488909304, 4]
+type_tutors = 0
+special_tutors = [33, 320, 4230, 8192]

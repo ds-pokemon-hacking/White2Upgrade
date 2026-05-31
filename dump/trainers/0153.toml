@@ -1,0 +1,48 @@
+[trainer]
+index = 153
+party_format = 3
+trainer_class = 112
+battle_type = 0
+party_count = 3
+items = ["ITEM_HYPER_POTION", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 30
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 153
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 100
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 28
+species = "SPECIES_EMOLGA"
+form = 0
+held_item = "ITEM_NONE"
+moves = ["MOVE_VOLT_SWITCH", "MOVE_QUICK_ATTACK", "MOVE_PURSUIT", "MOVE_NONE"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 100
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 28
+species = "SPECIES_FLAAFFY"
+form = 0
+held_item = "ITEM_NONE"
+moves = ["MOVE_VOLT_SWITCH", "MOVE_TAKE_DOWN", "MOVE_THUNDER_WAVE", "MOVE_NONE"]
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 100
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 30
+species = "SPECIES_ZEBSTRIKA"
+form = 0
+held_item = "ITEM_SITRUS_BERRY"
+moves = ["MOVE_VOLT_SWITCH", "MOVE_FLAME_CHARGE", "MOVE_QUICK_ATTACK", "MOVE_PURSUIT"]

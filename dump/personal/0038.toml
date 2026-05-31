@@ -1,0 +1,48 @@
+[personal]
+index = 38
+species = "SPECIES_NINETALES"
+capture_rate = 75
+evolution_stage = 2
+ev_yield = 1088
+gender_probability = 191
+egg_happiness = 20
+base_happiness = 70
+experience_group = 0
+egg_groups = [5, 5]
+escape_rate = 0
+color = 2
+base_experience = 177
+height_cm = 11
+weight_cg = 199
+
+[personal.base_stats]
+hp = 73
+attack = 76
+defense = 75
+speed = 100
+special_attack = 81
+special_defense = 100
+
+[personal.typing]
+primary = "TYPE_FIRE"
+secondary = "TYPE_FIRE"
+
+[personal.wild_items]
+common_50 = "ITEM_RAWST_BERRY"
+rare_5 = "ITEM_RAWST_BERRY"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 18
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 70
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1942403524, 336764452, 38801418, 0]
+type_tutors = 0
+special_tutors = [2, 77832, 562, 8196]

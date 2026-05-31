@@ -1,0 +1,48 @@
+[personal]
+index = 316
+species = "SPECIES_GULPIN"
+capture_rate = 225
+evolution_stage = 1
+ev_yield = 1
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 2
+egg_groups = [11, 11]
+escape_rate = 120
+color = 3
+base_experience = 60
+height_cm = 4
+weight_cg = 103
+
+[personal.base_stats]
+hp = 70
+attack = 43
+defense = 53
+speed = 40
+special_attack = 43
+special_defense = 53
+
+[personal.typing]
+primary = "TYPE_POISON"
+secondary = "TYPE_POISON"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_BIG_PEARL"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 64
+secondary = 60
+hidden = 82
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1540155616, -2147444214, 575668224, 4]
+type_tutors = 0
+special_tutors = [29760, 0, 1538, 10241]

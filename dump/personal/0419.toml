@@ -1,0 +1,48 @@
+[personal]
+index = 419
+species = "SPECIES_FLOATZEL"
+capture_rate = 75
+evolution_stage = 2
+ev_yield = 128
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 0
+egg_groups = [2, 5]
+escape_rate = 90
+color = 5
+base_experience = 173
+height_cm = 11
+weight_cg = 335
+
+[personal.base_stats]
+hp = 85
+attack = 105
+defense = 55
+speed = 115
+special_attack = 85
+special_defense = 50
+
+[personal.typing]
+primary = "TYPE_WATER"
+secondary = "TYPE_WATER"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 33
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 41
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-871138576, 4823872, 574619658, 30]
+type_tutors = 0
+special_tutors = [16896, 68608, 2, 8192]

@@ -1,0 +1,48 @@
+[personal]
+index = 595
+species = "SPECIES_JOLTIK"
+capture_rate = 190
+evolution_stage = 1
+ev_yield = 64
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 0
+egg_groups = [3, 3]
+escape_rate = 0
+color = 2
+base_experience = 64
+height_cm = 1
+weight_cg = 6
+
+[personal.base_stats]
+hp = 50
+attack = 47
+defense = 50
+speed = 65
+special_attack = 57
+special_defense = 50
+
+[personal.typing]
+primary = "TYPE_BUG"
+secondary = "TYPE_ELECTRIC"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 14
+secondary = 127
+hidden = 68
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2070707680, 17873408, -1840707168, 0]
+type_tutors = 0
+special_tutors = [273, 544, 1026, 8193]

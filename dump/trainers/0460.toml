@@ -1,0 +1,75 @@
+[trainer]
+index = 460
+party_format = 1
+trainer_class = 87
+battle_type = 0
+party_count = 6
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 10
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 460
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 250
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 66
+species = "SPECIES_SKARMORY"
+form = 0
+moves = ["MOVE_STEEL_WING", "MOVE_AERIAL_ACE", "MOVE_XSCISSOR", "MOVE_SWORDS_DANCE"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 250
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 66
+species = "SPECIES_STEELIX"
+form = 0
+moves = ["MOVE_STONE_EDGE", "MOVE_GYRO_BALL", "MOVE_EARTHQUAKE", "MOVE_CURSE"]
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 250
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 66
+species = "SPECIES_FERROTHORN"
+form = 0
+moves = ["MOVE_POWER_WHIP", "MOVE_GYRO_BALL", "MOVE_EXPLOSION", "MOVE_CURSE"]
+
+[[trainer_party.party]]
+slot = 3
+difficulty_value = 250
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 66
+species = "SPECIES_ESCAVALIER"
+form = 0
+moves = ["MOVE_XSCISSOR", "MOVE_IRON_HEAD", "MOVE_REVERSAL", "MOVE_SWORDS_DANCE"]
+
+[[trainer_party.party]]
+slot = 4
+difficulty_value = 250
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_RANDOM"
+level = 66
+species = "SPECIES_BISHARP"
+form = 0
+moves = ["MOVE_IRON_HEAD", "MOVE_NIGHT_SLASH", "MOVE_STONE_EDGE", "MOVE_LOW_SWEEP"]
+
+[[trainer_party.party]]
+slot = 5
+difficulty_value = 250
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 66
+species = "SPECIES_METAGROSS"
+form = 0
+moves = ["MOVE_ZEN_HEADBUTT", "MOVE_METEOR_MASH", "MOVE_EARTHQUAKE", "MOVE_BULLET_PUNCH"]

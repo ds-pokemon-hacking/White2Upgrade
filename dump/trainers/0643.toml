@@ -1,0 +1,45 @@
+[trainer]
+index = 643
+party_format = 1
+trainer_class = 70
+battle_type = 0
+party_count = 3
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 135
+can_heal = 0
+reward_money = 20
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 643
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 200
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 64
+species = "SPECIES_LUDICOLO"
+form = 0
+moves = ["MOVE_ENERGY_BALL", "MOVE_ICE_BEAM", "MOVE_HYDRO_PUMP", "MOVE_FAKE_OUT"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 200
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 64
+species = "SPECIES_ELECTIVIRE"
+form = 0
+moves = ["MOVE_THUNDER", "MOVE_EARTHQUAKE", "MOVE_ROCK_SLIDE", "MOVE_THUNDER_WAVE"]
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 200
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 64
+species = "SPECIES_FORRETRESS"
+form = 0
+moves = ["MOVE_GYRO_BALL", "MOVE_SOLARBEAM", "MOVE_PAYBACK", "MOVE_DOUBLEEDGE"]

@@ -1,0 +1,48 @@
+[personal]
+index = 19
+species = "SPECIES_RATTATA"
+capture_rate = 255
+evolution_stage = 1
+ev_yield = 64
+gender_probability = 127
+egg_happiness = 15
+base_happiness = 70
+experience_group = 0
+egg_groups = [5, 5]
+escape_rate = 120
+color = 6
+base_experience = 51
+height_cm = 3
+weight_cg = 35
+
+[personal.base_stats]
+hp = 30
+attack = 56
+defense = 35
+speed = 72
+special_attack = 25
+special_defense = 35
+
+[personal.typing]
+primary = "TYPE_NORMAL"
+secondary = "TYPE_NORMAL"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 50
+secondary = 62
+hidden = 55
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1382859232, 16824832, -1276903164, 0]
+type_tutors = 0
+special_tutors = [2054, 74880, 2, 8448]

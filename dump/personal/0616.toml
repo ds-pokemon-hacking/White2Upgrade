@@ -1,0 +1,48 @@
+[personal]
+index = 616
+species = "SPECIES_SHELMET"
+capture_rate = 200
+evolution_stage = 1
+ev_yield = 16
+gender_probability = 127
+egg_happiness = 15
+base_happiness = 70
+experience_group = 0
+egg_groups = [3, 3]
+escape_rate = 0
+color = 0
+base_experience = 61
+height_cm = 4
+weight_cg = 77
+
+[personal.base_stats]
+hp = 50
+attack = 40
+defense = 85
+speed = 25
+special_attack = 40
+special_defense = 65
+
+[personal.typing]
+primary = "TYPE_BUG"
+secondary = "TYPE_BUG"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 93
+secondary = 75
+hidden = 142
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2079128800, 1088008, 37750784, 0]
+type_tutors = 0
+special_tutors = [17, 0, 1026, 8193]

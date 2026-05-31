@@ -1,0 +1,48 @@
+[personal]
+index = 249
+species = "SPECIES_LUGIA"
+capture_rate = 3
+evolution_stage = 3
+ev_yield = 3072
+gender_probability = 255
+egg_happiness = 120
+base_happiness = 0
+experience_group = 5
+egg_groups = [15, 15]
+escape_rate = 0
+color = 8
+base_experience = 306
+height_cm = 52
+weight_cg = 2160
+
+[personal.base_stats]
+hp = 106
+attack = 90
+defense = 130
+speed = 110
+special_attack = 90
+special_defense = 154
+
+[personal.typing]
+primary = "TYPE_PSYCHIC"
+secondary = "TYPE_FLYING"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 46
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 136
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1214253444, 50432657, 575811880, 31]
+type_tutors = 0
+special_tutors = [48, 125956, 5506, 24736]

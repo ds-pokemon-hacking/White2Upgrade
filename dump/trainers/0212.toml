@@ -1,0 +1,35 @@
+[trainer]
+index = 212
+party_format = 1
+trainer_class = 86
+battle_type = 0
+party_count = 2
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 10
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 212
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 0
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 16
+species = "SPECIES_GROWLITHE"
+form = 0
+moves = ["MOVE_EMBER", "MOVE_BITE", "MOVE_ODOR_SLEUTH", "MOVE_LEER"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 0
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 16
+species = "SPECIES_HERDIER"
+form = 0
+moves = ["MOVE_TACKLE", "MOVE_BITE", "MOVE_ODOR_SLEUTH", "MOVE_WORK_UP"]

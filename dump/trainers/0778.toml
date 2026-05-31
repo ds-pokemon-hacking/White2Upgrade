@@ -1,0 +1,81 @@
+[trainer]
+index = 778
+party_format = 3
+trainer_class = 80
+battle_type = 0
+party_count = 6
+items = ["ITEM_FULL_RESTORE", "ITEM_FULL_RESTORE", "ITEM_FULL_RESTORE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 30
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 778
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 250
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 73
+species = "SPECIES_HONCHKROW"
+form = 0
+held_item = "ITEM_SCOPE_LENS"
+moves = ["MOVE_NIGHT_SLASH", "MOVE_PSYCHIC", "MOVE_AERIAL_ACE", "MOVE_HAZE"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 250
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 73
+species = "SPECIES_SCRAFTY"
+form = 0
+held_item = "ITEM_LEFTOVERS"
+moves = ["MOVE_HEAD_SMASH", "MOVE_CRUNCH", "MOVE_HI_JUMP_KICK", "MOVE_POISON_JAB"]
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 250
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_RANDOM"
+level = 73
+species = "SPECIES_KROOKODILE"
+form = 0
+held_item = "ITEM_MUSCLE_BAND"
+moves = ["MOVE_ROCK_SLIDE", "MOVE_EARTHQUAKE", "MOVE_CRUNCH", "MOVE_OUTRAGE"]
+
+[[trainer_party.party]]
+slot = 3
+difficulty_value = 250
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 73
+species = "SPECIES_HOUNDOOM"
+form = 0
+held_item = "ITEM_WISE_GLASSES"
+moves = ["MOVE_THUNDER_FANG", "MOVE_FIRE_BLAST", "MOVE_SLUDGE_BOMB", "MOVE_CRUNCH"]
+
+[[trainer_party.party]]
+slot = 4
+difficulty_value = 250
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 73
+species = "SPECIES_TYRANITAR"
+form = 0
+held_item = "ITEM_FOCUS_BAND"
+moves = ["MOVE_DARK_PULSE", "MOVE_STONE_EDGE", "MOVE_FIRE_BLAST", "MOVE_EARTHQUAKE"]
+
+[[trainer_party.party]]
+slot = 5
+difficulty_value = 250
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_RANDOM"
+level = 75
+species = "SPECIES_BISHARP"
+form = 0
+held_item = "ITEM_QUICK_CLAW"
+moves = ["MOVE_GUILLOTINE", "MOVE_XSCISSOR", "MOVE_NIGHT_SLASH", "MOVE_AERIAL_ACE"]

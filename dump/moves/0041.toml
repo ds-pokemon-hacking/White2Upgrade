@@ -1,0 +1,44 @@
+[move]
+index = 41
+name = "MOVE_TWINEEDLE"
+type = "TYPE_BUG"
+quality = "EFFECT_CHANCE_TO_INFLICT_STATUS"
+category = "SPLIT_PHYSICAL"
+power = 25
+accuracy = 100
+base_pp = 20
+priority = 0
+critical_hit_stage = 0
+flinch_rate = 0
+animation_id = 77
+recoil = 0
+heal = 0
+target = "TARGET_OTHER_SELECT"
+padding = 21331
+flags = ["FLAG_BLOCKED_BY_PROTECT", "FLAG_COPIED_BY_MIRROR_MOVE"]
+
+[move.hits]
+minimum = 2
+maximum = 2
+
+[move.inflict]
+status = 5
+chance = 20
+duration = 1
+turn_min = 0
+turn_max = 0
+
+[[move.stat_changes]]
+stat = "STATUS_NONE"
+stages = 0
+chance = 0
+
+[[move.stat_changes]]
+stat = "STATUS_NONE"
+stages = 0
+chance = 0
+
+[[move.stat_changes]]
+stat = "STATUS_NONE"
+stages = 0
+chance = 0

@@ -1,0 +1,48 @@
+[personal]
+index = 109
+species = "SPECIES_KOFFING"
+capture_rate = 190
+evolution_stage = 1
+ev_yield = 16
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 0
+egg_groups = [11, 11]
+escape_rate = 90
+color = 6
+base_experience = 68
+height_cm = 6
+weight_cg = 10
+
+[personal.base_stats]
+hp = 40
+attack = 65
+defense = 95
+speed = 35
+special_attack = 60
+special_defense = 45
+
+[personal.typing]
+primary = "TYPE_POISON"
+secondary = "TYPE_POISON"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_SMOKE_BALL"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 26
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = "BATTLE_ABILITY_RANDOM"
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1517088992, -1811891412, 37749282, 0]
+type_tutors = 0
+special_tutors = [2048, 4096, 514, 8196]

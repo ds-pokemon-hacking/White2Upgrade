@@ -1,0 +1,48 @@
+[personal]
+index = 539
+species = "SPECIES_SAWK"
+capture_rate = 45
+evolution_stage = 2
+ev_yield = 8
+gender_probability = 0
+egg_happiness = 20
+base_happiness = 70
+experience_group = 0
+egg_groups = [8, 8]
+escape_rate = 0
+color = 65
+base_experience = 163
+height_cm = 14
+weight_cg = 510
+
+[personal.base_stats]
+hp = 75
+attack = 125
+defense = 75
+speed = 85
+special_attack = 30
+special_defense = 75
+
+[personal.typing]
+primary = "TYPE_FIGHTING"
+secondary = "TYPE_FIGHTING"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_BLACK_BELT"
+rare_1 = "ITEM_EXPERT_BELT"
+
+[personal.abilities]
+primary = 5
+secondary = 39
+hidden = 104
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-837611872, 8968768, 577544270, 4]
+type_tutors = 0
+special_tutors = [29192, 258, 518, 8208]

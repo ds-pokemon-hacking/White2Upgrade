@@ -1,0 +1,48 @@
+[personal]
+index = 313
+species = "SPECIES_VOLBEAT"
+capture_rate = 150
+evolution_stage = 2
+ev_yield = 64
+gender_probability = 0
+egg_happiness = 15
+base_happiness = 70
+experience_group = 1
+egg_groups = [3, 8]
+escape_rate = 90
+color = 7
+base_experience = 140
+height_cm = 7
+weight_cg = 177
+
+[personal.base_stats]
+hp = 65
+attack = 73
+defense = 55
+speed = 85
+special_attack = 47
+special_defense = 75
+
+[personal.typing]
+primary = "TYPE_BUG"
+secondary = "TYPE_BUG"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 35
+secondary = 68
+hidden = 158
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-441219552, 562084480, 54532384, 0]
+type_tutors = 0
+special_tutors = [20497, 8192, 5250, 8240]

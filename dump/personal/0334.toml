@@ -1,0 +1,48 @@
+[personal]
+index = 334
+species = "SPECIES_ALTARIA"
+capture_rate = 45
+evolution_stage = 2
+ev_yield = 2048
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 1
+egg_groups = [4, 14]
+escape_rate = 0
+color = 1
+base_experience = 172
+height_cm = 11
+weight_cg = 206
+
+[personal.base_stats]
+hp = 75
+attack = 70
+defense = 90
+speed = 80
+special_attack = 70
+special_defense = 105
+
+[personal.typing]
+primary = "TYPE_DRAGON"
+secondary = "TYPE_FLYING"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 30
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 13
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2042931661, 67222180, 584069128, 1]
+type_tutors = 64
+special_tutors = [2048, 114688, 4562, 8832]

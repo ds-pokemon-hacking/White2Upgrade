@@ -1,0 +1,24 @@
+[trainer]
+index = 225
+party_format = 0
+trainer_class = 60
+battle_type = 0
+party_count = 1
+items = ["ITEM_SUPER_POTION", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 1
+can_heal = 0
+reward_money = 16
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 225
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 0
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 22
+species = "SPECIES_DARUMAKA"
+form = 0

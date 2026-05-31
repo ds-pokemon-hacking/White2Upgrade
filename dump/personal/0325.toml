@@ -1,0 +1,48 @@
+[personal]
+index = 325
+species = "SPECIES_SPOINK"
+capture_rate = 255
+evolution_stage = 1
+ev_yield = 1024
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 4
+egg_groups = [5, 5]
+escape_rate = 0
+color = 4
+base_experience = 66
+height_cm = 7
+weight_cg = 306
+
+[personal.base_stats]
+hp = 60
+attack = 25
+defense = 35
+speed = 60
+special_attack = 70
+special_defense = 80
+
+[personal.typing]
+primary = "TYPE_PSYCHIC"
+secondary = "TYPE_PSYCHIC"
+
+[personal.wild_items]
+common_50 = "ITEM_PERSIM_BERRY"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 47
+secondary = 20
+hidden = 82
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1273524692, 16825089, 175116578, 0]
+type_tutors = 0
+special_tutors = [274, 74753, 98, 27680]

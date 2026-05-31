@@ -1,0 +1,26 @@
+[trainer]
+index = 760
+party_format = 3
+trainer_class = 70
+battle_type = 0
+party_count = 1
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 15
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 760
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 200
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 60
+species = "SPECIES_GIGALITH"
+form = 0
+held_item = "ITEM_NORMAL_GEM"
+moves = ["MOVE_EXPLOSION", "MOVE_PROTECT", "MOVE_ROCK_POLISH", "MOVE_ROCK_SLIDE"]

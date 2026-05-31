@@ -1,0 +1,48 @@
+[personal]
+index = 620
+species = "SPECIES_MIENSHAO"
+capture_rate = 45
+evolution_stage = 2
+ev_yield = 8
+gender_probability = 127
+egg_happiness = 25
+base_happiness = 70
+experience_group = 3
+egg_groups = [5, 8]
+escape_rate = 0
+color = 6
+base_experience = 179
+height_cm = 14
+weight_cg = 355
+
+[personal.base_stats]
+hp = 65
+attack = 125
+defense = 60
+speed = 105
+special_attack = 95
+special_defense = 60
+
+[personal.typing]
+primary = "TYPE_FIGHTING"
+secondary = "TYPE_FIGHTING"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 39
+secondary = 144
+hidden = 120
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-871149912, 545839809, 594318414, 4]
+type_tutors = 0
+special_tutors = [776, 0, 2086, 8208]

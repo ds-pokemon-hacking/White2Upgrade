@@ -1,0 +1,60 @@
+[trainer]
+index = 401
+party_format = 0
+trainer_class = 2
+battle_type = 0
+party_count = 5
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 1
+can_heal = 0
+reward_money = 4
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 401
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 0
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 61
+species = "SPECIES_RATTATA"
+form = 0
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 0
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 61
+species = "SPECIES_SENTRET"
+form = 0
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 0
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 61
+species = "SPECIES_ZIGZAGOON"
+form = 0
+
+[[trainer_party.party]]
+slot = 3
+difficulty_value = 0
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 61
+species = "SPECIES_BIDOOF"
+form = 0
+
+[[trainer_party.party]]
+slot = 4
+difficulty_value = 0
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 61
+species = "SPECIES_WATCHOG"
+form = 0

@@ -1,0 +1,48 @@
+[personal]
+index = 24
+species = "SPECIES_ARBOK"
+capture_rate = 90
+evolution_stage = 2
+ev_yield = 8
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 0
+egg_groups = [5, 14]
+escape_rate = 60
+color = 6
+base_experience = 153
+height_cm = 35
+weight_cg = 650
+
+[personal.base_stats]
+hp = 60
+attack = 85
+defense = 69
+speed = 80
+special_attack = 65
+special_defense = 79
+
+[personal.typing]
+primary = "TYPE_POISON"
+secondary = "TYPE_POISON"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 22
+secondary = 61
+hidden = 127
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1911339232, 47946, 38445066, 4]
+type_tutors = 0
+special_tutors = [1088, 71680, 1027, 10245]

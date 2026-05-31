@@ -1,0 +1,48 @@
+[personal]
+index = 198
+species = "SPECIES_MURKROW"
+capture_rate = 30
+evolution_stage = 1
+ev_yield = 64
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 35
+experience_group = 3
+egg_groups = [4, 4]
+escape_rate = 120
+color = 4
+base_experience = 81
+height_cm = 5
+weight_cg = 21
+
+[personal.base_stats]
+hp = 60
+attack = 85
+defense = 42
+speed = 91
+special_attack = 85
+special_defense = 42
+
+[personal.typing]
+primary = "TYPE_DARK"
+secondary = "TYPE_FLYING"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 15
+secondary = 105
+hidden = 158
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1273819608, 1208007552, 1120932102, 1]
+type_tutors = 0
+special_tutors = [2048, 5128, 4496, 10244]

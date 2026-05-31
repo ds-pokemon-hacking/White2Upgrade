@@ -1,0 +1,48 @@
+[personal]
+index = 388
+species = "SPECIES_GROTLE"
+capture_rate = 45
+evolution_stage = 2
+ev_yield = 20
+gender_probability = 31
+egg_happiness = 20
+base_happiness = 70
+experience_group = 3
+egg_groups = [1, 7]
+escape_rate = 0
+color = 3
+base_experience = 142
+height_cm = 11
+weight_cg = 970
+
+[personal.base_stats]
+hp = 75
+attack = 89
+defense = 85
+speed = 36
+special_attack = 55
+special_defense = 65
+
+[personal.typing]
+primary = "TYPE_GRASS"
+secondary = "TYPE_GRASS"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 65
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 75
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2076604896, 1088001, -1570765792, 4]
+type_tutors = 1
+special_tutors = [64, 65796, 1034, 12290]

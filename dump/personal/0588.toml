@@ -1,0 +1,48 @@
+[personal]
+index = 588
+species = "SPECIES_KARRABLAST"
+capture_rate = 200
+evolution_stage = 1
+ev_yield = 4
+gender_probability = 127
+egg_happiness = 15
+base_happiness = 70
+experience_group = 0
+egg_groups = [3, 3]
+escape_rate = 0
+color = 1
+base_experience = 63
+height_cm = 5
+weight_cg = 59
+
+[personal.base_stats]
+hp = 50
+attack = 75
+defense = 45
+speed = 60
+special_attack = 40
+special_defense = 45
+
+[personal.typing]
+primary = "TYPE_BUG"
+secondary = "TYPE_BUG"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 68
+secondary = 61
+hidden = 99
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2079129056, 3185280, -2109142016, 0]
+type_tutors = 0
+special_tutors = [1, 64, 1030, 8192]

@@ -1,0 +1,42 @@
+[trainer]
+index = 269
+party_format = 0
+trainer_class = 3
+battle_type = 2
+party_count = 3
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 129
+can_heal = 0
+reward_money = 4
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 269
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 0
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 33
+species = "SPECIES_DUCKLETT"
+form = 0
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 0
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 33
+species = "SPECIES_UNFEZANT"
+form = 0
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 0
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 33
+species = "SPECIES_DUCKLETT"
+form = 0

@@ -1,0 +1,48 @@
+[personal]
+index = 346
+species = "SPECIES_CRADILY"
+capture_rate = 45
+evolution_stage = 2
+ev_yield = 2048
+gender_probability = 31
+egg_happiness = 30
+base_happiness = 70
+experience_group = 1
+egg_groups = [9, 9]
+escape_rate = 0
+color = 3
+base_experience = 173
+height_cm = 15
+weight_cg = 604
+
+[personal.base_stats]
+hp = 86
+attack = 81
+defense = 97
+speed = 43
+special_attack = 81
+special_defense = 107
+
+[personal.typing]
+primary = "TYPE_ROCK"
+secondary = "TYPE_GRASS"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_BIG_ROOT"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 21
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 114
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2039396832, 1088090, 576758904, 4]
+type_tutors = 0
+special_tutors = [64, 6, 1547, 12291]

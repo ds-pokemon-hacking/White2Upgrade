@@ -1,0 +1,48 @@
+[personal]
+index = 268
+species = "SPECIES_CASCOON"
+capture_rate = 120
+evolution_stage = 1
+ev_yield = 32
+gender_probability = 127
+egg_happiness = 15
+base_happiness = 70
+experience_group = 0
+egg_groups = [3, 3]
+escape_rate = 0
+color = 6
+base_experience = 41
+height_cm = 7
+weight_cg = 115
+
+[personal.base_stats]
+hp = 50
+attack = 35
+defense = 55
+speed = 15
+special_attack = 25
+special_defense = 25
+
+[personal.typing]
+primary = "TYPE_BUG"
+secondary = "TYPE_BUG"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 61
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 61
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [0, 0, 0, 0]
+type_tutors = 0
+special_tutors = [1, 576, 0, 0]

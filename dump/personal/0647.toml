@@ -1,0 +1,48 @@
+[personal]
+index = 647
+species = "SPECIES_KELDEO"
+capture_rate = 3
+evolution_stage = 3
+ev_yield = 768
+gender_probability = 255
+egg_happiness = 80
+base_happiness = 35
+experience_group = 5
+egg_groups = [15, 15]
+escape_rate = 0
+color = 2
+base_experience = 261
+height_cm = 14
+weight_cg = 485
+
+[personal.base_stats]
+hp = 91
+attack = 72
+defense = 90
+speed = 108
+special_attack = 129
+special_defense = 90
+
+[personal.typing]
+primary = "TYPE_WATER"
+secondary = "TYPE_FIGHTING"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 154
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = "BATTLE_ABILITY_RANDOM"
+
+[personal.forms]
+data_offset = 705
+sprite_offset = 60
+count = 2
+
+[personal.compatibility]
+tmhm = [-2078586248, 6851201, -1572006836, 6]
+type_tutors = 0
+special_tutors = [258, 3456, 2, 8464]

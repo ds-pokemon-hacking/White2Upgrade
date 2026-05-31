@@ -1,0 +1,48 @@
+[personal]
+index = 128
+species = "SPECIES_TAUROS"
+capture_rate = 45
+evolution_stage = 2
+ev_yield = 68
+gender_probability = 0
+egg_happiness = 20
+base_happiness = 70
+experience_group = 5
+egg_groups = [5, 5]
+escape_rate = 90
+color = 5
+base_experience = 172
+height_cm = 14
+weight_cg = 884
+
+[personal.base_stats]
+hp = 75
+attack = 100
+defense = 95
+speed = 110
+special_attack = 40
+special_defense = 70
+
+[personal.typing]
+primary = "TYPE_NORMAL"
+secondary = "TYPE_NORMAL"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 22
+secondary = 83
+hidden = 125
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2018281952, 67148404, 843358286, 6]
+type_tutors = 0
+special_tutors = [2080, 74752, 34, 8980]

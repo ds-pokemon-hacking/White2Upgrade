@@ -1,0 +1,48 @@
+[personal]
+index = 311
+species = "SPECIES_PLUSLE"
+capture_rate = 200
+evolution_stage = 2
+ev_yield = 64
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 0
+egg_groups = [6, 6]
+escape_rate = 0
+color = 2
+base_experience = 142
+height_cm = 4
+weight_cg = 42
+
+[personal.base_stats]
+hp = 60
+attack = 50
+defense = 40
+speed = 95
+special_attack = 85
+special_defense = 75
+
+[personal.typing]
+primary = "TYPE_ELECTRIC"
+secondary = "TYPE_ELECTRIC"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 57
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = "BATTLE_ABILITY_RANDOM"
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2053930464, 25270784, 308281760, 0]
+type_tutors = 0
+special_tutors = [6160, 65696, 2, 8208]

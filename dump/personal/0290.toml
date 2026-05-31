@@ -1,0 +1,48 @@
+[personal]
+index = 290
+species = "SPECIES_NINCADA"
+capture_rate = 255
+evolution_stage = 1
+ev_yield = 16
+gender_probability = 127
+egg_happiness = 15
+base_happiness = 70
+experience_group = 1
+egg_groups = [3, 3]
+escape_rate = 0
+color = 7
+base_experience = 53
+height_cm = 5
+weight_cg = 55
+
+[personal.base_stats]
+hp = 31
+attack = 45
+defense = 90
+speed = 40
+special_attack = 30
+special_defense = 30
+
+[personal.typing]
+primary = "TYPE_BUG"
+secondary = "TYPE_GROUND"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 14
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 50
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1406073311, 2132624, -2109667296, 0]
+type_tutors = 0
+special_tutors = [1, 0, 1026, 8196]

@@ -1,0 +1,55 @@
+[trainer]
+index = 94
+party_format = 1
+trainer_class = 71
+battle_type = 0
+party_count = 4
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 20
+reward_item = "ITEM_PP_MAX"
+raw_size = 20
+
+[trainer_party]
+index = 94
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 200
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_RANDOM"
+level = 63
+species = "SPECIES_RELICANTH"
+form = 0
+moves = ["MOVE_DOUBLEEDGE", "MOVE_ANCIENTPOWER", "MOVE_WATERFALL", "MOVE_BLIZZARD"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 200
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 63
+species = "SPECIES_MAGCARGO"
+form = 0
+moves = ["MOVE_FIRE_BLAST", "MOVE_STONE_EDGE", "MOVE_GYRO_BALL", "MOVE_EARTHQUAKE"]
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 200
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 63
+species = "SPECIES_GLACEON"
+form = 0
+moves = ["MOVE_BLIZZARD", "MOVE_RETURN", "MOVE_ICE_SHARD", "MOVE_SHADOW_BALL"]
+
+[[trainer_party.party]]
+slot = 3
+difficulty_value = 200
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 63
+species = "SPECIES_DRAGONITE"
+form = 0
+moves = ["MOVE_OUTRAGE", "MOVE_WING_ATTACK", "MOVE_WATERFALL", "MOVE_FIRE_PUNCH"]

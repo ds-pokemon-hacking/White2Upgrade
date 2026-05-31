@@ -1,0 +1,33 @@
+[trainer]
+index = 474
+party_format = 0
+trainer_class = 25
+battle_type = 0
+party_count = 2
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 15
+reward_item = "ITEM_PERSIM_BERRY"
+raw_size = 20
+
+[trainer_party]
+index = 474
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 50
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 46
+species = "SPECIES_VIBRAVA"
+form = 0
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 50
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 46
+species = "SPECIES_GLIGAR"
+form = 0

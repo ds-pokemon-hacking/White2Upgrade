@@ -1,0 +1,48 @@
+[personal]
+index = 470
+species = "SPECIES_LEAFEON"
+capture_rate = 45
+evolution_stage = 2
+ev_yield = 32
+gender_probability = 31
+egg_happiness = 35
+base_happiness = 35
+experience_group = 0
+egg_groups = [5, 5]
+escape_rate = 0
+color = 3
+base_experience = 184
+height_cm = 10
+weight_cg = 255
+
+[personal.base_stats]
+hp = 65
+attack = 110
+defense = 130
+speed = 95
+special_attack = 60
+special_defense = 65
+
+[personal.typing]
+primary = "TYPE_GRASS"
+secondary = "TYPE_GRASS"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 102
+secondary = 102
+hidden = 34
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1405925840, 1153664, 577045548, 4]
+type_tutors = 0
+special_tutors = [66, 98432, 1102, 8210]

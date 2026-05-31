@@ -1,0 +1,48 @@
+[personal]
+index = 269
+species = "SPECIES_DUSTOX"
+capture_rate = 45
+evolution_stage = 2
+ev_yield = 3072
+gender_probability = 127
+egg_happiness = 15
+base_happiness = 70
+experience_group = 0
+egg_groups = [3, 3]
+escape_rate = 0
+color = 3
+base_experience = 135
+height_cm = 12
+weight_cg = 316
+
+[personal.base_stats]
+hp = 60
+attack = 50
+defense = 70
+speed = 65
+special_attack = 50
+special_defense = 90
+
+[personal.typing]
+primary = "TYPE_BUG"
+secondary = "TYPE_POISON"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_SHED_SHELL"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 19
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 14
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1271806176, 537967240, 54528040, 0]
+type_tutors = 0
+special_tutors = [17, 512, 5250, 8192]

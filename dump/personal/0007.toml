@@ -1,0 +1,48 @@
+[personal]
+index = 7
+species = "SPECIES_SQUIRTLE"
+capture_rate = 45
+evolution_stage = 1
+ev_yield = 16
+gender_probability = 31
+egg_happiness = 20
+base_happiness = 70
+experience_group = 3
+egg_groups = [1, 2]
+escape_rate = 0
+color = 1
+base_experience = 63
+height_cm = 5
+weight_cg = 90
+
+[personal.base_stats]
+hp = 44
+attack = 48
+defense = 65
+speed = 43
+special_attack = 50
+special_defense = 64
+
+[personal.typing]
+primary = "TYPE_WATER"
+secondary = "TYPE_WATER"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 67
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 44
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-871157152, 12622400, 574620160, 30]
+type_tutors = 4
+special_tutors = [16384, 76864, 2, 8192]

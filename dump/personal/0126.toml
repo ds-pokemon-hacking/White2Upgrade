@@ -1,0 +1,48 @@
+[personal]
+index = 126
+species = "SPECIES_MAGMAR"
+capture_rate = 45
+evolution_stage = 2
+ev_yield = 512
+gender_probability = 63
+egg_happiness = 25
+base_happiness = 70
+experience_group = 0
+egg_groups = [8, 8]
+escape_rate = 90
+color = 0
+base_experience = 173
+height_cm = 13
+weight_cg = 445
+
+[personal.base_stats]
+hp = 65
+attack = 95
+defense = 57
+speed = 93
+special_attack = 100
+special_defense = 85
+
+[personal.typing]
+primary = "TYPE_FIRE"
+secondary = "TYPE_FIRE"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 49
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 72
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-737065440, 344653348, 574619656, 4]
+type_tutors = 0
+special_tutors = [12810, 65536, 18, 8208]

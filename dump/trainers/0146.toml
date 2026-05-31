@@ -1,0 +1,81 @@
+[trainer]
+index = 146
+party_format = 3
+trainer_class = 81
+battle_type = 0
+party_count = 6
+items = ["ITEM_FULL_RESTORE", "ITEM_FULL_RESTORE", "ITEM_FULL_RESTORE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 30
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 146
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 250
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 72
+species = "SPECIES_MUSHARNA"
+form = 0
+held_item = "ITEM_NONE"
+moves = ["MOVE_CHARGE_BEAM", "MOVE_DREAM_EATER", "MOVE_YAWN", "MOVE_REFLECT"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 250
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_RANDOM"
+level = 72
+species = "SPECIES_SIGILYPH"
+form = 0
+held_item = "ITEM_NONE"
+moves = ["MOVE_AIR_SLASH", "MOVE_PSYCHIC", "MOVE_FLASH_CANNON", "MOVE_ICE_BEAM"]
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 250
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 72
+species = "SPECIES_GALLADE"
+form = 0
+held_item = "ITEM_NONE"
+moves = ["MOVE_CLOSE_COMBAT", "MOVE_LEAF_BLADE", "MOVE_PSYCHO_CUT", "MOVE_NIGHT_SLASH"]
+
+[[trainer_party.party]]
+slot = 3
+difficulty_value = 250
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 72
+species = "SPECIES_REUNICLUS"
+form = 0
+held_item = "ITEM_LEFTOVERS"
+moves = ["MOVE_PSYCHIC", "MOVE_THUNDER", "MOVE_RECOVER", "MOVE_FOCUS_BLAST"]
+
+[[trainer_party.party]]
+slot = 4
+difficulty_value = 250
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_RANDOM"
+level = 72
+species = "SPECIES_GOTHITELLE"
+form = 0
+held_item = "ITEM_NONE"
+moves = ["MOVE_PSYCHIC", "MOVE_SHADOW_BALL", "MOVE_FLATTER", "MOVE_THUNDERBOLT"]
+
+[[trainer_party.party]]
+slot = 5
+difficulty_value = 250
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_RANDOM"
+level = 74
+species = "SPECIES_METAGROSS"
+form = 0
+held_item = "ITEM_SITRUS_BERRY"
+moves = ["MOVE_ZEN_HEADBUTT", "MOVE_BULLET_PUNCH", "MOVE_EARTHQUAKE", "MOVE_HAMMER_ARM"]

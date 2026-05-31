@@ -1,0 +1,48 @@
+[personal]
+index = 361
+species = "SPECIES_SNORUNT"
+capture_rate = 190
+evolution_stage = 1
+ev_yield = 1
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 0
+egg_groups = [6, 10]
+escape_rate = 0
+color = 7
+base_experience = 60
+height_cm = 7
+weight_cg = 168
+
+[personal.base_stats]
+hp = 50
+attack = 50
+defense = 50
+speed = 50
+special_attack = 50
+special_defense = 50
+
+[personal.typing]
+primary = "TYPE_ICE"
+secondary = "TYPE_ICE"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_BABIRI_BERRY"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 39
+secondary = 115
+hidden = 141
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1541688736, 39424, 37765152, 0]
+type_tutors = 0
+special_tutors = [0, 1026, 2, 8196]

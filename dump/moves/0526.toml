@@ -1,0 +1,44 @@
+[move]
+index = 526
+name = "MOVE_WORK_UP"
+type = "TYPE_NORMAL"
+quality = "EFFECT_TARGET_STAT_CHANGING"
+category = "SPLIT_STATUS"
+power = 0
+accuracy = "MUST_HIT"
+base_pp = 30
+priority = 0
+critical_hit_stage = 0
+flinch_rate = 0
+animation_id = 327
+recoil = 0
+heal = 0
+target = "TARGET_USER"
+padding = 21331
+flags = ["FLAG_STOLEN_BY_SNATCH"]
+
+[move.hits]
+minimum = 0
+maximum = 0
+
+[move.inflict]
+status = "INFLICT_DURATION_NONE"
+chance = 0
+duration = 0
+turn_min = 0
+turn_max = 0
+
+[[move.stat_changes]]
+stat = "STATUS_PARALYZE"
+stages = 1
+chance = 0
+
+[[move.stat_changes]]
+stat = "STATUS_FREEZE"
+stages = 1
+chance = 0
+
+[[move.stat_changes]]
+stat = "STATUS_NONE"
+stages = 0
+chance = 0

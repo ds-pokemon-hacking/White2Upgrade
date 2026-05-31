@@ -1,0 +1,48 @@
+[personal]
+index = 308
+species = "SPECIES_MEDICHAM"
+capture_rate = 90
+evolution_stage = 2
+ev_yield = 128
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 0
+egg_groups = [8, 8]
+escape_rate = 60
+color = 0
+base_experience = 144
+height_cm = 13
+weight_cg = 315
+
+[personal.base_stats]
+hp = 60
+attack = 60
+defense = 75
+speed = 80
+special_attack = 60
+special_defense = 75
+
+[personal.typing]
+primary = "TYPE_FIGHTING"
+secondary = "TYPE_PSYCHIC"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 74
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 140
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-199768404, 10017345, 578588716, 4]
+type_tutors = 0
+special_tutors = [29200, 8209, 2594, 9264]

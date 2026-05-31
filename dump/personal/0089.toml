@@ -1,0 +1,48 @@
+[personal]
+index = 89
+species = "SPECIES_MUK"
+capture_rate = 75
+evolution_stage = 2
+ev_yield = 5
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 0
+egg_groups = [11, 11]
+escape_rate = 60
+color = 6
+base_experience = 175
+height_cm = 12
+weight_cg = 300
+
+[personal.base_stats]
+hp = 105
+attack = 105
+defense = 75
+speed = 50
+special_attack = 65
+special_defense = 100
+
+[personal.typing]
+primary = "TYPE_POISON"
+secondary = "TYPE_POISON"
+
+[personal.wild_items]
+common_50 = "ITEM_BLACK_SLUDGE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_TOXIC_ORB"
+
+[personal.abilities]
+primary = "BATTLE_ABILITY_PRIMARY"
+secondary = 60
+hidden = 143
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-309113056, -2071413906, 575176714, 4]
+type_tutors = 0
+special_tutors = [29696, 4098, 1538, 8192]

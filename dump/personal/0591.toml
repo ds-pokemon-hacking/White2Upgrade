@@ -1,0 +1,48 @@
+[personal]
+index = 591
+species = "SPECIES_AMOONGUSS"
+capture_rate = 75
+evolution_stage = 2
+ev_yield = 2
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 0
+egg_groups = [7, 7]
+escape_rate = 0
+color = 72
+base_experience = 162
+height_cm = 6
+weight_cg = 105
+
+[personal.base_stats]
+hp = 114
+attack = 85
+defense = 70
+speed = 30
+special_attack = 85
+special_defense = 80
+
+[personal.typing]
+primary = "TYPE_GRASS"
+secondary = "TYPE_POISON"
+
+[personal.wild_items]
+common_50 = "ITEM_TINY_MUSHROOM"
+rare_5 = "ITEM_BIG_MUSHROOM"
+rare_1 = "ITEM_BALM_MUSHROOM"
+
+[personal.abilities]
+primary = 27
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 144
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2077014240, 1088008, 39845930, 0]
+type_tutors = 0
+special_tutors = [64, 8, 1034, 8203]

@@ -1,0 +1,48 @@
+[personal]
+index = 297
+species = "SPECIES_HARIYAMA"
+capture_rate = 200
+evolution_stage = 2
+ev_yield = 2
+gender_probability = 63
+egg_happiness = 20
+base_happiness = 70
+experience_group = 2
+egg_groups = [8, 8]
+escape_rate = 0
+color = 5
+base_experience = 166
+height_cm = 23
+weight_cg = 2538
+
+[personal.base_stats]
+hp = 144
+attack = 120
+defense = 60
+speed = 50
+special_attack = 40
+special_defense = 60
+
+[personal.typing]
+primary = "TYPE_FIGHTING"
+secondary = "TYPE_FIGHTING"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_KING'S_ROCK"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 47
+secondary = 62
+hidden = 125
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-833403232, 8968768, 575447118, 6]
+type_tutors = 0
+special_tutors = [29216, 256, 38, 8208]

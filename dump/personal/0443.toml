@@ -1,0 +1,48 @@
+[personal]
+index = 443
+species = "SPECIES_GIBLE"
+capture_rate = 45
+evolution_stage = 1
+ev_yield = 4
+gender_probability = 127
+egg_happiness = 40
+base_happiness = 70
+experience_group = 5
+egg_groups = [1, 14]
+escape_rate = 90
+color = 1
+base_experience = 60
+height_cm = 7
+weight_cg = 205
+
+[personal.base_stats]
+hp = 58
+attack = 70
+defense = 45
+speed = 42
+special_attack = 40
+special_defense = 45
+
+[personal.typing]
+primary = "TYPE_DRAGON"
+secondary = "TYPE_GROUND"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_HABAN_BERRY"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 8
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 24
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1911355853, 67148532, -1572822975, 4]
+type_tutors = 64
+special_tutors = [32, 81924, 2, 12800]

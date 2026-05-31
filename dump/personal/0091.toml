@@ -1,0 +1,48 @@
+[personal]
+index = 91
+species = "SPECIES_CLOYSTER"
+capture_rate = 60
+evolution_stage = 2
+ev_yield = 32
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 5
+egg_groups = [9, 9]
+escape_rate = 0
+color = 6
+base_experience = 184
+height_cm = 15
+weight_cg = 1325
+
+[personal.base_stats]
+hp = 50
+attack = 95
+defense = 180
+speed = 70
+special_attack = 85
+special_defense = 45
+
+[personal.typing]
+primary = "TYPE_WATER"
+secondary = "TYPE_ICE"
+
+[personal.wild_items]
+common_50 = "ITEM_PEARL"
+rare_5 = "ITEM_BIG_PEARL"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 75
+secondary = 92
+hidden = 142
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2079100320, -2147443968, 38289418, 18]
+type_tutors = 0
+special_tutors = [16, 1088, 2, 8192]

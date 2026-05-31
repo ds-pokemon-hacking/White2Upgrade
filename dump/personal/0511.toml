@@ -1,0 +1,48 @@
+[personal]
+index = 511
+species = "SPECIES_PANSAGE"
+capture_rate = 190
+evolution_stage = 1
+ev_yield = 64
+gender_probability = 31
+egg_happiness = 20
+base_happiness = 70
+experience_group = 0
+egg_groups = [5, 5]
+escape_rate = 0
+color = 3
+base_experience = 63
+height_cm = 6
+weight_cg = 105
+
+[personal.base_stats]
+hp = 50
+attack = 53
+defense = 48
+speed = 64
+special_attack = 53
+special_defense = 48
+
+[personal.typing]
+primary = "TYPE_GRASS"
+secondary = "TYPE_GRASS"
+
+[personal.wild_items]
+common_50 = "ITEM_ORAN_BERRY"
+rare_5 = "ITEM_OCCA_BERRY"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 82
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 65
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1942942175, 546372416, -1570504669, 0]
+type_tutors = 0
+special_tutors = [3650, 65536, 1070, 9490]

@@ -1,0 +1,59 @@
+[trainer]
+index = 769
+party_format = 3
+trainer_class = 114
+battle_type = 0
+party_count = 4
+items = ["ITEM_HYPER_POTION", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 30
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 769
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 250
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_RANDOM"
+level = 37
+species = "SPECIES_SWOOBAT"
+form = 0
+held_item = "ITEM_NONE"
+moves = ["MOVE_ACROBATICS", "MOVE_PSYCHIC", "MOVE_ENERGY_BALL", "MOVE_ATTRACT"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 250
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 37
+species = "SPECIES_SKARMORY"
+form = 0
+held_item = "ITEM_SITRUS_BERRY"
+moves = ["MOVE_AERIAL_ACE", "MOVE_STEEL_WING", "MOVE_XSCISSOR", "MOVE_AGILITY"]
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 250
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 37
+species = "SPECIES_SIGILYPH"
+form = 0
+held_item = "ITEM_NONE"
+moves = ["MOVE_AIR_CUTTER", "MOVE_PSYCHIC", "MOVE_FLASH_CANNON", "MOVE_HYPNOSIS"]
+
+[[trainer_party.party]]
+slot = 3
+difficulty_value = 250
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 39
+species = "SPECIES_SWANNA"
+form = 0
+held_item = "ITEM_SITRUS_BERRY"
+moves = ["MOVE_AIR_SLASH", "MOVE_SURF", "MOVE_ROOST", "MOVE_FEATHERDANCE"]

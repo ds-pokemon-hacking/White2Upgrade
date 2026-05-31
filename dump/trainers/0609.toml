@@ -1,0 +1,35 @@
+[trainer]
+index = 609
+party_format = 1
+trainer_class = 64
+battle_type = 0
+party_count = 2
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 3
+can_heal = 0
+reward_money = 8
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 609
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 50
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 54
+species = "SPECIES_THROH"
+form = 0
+moves = ["MOVE_CIRCLE_THROW", "MOVE_FACADE", "MOVE_ROCK_TOMB", "MOVE_ENDURE"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 50
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 54
+species = "SPECIES_SAWK"
+form = 0
+moves = ["MOVE_LOW_SWEEP", "MOVE_RETALIATE", "MOVE_PAYBACK", "MOVE_ENDURE"]

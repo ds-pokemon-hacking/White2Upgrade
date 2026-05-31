@@ -1,0 +1,48 @@
+[personal]
+index = 188
+species = "SPECIES_SKIPLOOM"
+capture_rate = 120
+evolution_stage = 2
+ev_yield = 128
+gender_probability = 127
+egg_happiness = 20
+base_happiness = 70
+experience_group = 3
+egg_groups = [6, 7]
+escape_rate = 90
+color = 3
+base_experience = 119
+height_cm = 6
+weight_cg = 10
+
+[personal.base_stats]
+hp = 55
+attack = 45
+defense = 50
+speed = 80
+special_attack = 45
+special_defense = 65
+
+[personal.typing]
+primary = "TYPE_GRASS"
+secondary = "TYPE_FLYING"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 34
+secondary = 102
+hidden = 151
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2077161952, 537959041, 56628256, 0]
+type_tutors = 0
+special_tutors = [320, 0, 1034, 8210]

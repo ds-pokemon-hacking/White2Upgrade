@@ -1,0 +1,48 @@
+[personal]
+index = 541
+species = "SPECIES_SWADLOON"
+capture_rate = 120
+evolution_stage = 2
+ev_yield = 32
+gender_probability = 127
+egg_happiness = 15
+base_happiness = 70
+experience_group = 3
+egg_groups = [3, 3]
+escape_rate = 0
+color = 3
+base_experience = 133
+height_cm = 5
+weight_cg = 73
+
+[personal.base_stats]
+hp = 55
+attack = 63
+defense = 90
+speed = 42
+special_attack = 50
+special_defense = 80
+
+[personal.typing]
+primary = "TYPE_BUG"
+secondary = "TYPE_GRASS"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_MENTAL_HERB"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 102
+secondary = 34
+hidden = 142
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2076604888, 1088000, -2106587102, 0]
+type_tutors = 0
+special_tutors = [81, 577, 1034, 8194]

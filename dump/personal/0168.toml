@@ -1,0 +1,48 @@
+[personal]
+index = 168
+species = "SPECIES_ARIADOS"
+capture_rate = 90
+evolution_stage = 2
+ev_yield = 8
+gender_probability = 127
+egg_happiness = 15
+base_happiness = 70
+experience_group = 4
+egg_groups = [3, 3]
+escape_rate = 0
+color = 0
+base_experience = 137
+height_cm = 11
+weight_cg = 335
+
+[personal.base_stats]
+hp = 70
+attack = 90
+defense = 70
+speed = 40
+special_attack = 60
+special_defense = 60
+
+[personal.typing]
+primary = "TYPE_BUG"
+secondary = "TYPE_POISON"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 68
+secondary = 15
+hidden = 97
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1674492127, 47624, 38340648, 0]
+type_tutors = 0
+special_tutors = [273, 520, 1024, 8192]

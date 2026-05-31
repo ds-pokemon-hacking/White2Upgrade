@@ -1,0 +1,48 @@
+[personal]
+index = 611
+species = "SPECIES_FRAXURE"
+capture_rate = 60
+evolution_stage = 2
+ev_yield = 8
+gender_probability = 127
+egg_happiness = 40
+base_happiness = 35
+experience_group = 5
+egg_groups = [1, 14]
+escape_rate = 0
+color = 3
+base_experience = 144
+height_cm = 10
+weight_cg = 360
+
+[personal.base_stats]
+hp = 66
+attack = 117
+defense = 70
+speed = 67
+special_attack = 40
+special_defense = 50
+
+[personal.typing]
+primary = "TYPE_DRAGON"
+secondary = "TYPE_DRAGON"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 79
+secondary = 104
+hidden = 127
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1944908237, 77634240, -1572142069, 4]
+type_tutors = 64
+special_tutors = [520, 84224, 2, 8960]

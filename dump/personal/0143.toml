@@ -1,0 +1,48 @@
+[personal]
+index = 143
+species = "SPECIES_SNORLAX"
+capture_rate = 25
+evolution_stage = 2
+ev_yield = 2
+gender_probability = 31
+egg_happiness = 40
+base_happiness = 70
+experience_group = 5
+egg_groups = [1, 1]
+escape_rate = 0
+color = 4
+base_experience = 189
+height_cm = 21
+weight_cg = 4600
+
+[personal.base_stats]
+hp = 160
+attack = 110
+defense = 65
+speed = 30
+special_attack = 65
+special_defense = 110
+
+[personal.typing]
+primary = "TYPE_NORMAL"
+secondary = "TYPE_NORMAL"
+
+[personal.wild_items]
+common_50 = "ITEM_LEFTOVERS"
+rare_5 = "ITEM_LEFTOVERS"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 17
+secondary = 47
+hidden = 82
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-135039456, 76061300, 843358220, 6]
+type_tutors = 0
+special_tutors = [29794, 42370, 2, 9736]

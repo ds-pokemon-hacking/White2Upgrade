@@ -1,0 +1,81 @@
+[trainer]
+index = 782
+party_format = 3
+trainer_class = 40
+battle_type = 0
+party_count = 6
+items = ["ITEM_FULL_RESTORE", "ITEM_FULL_RESTORE", "ITEM_FULL_RESTORE", "ITEM_FULL_RESTORE"]
+ai = 7
+can_heal = 0
+reward_money = 50
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 782
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 250
+ability = "BATTLE_ABILITY_HIDDEN"
+gender = "GENDER_RANDOM"
+level = 77
+species = "SPECIES_POLITOED"
+form = 0
+held_item = "ITEM_LIFE_ORB"
+moves = ["MOVE_HYDRO_PUMP", "MOVE_FOCUS_BLAST", "MOVE_PSYCHIC", "MOVE_HYPNOSIS"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 250
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_RANDOM"
+level = 75
+species = "SPECIES_LANTURN"
+form = 0
+held_item = "ITEM_NONE"
+moves = ["MOVE_THUNDER", "MOVE_SIGNAL_BEAM", "MOVE_HYDRO_PUMP", "MOVE_STOCKPILE"]
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 250
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_RANDOM"
+level = 75
+species = "SPECIES_TENTACRUEL"
+form = 0
+held_item = "ITEM_DAMP_ROCK"
+moves = ["MOVE_RAIN_DANCE", "MOVE_GIGA_DRAIN", "MOVE_SCALD", "MOVE_BARRIER"]
+
+[[trainer_party.party]]
+slot = 3
+difficulty_value = 250
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_RANDOM"
+level = 75
+species = "SPECIES_OMASTAR"
+form = 0
+held_item = "ITEM_DAMP_ROCK"
+moves = ["MOVE_RAIN_DANCE", "MOVE_HYDRO_PUMP", "MOVE_ICE_BEAM", "MOVE_EARTH_POWER"]
+
+[[trainer_party.party]]
+slot = 4
+difficulty_value = 250
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_RANDOM"
+level = 75
+species = "SPECIES_KABUTOPS"
+form = 0
+held_item = "ITEM_NONE"
+moves = ["MOVE_STONE_EDGE", "MOVE_AQUA_JET", "MOVE_XSCISSOR", "MOVE_LOW_KICK"]
+
+[[trainer_party.party]]
+slot = 5
+difficulty_value = 250
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 75
+species = "SPECIES_STARMIE"
+form = 0
+held_item = "ITEM_NONE"
+moves = ["MOVE_HYDRO_PUMP", "MOVE_THUNDER", "MOVE_PSYCHIC", "MOVE_ICE_BEAM"]

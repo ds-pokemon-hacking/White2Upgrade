@@ -1,0 +1,48 @@
+[personal]
+index = 504
+species = "SPECIES_PATRAT"
+capture_rate = 255
+evolution_stage = 1
+ev_yield = 4
+gender_probability = 127
+egg_happiness = 15
+base_happiness = 70
+experience_group = 0
+egg_groups = [5, 5]
+escape_rate = 0
+color = 5
+base_experience = 51
+height_cm = 5
+weight_cg = 116
+
+[personal.base_stats]
+hp = 45
+attack = 55
+defense = 39
+speed = 42
+special_attack = 35
+special_defense = 39
+
+[personal.typing]
+primary = "TYPE_NORMAL"
+secondary = "TYPE_NORMAL"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 50
+secondary = 51
+hidden = 148
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-1399650784, 8428032, -2107374588, 0]
+type_tutors = 0
+special_tutors = [1606, 75904, 2, 8472]

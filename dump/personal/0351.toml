@@ -1,0 +1,48 @@
+[personal]
+index = 351
+species = "SPECIES_CASTFORM"
+capture_rate = 45
+evolution_stage = 2
+ev_yield = 1
+gender_probability = 127
+egg_happiness = 25
+base_happiness = 70
+experience_group = 0
+egg_groups = [6, 11]
+escape_rate = 0
+color = 8
+base_experience = 147
+height_cm = 3
+weight_cg = 8
+
+[personal.base_stats]
+hp = 70
+attack = 70
+defense = 70
+speed = 70
+special_attack = 70
+special_defense = 70
+
+[personal.typing]
+primary = "TYPE_NORMAL"
+secondary = "TYPE_NORMAL"
+
+[personal.wild_items]
+common_50 = "ITEM_MYSTIC_WATER"
+rare_5 = "ITEM_MYSTIC_WATER"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 59
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = "BATTLE_ABILITY_RANDOM"
+
+[personal.forms]
+data_offset = 697
+sprite_offset = 27
+count = 4
+
+[personal.compatibility]
+tmhm = [-1514981792, 72399412, 38015268, 0]
+type_tutors = 0
+special_tutors = [0, 1152, 130, 8192]

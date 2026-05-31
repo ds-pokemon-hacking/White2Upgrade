@@ -1,0 +1,26 @@
+[trainer]
+index = 761
+party_format = 3
+trainer_class = 70
+battle_type = 0
+party_count = 1
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 15
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 761
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 200
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 60
+species = "SPECIES_CONKELDURR"
+form = 0
+held_item = "ITEM_CHOICE_BAND"
+moves = ["MOVE_HAMMER_ARM", "MOVE_FIRE_PUNCH", "MOVE_ICE_PUNCH", "MOVE_THUNDERPUNCH"]

@@ -1,0 +1,48 @@
+[personal]
+index = 497
+species = "SPECIES_SERPERIOR"
+capture_rate = 45
+evolution_stage = 3
+ev_yield = 192
+gender_probability = 31
+egg_happiness = 20
+base_happiness = 70
+experience_group = 3
+egg_groups = [5, 7]
+escape_rate = 0
+color = 3
+base_experience = 238
+height_cm = 33
+weight_cg = 630
+
+[personal.base_stats]
+hp = 75
+attack = 75
+defense = 95
+speed = 113
+special_attack = 75
+special_defense = 95
+
+[personal.typing]
+primary = "TYPE_GRASS"
+secondary = "TYPE_GRASS"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 65
+secondary = 65
+hidden = 126
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2076586456, 1088385, -1570634712, 4]
+type_tutors = 9
+special_tutors = [64, 83968, 1039, 10755]

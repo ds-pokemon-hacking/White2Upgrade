@@ -1,5 +1,6 @@
 from pathlib import Path
 import yaml
+import tomllib
 
 def flatten(iterable):
     flat = {}
@@ -45,6 +46,14 @@ def load_defines(path, defines : dict):
     with Path(path).open('r') as INCLUDE_RAW:
         INCLUDE = yaml.safe_load(INCLUDE_RAW)
         defines |= flatten(INCLUDE['DEFINE'])
+
+def load_source_data(path):
+    source = Path(path)
+    if source.suffix == '.toml':
+        with source.open('rb') as source_raw:
+            return tomllib.load(source_raw)
+    with source.open('r') as source_raw:
+        return yaml.safe_load(source_raw)
 
 def format_extra_parameters(params: list):
     parameters = {}

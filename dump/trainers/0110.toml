@@ -1,0 +1,33 @@
+[trainer]
+index = 110
+party_format = 0
+trainer_class = 26
+battle_type = 0
+party_count = 2
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 1
+can_heal = 0
+reward_money = 10
+reward_item = "ITEM_YELLOW_SHARD"
+raw_size = 20
+
+[trainer_party]
+index = 110
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 0
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 61
+species = "SPECIES_MAWILE"
+form = 0
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 0
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 61
+species = "SPECIES_EXCADRILL"
+form = 0

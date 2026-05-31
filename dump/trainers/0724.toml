@@ -1,0 +1,35 @@
+[trainer]
+index = 724
+party_format = 1
+trainer_class = 187
+battle_type = 0
+party_count = 2
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 1
+can_heal = 0
+reward_money = 10
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 724
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 0
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 47
+species = "SPECIES_WEEZING"
+form = 0
+moves = ["MOVE_SLUDGE_BOMB", "MOVE_DOUBLE_HIT", "MOVE_EXPLOSION", "MOVE_HAZE"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 0
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 47
+species = "SPECIES_MUK"
+form = 0
+moves = ["MOVE_SLUDGE_WAVE", "MOVE_ACID_ARMOR", "MOVE_SCREECH", "MOVE_FLING"]

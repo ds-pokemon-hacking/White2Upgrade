@@ -1,0 +1,48 @@
+[trainer]
+index = 194
+party_format = 3
+trainer_class = 160
+battle_type = 0
+party_count = 3
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 50
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 194
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 192
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 68
+species = "SPECIES_PORYGONZ"
+form = 0
+held_item = "ITEM_PETAYA_BERRY"
+moves = ["MOVE_PSYCHIC", "MOVE_THUNDERBOLT", "MOVE_ICE_BEAM", "MOVE_CONVERSION"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 192
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 68
+species = "SPECIES_BRELOOM"
+form = 0
+held_item = "ITEM_TOXIC_ORB"
+moves = ["MOVE_MACH_PUNCH", "MOVE_STONE_EDGE", "MOVE_FOCUS_PUNCH", "MOVE_SPORE"]
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 192
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 68
+species = "SPECIES_ARMALDO"
+form = 0
+held_item = "ITEM_CHOICE_BAND"
+moves = ["MOVE_XSCISSOR", "MOVE_AQUA_TAIL", "MOVE_EARTHQUAKE", "MOVE_STONE_EDGE"]

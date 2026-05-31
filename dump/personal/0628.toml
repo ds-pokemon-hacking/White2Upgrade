@@ -1,0 +1,48 @@
+[personal]
+index = 628
+species = "SPECIES_BRAVIARY"
+capture_rate = 60
+evolution_stage = 2
+ev_yield = 8
+gender_probability = 0
+egg_happiness = 20
+base_happiness = 70
+experience_group = 5
+egg_groups = [4, 4]
+escape_rate = 0
+color = 0
+base_experience = 179
+height_cm = 15
+weight_cg = 410
+
+[personal.base_stats]
+hp = 100
+attack = 123
+defense = 75
+speed = 80
+special_attack = 57
+special_defense = 75
+
+[personal.typing]
+primary = "TYPE_NORMAL"
+secondary = "TYPE_FLYING"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 51
+secondary = 125
+hidden = 128
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2079111519, 33594048, -1547403251, 5]
+type_tutors = 0
+special_tutors = [0, 256, 4498, 8192]

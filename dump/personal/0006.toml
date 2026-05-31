@@ -1,0 +1,48 @@
+[personal]
+index = 6
+species = "SPECIES_CHARIZARD"
+capture_rate = 45
+evolution_stage = 3
+ev_yield = 768
+gender_probability = 31
+egg_happiness = 20
+base_happiness = 70
+experience_group = 3
+egg_groups = [1, 14]
+escape_rate = 0
+color = 0
+base_experience = 240
+height_cm = 17
+weight_cg = 905
+
+[personal.base_stats]
+hp = 78
+attack = 84
+defense = 78
+speed = 100
+special_attack = 109
+special_defense = 85
+
+[personal.typing]
+primary = "TYPE_FIRE"
+secondary = "TYPE_FLYING"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 66
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = 94
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-835631565, 378248932, -1572690935, 5]
+type_tutors = 18
+special_tutors = [12288, 81920, 4242, 8704]

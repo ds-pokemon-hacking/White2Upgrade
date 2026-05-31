@@ -1,0 +1,48 @@
+[trainer]
+index = 189
+party_format = 3
+trainer_class = 151
+battle_type = 0
+party_count = 3
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 50
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 189
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 128
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 62
+species = "SPECIES_SCRAFTY"
+form = 0
+held_item = "ITEM_LEFTOVERS"
+moves = ["MOVE_HI_JUMP_KICK", "MOVE_HEAD_SMASH", "MOVE_BULK_UP", "MOVE_SCARY_FACE"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 128
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 62
+species = "SPECIES_ZANGOOSE"
+form = 0
+held_item = "ITEM_MUSCLE_BAND"
+moves = ["MOVE_CLOSE_COMBAT", "MOVE_CRUSH_CLAW", "MOVE_XSCISSOR", "MOVE_SWORDS_DANCE"]
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 128
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 62
+species = "SPECIES_HEATMOR"
+form = 0
+held_item = "ITEM_ZOOM_LENS"
+moves = ["MOVE_HONE_CLAWS", "MOVE_INFERNO", "MOVE_FOCUS_BLAST", "MOVE_SUCKER_PUNCH"]

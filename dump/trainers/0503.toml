@@ -1,0 +1,35 @@
+[trainer]
+index = 503
+party_format = 1
+trainer_class = 4
+battle_type = 0
+party_count = 2
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 5
+can_heal = 0
+reward_money = 5
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 503
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 100
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 17
+species = "SPECIES_EEVEE"
+form = 0
+moves = ["MOVE_QUICK_ATTACK", "MOVE_GROWL", "MOVE_TAIL_WHIP", "MOVE_NONE"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 100
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 17
+species = "SPECIES_HERDIER"
+form = 0
+moves = ["MOVE_TACKLE", "MOVE_BITE", "MOVE_LEER", "MOVE_ODOR_SLEUTH"]

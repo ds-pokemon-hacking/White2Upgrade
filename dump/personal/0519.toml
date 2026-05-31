@@ -1,0 +1,48 @@
+[personal]
+index = 519
+species = "SPECIES_PIDOVE"
+capture_rate = 255
+evolution_stage = 1
+ev_yield = 4
+gender_probability = 127
+egg_happiness = 15
+base_happiness = 70
+experience_group = 3
+egg_groups = [4, 4]
+escape_rate = 0
+color = 7
+base_experience = 53
+height_cm = 3
+weight_cg = 21
+
+[personal.base_stats]
+hp = 50
+attack = 55
+defense = 50
+speed = 43
+special_attack = 36
+special_defense = 30
+
+[personal.typing]
+primary = "TYPE_NORMAL"
+secondary = "TYPE_FLYING"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 145
+secondary = 105
+hidden = 79
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-2079125984, 105088, 63176704, 1]
+type_tutors = 0
+special_tutors = [2048, 0, 4498, 8192]

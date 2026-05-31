@@ -1,0 +1,75 @@
+[trainer]
+index = 707
+party_format = 1
+trainer_class = 38
+battle_type = 0
+party_count = 6
+items = ["ITEM_FULL_RESTORE", "ITEM_FULL_RESTORE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 30
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 707
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 200
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_RANDOM"
+level = 63
+species = "SPECIES_STOUTLAND"
+form = 0
+moves = ["MOVE_ICE_FANG", "MOVE_SURF", "MOVE_WILD_CHARGE", "MOVE_RETURN"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 200
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_RANDOM"
+level = 63
+species = "SPECIES_CHANDELURE"
+form = 0
+moves = ["MOVE_SHADOW_BALL", "MOVE_PSYCHIC", "MOVE_OVERHEAT", "MOVE_RETURN"]
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 200
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_RANDOM"
+level = 63
+species = "SPECIES_MUSHARNA"
+form = 0
+moves = ["MOVE_YAWN", "MOVE_DREAM_EATER", "MOVE_PSYCHIC", "MOVE_RETURN"]
+
+[[trainer_party.party]]
+slot = 3
+difficulty_value = 200
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_RANDOM"
+level = 63
+species = "SPECIES_MIENSHAO"
+form = 0
+moves = ["MOVE_DRAIN_PUNCH", "MOVE_UTURN", "MOVE_FAKE_OUT", "MOVE_RETURN"]
+
+[[trainer_party.party]]
+slot = 4
+difficulty_value = 200
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 63
+species = "SPECIES_SIMIPOUR"
+form = 0
+moves = ["MOVE_SURF", "MOVE_ROCK_SLIDE", "MOVE_BRICK_BREAK", "MOVE_RETURN"]
+
+[[trainer_party.party]]
+slot = 5
+difficulty_value = 250
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 65
+species = "SPECIES_SERPERIOR"
+form = 0
+moves = ["MOVE_LEAF_STORM", "MOVE_DRAGON_TAIL", "MOVE_COIL", "MOVE_RETURN"]

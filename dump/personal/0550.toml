@@ -1,0 +1,48 @@
+[personal]
+index = 550
+species = "SPECIES_BASCULIN"
+capture_rate = 25
+evolution_stage = 2
+ev_yield = 128
+gender_probability = 127
+egg_happiness = 40
+base_happiness = 70
+experience_group = 0
+egg_groups = [12, 12]
+escape_rate = 0
+color = 3
+base_experience = 161
+height_cm = 10
+weight_cg = 180
+
+[personal.base_stats]
+hp = 70
+attack = 92
+defense = 65
+speed = 98
+special_attack = 80
+special_defense = 55
+
+[personal.typing]
+primary = "TYPE_WATER"
+secondary = "TYPE_WATER"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_DEEP_SEA_TOOTH"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 120
+secondary = 91
+hidden = 104
+
+[personal.forms]
+data_offset = 700
+sprite_offset = 47
+count = 2
+
+[personal.compatibility]
+tmhm = [-2079122848, 4233728, -2109734912, 26]
+type_tutors = 0
+special_tutors = [2304, 11520, 2, 8448]

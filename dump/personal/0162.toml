@@ -1,0 +1,48 @@
+[personal]
+index = 162
+species = "SPECIES_FURRET"
+capture_rate = 90
+evolution_stage = 2
+ev_yield = 128
+gender_probability = 127
+egg_happiness = 15
+base_happiness = 70
+experience_group = 0
+egg_groups = [5, 5]
+escape_rate = 90
+color = 5
+base_experience = 145
+height_cm = 18
+weight_cg = 325
+
+[personal.base_stats]
+hp = 85
+attack = 76
+defense = 64
+speed = 90
+special_attack = 45
+special_defense = 55
+
+[personal.typing]
+primary = "TYPE_NORMAL"
+secondary = "TYPE_NORMAL"
+
+[personal.wild_items]
+common_50 = "ITEM_ORAN_BERRY"
+rare_5 = "ITEM_SITRUS_BERRY"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 50
+secondary = 51
+hidden = 119
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-307005919, 25803268, -1553727475, 6]
+type_tutors = 0
+special_tutors = [30726, 100480, 6, 8240]

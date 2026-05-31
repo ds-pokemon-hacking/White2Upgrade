@@ -1,0 +1,45 @@
+[trainer]
+index = 612
+party_format = 1
+trainer_class = 70
+battle_type = 0
+party_count = 3
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 20
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 612
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 150
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 54
+species = "SPECIES_FRAXURE"
+form = 0
+moves = ["MOVE_DRAGON_DANCE", "MOVE_DRAGON_CLAW", "MOVE_XSCISSOR", "MOVE_SHADOW_CLAW"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 150
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 54
+species = "SPECIES_ZWEILOUS"
+form = 0
+moves = ["MOVE_SCARY_FACE", "MOVE_CRUNCH", "MOVE_BODY_SLAM", "MOVE_DRAGON_RUSH"]
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 150
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 54
+species = "SPECIES_FLYGON"
+form = 0
+moves = ["MOVE_DRAGON_CLAW", "MOVE_BULLDOZE", "MOVE_FLAMETHROWER", "MOVE_ROCK_SLIDE"]

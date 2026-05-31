@@ -1,0 +1,48 @@
+[personal]
+index = 124
+species = "SPECIES_JYNX"
+capture_rate = 45
+evolution_stage = 2
+ev_yield = 512
+gender_probability = 254
+egg_happiness = 25
+base_happiness = 70
+experience_group = 0
+egg_groups = [8, 8]
+escape_rate = 0
+color = 0
+base_experience = 159
+height_cm = 14
+weight_cg = 406
+
+[personal.base_stats]
+hp = 65
+attack = 50
+defense = 35
+speed = 95
+special_attack = 115
+special_defense = 95
+
+[personal.typing]
+primary = "TYPE_ICE"
+secondary = "TYPE_PSYCHIC"
+
+[personal.wild_items]
+common_50 = "ITEM_ASPEAR_BERRY"
+rare_5 = "ITEM_ASPEAR_BERRY"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 12
+secondary = 108
+hidden = 87
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-199755156, 10074881, 175132714, 0]
+type_tutors = 0
+special_tutors = [16402, 41985, 2146, 25712]

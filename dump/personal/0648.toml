@@ -1,0 +1,48 @@
+[personal]
+index = 648
+species = "SPECIES_MELOETTA"
+capture_rate = 3
+evolution_stage = 3
+ev_yield = 1344
+gender_probability = 255
+egg_happiness = 120
+base_happiness = 100
+experience_group = 5
+egg_groups = [15, 15]
+escape_rate = 0
+color = 72
+base_experience = 270
+height_cm = 6
+weight_cg = 65
+
+[personal.base_stats]
+hp = 100
+attack = 77
+defense = 77
+speed = 90
+special_attack = 128
+special_defense = 128
+
+[personal.typing]
+primary = "TYPE_NORMAL"
+secondary = "TYPE_PSYCHIC"
+
+[personal.wild_items]
+common_50 = "ITEM_STAR_PIECE"
+rare_5 = "ITEM_STAR_PIECE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 32
+secondary = "BATTLE_ABILITY_RANDOM"
+hidden = "BATTLE_ABILITY_RANDOM"
+
+[personal.forms]
+data_offset = 702
+sprite_offset = 61
+count = 2
+
+[personal.compatibility]
+tmhm = [-174078419, 1637468672, 729026927, 4]
+type_tutors = 0
+special_tutors = [31258, 41105, 2150, 27888]

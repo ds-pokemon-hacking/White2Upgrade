@@ -1,0 +1,48 @@
+[personal]
+index = 115
+species = "SPECIES_KANGASKHAN"
+capture_rate = 45
+evolution_stage = 2
+ev_yield = 2
+gender_probability = 254
+egg_happiness = 20
+base_happiness = 70
+experience_group = 0
+egg_groups = [1, 1]
+escape_rate = 150
+color = 5
+base_experience = 172
+height_cm = 22
+weight_cg = 800
+
+[personal.base_stats]
+hp = 105
+attack = 95
+defense = 80
+speed = 90
+special_attack = 40
+special_defense = 80
+
+[personal.typing]
+primary = "TYPE_NORMAL"
+secondary = "TYPE_NORMAL"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 48
+secondary = 113
+hidden = 39
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-272927120, 76069620, -1572560883, 6]
+type_tutors = 0
+special_tutors = [31234, 68608, 2050, 8980]

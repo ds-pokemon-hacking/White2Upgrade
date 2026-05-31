@@ -1,0 +1,48 @@
+[personal]
+index = 475
+species = "SPECIES_GALLADE"
+capture_rate = 45
+evolution_stage = 3
+ev_yield = 12
+gender_probability = 0
+egg_happiness = 20
+base_happiness = 35
+experience_group = 5
+egg_groups = [11, 11]
+escape_rate = 0
+color = 8
+base_experience = 233
+height_cm = 16
+weight_cg = 520
+
+[personal.base_stats]
+hp = 68
+attack = 125
+defense = 65
+speed = 80
+special_attack = 65
+special_defense = 115
+
+[personal.typing]
+primary = "TYPE_PSYCHIC"
+secondary = "TYPE_FIGHTING"
+
+[personal.wild_items]
+common_50 = "ITEM_NONE"
+rare_5 = "ITEM_NONE"
+rare_1 = "ITEM_NONE"
+
+[personal.abilities]
+primary = 80
+secondary = 80
+hidden = 154
+
+[personal.forms]
+data_offset = 0
+sprite_offset = 0
+count = 1
+
+[personal.compatibility]
+tmhm = [-157299028, 296614849, -1434602132, 4]
+type_tutors = 0
+special_tutors = [29208, 40961, 2566, 27888]

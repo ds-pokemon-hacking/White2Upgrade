@@ -1,0 +1,48 @@
+[trainer]
+index = 185
+party_format = 3
+trainer_class = 147
+battle_type = 0
+party_count = 3
+items = ["ITEM_NONE", "ITEM_NONE", "ITEM_NONE", "ITEM_NONE"]
+ai = 7
+can_heal = 0
+reward_money = 50
+reward_item = "ITEM_NONE"
+raw_size = 20
+
+[trainer_party]
+index = 185
+
+[[trainer_party.party]]
+slot = 0
+difficulty_value = 64
+ability = "BATTLE_ABILITY_SECONDARY"
+gender = "GENDER_RANDOM"
+level = 56
+species = "SPECIES_UNFEZANT"
+form = 0
+held_item = "ITEM_SCOPE_LENS"
+moves = ["MOVE_AIR_CUTTER", "MOVE_STEEL_WING", "MOVE_QUICK_ATTACK", "MOVE_HYPNOSIS"]
+
+[[trainer_party.party]]
+slot = 1
+difficulty_value = 64
+ability = "BATTLE_ABILITY_RANDOM"
+gender = "GENDER_RANDOM"
+level = 56
+species = "SPECIES_EELEKTRIK"
+form = 0
+held_item = "ITEM_WISE_GLASSES"
+moves = ["MOVE_DISCHARGE", "MOVE_CRUNCH", "MOVE_SIGNAL_BEAM", "MOVE_THUNDER_WAVE"]
+
+[[trainer_party.party]]
+slot = 2
+difficulty_value = 64
+ability = "BATTLE_ABILITY_PRIMARY"
+gender = "GENDER_RANDOM"
+level = 56
+species = "SPECIES_AUDINO"
+form = 0
+held_item = "ITEM_EXPERT_BELT"
+moves = ["MOVE_ICE_BEAM", "MOVE_THUNDERBOLT", "MOVE_FLAMETHROWER", "MOVE_ATTRACT"]

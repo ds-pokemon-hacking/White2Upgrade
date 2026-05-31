@@ -1,0 +1,44 @@
+[move]
+index = 171
+name = "MOVE_NIGHTMARE"
+type = "TYPE_GHOST"
+quality = "EFFECT_STATUS_INFLICTING"
+category = "SPLIT_STATUS"
+power = 0
+accuracy = 100
+base_pp = 15
+priority = 0
+critical_hit_stage = 0
+flinch_rate = 0
+animation_id = 107
+recoil = 0
+heal = 0
+target = "TARGET_OTHER_SELECT"
+padding = 21331
+flags = ["FLAG_BLOCKED_BY_PROTECT", "FLAG_COPIED_BY_MIRROR_MOVE"]
+
+[move.hits]
+minimum = 0
+maximum = 0
+
+[move.inflict]
+status = 9
+chance = 0
+duration = 1
+turn_min = 0
+turn_max = 0
+
+[[move.stat_changes]]
+stat = "STATUS_NONE"
+stages = 0
+chance = 0
+
+[[move.stat_changes]]
+stat = "STATUS_NONE"
+stages = 0
+chance = 0
+
+[[move.stat_changes]]
+stat = "STATUS_NONE"
+stages = 0
+chance = 0
