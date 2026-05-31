@@ -9,7 +9,10 @@ import shutil
 
 def sort_key(path: Path) -> int:
     stem = path.name.rsplit("_", 1)[-1]
-    return int(stem)
+    try:
+        return int(stem)
+    except ValueError:
+        return 1_000_000
 
 
 def main() -> int:

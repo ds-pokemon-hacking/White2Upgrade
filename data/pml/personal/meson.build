@@ -841,7 +841,7 @@ endforeach
 
 vfs_files += custom_target(
   'pack_personal_narc',
-  input: personal_files,
+  input: [personal_files, meson.current_source_dir() / '..' / 'RegionalDex.bin'],
   output: 'pack_personal_narc.stamp',
   command: [pack_narc_py, '@OUTPUT@', meson.project_source_root() / 'vfs' / 'data' / personal_arc, '@INPUT@'],
 )
