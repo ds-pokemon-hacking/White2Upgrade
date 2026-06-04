@@ -1,0 +1,54 @@
+format = "ncer"
+extended = 1
+
+size_boundary = 4
+padding_size = 2
+
+[cells.atama]
+unknown0 = 24
+objects = [
+  { position_y = 192, transformable = 1, double_sized = 1, position_x = 480, key_size = 2, tile_index = 2 },
+  { position_y = 232, transformable = 1, double_sized = 1, key_shape = 1, position_x = 480, key_size = 2, tile_index = 130 },
+]
+
+[cells.ude]
+unknown0 = 8
+objects = [
+  { position_y = 241, transformable = 1, double_sized = 1, position_x = 500, key_size = 1, tile_index = 6 },
+]
+
+[cells.ashi01]
+unknown0 = 8
+objects = [
+  { position_y = 243, transformable = 1, double_sized = 1, position_x = 496, key_size = 1, tile_index = 70 },
+]
+
+[cells.ashi02]
+unknown0 = 8
+objects = [
+  { position_y = 244, transformable = 1, double_sized = 1, position_x = 497, key_size = 1, tile_index = 134 },
+]
+
+[cells.ashi02_1]
+unknown0 = 8
+objects = [
+  { position_y = 244, transformable = 1, double_sized = 1, position_x = 497, key_size = 1, tile_index = 198 },
+]
+
+[cells.ashi02_2]
+unknown0 = 8
+objects = [
+  { position_y = 244, transformable = 1, double_sized = 1, position_x = 497, key_size = 1, tile_index = 262 },
+]
+
+[cells.ashi01_1]
+unknown0 = 8
+objects = [
+  { position_y = 243, transformable = 1, double_sized = 1, position_x = 496, key_size = 1, tile_index = 136 },
+]
+
+[cells.ashi01_2]
+unknown0 = 8
+objects = [
+  { position_y = 243, transformable = 1, double_sized = 1, position_x = 496, key_size = 1, tile_index = 72 },
+]

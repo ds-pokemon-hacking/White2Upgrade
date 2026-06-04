@@ -5,6 +5,8 @@ import argparse
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
+
 from DumpUtil.lzss import DecompressionError, decompress_file
 from dumpers.common import (
     DEFAULT_OUT,
@@ -19,6 +21,7 @@ from dumpers.common import (
     read_narc_files,
     write_toml,
 )
+from tools.text.gen5_text import decode_message_file, write_toml as write_message_toml
 
 
 TYPE = load_label_map("types")
@@ -35,11 +38,21 @@ EVOLUTION_METHODS = load_label_map("evolution_methods")
 BTL_GENDER = load_label_map("btl_gender")
 BTL_ABILITY = load_label_map("btl_abil")
 
+RESOURCE_OUTPUT_DIRS = {
+    "pokegra_battle": Path("pokegra") / "battle",
+    "pokegra_icons": Path("pokegra") / "icons",
+    "pokegra_footprints": Path("pokegra") / "footprints",
+}
+
+
+def resource_output_dir(resource: str) -> Path:
+    return RESOURCE_OUTPUT_DIRS.get(resource, Path(resource))
+
 
 def dump_record_set(resource: str, romfs: Path, out: Path, parser) -> None:
     spec = NARCS[resource]
     files = read_narc_files(spec.source_path(romfs))
-    target = out / resource
+    target = out / resource_output_dir(resource)
     dump_manifest(target / "_manifest.toml", spec, files)
     for index, data in enumerate(files):
         write_toml(target / f"{index:04}.toml", parser(index, data))
@@ -350,16 +363,28 @@ def try_decompress(data: bytes) -> tuple[bytes, bool]:
 def dump_raw_assets(resource: str, romfs: Path, out: Path) -> None:
     spec = NARCS[resource]
     files = read_narc_files(spec.source_path(romfs))
-    target = out / resource
+    target = out / resource_output_dir(resource)
     target.mkdir(parents=True, exist_ok=True)
     manifest = {"narc": {"name": spec.name, "path": spec.path, "description": spec.description, "file_count": len(files)}, "files": {"entries": []}}
     for index, data in enumerate(files):
         payload, compressed = try_decompress(data)
         kind = detect_magic(payload)
-        file_name = f"{index:04}.{kind}"
+        if resource == "pokegra_footprints":
+            file_name = f"165_{index:08}.bin"
+        else:
+            file_name = f"{index:04}.{kind}"
         (target / file_name).write_bytes(payload)
         manifest["files"]["entries"].append({"index": index, "file": file_name, "size": len(payload), "lz11": compressed, "kind": kind})
     write_toml(target / "_manifest.toml", manifest)
+
+
+def dump_text(resource: str, romfs: Path, out: Path) -> None:
+    spec = NARCS[resource]
+    files = read_narc_files(spec.source_path(romfs))
+    target = out / resource_output_dir(resource)
+    dump_manifest(target / "_manifest.toml", spec, files)
+    for index, data in enumerate(files):
+        write_message_toml(decode_message_file(data), target / f"{index}.toml")
 
 
 def dump_resource(resource: str, romfs: Path, out: Path) -> None:
@@ -379,7 +404,9 @@ def dump_resource(resource: str, romfs: Path, out: Path) -> None:
         dump_trainers(romfs, out)
     elif resource in parsers:
         dump_record_set(resource, romfs, out, parsers[resource])
-    elif resource in {"pokegra_battle", "pokegra_icons", "system_text"}:
+    elif resource in {"system_text", "game_text"}:
+        dump_text(resource, romfs, out)
+    elif resource in {"pokegra_battle", "pokegra_icons", "pokegra_footprints"}:
         dump_raw_assets(resource, romfs, out)
     else:
         raise SystemExit(f"Unknown dump resource: {resource}")
@@ -394,7 +421,7 @@ def main(argv: list[str] | None = None) -> int:
 
     resources = args.resources or ["all"]
     if "all" in resources:
-        resources = ["species", "personal", "children", "moves", "items", "evolutions", "learnsets", "encounters", "trainers", "pokegra_battle", "pokegra_icons", "system_text"]
+        resources = ["species", "personal", "children", "moves", "items", "evolutions", "learnsets", "encounters", "trainers", "pokegra_battle", "pokegra_icons", "pokegra_footprints", "system_text", "game_text"]
 
     for resource in resources:
         dump_resource(resource, args.romfs.resolve(), args.out.resolve())

@@ -1,0 +1,15 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.CellAnime0]
+properties = [
+  { sequence = "head", translate_y = -15, frame_mode = 32 },
+  { sequence = "parts", translate_y = -15, frame_mode = 32, unique_id = 1 },
+  { sequence = "body", translate_y = -15, frame_mode = 32, unique_id = 2 },
+]
+
+[multi_cells.CellAnime0_1]
+properties = [
+  { sequence = "CellAnime11", translate_y = -21, frame_mode = 32 },
+]

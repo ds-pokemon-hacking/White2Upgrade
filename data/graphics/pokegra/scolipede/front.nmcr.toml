@@ -1,0 +1,27 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.CellAnime0]
+properties = [
+  { sequence = "tuno01", translate_x = -5, translate_y = -19, frame_mode = 32 },
+  { sequence = "tuno02", translate_x = -17, translate_y = -20, frame_mode = 32, unique_id = 1 },
+  { sequence = "karada01", frame_mode = 32, unique_id = 2 },
+  { sequence = "me", frame_mode = 32, unique_id = 3 },
+  { sequence = "tuno03", translate_x = 15, translate_y = -18, frame_mode = 32, unique_id = 4 },
+]
+
+[multi_cells.CellAnime0_1]
+properties = [
+  { sequence = "tuno01_a", translate_x = -5, translate_y = -19, frame_mode = 32 },
+  { sequence = "tuno02_a", translate_x = -17, translate_y = -20, frame_mode = 32, unique_id = 1 },
+  { sequence = "karada01_a", frame_mode = 32, unique_id = 2 },
+  { sequence = "me_a", frame_mode = 32, unique_id = 3 },
+  { sequence = "tuno03_a", translate_x = 15, translate_y = -18, frame_mode = 32, unique_id = 4 },
+]
+
+[multi_cells.CellAnime0_2]
+properties = [
+  { sequence = "karada02_b", translate_x = 2, translate_y = -19, frame_mode = 32 },
+  { sequence = "me_b", frame_mode = 32, unique_id = 1 },
+]

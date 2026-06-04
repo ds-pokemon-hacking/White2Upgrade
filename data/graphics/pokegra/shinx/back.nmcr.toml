@@ -1,0 +1,43 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.CellAnime0]
+properties = [
+  { sequence = "wing_R", translate_x = -1, translate_y = -30, frame_mode = 33 },
+  { sequence = "wing_L", translate_x = -2, translate_y = -30, frame_mode = 33, unique_id = 1 },
+  { sequence = "feeler_L", translate_x = 6, translate_y = -55, frame_mode = 33, unique_id = 2 },
+  { sequence = "feeler_R", translate_x = -5, translate_y = -55, frame_mode = 33, unique_id = 3 },
+  { sequence = "foot_R", translate_x = 3, frame_mode = 33, unique_id = 4 },
+  { sequence = "foot_L", translate_x = -4, translate_y = -2, frame_mode = 33, unique_id = 5 },
+  { sequence = "body", translate_x = 1, translate_y = -13, frame_mode = 33, unique_id = 6 },
+  { sequence = "head", translate_x = -1, translate_y = -32, frame_mode = 33, unique_id = 7 },
+  { sequence = "arm_R", translate_x = 3, translate_y = -26, frame_mode = 33, unique_id = 8 },
+  { sequence = "arm_L", translate_x = -2, translate_y = -27, frame_mode = 33, unique_id = 9 },
+  { sequence = "hand_R", translate_x = 19, translate_y = -34, frame_mode = 33, unique_id = 10 },
+  { sequence = "hand_L", translate_x = -11, translate_y = -32, frame_mode = 33, unique_id = 11 },
+  { sequence = "hige_R", translate_x = 5, translate_y = -37, frame_mode = 33, unique_id = 12 },
+  { sequence = "hige_L", translate_x = -1, translate_y = -39, frame_mode = 33, unique_id = 13 },
+]
+
+[multi_cells.CellAnime0_1]
+properties = [
+  { sequence = "wing_R1", translate_x = -1, translate_y = -30, frame_mode = 33 },
+  { sequence = "wing_L1", translate_x = -2, translate_y = -30, frame_mode = 33, unique_id = 1 },
+  { sequence = "wing_in_L_a", translate_x = -2, translate_y = -30, frame_mode = 33, unique_id = 2 },
+  { sequence = "wing_in_L_b", translate_x = -2, translate_y = -29, frame_mode = 33, unique_id = 3 },
+  { sequence = "wing_in_R_a", translate_x = -1, translate_y = -29, frame_mode = 33, unique_id = 4 },
+  { sequence = "wing_in_R_b", translate_x = -1, translate_y = -29, frame_mode = 33, unique_id = 5 },
+  { sequence = "feeler_L1", translate_x = 6, translate_y = -55, frame_mode = 33, unique_id = 6 },
+  { sequence = "feeler_R1", translate_x = -5, translate_y = -55, frame_mode = 33, unique_id = 7 },
+  { sequence = "foot_R1", translate_x = 3, frame_mode = 33, unique_id = 8 },
+  { sequence = "foot_L1", translate_x = -4, translate_y = -2, frame_mode = 33, unique_id = 9 },
+  { sequence = "body1", translate_x = 1, translate_y = -13, frame_mode = 33, unique_id = 10 },
+  { sequence = "head1", translate_x = -1, translate_y = -32, frame_mode = 33, unique_id = 11 },
+  { sequence = "arm_R1", translate_x = 3, translate_y = -26, frame_mode = 33, unique_id = 12 },
+  { sequence = "arm_L1", translate_x = -2, translate_y = -27, frame_mode = 33, unique_id = 13 },
+  { sequence = "hand_R1", translate_x = 19, translate_y = -34, frame_mode = 33, unique_id = 14 },
+  { sequence = "hand_L1", translate_x = -11, translate_y = -32, frame_mode = 33, unique_id = 15 },
+  { sequence = "hige_R1", translate_x = 5, translate_y = -37, frame_mode = 33, unique_id = 16 },
+  { sequence = "hige_L1", translate_x = -1, translate_y = -39, frame_mode = 33, unique_id = 17 },
+]

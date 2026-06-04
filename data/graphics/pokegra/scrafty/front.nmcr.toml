@@ -1,0 +1,19 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.CellAnime0]
+properties = [
+  { sequence = "karada01", translate_x = 2, translate_y = -12, frame_mode = 32 },
+  { sequence = "atama01", translate_x = 3, translate_y = -21, frame_mode = 32, unique_id = 1 },
+  { sequence = "ashi01", translate_x = 1, translate_y = -3, frame_mode = 32, unique_id = 2 },
+  { sequence = "o01", translate_x = 12, translate_y = -8, frame_mode = 32, unique_id = 3 },
+]
+
+[multi_cells.CellAnime0_1]
+properties = [
+  { sequence = "b_karada01", translate_x = 2, translate_y = -12, frame_mode = 32 },
+  { sequence = "b_atama01", translate_x = 3, translate_y = -21, frame_mode = 32, unique_id = 1 },
+  { sequence = "b_ashi", translate_x = 1, translate_y = -3, frame_mode = 32, unique_id = 2 },
+  { sequence = "b_o01", translate_x = 12, translate_y = -8, frame_mode = 32, unique_id = 3 },
+]

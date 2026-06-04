@@ -1,0 +1,53 @@
+format = "ncer"
+extended = 1
+
+size_boundary = 4
+padding_size = 2
+
+[cells.CellAnime01]
+unknown0 = 19
+objects = [
+  { position_y = 222, transformable = 1, double_sized = 1, object_mode = 1, key_shape = 1, position_x = 467, key_size = 2, tile_index = 32 },
+  { position_y = 221, transformable = 1, double_sized = 1, key_shape = 1, position_x = 468, key_size = 2, tile_index = 5 },
+  { position_y = 241, transformable = 1, double_sized = 1, key_shape = 1, position_x = 468, key_size = 1, tile_index = 69 },
+]
+
+[cells.CellAnime11]
+unknown0 = 22
+objects = [
+  { position_y = 208, transformable = 1, double_sized = 1, position_x = 472, key_size = 2, tile_index = 101 },
+]
+
+[cells.CellAnime2]
+unknown0 = 16
+objects = [
+  { position_y = 224, transformable = 1, double_sized = 1, key_shape = 1, position_x = 480, key_size = 2, tile_index = 9 },
+  { position_y = 244, transformable = 1, double_sized = 1, key_shape = 1, position_x = 480, key_size = 1, tile_index = 73 },
+]
+
+[cells.CellAnime3]
+unknown0 = 31
+objects = [
+  { position_y = 176, transformable = 1, double_sized = 1, position_x = 448, key_size = 2, tile_index = 105 },
+  { position_y = 176, transformable = 1, double_sized = 1, key_shape = 2, position_x = 488, key_size = 2, tile_index = 109 },
+]
+
+[cells.CellAnime4]
+unknown0 = 22
+objects = [
+  { position_y = 209, transformable = 1, double_sized = 1, position_x = 470, key_size = 2, tile_index = 229 },
+  { position_y = 209, transformable = 1, double_sized = 1, key_shape = 2, position_x = 2, key_size = 1, tile_index = 233 },
+]
+
+[cells.CellAnime5]
+unknown0 = 20
+objects = [
+  { position_y = 210, transformable = 1, double_sized = 1, position_x = 480, key_size = 2, tile_index = 234 },
+]
+
+[cells.CellAnime6]
+unknown0 = 14
+objects = [
+  { position_y = 224, transformable = 1, double_sized = 1, key_shape = 2, position_x = 508, key_size = 2, tile_index = 238 },
+  { position_y = 224, transformable = 1, double_sized = 1, key_shape = 2, position_x = 16, key_size = 1, tile_index = 240 },
+]

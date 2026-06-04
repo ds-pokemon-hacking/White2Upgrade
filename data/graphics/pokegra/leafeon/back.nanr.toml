@@ -1,0 +1,756 @@
+format = "nanr"
+extended = 1
+
+[sequences.head]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 4, animation_type = 1, cell = "head", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "head", rotate = 64626, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "head", rotate = 62806, scale_w = 1.0, scale_h = 1.0, translate_y = -1 },
+  { duration_in_frames = 4, animation_type = 1, cell = "head", rotate = 62806, scale_w = 1.0, scale_h = 1.0, translate_y = -3 },
+  { duration_in_frames = 4, animation_type = 1, cell = "head", rotate = 62806, scale_w = 1.0, scale_h = 1.0, translate_y = -1 },
+  { duration_in_frames = 4, animation_type = 1, cell = "head", rotate = 64626, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "head", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "head", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "head", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "head", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "head", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "head", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "head", rotate = 910, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "head", rotate = 1820, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "head", rotate = 1820, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "head", rotate = 1820, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "head", rotate = 910, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "head", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "head", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "head", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "head", scale_w = 1.0, scale_h = 1.0 },
+]
+
+[sequences.body]
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 4, cell = "body", padding_after = [204, 204] },
+]
+
+[sequences.body_tsuno]
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 4, cell = "body_tsuno", padding_after = [204, 204] },
+]
+
+[sequences.tail_a]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 4, animation_type = 1, cell = "tail", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail", rotate = 606, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail", rotate = 1213, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail", rotate = 1820, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail", rotate = 2730, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail", rotate = 2730, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail", rotate = 3640, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail", rotate = 3640, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail", rotate = 2730, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail", rotate = 2730, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail", rotate = 1820, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail", rotate = 1365, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail", rotate = 910, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail", rotate = 455, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail", scale_w = 1.0, scale_h = 1.0 },
+]
+
+[sequences.tail_b]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_b", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_b", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_b", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_b", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_b", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_b", rotate = 606, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_b", rotate = 1213, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_b", rotate = 1820, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_b", rotate = 2730, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_b", rotate = 3640, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_b", rotate = 4551, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_b", rotate = 4551, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_b", rotate = 3640, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_b", rotate = 2730, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_b", rotate = 1820, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_b", rotate = 1365, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_b", rotate = 910, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_b", rotate = 455, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_b", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_b", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_b", scale_w = 1.0, scale_h = 1.0 },
+]
+
+[sequences.tail_c]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_c", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_c", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_c", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_c", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_c", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_c", rotate = 606, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_c", rotate = 1213, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_c", rotate = 1820, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_c", rotate = 2730, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_c", rotate = 3640, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_c", rotate = 5461, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_c", rotate = 5461, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_c", rotate = 3640, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_c", rotate = 2730, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_c", rotate = 1820, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_c", rotate = 1365, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_c", rotate = 910, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_c", rotate = 455, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_c", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_c", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_c", scale_w = 1.0, scale_h = 1.0 },
+]
+
+[sequences.wing_La]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_La", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_La", scale_w = 1.0, scale_h = 0.800048828125 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_La", scale_w = 1.0, scale_h = 0.5 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_La", scale_w = 1.0, scale_h = 0.199951171875 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_La", scale_w = 1.0, scale_h = 0.10009765625 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_La", scale_w = 1.0, scale_h = 0.199951171875 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_La", scale_w = 1.0, scale_h = 0.5 },
+]
+
+[sequences.wing_Lb]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_Lb", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_Lb", rotate = 64626, scale_w = 1.0, scale_h = 0.5 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_Lb", rotate = 63716, scale_w = 1.0, scale_h = 0.199951171875, translate_y = -1 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_Lb", rotate = 62806, scale_w = 1.0, scale_h = 0.199951171875, translate_y = -1 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_Lb", rotate = 64626, scale_w = 1.0, scale_h = 0.199951171875, translate_y = -1 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_Lb", rotate = 63716, scale_w = 1.0, scale_h = 0.5 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_Lb", scale_w = 1.0, scale_h = 0.800048828125 },
+]
+
+[sequences.wing_Ra]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_Ra", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_Ra", scale_w = 1.0, scale_h = 0.800048828125 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_Ra", scale_w = 1.0, scale_h = 0.5 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_Ra", scale_w = 1.0, scale_h = 0.199951171875 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_Ra", scale_w = 1.0, scale_h = 0.10009765625 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_Ra", scale_w = 1.0, scale_h = 0.199951171875 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_Ra", scale_w = 1.0, scale_h = 0.5 },
+]
+
+[sequences.wing_Rb]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_Rb", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_Rb", rotate = 910, scale_w = 1.0, scale_h = 0.5 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_Rb", rotate = 1820, scale_w = 1.0, scale_h = 0.199951171875 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_Rb", rotate = 2730, scale_w = 1.0, scale_h = 0.199951171875 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_Rb", rotate = 910, scale_w = 1.0, scale_h = 0.199951171875 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_Rb", rotate = 1820, scale_w = 1.0, scale_h = 0.5 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_Rb", scale_w = 1.0, scale_h = 0.800048828125 },
+]
+
+[sequences.wing_tail_L]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_2", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_3", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_1", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_2", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_3", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_1", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_2", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_3", rotate = 606, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_1", rotate = 606, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L", rotate = 1213, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_2", rotate = 1213, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_3", rotate = 1820, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_1", rotate = 1820, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L", rotate = 2730, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_2", rotate = 2730, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_3", rotate = 3640, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_1", rotate = 3640, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L", rotate = 5461, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_2", rotate = 5461, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L", rotate = 5461, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_2", rotate = 5461, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_3", rotate = 3640, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_1", rotate = 3640, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L", rotate = 2730, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_2", rotate = 2730, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_3", rotate = 1820, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_1", rotate = 1820, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L", rotate = 1365, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_2", rotate = 1365, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_3", rotate = 910, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_1", rotate = 910, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L", rotate = 455, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_2", rotate = 455, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_3", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_1", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_2", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_3", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_1", scale_w = 1.0, scale_h = 1.0 },
+]
+
+[sequences.wing_tail_R]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_2", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_3", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_1", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_2", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_3", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_1", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_2", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_3", rotate = 606, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_1", rotate = 606, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R", rotate = 1213, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_2", rotate = 1213, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_3", rotate = 1820, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_1", rotate = 1820, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R", rotate = 2730, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_2", rotate = 2730, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_3", rotate = 3640, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_1", rotate = 3640, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R", rotate = 5461, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_2", rotate = 5461, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R", rotate = 5461, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_2", rotate = 5461, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_3", rotate = 3640, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_1", rotate = 3640, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R", rotate = 2730, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_2", rotate = 2730, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_3", rotate = 1820, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_1", rotate = 1820, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R", rotate = 1365, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_2", rotate = 1365, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_3", rotate = 910, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_1", rotate = 910, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R", rotate = 455, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_2", rotate = 455, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_3", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_1", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_2", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_3", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_1", scale_w = 1.0, scale_h = 1.0 },
+]
+
+[sequences.leg_Lb]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Lb", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Lb", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Lb", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Lb", rotate = 1820, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Lb", rotate = 3640, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Lb", rotate = 5461, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Lb", rotate = 3640, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Lb", rotate = 1820, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Lb", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Lb", rotate = 63716, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Lb", rotate = 61896, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Lb", rotate = 62806, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Lb", rotate = 63716, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Lb", rotate = 64626, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Lb", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Lb", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Lb", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Lb", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Lb", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Lb", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Lb", scale_w = 1.0, scale_h = 1.0 },
+]
+
+[sequences.leg_Lc]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Lc", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Lc", rotate = 1820, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Lc", rotate = 3640, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Lc", rotate = 5461, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Lc", rotate = 3640, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Lc", rotate = 1820, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Lc", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Lc", rotate = 63716, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Lc", rotate = 61896, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Lc", rotate = 62806, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Lc", rotate = 63716, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Lc", rotate = 64626, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Lc", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Lc", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Lc", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Lc", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Lc", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Lc", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Lc", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Lc", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Lc", scale_w = 1.0, scale_h = 1.0 },
+]
+
+[sequences.leg_Ra]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Ra", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Ra", rotate = 63716, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Ra", rotate = 61896, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Ra", rotate = 60075, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Ra", rotate = 61896, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Ra", rotate = 63716, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Ra", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Ra", rotate = 1820, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Ra", rotate = 3640, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Ra", rotate = 2730, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Ra", rotate = 1820, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Ra", rotate = 910, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Ra", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Ra", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Ra", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Ra", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Ra", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Ra", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Ra", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Ra", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Ra", scale_w = 1.0, scale_h = 1.0 },
+]
+
+[sequences.leg_Rb]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Rb", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Rb", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Rb", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Rb", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Rb", rotate = 64323, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Rb", rotate = 63109, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Rb", rotate = 61896, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Rb", rotate = 61896, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Rb", rotate = 63170, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Rb", rotate = 64444, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Rb", rotate = 182, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Rb", rotate = 1456, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Rb", rotate = 2730, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Rb", rotate = 1820, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Rb", rotate = 910, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Rb", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Rb", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Rb", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Rb", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Rb", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Rb", scale_w = 1.0, scale_h = 1.0 },
+]
+
+[sequences.leg_Rc]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Rc", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Rc", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Rc", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Rc", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Rc", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Rc", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Rc", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Rc", rotate = 364, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Rc", rotate = 728, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Rc", rotate = 1092, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Rc", rotate = 1456, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Rc", rotate = 1820, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Rc", rotate = 1820, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Rc", rotate = 1820, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Rc", rotate = 1820, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Rc", rotate = 1820, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Rc", rotate = 1456, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Rc", rotate = 1092, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Rc", rotate = 728, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Rc", rotate = 364, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "leg_Rc", scale_w = 1.0, scale_h = 1.0 },
+]
+
+[sequences.tail_a1]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 4, animation_type = 1, cell = "tail", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail", rotate = 64930, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail", rotate = 64323, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail", rotate = 63716, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail", rotate = 63413, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail", rotate = 63109, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail", rotate = 62806, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail", rotate = 62806, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail", rotate = 63109, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail", rotate = 63413, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail", rotate = 63716, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail", rotate = 64171, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail", rotate = 64626, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail", rotate = 65081, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail", scale_w = 1.0, scale_h = 1.0 },
+]
+
+[sequences.tail_b1]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_b", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_b", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_b", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_b", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_b", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_b", rotate = 64930, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_b", rotate = 64323, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_b", rotate = 63716, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_b", rotate = 62806, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_b", rotate = 61896, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_b", rotate = 60985, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_b", rotate = 60985, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_b", rotate = 61896, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_b", rotate = 62806, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_b", rotate = 63716, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_b", rotate = 64171, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_b", rotate = 64626, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_b", rotate = 65081, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_b", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_b", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_b", scale_w = 1.0, scale_h = 1.0 },
+]
+
+[sequences.tail_c1]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_c", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_c", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_c", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_c", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_c", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_c", rotate = 64930, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_c", rotate = 64323, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_c", rotate = 63716, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_c", rotate = 62806, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_c", rotate = 61896, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_c", rotate = 60075, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_c", rotate = 60075, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_c", rotate = 61896, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_c", rotate = 62806, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_c", rotate = 63716, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_c", rotate = 64171, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_c", rotate = 64626, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_c", rotate = 65081, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_c", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_c", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "tail_c", scale_w = 1.0, scale_h = 1.0 },
+]
+
+[sequences.wing_tail_L1]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_2", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_3", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_1", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_2", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_3", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_1", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_2", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_3", rotate = 64930, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_1", rotate = 64930, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L", rotate = 64323, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_2", rotate = 64323, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_3", rotate = 63716, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_1", rotate = 63716, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L", rotate = 62806, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_2", rotate = 62806, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_3", rotate = 61896, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_1", rotate = 61896, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L", rotate = 60075, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_2", rotate = 60075, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L", rotate = 60075, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_2", rotate = 60075, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_3", rotate = 61896, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_1", rotate = 61896, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L", rotate = 62806, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_2", rotate = 62806, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_3", rotate = 63716, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_1", rotate = 63716, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L", rotate = 64171, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_2", rotate = 64171, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_3", rotate = 64626, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_1", rotate = 64626, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L", rotate = 65081, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_2", rotate = 65081, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_3", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_1", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_2", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_3", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_L_1", scale_w = 1.0, scale_h = 1.0 },
+]
+
+[sequences.wing_tail_R1]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_2", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_3", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_1", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_2", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_3", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_1", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_2", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_3", rotate = 64930, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_1", rotate = 64930, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R", rotate = 64323, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_2", rotate = 64323, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_3", rotate = 63716, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_1", rotate = 63716, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R", rotate = 62806, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_2", rotate = 62806, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_3", rotate = 61896, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_1", rotate = 61896, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R", rotate = 60075, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_2", rotate = 60075, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R", rotate = 60075, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_2", rotate = 60075, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_3", rotate = 61896, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_1", rotate = 61896, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R", rotate = 62806, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_2", rotate = 62806, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_3", rotate = 63716, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_1", rotate = 63716, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R", rotate = 64171, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_2", rotate = 64171, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_3", rotate = 64626, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_1", rotate = 64626, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R", rotate = 65081, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_2", rotate = 65081, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_3", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_1", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_2", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_3", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "wing_tail_R_1", scale_w = 1.0, scale_h = 1.0 },
+]
+
+[sequences.wing_La1]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_La", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_La", scale_w = 1.0, scale_h = 0.800048828125 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_La", scale_w = 1.0, scale_h = 0.5 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_La", scale_w = 1.0, scale_h = 0.199951171875 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_La", scale_w = 1.0, scale_h = 0.10009765625 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_La", scale_w = 1.0, scale_h = 0.199951171875 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_La", scale_w = 1.0, scale_h = 0.5 },
+]
+
+[sequences.wing_Lb1]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_Lb", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_Lb", rotate = 64626, scale_w = 1.0, scale_h = 0.5 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_Lb", rotate = 63716, scale_w = 1.0, scale_h = 0.199951171875, translate_y = -1 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_Lb", rotate = 62806, scale_w = 1.0, scale_h = 0.199951171875, translate_y = -1 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_Lb", rotate = 64626, scale_w = 1.0, scale_h = 0.199951171875, translate_y = -1 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_Lb", rotate = 63716, scale_w = 1.0, scale_h = 0.5 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_Lb", scale_w = 1.0, scale_h = 0.800048828125 },
+]
+
+[sequences.wing_Ra1]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_Ra", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_Ra", scale_w = 1.0, scale_h = 0.800048828125 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_Ra", scale_w = 1.0, scale_h = 0.5 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_Ra", scale_w = 1.0, scale_h = 0.199951171875 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_Ra", scale_w = 1.0, scale_h = 0.10009765625 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_Ra", scale_w = 1.0, scale_h = 0.199951171875 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_Ra", scale_w = 1.0, scale_h = 0.5 },
+]
+
+[sequences.wing_Rb1]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_Rb", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_Rb", rotate = 910, scale_w = 1.0, scale_h = 0.5 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_Rb", rotate = 1820, scale_w = 1.0, scale_h = 0.199951171875 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_Rb", rotate = 2730, scale_w = 1.0, scale_h = 0.199951171875 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_Rb", rotate = 910, scale_w = 1.0, scale_h = 0.199951171875 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_Rb", rotate = 1820, scale_w = 1.0, scale_h = 0.5 },
+  { duration_in_frames = 1, animation_type = 1, cell = "wing_Rb", scale_w = 1.0, scale_h = 0.800048828125 },
+]
+
+[sequences.wing_tail_L2]
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 2, cell = "wing_tail_L" },
+  { duration_in_frames = 2, cell = "wing_tail_L_2" },
+  { duration_in_frames = 2, cell = "wing_tail_L_3" },
+  { duration_in_frames = 2, cell = "wing_tail_L_1" },
+  { duration_in_frames = 2, cell = "wing_tail_L" },
+  { duration_in_frames = 2, cell = "wing_tail_L_2" },
+  { duration_in_frames = 2, cell = "wing_tail_L_3" },
+  { duration_in_frames = 2, cell = "wing_tail_L_1" },
+  { duration_in_frames = 2, cell = "wing_tail_L" },
+  { duration_in_frames = 2, cell = "wing_tail_L_2" },
+  { duration_in_frames = 2, cell = "wing_tail_L_3" },
+  { duration_in_frames = 2, cell = "wing_tail_L_1" },
+  { duration_in_frames = 2, cell = "wing_tail_L" },
+  { duration_in_frames = 2, cell = "wing_tail_L_2" },
+  { duration_in_frames = 2, cell = "wing_tail_L_3" },
+  { duration_in_frames = 2, cell = "wing_tail_L_1" },
+  { duration_in_frames = 2, cell = "wing_tail_L" },
+  { duration_in_frames = 2, cell = "wing_tail_L_2" },
+  { duration_in_frames = 2, cell = "wing_tail_L_3" },
+  { duration_in_frames = 2, cell = "wing_tail_L_1" },
+  { duration_in_frames = 2, cell = "wing_tail_L" },
+  { duration_in_frames = 2, cell = "wing_tail_L_2" },
+  { duration_in_frames = 2, cell = "wing_tail_L" },
+  { duration_in_frames = 2, cell = "wing_tail_L_2" },
+  { duration_in_frames = 2, cell = "wing_tail_L_3" },
+  { duration_in_frames = 2, cell = "wing_tail_L_1" },
+  { duration_in_frames = 2, cell = "wing_tail_L" },
+  { duration_in_frames = 2, cell = "wing_tail_L_2" },
+  { duration_in_frames = 2, cell = "wing_tail_L_3" },
+  { duration_in_frames = 2, cell = "wing_tail_L_1" },
+  { duration_in_frames = 2, cell = "wing_tail_L" },
+  { duration_in_frames = 2, cell = "wing_tail_L_2" },
+  { duration_in_frames = 2, cell = "wing_tail_L_3" },
+  { duration_in_frames = 2, cell = "wing_tail_L_1" },
+  { duration_in_frames = 2, cell = "wing_tail_L" },
+  { duration_in_frames = 2, cell = "wing_tail_L_2" },
+  { duration_in_frames = 2, cell = "wing_tail_L_3" },
+  { duration_in_frames = 2, cell = "wing_tail_L_1" },
+  { duration_in_frames = 2, cell = "wing_tail_L" },
+  { duration_in_frames = 2, cell = "wing_tail_L_2" },
+  { duration_in_frames = 2, cell = "wing_tail_L_3" },
+  { duration_in_frames = 2, cell = "wing_tail_L_1" },
+]
+
+[sequences.wing_tail_R2]
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 2, cell = "wing_tail_R" },
+  { duration_in_frames = 2, cell = "wing_tail_R_2" },
+  { duration_in_frames = 2, cell = "wing_tail_R_3" },
+  { duration_in_frames = 2, cell = "wing_tail_R_1" },
+  { duration_in_frames = 2, cell = "wing_tail_R" },
+  { duration_in_frames = 2, cell = "wing_tail_R_2" },
+  { duration_in_frames = 2, cell = "wing_tail_R_3" },
+  { duration_in_frames = 2, cell = "wing_tail_R_1" },
+  { duration_in_frames = 2, cell = "wing_tail_R" },
+  { duration_in_frames = 2, cell = "wing_tail_R_2" },
+  { duration_in_frames = 2, cell = "wing_tail_R_3" },
+  { duration_in_frames = 2, cell = "wing_tail_R_1" },
+  { duration_in_frames = 2, cell = "wing_tail_R" },
+  { duration_in_frames = 2, cell = "wing_tail_R_2" },
+  { duration_in_frames = 2, cell = "wing_tail_R_3" },
+  { duration_in_frames = 2, cell = "wing_tail_R_1" },
+  { duration_in_frames = 2, cell = "wing_tail_R" },
+  { duration_in_frames = 2, cell = "wing_tail_R_2" },
+  { duration_in_frames = 2, cell = "wing_tail_R_3" },
+  { duration_in_frames = 2, cell = "wing_tail_R_1" },
+  { duration_in_frames = 2, cell = "wing_tail_R" },
+  { duration_in_frames = 2, cell = "wing_tail_R_2" },
+  { duration_in_frames = 2, cell = "wing_tail_R" },
+  { duration_in_frames = 2, cell = "wing_tail_R_2" },
+  { duration_in_frames = 2, cell = "wing_tail_R_3" },
+  { duration_in_frames = 2, cell = "wing_tail_R_1" },
+  { duration_in_frames = 2, cell = "wing_tail_R" },
+  { duration_in_frames = 2, cell = "wing_tail_R_2" },
+  { duration_in_frames = 2, cell = "wing_tail_R_3" },
+  { duration_in_frames = 2, cell = "wing_tail_R_1" },
+  { duration_in_frames = 2, cell = "wing_tail_R" },
+  { duration_in_frames = 2, cell = "wing_tail_R_2" },
+  { duration_in_frames = 2, cell = "wing_tail_R_3" },
+  { duration_in_frames = 2, cell = "wing_tail_R_1" },
+  { duration_in_frames = 2, cell = "wing_tail_R" },
+  { duration_in_frames = 2, cell = "wing_tail_R_2" },
+  { duration_in_frames = 2, cell = "wing_tail_R_3" },
+  { duration_in_frames = 2, cell = "wing_tail_R_1" },
+  { duration_in_frames = 2, cell = "wing_tail_R" },
+  { duration_in_frames = 2, cell = "wing_tail_R_2" },
+  { duration_in_frames = 2, cell = "wing_tail_R_3" },
+  { duration_in_frames = 2, cell = "wing_tail_R_1" },
+]

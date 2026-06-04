@@ -1,0 +1,127 @@
+format = "ncer"
+extended = 1
+
+size_boundary = 4
+
+[cells.atama]
+unknown0 = 19
+objects = [
+  { position_y = 216, transformable = 1, double_sized = 1, position_x = 480, key_size = 2, tile_index = 0 },
+]
+
+[cells.atama_b]
+unknown0 = 19
+objects = [
+  { position_y = 216, transformable = 1, double_sized = 1, position_x = 480, key_size = 2, tile_index = 128 },
+]
+
+[cells.body]
+unknown0 = 11
+objects = [
+  { position_y = 234, transformable = 1, double_sized = 1, position_x = 491, key_size = 1, tile_index = 4 },
+  { position_y = 234, transformable = 1, double_sized = 1, key_shape = 2, position_x = 511, tile_index = 6 },
+  { position_y = 254, transformable = 1, double_sized = 1, key_shape = 1, position_x = 491, tile_index = 68 },
+  { position_y = 254, transformable = 1, double_sized = 1, position_x = 511, tile_index = 70 },
+]
+
+[cells.o]
+unknown0 = 13
+objects = [
+  { position_y = 227, transformable = 1, double_sized = 1, position_x = 484, key_size = 1, tile_index = 100 },
+  { position_y = 227, transformable = 1, double_sized = 1, key_shape = 2, position_x = 504, tile_index = 102 },
+  { position_y = 247, transformable = 1, double_sized = 1, key_shape = 1, position_x = 484, tile_index = 164 },
+  { position_y = 247, transformable = 1, double_sized = 1, position_x = 504, tile_index = 166 },
+]
+
+[cells.hi]
+unknown0 = 21
+objects = [
+  { position_y = 210, transformable = 1, double_sized = 1, position_x = 473, key_size = 2, tile_index = 7 },
+]
+
+[cells.hi_1]
+unknown0 = 21
+objects = [
+  { position_y = 210, transformable = 1, double_sized = 1, position_x = 473, key_size = 2, tile_index = 11 },
+]
+
+[cells.hi_2]
+unknown0 = 21
+objects = [
+  { position_y = 210, transformable = 1, double_sized = 1, position_x = 473, key_size = 2, tile_index = 15 },
+]
+
+[cells.leg_l]
+unknown0 = 9
+objects = [
+  { position_y = 243, transformable = 1, double_sized = 1, position_x = 493, key_size = 1, tile_index = 196 },
+]
+
+[cells.foot_l]
+unknown0 = 8
+objects = [
+  { position_y = 243, transformable = 1, double_sized = 1, position_x = 498, key_size = 1, tile_index = 260 },
+]
+
+[cells.leg_r]
+unknown0 = 8
+objects = [
+  { position_y = 243, transformable = 1, double_sized = 1, position_x = 500, key_size = 1, tile_index = 198 },
+]
+
+[cells.sune_r]
+unknown0 = 8
+objects = [
+  { position_y = 244, transformable = 1, double_sized = 1, position_x = 496, key_size = 1, tile_index = 200 },
+]
+
+[cells.foot_r]
+unknown0 = 8
+objects = [
+  { position_y = 244, transformable = 1, double_sized = 1, position_x = 498, key_size = 1, tile_index = 262 },
+]
+
+[cells.arm_l]
+unknown0 = 16
+objects = [
+  { position_y = 243, transformable = 1, double_sized = 1, key_shape = 1, position_x = 470, key_size = 2, tile_index = 135 },
+]
+
+[cells.arm_r]
+unknown0 = 11
+objects = [
+  { position_y = 242, transformable = 1, double_sized = 1, key_shape = 1, position_x = 492, key_size = 2, tile_index = 139 },
+  { position_y = 6, transformable = 1, double_sized = 1, key_shape = 1, position_x = 492, key_size = 1, tile_index = 203 },
+]
+
+[cells.arm_l_b]
+unknown0 = 10
+objects = [
+  { position_y = 239, transformable = 1, double_sized = 1, position_x = 492, key_size = 1, tile_index = 143 },
+]
+
+[cells.hand_l_b]
+unknown0 = 10
+objects = [
+  { position_y = 243, transformable = 1, double_sized = 1, position_x = 486, key_size = 1, tile_index = 207 },
+  { position_y = 243, transformable = 1, double_sized = 1, key_shape = 2, position_x = 506, tile_index = 209 },
+]
+
+[cells.arm_r_b]
+unknown0 = 8
+objects = [
+  { position_y = 242, transformable = 1, double_sized = 1, position_x = 501, key_size = 1, tile_index = 145 },
+]
+
+[cells.hand_r_b]
+unknown0 = 7
+objects = [
+  { position_y = 246, transformable = 1, double_sized = 1, position_x = 502, key_size = 1, tile_index = 210 },
+  { position_y = 246, transformable = 1, double_sized = 1, key_shape = 2, position_x = 10, tile_index = 212 },
+]
+
+[cells.cell_18]
+unknown0 = 4
+objects = [
+  { position_y = 248, transformable = 1, double_sized = 1, position_x = 504, tile_index = 256 },
+]

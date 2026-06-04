@@ -1,0 +1,25 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.nonstop]
+properties = [
+  { sequence = "head", translate_x = 4, translate_y = -49, frame_mode = 33 },
+  { sequence = "fin", translate_x = 4, translate_y = -49, frame_mode = 33, unique_id = 1 },
+  { sequence = "antler", translate_x = 4, translate_y = -49, frame_mode = 33, unique_id = 2 },
+  { sequence = "tail_b", translate_x = 4, translate_y = -49, frame_mode = 33, unique_id = 3 },
+  { sequence = "tail_a", translate_x = 4, translate_y = -49, frame_mode = 33, unique_id = 4 },
+  { sequence = "body", translate_x = 4, translate_y = -49, frame_mode = 33, unique_id = 5 },
+  { sequence = "wing", translate_x = 4, translate_y = -49, frame_mode = 33, unique_id = 6 },
+]
+
+[multi_cells.nonstop_1]
+properties = [
+  { sequence = "head1", translate_x = 4, translate_y = -49, frame_mode = 33 },
+  { sequence = "fin", translate_x = 4, translate_y = -49, frame_mode = 33, unique_id = 1 },
+  { sequence = "antler1", translate_x = 4, translate_y = -49, frame_mode = 33, unique_id = 2 },
+  { sequence = "tail_b1", translate_x = 4, translate_y = -49, frame_mode = 33, unique_id = 3 },
+  { sequence = "tail_a1", translate_x = 4, translate_y = -49, frame_mode = 33, unique_id = 4 },
+  { sequence = "body1", translate_x = 4, translate_y = -49, frame_mode = 33, unique_id = 5 },
+  { sequence = "wing", translate_x = 4, translate_y = -49, frame_mode = 33, unique_id = 6 },
+]

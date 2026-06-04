@@ -1,0 +1,21 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.nonstop]
+properties = [
+  { sequence = "tale1", translate_y = -48, frame_mode = 32 },
+  { sequence = "Rwing1", translate_y = -48, frame_mode = 32, unique_id = 1 },
+  { sequence = "body1", translate_y = -48, frame_mode = 32, unique_id = 2 },
+  { sequence = "mouth1", translate_y = -48, frame_mode = 32, unique_id = 3 },
+  { sequence = "Lwing1", translate_y = -48, frame_mode = 32, unique_id = 4 },
+]
+
+[multi_cells.nonstop_1]
+properties = [
+  { sequence = "tale1", translate_y = -48, frame_mode = 32 },
+  { sequence = "Rwing1", translate_y = -48, frame_mode = 32, unique_id = 1 },
+  { sequence = "body1", translate_y = -48, frame_mode = 32, unique_id = 2 },
+  { sequence = "mouth2", translate_y = -48, frame_mode = 32, unique_id = 3 },
+  { sequence = "Lwing1", translate_y = -48, frame_mode = 32, unique_id = 4 },
+]

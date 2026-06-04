@@ -1,6 +1,5 @@
 from pathlib import Path
 from argparse import ArgumentParser
-import yaml
 import struct
 from .serializer import Serializer
 from mkdata_util import *
@@ -25,11 +24,11 @@ class TrainerSerializer(Serializer):
         ScriptPath = Path(__file__).resolve().parent.parent
 
         [load_defines((ScriptPath / x).as_posix(), defines) for x in [
-            'enum/species.yml',
-            'enum/moves.yml',
-            'enum/items.yml',
-            'enum/btl_gender.yml',
-            'enum/btl_abil.yml',
+            'enum/species.toml',
+            'enum/moves.toml',
+            'enum/items.toml',
+            'enum/btl_gender.toml',
+            'enum/btl_abil.toml',
         ]]
 
         if Arguments.ex_parameters['output_type'] == 'trpoke':

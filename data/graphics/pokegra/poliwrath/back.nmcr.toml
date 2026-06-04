@@ -1,0 +1,32 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.CellAnime0]
+properties = [
+  { sequence = "r_hand", translate_x = 14, translate_y = -33, frame_mode = 32 },
+  { sequence = "body1", translate_x = -2, translate_y = -43, frame_mode = 32, unique_id = 1 },
+  { sequence = "body2", translate_y = -26, frame_mode = 32, unique_id = 2 },
+  { sequence = "r_eye", translate_x = 9, translate_y = -43, frame_mode = 32, unique_id = 3 },
+  { sequence = "r_foot1", translate_x = 8, translate_y = -9, frame_mode = 32, unique_id = 4 },
+  { sequence = "r_foot2", translate_x = 9, translate_y = -6, frame_mode = 32, unique_id = 5 },
+  { sequence = "l_eye", translate_x = -12, translate_y = -42, frame_mode = 32, unique_id = 6 },
+  { sequence = "l_hand", translate_x = -16, translate_y = -34, frame_mode = 32, unique_id = 7 },
+  { sequence = "l_foot1", translate_x = -11, translate_y = -9, frame_mode = 32, unique_id = 8 },
+  { sequence = "l_foot2", translate_x = -12, translate_y = -6, frame_mode = 32, unique_id = 9 },
+]
+
+[multi_cells.CellAnime0_1]
+properties = [
+  { sequence = "r_hand_b", translate_x = 14, translate_y = -33, frame_mode = 32 },
+  { sequence = "r_hand_b1", translate_x = 14, translate_y = -33, frame_mode = 32, unique_id = 1 },
+  { sequence = "body1_b", translate_x = -2, translate_y = -43, frame_mode = 32, unique_id = 2 },
+  { sequence = "body2_b", translate_y = -26, frame_mode = 32, unique_id = 3 },
+  { sequence = "r_eye_b", translate_x = 9, translate_y = -43, frame_mode = 32, unique_id = 4 },
+  { sequence = "r_foot1_b", translate_x = 8, translate_y = -9, frame_mode = 32, unique_id = 5 },
+  { sequence = "r_foot2_b", translate_x = 9, translate_y = -6, frame_mode = 32, unique_id = 6 },
+  { sequence = "l_eye_b", translate_x = -12, translate_y = -42, frame_mode = 32, unique_id = 7 },
+  { sequence = "l_hand_b", translate_x = -16, translate_y = -34, frame_mode = 32, unique_id = 8 },
+  { sequence = "l_foot1_b", translate_x = -11, translate_y = -9, frame_mode = 32, unique_id = 9 },
+  { sequence = "l_foot2_b", translate_x = -12, translate_y = -6, frame_mode = 32, unique_id = 10 },
+]

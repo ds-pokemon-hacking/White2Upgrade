@@ -1,0 +1,80 @@
+format = "ncer"
+extended = 1
+
+size_boundary = 4
+padding_size = 2
+
+[cells.head]
+unknown0 = 15
+objects = [
+  { position_y = 234, transformable = 1, double_sized = 1, object_mode = 1, position_x = 493, key_size = 1, tile_index = 0 },
+  { position_y = 232, transformable = 1, double_sized = 1, key_shape = 1, position_x = 480, key_size = 2, tile_index = 40 },
+  { position_y = 252, transformable = 1, double_sized = 1, key_shape = 1, position_x = 480, key_size = 1, tile_index = 104 },
+]
+
+[cells.foot_l]
+unknown0 = 9
+objects = [
+  { position_y = 240, transformable = 1, double_sized = 1, position_x = 496, key_size = 1, tile_index = 168 },
+]
+
+[cells.foot_r]
+unknown0 = 9
+objects = [
+  { position_y = 240, transformable = 1, double_sized = 1, position_x = 496, key_size = 1, tile_index = 170 },
+]
+
+[cells.hip]
+unknown0 = 8
+objects = [
+  { position_y = 242, transformable = 1, double_sized = 1, position_x = 496, key_size = 1, tile_index = 232 },
+  { position_y = 6, transformable = 1, double_sized = 1, key_shape = 1, position_x = 496, tile_index = 296 },
+]
+
+[cells.tail]
+unknown0 = 17
+objects = [
+  { position_y = 210, transformable = 1, double_sized = 1, key_shape = 2, position_x = 496, key_size = 2, tile_index = 234 },
+]
+
+[cells.hige_l]
+unknown0 = 6
+objects = [
+  { position_y = 244, transformable = 1, double_sized = 1, position_x = 500, tile_index = 45 },
+]
+
+[cells.hige_r]
+unknown0 = 7
+objects = [
+  { position_y = 244, transformable = 1, double_sized = 1, key_shape = 1, position_x = 496, tile_index = 46 },
+]
+
+[cells.body]
+unknown0 = 9
+objects = [
+  { position_y = 240, transformable = 1, double_sized = 1, position_x = 496, key_size = 1, tile_index = 77 },
+]
+
+[cells.mimi_l]
+unknown0 = 9
+objects = [
+  { position_y = 236, transformable = 1, double_sized = 1, position_x = 496, key_size = 1, tile_index = 172 },
+]
+
+[cells.mimi_r]
+unknown0 = 9
+objects = [
+  { position_y = 240, transformable = 1, double_sized = 1, position_x = 496, key_size = 1, tile_index = 174 },
+]
+
+[cells.noze]
+unknown0 = 10
+objects = [
+  { position_y = 235, transformable = 1, double_sized = 1, position_x = 493, key_size = 1, tile_index = 112 },
+]
+
+[cells.noze_1]
+unknown0 = 10
+objects = [
+  { position_y = 235, transformable = 1, double_sized = 1, position_x = 493, key_size = 1, tile_index = 114 },
+]

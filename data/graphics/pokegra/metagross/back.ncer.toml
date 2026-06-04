@@ -1,0 +1,87 @@
+format = "ncer"
+extended = 1
+
+size_boundary = 4
+padding_size = 2
+
+[cells.atama]
+unknown0 = 20
+objects = [
+  { position_y = 218, transformable = 1, double_sized = 1, position_x = 472, key_size = 2, tile_index = 0 },
+  { position_y = 218, transformable = 1, double_sized = 1, key_shape = 2, position_x = 0, key_size = 2, tile_index = 4 },
+  { position_y = 6, transformable = 1, double_sized = 1, key_shape = 1, position_x = 472, key_size = 1, tile_index = 128 },
+  { position_y = 6, transformable = 1, double_sized = 1, key_shape = 1, position_x = 0, tile_index = 132 },
+]
+
+[cells.te]
+unknown0 = 17
+objects = [
+  { position_y = 230, transformable = 1, double_sized = 1, position_x = 476, key_size = 2, tile_index = 134 },
+]
+
+[cells.te_b]
+unknown0 = 15
+objects = [
+  { position_y = 227, transformable = 1, double_sized = 1, position_x = 487, key_size = 2, tile_index = 6 },
+]
+
+[cells.tsume]
+unknown0 = 9
+objects = [
+  { position_y = 240, transformable = 1, double_sized = 1, position_x = 496, key_size = 1, tile_index = 160 },
+]
+
+[cells.tsume_b]
+unknown0 = 9
+objects = [
+  { position_y = 240, transformable = 1, double_sized = 1, position_x = 496, key_size = 1, tile_index = 162 },
+]
+
+[cells.tsume_c]
+objects = [
+]
+
+[cells.tsume_d]
+unknown0 = 9
+objects = [
+  { position_y = 240, transformable = 1, double_sized = 1, position_x = 496, key_size = 1, tile_index = 226 },
+]
+
+[cells.tsume_e]
+objects = [
+]
+
+[cells.tsume_f]
+unknown0 = 9
+objects = [
+  { position_y = 239, transformable = 1, double_sized = 1, position_x = 495, key_size = 1, tile_index = 224 },
+]
+
+[cells.te_aa]
+objects = [
+]
+
+[cells.te_bb]
+objects = [
+]
+
+[cells.cell_11]
+objects = [
+]
+
+[cells.cell_12]
+objects = [
+]
+
+[cells.te_a2]
+unknown0 = 19
+objects = [
+  { position_y = 215, transformable = 1, double_sized = 1, position_x = 479, key_size = 2, tile_index = 139 },
+  { position_y = 3, transformable = 1, double_sized = 1, key_shape = 1, position_x = 479, key_size = 1, tile_index = 267 },
+]
+
+[cells.te_b2]
+unknown0 = 19
+objects = [
+  { position_y = 224, transformable = 1, double_sized = 1, position_x = 472, key_size = 2, tile_index = 11 },
+]

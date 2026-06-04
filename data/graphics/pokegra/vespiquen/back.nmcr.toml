@@ -1,0 +1,12 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.nonstop]
+properties = [
+  { sequence = "r_wings01", translate_x = 15, translate_y = -38, frame_mode = 33 },
+  { sequence = "body01", translate_y = -32, frame_mode = 33, unique_id = 1 },
+  { sequence = "r_parts01", translate_x = 12, translate_y = -41, frame_mode = 33, unique_id = 2 },
+  { sequence = "l_parts01", translate_x = -3, translate_y = -41, frame_mode = 33, unique_id = 3 },
+  { sequence = "l_wings01", translate_x = -6, translate_y = -37, frame_mode = 33, unique_id = 4 },
+]

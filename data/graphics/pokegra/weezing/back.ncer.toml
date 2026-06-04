@@ -1,0 +1,68 @@
+format = "ncer"
+extended = 1
+
+size_boundary = 4
+padding_size = 2
+
+[cells.body]
+unknown0 = 19
+objects = [
+  { position_y = 218, transformable = 1, double_sized = 1, position_x = 476, key_size = 2, tile_index = 0 },
+  { position_y = 218, transformable = 1, double_sized = 1, key_shape = 2, position_x = 8, key_size = 1, tile_index = 4 },
+  { position_y = 6, transformable = 1, double_sized = 1, key_shape = 1, position_x = 476, key_size = 1, tile_index = 128 },
+  { position_y = 6, transformable = 1, double_sized = 1, position_x = 8, tile_index = 132 },
+]
+
+[cells.kemu1]
+unknown0 = 10
+objects = [
+  { position_y = 236, transformable = 1, double_sized = 1, position_x = 492, key_size = 1, tile_index = 5 },
+  { position_y = 236, transformable = 1, double_sized = 1, key_shape = 2, position_x = 0, tile_index = 7 },
+  { position_y = 0, transformable = 1, double_sized = 1, key_shape = 1, position_x = 492, tile_index = 69 },
+  { position_y = 0, transformable = 1, double_sized = 1, position_x = 0, tile_index = 71 },
+]
+
+[cells.kemu2]
+unknown0 = 9
+objects = [
+  { position_y = 240, transformable = 1, double_sized = 1, position_x = 496, key_size = 1, tile_index = 101 },
+]
+
+[cells.kemu3]
+unknown0 = 10
+objects = [
+  { position_y = 235, transformable = 1, double_sized = 1, position_x = 492, key_size = 1, tile_index = 165 },
+  { position_y = 235, transformable = 1, double_sized = 1, key_shape = 2, position_x = 0, tile_index = 167 },
+  { position_y = 255, transformable = 1, double_sized = 1, key_shape = 1, position_x = 492, tile_index = 229 },
+  { position_y = 255, transformable = 1, double_sized = 1, position_x = 0, tile_index = 231 },
+]
+
+[cells.kemu4]
+unknown0 = 10
+objects = [
+  { position_y = 236, transformable = 1, double_sized = 1, position_x = 492, key_size = 1, tile_index = 10 },
+  { position_y = 236, transformable = 1, double_sized = 1, key_shape = 2, position_x = 0, tile_index = 12 },
+  { position_y = 0, transformable = 1, double_sized = 1, key_shape = 1, position_x = 492, tile_index = 74 },
+  { position_y = 0, transformable = 1, double_sized = 1, position_x = 0, tile_index = 76 },
+]
+
+[cells.kemu5]
+unknown0 = 9
+objects = [
+  { position_y = 240, transformable = 1, double_sized = 1, position_x = 496, key_size = 1, tile_index = 72 },
+]
+
+[cells.kemu6]
+unknown0 = 10
+objects = [
+  { position_y = 236, transformable = 1, double_sized = 1, position_x = 492, key_size = 1, tile_index = 13 },
+  { position_y = 236, transformable = 1, double_sized = 1, key_shape = 2, position_x = 0, tile_index = 15 },
+  { position_y = 0, transformable = 1, double_sized = 1, key_shape = 1, position_x = 492, tile_index = 77 },
+  { position_y = 0, transformable = 1, double_sized = 1, position_x = 0, tile_index = 79 },
+]
+
+[cells.kemu1_1]
+unknown0 = 4
+objects = [
+  { position_y = 248, transformable = 1, double_sized = 1, position_x = 504, tile_index = 160 },
+]

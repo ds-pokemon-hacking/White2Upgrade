@@ -1,0 +1,19 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.CellAnime0]
+properties = [
+  { sequence = "atama", translate_x = -1, translate_y = 1, frame_mode = 32 },
+  { sequence = "ude", translate_x = 7, translate_y = -16, frame_mode = 32, unique_id = 1 },
+  { sequence = "ashi02", translate_x = 4, translate_y = -9, frame_mode = 32, unique_id = 2 },
+  { sequence = "ashi01", translate_x = -6, translate_y = -8, frame_mode = 32, unique_id = 3 },
+]
+
+[multi_cells.CellAnime0_1]
+properties = [
+  { sequence = "atama_a", translate_x = -1, translate_y = 1, frame_mode = 32 },
+  { sequence = "ude_a", translate_x = 7, translate_y = -16, frame_mode = 32, unique_id = 1 },
+  { sequence = "ashi02_a", translate_x = 4, translate_y = -9, frame_mode = 32, unique_id = 2 },
+  { sequence = "ashi01_a", translate_x = -6, translate_y = -8, frame_mode = 32, unique_id = 3 },
+]

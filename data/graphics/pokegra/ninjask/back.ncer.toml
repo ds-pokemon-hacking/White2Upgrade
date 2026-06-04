@@ -1,0 +1,73 @@
+format = "ncer"
+extended = 1
+
+size_boundary = 4
+
+[cells.atama]
+unknown0 = 18
+objects = [
+  { position_y = 221, transformable = 1, double_sized = 1, position_x = 481, key_size = 2, tile_index = 0 },
+]
+
+[cells.karada]
+unknown0 = 17
+objects = [
+  { position_y = 226, transformable = 1, double_sized = 1, position_x = 478, key_size = 2, tile_index = 4 },
+]
+
+[cells.te]
+unknown0 = 18
+objects = [
+  { position_y = 224, transformable = 1, double_sized = 1, position_x = 475, key_size = 2, tile_index = 132 },
+]
+
+[cells.cell_3]
+objects = [
+]
+
+[cells.hige]
+unknown0 = 9
+objects = [
+  { position_y = 239, transformable = 1, double_sized = 1, position_x = 495, key_size = 1, tile_index = 8 },
+]
+
+[cells.hige_b]
+unknown0 = 9
+objects = [
+  { position_y = 238, transformable = 1, double_sized = 1, position_x = 495, key_size = 1, tile_index = 10 },
+]
+
+[cells.momo]
+objects = [
+]
+
+[cells.ashi]
+unknown0 = 14
+objects = [
+  { position_y = 237, transformable = 1, double_sized = 1, key_shape = 1, position_x = 479, key_size = 2, tile_index = 105 },
+]
+
+[cells.tsume]
+unknown0 = 14
+objects = [
+  { position_y = 237, transformable = 1, double_sized = 1, key_shape = 1, position_x = 480, key_size = 2, tile_index = 169 },
+]
+
+[cells.te_b]
+unknown0 = 3
+objects = [
+  { position_y = 248, position_x = 504, key_size = 1, tile_index = 12 },
+]
+
+[cells.CellAnime0]
+unknown0 = 13
+objects = [
+  { position_y = 223, key_shape = 1, position_x = 475, key_size = 3, tile_index = 480 },
+  { position_y = 223, key_shape = 2, position_x = 27, key_size = 1, tile_index = 488 },
+  { position_y = 255, key_shape = 1, position_x = 475, key_size = 2, tile_index = 608 },
+  { position_y = 255, key_shape = 1, position_x = 507, key_size = 2, tile_index = 612 },
+  { position_y = 255, key_shape = 2, position_x = 27, tile_index = 616 },
+  { position_y = 15, key_shape = 1, position_x = 475, key_size = 1, tile_index = 672 },
+  { position_y = 15, key_shape = 1, position_x = 507, key_size = 1, tile_index = 676 },
+  { position_y = 15, position_x = 27, tile_index = 680 },
+]

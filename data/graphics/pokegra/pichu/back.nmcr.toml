@@ -1,0 +1,15 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.nonstop]
+properties = [
+  { sequence = "ball02_02", translate_x = -2, translate_y = -52, frame_mode = 33 },
+  { sequence = "parts02", translate_x = 1, translate_y = -40, frame_mode = 33, unique_id = 1 },
+  { sequence = "parts01", translate_x = 1, translate_y = -40, frame_mode = 33, unique_id = 2 },
+  { sequence = "r_arm", translate_x = 4, translate_y = -22, frame_mode = 33, unique_id = 3 },
+  { sequence = "tail", translate_x = -17, translate_y = -23, frame_mode = 33, unique_id = 4 },
+  { sequence = "head", translate_x = -2, translate_y = -27, frame_mode = 33, unique_id = 5 },
+  { sequence = "ball01_02", translate_x = 23, translate_y = -39, frame_mode = 33, unique_id = 6 },
+  { sequence = "body", translate_x = -5, translate_y = -24, frame_mode = 33, unique_id = 7 },
+]

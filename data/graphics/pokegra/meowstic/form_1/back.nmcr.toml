@@ -1,0 +1,27 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.CellAnime0]
+properties = [
+  { sequence = "wing_R", translate_y = -11, frame_mode = 33 },
+  { sequence = "body_a", translate_x = -3, translate_y = -12, frame_mode = 33, unique_id = 1 },
+  { sequence = "body_b", translate_x = -4, translate_y = -7, frame_mode = 33, unique_id = 2 },
+  { sequence = "wing_L", translate_x = -10, translate_y = -12, frame_mode = 33, unique_id = 3 },
+  { sequence = "ear_R", translate_x = 10, translate_y = -27, frame_mode = 33, unique_id = 4 },
+  { sequence = "ear_L", translate_x = 2, translate_y = -28, frame_mode = 33, unique_id = 5 },
+  { sequence = "head", translate_x = 4, translate_y = -17, frame_mode = 33, unique_id = 6 },
+  { sequence = "mouth", translate_x = 4, translate_y = -17, frame_mode = 33, unique_id = 7 },
+]
+
+[multi_cells.CellAnime0_1]
+properties = [
+  { sequence = "wing_R", translate_y = -11, frame_mode = 33 },
+  { sequence = "body_a", translate_x = -3, translate_y = -12, frame_mode = 33, unique_id = 1 },
+  { sequence = "body_b", translate_x = -4, translate_y = -7, frame_mode = 33, unique_id = 2 },
+  { sequence = "wing_L", translate_x = -10, translate_y = -12, frame_mode = 33, unique_id = 3 },
+  { sequence = "ear_R", translate_x = 10, translate_y = -27, frame_mode = 33, unique_id = 4 },
+  { sequence = "ear_L", translate_x = 2, translate_y = -28, frame_mode = 33, unique_id = 5 },
+  { sequence = "head", translate_x = 4, translate_y = -17, frame_mode = 33, unique_id = 6 },
+  { sequence = "mouth1", translate_x = 4, translate_y = -17, frame_mode = 33, unique_id = 7 },
+]

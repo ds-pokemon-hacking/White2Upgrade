@@ -1,0 +1,114 @@
+format = "nanr"
+extended = 1
+
+[sequences.gear_L]
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 4, cell = "gear_L" },
+  { duration_in_frames = 4, cell = "gear_L_1" },
+  { duration_in_frames = 4, cell = "gear_L_2" },
+  { duration_in_frames = 4, cell = "gear_L_3" },
+]
+
+[sequences.gear_Sa]
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 8, cell = "gear_Sa" },
+  { duration_in_frames = 8, cell = "gear_Sa_1" },
+  { duration_in_frames = 8, cell = "gear_Sa_2" },
+  { duration_in_frames = 8, cell = "gear_Sa_3" },
+  { duration_in_frames = 8, cell = "gear_Sa_5" },
+  { duration_in_frames = 8, cell = "gear_Sa_4" },
+  { duration_in_frames = 8, cell = "gear_Sa_1" },
+  { duration_in_frames = 8, cell = "gear_Sa_2" },
+]
+
+[sequences.L_circle]
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 4, cell = "L_circle", padding_after = [204, 204] },
+]
+
+[sequences.Sa_circle]
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 4, cell = "Sa_circle", padding_after = [204, 204] },
+]
+
+[sequences.toge_F1]
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 8, cell = "toge_F1" },
+  { duration_in_frames = 8, cell = "toge_F1_1" },
+  { duration_in_frames = 8, cell = "toge_F1_2" },
+  { duration_in_frames = 8, cell = "toge_F1_3" },
+]
+
+[sequences.toge_F2]
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 8, cell = "toge_F2" },
+  { duration_in_frames = 8, cell = "toge_F2_1" },
+  { duration_in_frames = 8, cell = "toge_F2_2" },
+  { duration_in_frames = 8, cell = "toge_F2_3" },
+]
+
+[sequences.toge_F3]
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 8, cell = "toge_F3" },
+  { duration_in_frames = 8, cell = "toge_F3_1" },
+  { duration_in_frames = 8, cell = "toge_F3_2" },
+  { duration_in_frames = 8, cell = "toge_F3_3" },
+]
+
+[sequences.toge_F4]
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 8, cell = "toge_F3_3" },
+  { duration_in_frames = 8, cell = "toge_F3_3" },
+  { duration_in_frames = 8, cell = "toge_F4" },
+  { duration_in_frames = 8, cell = "toge_F4_1" },
+]
+
+[sequences.toge_B1]
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 8, cell = "toge_B1_1" },
+  { duration_in_frames = 8, cell = "toge_B1_2" },
+  { duration_in_frames = 8, cell = "toge_F3_3" },
+  { duration_in_frames = 8, cell = "toge_B1", padding_after = [204, 204] },
+]
+
+[sequences.toge_B2]
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 8, cell = "toge_B2_1" },
+  { duration_in_frames = 8, cell = "toge_F3_3" },
+  { duration_in_frames = 8, cell = "toge_F3_3" },
+  { duration_in_frames = 8, cell = "toge_B2" },
+]
+
+[sequences.gear_toge_F]
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 4, cell = "gear_toge_F", padding_after = [204, 204] },
+]
+
+[sequences.gear_toge_B]
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 4, cell = "gear_toge_B", padding_after = [204, 204] },
+]

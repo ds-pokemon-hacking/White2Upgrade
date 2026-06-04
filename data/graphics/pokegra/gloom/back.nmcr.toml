@@ -1,0 +1,28 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.CellAnime0]
+properties = [
+  { sequence = "leaf5", translate_y = -18, frame_mode = 32 },
+  { sequence = "leaf4", translate_x = -4, translate_y = -20, frame_mode = 32, unique_id = 1 },
+  { sequence = "leaf3", translate_x = 3, translate_y = -19, frame_mode = 32, unique_id = 2 },
+  { sequence = "head", translate_y = -11, frame_mode = 32, unique_id = 3 },
+  { sequence = "foot_l", translate_x = 3, translate_y = -4, frame_mode = 32, unique_id = 4 },
+  { sequence = "foot_r", translate_x = -3, translate_y = -4, frame_mode = 32, unique_id = 5 },
+  { sequence = "leaf2", translate_x = -6, translate_y = -19, frame_mode = 32, unique_id = 6 },
+  { sequence = "leaf1", translate_x = -2, translate_y = -19, frame_mode = 32, unique_id = 7 },
+]
+
+[multi_cells.CellAnime0_1]
+properties = [
+  { sequence = "foot_r_b1", translate_x = -6, translate_y = -7, frame_mode = 32 },
+  { sequence = "leaf5_b", translate_y = -18, frame_mode = 32, unique_id = 1 },
+  { sequence = "leaf4_b", translate_x = -4, translate_y = -20, frame_mode = 32, unique_id = 2 },
+  { sequence = "leaf3_b", translate_x = 3, translate_y = -19, frame_mode = 32, unique_id = 3 },
+  { sequence = "head_b", translate_y = -11, frame_mode = 32, unique_id = 4 },
+  { sequence = "foot_l_b", translate_x = 3, translate_y = -4, frame_mode = 32, unique_id = 5 },
+  { sequence = "foot_r_b", translate_x = -3, translate_y = -4, frame_mode = 32, unique_id = 6 },
+  { sequence = "leaf2_b", translate_x = -6, translate_y = -19, frame_mode = 32, unique_id = 7 },
+  { sequence = "leaf1_b", translate_x = -2, translate_y = -19, frame_mode = 32, unique_id = 8 },
+]

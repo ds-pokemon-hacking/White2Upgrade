@@ -1,0 +1,15 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.CellAnime0]
+properties = [
+  { sequence = "body", translate_y = -56, frame_mode = 32 },
+  { sequence = "tuta", translate_y = -56, frame_mode = 32, unique_id = 1 },
+]
+
+[multi_cells.CellAnime0_1]
+properties = [
+  { sequence = "body_b", translate_y = -56, frame_mode = 32 },
+  { sequence = "tuta_b", translate_y = -56, frame_mode = 32, unique_id = 1 },
+]

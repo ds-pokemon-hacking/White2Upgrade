@@ -1,0 +1,25 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.stay]
+properties = [
+  { sequence = "kemu6", translate_x = -14, translate_y = -20, frame_mode = 33 },
+  { sequence = "kemu5", translate_x = 13, translate_y = -21, frame_mode = 33, unique_id = 1 },
+  { sequence = "kemu4", translate_x = 25, translate_y = -30, frame_mode = 33, unique_id = 2 },
+  { sequence = "kemu3", translate_x = 16, translate_y = -58, frame_mode = 33, unique_id = 3 },
+  { sequence = "kemu2", translate_x = -6, translate_y = -57, frame_mode = 33, unique_id = 4 },
+  { sequence = "kemu1", translate_x = -23, translate_y = -46, frame_mode = 33, unique_id = 5 },
+  { sequence = "body", translate_x = 2, translate_y = -35, frame_mode = 33, unique_id = 6 },
+]
+
+[multi_cells.stop]
+properties = [
+  { sequence = "kemu61", translate_x = -14, translate_y = -20, frame_mode = 33 },
+  { sequence = "kemu51", translate_x = 13, translate_y = -21, frame_mode = 33, unique_id = 1 },
+  { sequence = "kemu41", translate_x = 25, translate_y = -30, frame_mode = 33, unique_id = 2 },
+  { sequence = "kemu31", translate_x = 16, translate_y = -58, frame_mode = 33, unique_id = 3 },
+  { sequence = "kemu21", translate_x = -6, translate_y = -57, frame_mode = 33, unique_id = 4 },
+  { sequence = "kemu11", translate_x = -23, translate_y = -46, frame_mode = 33, unique_id = 5 },
+  { sequence = "body", translate_x = 2, translate_y = -35, frame_mode = 33, unique_id = 6 },
+]

@@ -1,0 +1,11 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.nonstop]
+properties = [
+  { sequence = "body", translate_y = -33, frame_mode = 33 },
+  { sequence = "hand_l", translate_x = 6, translate_y = -30, frame_mode = 33, unique_id = 1 },
+  { sequence = "hand_r", translate_x = -7, translate_y = -31, frame_mode = 33, unique_id = 2 },
+  { sequence = "ef1", translate_y = -33, frame_mode = 33, unique_id = 3 },
+]

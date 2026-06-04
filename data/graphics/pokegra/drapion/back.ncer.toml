@@ -1,0 +1,77 @@
+format = "ncer"
+extended = 1
+
+size_boundary = 4
+padding_size = 2
+
+[cells.atama]
+unknown0 = 14
+objects = [
+  { position_y = 233, transformable = 1, double_sized = 1, key_shape = 1, position_x = 482, key_size = 2, tile_index = 0 },
+  { position_y = 253, transformable = 1, double_sized = 1, key_shape = 1, position_x = 482, key_size = 1, tile_index = 64 },
+]
+
+[cells.tuno_l]
+unknown0 = 9
+objects = [
+  { position_y = 234, transformable = 1, double_sized = 1, position_x = 501, key_size = 1, tile_index = 96 },
+  { position_y = 234, transformable = 1, double_sized = 1, key_shape = 2, position_x = 9, tile_index = 98 },
+]
+
+[cells.tuno_r]
+unknown0 = 9
+objects = [
+  { position_y = 233, transformable = 1, double_sized = 1, position_x = 503, key_size = 1, tile_index = 160 },
+]
+
+[cells.body]
+unknown0 = 10
+objects = [
+  { position_y = 239, transformable = 1, double_sized = 1, position_x = 492, key_size = 1, tile_index = 4 },
+  { position_y = 239, transformable = 1, double_sized = 1, key_shape = 2, position_x = 0, tile_index = 6 },
+]
+
+[cells.foot_u]
+unknown0 = 10
+objects = [
+  { position_y = 235, transformable = 1, double_sized = 1, position_x = 494, key_size = 1, tile_index = 68 },
+]
+
+[cells.foot_m]
+unknown0 = 10
+objects = [
+  { position_y = 236, transformable = 1, double_sized = 1, position_x = 494, key_size = 1, tile_index = 70 },
+]
+
+[cells.o1]
+unknown0 = 9
+objects = [
+  { position_y = 240, transformable = 1, double_sized = 1, position_x = 495, key_size = 1, tile_index = 131 },
+]
+
+[cells.o2]
+unknown0 = 9
+objects = [
+  { position_y = 240, transformable = 1, double_sized = 1, position_x = 494, key_size = 1, tile_index = 133 },
+]
+
+[cells.o3]
+unknown0 = 9
+objects = [
+  { position_y = 239, transformable = 1, double_sized = 1, position_x = 493, key_size = 1, tile_index = 135 },
+]
+
+[cells.o4]
+unknown0 = 10
+objects = [
+  { position_y = 239, transformable = 1, double_sized = 1, position_x = 492, key_size = 1, tile_index = 137 },
+]
+
+[cells.o5]
+unknown0 = 12
+objects = [
+  { position_y = 226, transformable = 1, double_sized = 1, position_x = 494, key_size = 1, tile_index = 8 },
+  { position_y = 226, transformable = 1, double_sized = 1, key_shape = 2, position_x = 2, tile_index = 10 },
+  { position_y = 246, transformable = 1, double_sized = 1, key_shape = 1, position_x = 494, tile_index = 72 },
+  { position_y = 246, transformable = 1, double_sized = 1, position_x = 2, tile_index = 74 },
+]

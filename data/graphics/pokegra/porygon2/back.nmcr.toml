@@ -1,0 +1,39 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.CellAnime0]
+properties = [
+  { sequence = "parts02", translate_x = -12, translate_y = -44, frame_mode = 33 },
+  { sequence = "bl_foot01", frame_mode = 33, unique_id = 1 },
+  { sequence = "bl_leg01", translate_x = -26, translate_y = -15, frame_mode = 33, unique_id = 2 },
+  { sequence = "br_foot01", frame_mode = 33, unique_id = 3 },
+  { sequence = "br_leg01", translate_x = -3, translate_y = -14, frame_mode = 33, unique_id = 4 },
+  { sequence = "body01", translate_x = -9, translate_y = -26, frame_mode = 33, unique_id = 5 },
+  { sequence = "l_ear02", translate_x = -23, translate_y = -34, frame_mode = 33, unique_id = 6 },
+  { sequence = "l_ear01", translate_x = -16, translate_y = -42, frame_mode = 33, unique_id = 7 },
+  { sequence = "r_ear01", translate_x = 2, translate_y = -42, frame_mode = 33, unique_id = 8 },
+  { sequence = "r_ear02", translate_x = 20, translate_y = -32, frame_mode = 33, unique_id = 9 },
+  { sequence = "pr_leg01", translate_x = 11, translate_y = -17, frame_mode = 33, unique_id = 10 },
+  { sequence = "pl_leg01", translate_x = -12, translate_y = -16, frame_mode = 33, unique_id = 11 },
+  { sequence = "fang01", translate_y = -20, frame_mode = 33, unique_id = 12 },
+  { sequence = "parts01", translate_x = 1, translate_y = -43, frame_mode = 33, unique_id = 13 },
+]
+
+[multi_cells.CellAnime0_1]
+properties = [
+  { sequence = "parts02_02", translate_x = -12, translate_y = -44, frame_mode = 33 },
+  { sequence = "bl_foot02", frame_mode = 33, unique_id = 1 },
+  { sequence = "bl_leg02", frame_mode = 33, unique_id = 2 },
+  { sequence = "br_foot02", frame_mode = 33, unique_id = 3 },
+  { sequence = "br_leg02", frame_mode = 33, unique_id = 4 },
+  { sequence = "body02", translate_x = -9, translate_y = -26, frame_mode = 33, unique_id = 5 },
+  { sequence = "l_ear02_02", translate_x = -23, translate_y = -34, frame_mode = 33, unique_id = 6 },
+  { sequence = "l_ear01_02", translate_x = -16, translate_y = -42, frame_mode = 33, unique_id = 7 },
+  { sequence = "r_ear01_02", translate_x = 2, translate_y = -42, frame_mode = 33, unique_id = 8 },
+  { sequence = "r_ear02_02", translate_x = 20, translate_y = -32, frame_mode = 33, unique_id = 9 },
+  { sequence = "pr_leg02", translate_x = 11, translate_y = -17, frame_mode = 33, unique_id = 10 },
+  { sequence = "pl_leg02", translate_x = -12, translate_y = -16, frame_mode = 33, unique_id = 11 },
+  { sequence = "fang02", translate_y = -20, frame_mode = 33, unique_id = 12 },
+  { sequence = "parts01_02", translate_x = 1, translate_y = -43, frame_mode = 33, unique_id = 13 },
+]

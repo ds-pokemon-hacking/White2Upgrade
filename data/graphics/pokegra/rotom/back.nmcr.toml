@@ -1,0 +1,17 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.CellAnime0]
+properties = [
+  { sequence = "arm_R", translate_x = 4, translate_y = -49, frame_mode = 33 },
+  { sequence = "hand_R", translate_x = 4, translate_y = -49, frame_mode = 33, unique_id = 1 },
+  { sequence = "ribbon_R", translate_x = 1, translate_y = -29, frame_mode = 33, unique_id = 2 },
+  { sequence = "ribbon_L", translate_x = -1, translate_y = -28, frame_mode = 33, unique_id = 3 },
+  { sequence = "skirt", translate_x = -1, translate_y = -39, frame_mode = 33, unique_id = 4 },
+  { sequence = "body", translate_x = -1, translate_y = -39, frame_mode = 33, unique_id = 5 },
+  { sequence = "neck", translate_x = -1, translate_y = -38, frame_mode = 33, unique_id = 6 },
+  { sequence = "head", translate_x = -1, translate_y = -42, frame_mode = 33, unique_id = 7 },
+  { sequence = "hand_L", translate_x = -6, translate_y = -43, frame_mode = 33, unique_id = 8 },
+  { sequence = "arm_L", translate_x = -6, translate_y = -43, frame_mode = 33, unique_id = 9 },
+]

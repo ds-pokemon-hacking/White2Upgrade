@@ -1,0 +1,51 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.stay]
+properties = [
+  { sequence = "tail01", translate_x = -33, translate_y = -17, frame_mode = 33 },
+  { sequence = "ashi02", translate_x = -19, translate_y = -15, frame_mode = 33, unique_id = 1 },
+  { sequence = "suna01_03", translate_x = 2, translate_y = -26, frame_mode = 33, unique_id = 2 },
+  { sequence = "suna01_02", translate_x = 2, translate_y = -26, frame_mode = 33, unique_id = 3 },
+  { sequence = "suna01", translate_x = 2, translate_y = -26, frame_mode = 33, unique_id = 4 },
+  { sequence = "ashi01", translate_x = 13, translate_y = -19, frame_mode = 33, unique_id = 5 },
+  { sequence = "karada", translate_x = -16, translate_y = -13, frame_mode = 33, unique_id = 6 },
+  { sequence = "ashi03", translate_x = -36, translate_y = -24, frame_mode = 33, unique_id = 7 },
+  { sequence = "shita_kuchi", translate_x = 13, translate_y = -28, frame_mode = 33, unique_id = 8 },
+  { sequence = "ue_kuchi", translate_x = 11, translate_y = -44, frame_mode = 33, unique_id = 9 },
+  { sequence = "suna021", translate_x = -8, translate_y = -12, frame_mode = 33, unique_id = 10 },
+  { sequence = "suna02", translate_x = -8, translate_y = -12, frame_mode = 33, unique_id = 11 },
+]
+
+[multi_cells.stay_1]
+properties = [
+  { sequence = "tail011", translate_x = -33, translate_y = -17, frame_mode = 33 },
+  { sequence = "ashi02_02", translate_x = -19, translate_y = -15, frame_mode = 33, unique_id = 1 },
+  { sequence = "suna01_03", translate_x = 2, translate_y = -26, frame_mode = 33, unique_id = 2 },
+  { sequence = "suna01_02", translate_x = 2, translate_y = -26, frame_mode = 33, unique_id = 3 },
+  { sequence = "suna011", translate_x = 2, translate_y = -26, frame_mode = 33, unique_id = 4 },
+  { sequence = "ashi01_02", translate_x = 13, translate_y = -19, frame_mode = 33, unique_id = 5 },
+  { sequence = "karada1", translate_x = -16, translate_y = -13, frame_mode = 33, unique_id = 6 },
+  { sequence = "ashi03_02", translate_x = -36, translate_y = -24, frame_mode = 33, unique_id = 7 },
+  { sequence = "shita_kuchi1", translate_x = 13, translate_y = -28, frame_mode = 33, unique_id = 8 },
+  { sequence = "ue_kuchi1", translate_x = 11, translate_y = -44, frame_mode = 33, unique_id = 9 },
+  { sequence = "suna021", translate_x = -8, translate_y = -12, frame_mode = 33, unique_id = 10 },
+  { sequence = "suna02", translate_x = -8, translate_y = -12, frame_mode = 33, unique_id = 11 },
+]
+
+[multi_cells.stop]
+properties = [
+  { sequence = "tail011", translate_x = -33, translate_y = -17, frame_mode = 33 },
+  { sequence = "ashi02_02", translate_x = -19, translate_y = -15, frame_mode = 33, unique_id = 1 },
+  { sequence = "suna013_04", translate_x = 2, translate_y = -26, frame_mode = 33, unique_id = 2 },
+  { sequence = "suna012_04", translate_x = 2, translate_y = -26, frame_mode = 33, unique_id = 3 },
+  { sequence = "suna011_04", translate_x = 2, translate_y = -26, frame_mode = 33, unique_id = 4 },
+  { sequence = "ashi01_02", translate_x = 13, translate_y = -19, frame_mode = 33, unique_id = 5 },
+  { sequence = "karada1", translate_x = -16, translate_y = -13, frame_mode = 33, unique_id = 6 },
+  { sequence = "ashi03_02", translate_x = -36, translate_y = -24, frame_mode = 33, unique_id = 7 },
+  { sequence = "shita_kuchi1", translate_x = 13, translate_y = -28, frame_mode = 33, unique_id = 8 },
+  { sequence = "ue_kuchi1", translate_x = 11, translate_y = -44, frame_mode = 33, unique_id = 9 },
+  { sequence = "suna021_04", translate_x = -8, translate_y = -12, frame_mode = 33, unique_id = 10 },
+  { sequence = "suna02_04", translate_x = -8, translate_y = -12, frame_mode = 33, unique_id = 11 },
+]

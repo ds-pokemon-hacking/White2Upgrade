@@ -1,0 +1,39 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.CellAnime0]
+properties = [
+  { sequence = "ue_kara", translate_x = -2, translate_y = -14, frame_mode = 32 },
+  { sequence = "shita_kara", translate_x = -4, frame_mode = 32, unique_id = 1 },
+  { sequence = "atama", translate_x = -3, translate_y = -12, frame_mode = 32, unique_id = 2 },
+  { sequence = "kuchi", translate_x = -3, translate_y = -12, frame_mode = 32, unique_id = 3 },
+]
+
+[multi_cells.CellAnime0_1]
+properties = [
+  { sequence = "ue_kara_a", translate_x = -2, translate_y = -14, frame_mode = 32 },
+  { sequence = "shita_kara_a", translate_x = -4, frame_mode = 32, unique_id = 1 },
+  { sequence = "atama_a", translate_x = -3, translate_y = -12, frame_mode = 32, unique_id = 2 },
+  { sequence = "kchi_a", translate_x = -3, translate_y = -12, frame_mode = 32, unique_id = 3 },
+]
+
+[multi_cells.CellAnime0_2]
+properties = [
+  { sequence = "ue_kara_b", translate_x = -2, translate_y = -14, frame_mode = 32 },
+  { sequence = "shita_kara_b", translate_x = -4, frame_mode = 32, unique_id = 1 },
+  { sequence = "atama_b", translate_x = -3, translate_y = -12, frame_mode = 32, unique_id = 2 },
+  { sequence = "kchi_b", translate_x = -3, translate_y = -12, frame_mode = 32, unique_id = 3 },
+]
+
+[multi_cells.CellAnime0_3]
+properties = [
+  { sequence = "ue_kara_c", translate_x = -2, translate_y = -14, frame_mode = 32 },
+  { sequence = "shita_kara_c", translate_x = -4, frame_mode = 32, unique_id = 1 },
+]
+
+[multi_cells.multi_cell_4]
+properties = [
+  { sequence = "ue_kara_d", translate_x = -2, translate_y = -14, frame_mode = 32 },
+  { sequence = "shita_kara_d", translate_x = -4, frame_mode = 32, unique_id = 1 },
+]

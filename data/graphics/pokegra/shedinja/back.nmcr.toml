@@ -1,0 +1,19 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.nonstop]
+properties = [
+  { sequence = "hane_b", translate_x = -1, translate_y = -31, frame_mode = 32 },
+  { sequence = "karada", translate_x = -1, translate_y = -31, frame_mode = 32, unique_id = 1 },
+  { sequence = "hane_a", translate_x = -8, translate_y = -34, frame_mode = 32, unique_id = 2 },
+  { sequence = "te00", translate_x = 17, translate_y = -26, frame_mode = 32, unique_id = 3 },
+]
+
+[multi_cells.nonstop_1]
+properties = [
+  { sequence = "hane_b", translate_x = -1, translate_y = -31, frame_mode = 33 },
+  { sequence = "karada", translate_x = -1, translate_y = -31, frame_mode = 33, unique_id = 1 },
+  { sequence = "hane_a", translate_x = -8, translate_y = -34, frame_mode = 33, unique_id = 2 },
+  { sequence = "te_a", translate_x = 17, translate_y = -26, frame_mode = 32, unique_id = 3 },
+]

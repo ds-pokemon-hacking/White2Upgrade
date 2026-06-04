@@ -1,0 +1,55 @@
+format = "ncer"
+extended = 1
+
+size_boundary = 4
+padding_size = 2
+
+[cells.Rear]
+unknown0 = 9
+objects = [
+  { position_y = 236, transformable = 1, double_sized = 1, position_x = 498, key_size = 1, tile_index = 36 },
+  { position_y = 236, transformable = 1, double_sized = 1, key_shape = 2, position_x = 6, tile_index = 38 },
+]
+
+[cells.Lear]
+unknown0 = 10
+objects = [
+  { position_y = 236, transformable = 1, double_sized = 1, position_x = 493, key_size = 1, tile_index = 34 },
+]
+
+[cells.head]
+unknown0 = 18
+objects = [
+  { position_y = 217, transformable = 1, double_sized = 1, position_x = 481, key_size = 2, tile_index = 98 },
+]
+
+[cells.body]
+unknown0 = 11
+objects = [
+  { position_y = 228, transformable = 1, double_sized = 1, position_x = 494, key_size = 1, tile_index = 354 },
+  { position_y = 228, transformable = 1, double_sized = 1, key_shape = 2, position_x = 2, tile_index = 356 },
+  { position_y = 248, transformable = 1, double_sized = 1, key_shape = 1, position_x = 494, tile_index = 418 },
+  { position_y = 248, transformable = 1, double_sized = 1, position_x = 2, tile_index = 420 },
+]
+
+[cells.foot]
+unknown0 = 10
+objects = [
+  { position_y = 236, transformable = 1, double_sized = 1, position_x = 494, key_size = 1, tile_index = 290 },
+  { position_y = 236, transformable = 1, double_sized = 1, key_shape = 2, position_x = 2, tile_index = 292 },
+]
+
+[cells.tale]
+unknown0 = 18
+objects = [
+  { position_y = 203, transformable = 1, double_sized = 1, key_shape = 2, position_x = 502, key_size = 2, tile_index = 134 },
+  { position_y = 203, transformable = 1, double_sized = 1, key_shape = 2, position_x = 10, key_size = 1, tile_index = 136 },
+  { position_y = 247, transformable = 1, double_sized = 1, key_shape = 1, position_x = 502, tile_index = 262 },
+  { position_y = 247, transformable = 1, double_sized = 1, position_x = 10, tile_index = 264 },
+]
+
+[cells.mouth]
+unknown0 = 6
+objects = [
+  { position_y = 244, transformable = 1, double_sized = 1, position_x = 500, tile_index = 160 },
+]

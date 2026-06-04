@@ -1,0 +1,15 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.nonstop]
+properties = [
+  { sequence = "maegami_R", translate_y = -32, frame_mode = 33 },
+  { sequence = "maegami_L", translate_y = -32, frame_mode = 33, unique_id = 1 },
+  { sequence = "face", translate_y = -32, frame_mode = 33, unique_id = 2 },
+  { sequence = "kami_R", translate_y = -32, frame_mode = 33, unique_id = 3 },
+  { sequence = "kami_C", translate_y = -32, frame_mode = 33, unique_id = 4 },
+  { sequence = "kami_L", translate_y = -32, frame_mode = 33, unique_id = 5 },
+  { sequence = "neck", translate_y = -32, frame_mode = 33, unique_id = 6 },
+  { sequence = "body", translate_y = -32, frame_mode = 33, unique_id = 7 },
+]

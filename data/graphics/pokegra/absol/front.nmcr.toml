@@ -1,0 +1,21 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.nonstop]
+properties = [
+  { sequence = "CellAnime3", translate_y = -33, frame_mode = 32 },
+  { sequence = "CellAnime11", translate_y = -33, frame_mode = 32, unique_id = 1 },
+  { sequence = "CellAnime01", translate_y = -33, frame_mode = 32, unique_id = 2 },
+  { sequence = "CellAnime2", translate_y = -33, frame_mode = 32, unique_id = 3 },
+  { sequence = "CellAnime4", translate_y = -46, frame_mode = 32, unique_id = 4 },
+]
+
+[multi_cells.nonstop_1]
+properties = [
+  { sequence = "CellAnime31", translate_y = -33, frame_mode = 32 },
+  { sequence = "CellAnime111", translate_y = -33, frame_mode = 32, unique_id = 1 },
+  { sequence = "CellAnime011", translate_y = -33, frame_mode = 32, unique_id = 2 },
+  { sequence = "CellAnime21", translate_y = -33, frame_mode = 32, unique_id = 3 },
+  { sequence = "CellAnime41", translate_y = -46, frame_mode = 32, unique_id = 4 },
+]

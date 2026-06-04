@@ -1,0 +1,13 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.nonstop]
+properties = [
+  { sequence = "head", translate_x = -6, translate_y = -48, frame_mode = 33 },
+  { sequence = "body", translate_x = -1, translate_y = -30, frame_mode = 33, unique_id = 1 },
+  { sequence = "wing_l_2", translate_x = 2, translate_y = -42, frame_mode = 33, unique_id = 2 },
+  { sequence = "wing_l_1", translate_x = 1, translate_y = -32, frame_mode = 33, unique_id = 3 },
+  { sequence = "wing_r_2", translate_x = 3, translate_y = -43, frame_mode = 33, unique_id = 4 },
+  { sequence = "wimg_r_1", translate_x = -3, translate_y = -33, frame_mode = 33, unique_id = 5 },
+]

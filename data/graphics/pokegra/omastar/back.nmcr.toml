@@ -1,0 +1,11 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.CellAnime0]
+properties = [
+  { sequence = "body01", translate_x = -10, translate_y = -15, frame_mode = 33 },
+  { sequence = "r_leg01", translate_x = -2, translate_y = -6, frame_mode = 33, unique_id = 1 },
+  { sequence = "r_arm01", translate_x = 1, translate_y = -7, frame_mode = 33, unique_id = 2 },
+  { sequence = "l_leg01", translate_x = -7, translate_y = -6, frame_mode = 33, unique_id = 3 },
+]

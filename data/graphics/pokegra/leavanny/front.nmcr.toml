@@ -1,0 +1,31 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.CellAnime0]
+properties = [
+  { sequence = "l_cover02", translate_x = 1, translate_y = -1, frame_mode = 33 },
+  { sequence = "r_cover02", translate_x = 1, translate_y = -1, frame_mode = 33, unique_id = 1 },
+  { sequence = "l_cover01", translate_x = 1, translate_y = -1, frame_mode = 33, unique_id = 2 },
+  { sequence = "r_cover01", translate_x = 1, translate_y = -1, frame_mode = 33, unique_id = 3 },
+  { sequence = "l_parts02", translate_x = 10, translate_y = -13, frame_mode = 33, unique_id = 4 },
+  { sequence = "l_parts01", translate_x = 1, translate_y = -1, frame_mode = 33, unique_id = 5 },
+  { sequence = "r_parts01", translate_x = 1, translate_y = -1, frame_mode = 33, unique_id = 6 },
+  { sequence = "r_parts02", translate_x = -10, translate_y = -7, frame_mode = 33, unique_id = 7 },
+  { sequence = "head01", translate_x = 1, translate_y = -1, frame_mode = 33, unique_id = 8 },
+  { sequence = "l_cover03", translate_x = 1, translate_y = -1, frame_mode = 33, unique_id = 9 },
+  { sequence = "r_cover03", translate_x = 1, translate_y = -1, frame_mode = 33, unique_id = 10 },
+]
+
+[multi_cells.CellAnime0_1]
+properties = [
+  { sequence = "l_cover02_02", translate_x = 1, translate_y = -1, frame_mode = 33 },
+  { sequence = "r_cover02_02", translate_x = 1, translate_y = -1, frame_mode = 33, unique_id = 1 },
+  { sequence = "l_cover01_02", translate_x = 1, translate_y = -1, frame_mode = 33, unique_id = 2 },
+  { sequence = "r_cover01_02", translate_x = 1, translate_y = -1, frame_mode = 33, unique_id = 3 },
+  { sequence = "l_parts02_02", translate_x = 10, translate_y = -13, frame_mode = 33, unique_id = 4 },
+  { sequence = "l_parts01_02", translate_x = 1, translate_y = -1, frame_mode = 33, unique_id = 5 },
+  { sequence = "r_parts01_02", translate_x = 1, translate_y = -1, frame_mode = 33, unique_id = 6 },
+  { sequence = "r_parts02_02", translate_x = -10, translate_y = -7, frame_mode = 33, unique_id = 7 },
+  { sequence = "head02", translate_x = 1, translate_y = -1, frame_mode = 33, unique_id = 8 },
+]

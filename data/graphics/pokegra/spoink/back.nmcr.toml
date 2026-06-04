@@ -1,0 +1,39 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.stay]
+properties = [
+  { sequence = "kemuri_b", translate_x = 30, translate_y = -36, frame_mode = 32 },
+  { sequence = "ashi_b", translate_x = 22, translate_y = -9, frame_mode = 32, unique_id = 1 },
+  { sequence = "ashi_a", translate_x = -1, translate_y = -7, frame_mode = 32, unique_id = 2 },
+  { sequence = "karada", translate_y = -19, frame_mode = 32, unique_id = 3 },
+  { sequence = "kemuri_a", translate_x = -4, translate_y = -35, frame_mode = 32, unique_id = 4 },
+  { sequence = "atama", translate_x = 19, translate_y = -31, frame_mode = 32, unique_id = 5 },
+  { sequence = "ashi_c", translate_x = -21, translate_y = -10, frame_mode = 32, unique_id = 6 },
+  { sequence = "kemuri_c", translate_x = -23, translate_y = -23, frame_mode = 32, unique_id = 7 },
+]
+
+[multi_cells.stay_1]
+properties = [
+  { sequence = "kemuri_b1", translate_x = 30, translate_y = -36, frame_mode = 32 },
+  { sequence = "ashi_b1", translate_x = 22, translate_y = -9, frame_mode = 32, unique_id = 1 },
+  { sequence = "ashi_a1", translate_x = -1, translate_y = -7, frame_mode = 32, unique_id = 2 },
+  { sequence = "karada1", translate_y = -19, frame_mode = 32, unique_id = 3 },
+  { sequence = "kemuri_a1", translate_x = -4, translate_y = -35, frame_mode = 32, unique_id = 4 },
+  { sequence = "atama1", translate_x = 19, translate_y = -31, frame_mode = 32, unique_id = 5 },
+  { sequence = "ashi_c1", translate_x = -21, translate_y = -10, frame_mode = 32, unique_id = 6 },
+  { sequence = "kemuri_c1", translate_x = -23, translate_y = -23, frame_mode = 32, unique_id = 7 },
+]
+
+[multi_cells.stop]
+properties = [
+  { sequence = "kemuri_b11", translate_x = 30, translate_y = -36, frame_mode = 33 },
+  { sequence = "ashi_b1", translate_x = 22, translate_y = -9, frame_mode = 32, unique_id = 1 },
+  { sequence = "ashi_a", translate_x = -1, translate_y = -7, frame_mode = 32, unique_id = 2 },
+  { sequence = "karada", translate_y = -19, frame_mode = 32, unique_id = 3 },
+  { sequence = "kemuri_a11", translate_x = -4, translate_y = -35, frame_mode = 33, unique_id = 4 },
+  { sequence = "atama", translate_x = 19, translate_y = -31, frame_mode = 32, unique_id = 5 },
+  { sequence = "ashi_c", translate_x = -21, translate_y = -10, frame_mode = 32, unique_id = 6 },
+  { sequence = "kemuri_c11", translate_x = -23, translate_y = -23, frame_mode = 33, unique_id = 7 },
+]

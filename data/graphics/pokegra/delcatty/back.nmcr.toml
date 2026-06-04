@@ -1,0 +1,23 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.CellAnime0]
+properties = [
+  { sequence = "tale", translate_x = -9, translate_y = -6, frame_mode = 32 },
+  { sequence = "Rear", translate_x = 5, translate_y = -25, frame_mode = 32, unique_id = 1 },
+  { sequence = "head", translate_y = -11, frame_mode = 32, unique_id = 2 },
+  { sequence = "Lear", translate_x = -8, translate_y = -25, frame_mode = 32, unique_id = 3 },
+  { sequence = "body", translate_y = 5, frame_mode = 32, unique_id = 4 },
+  { sequence = "foot", translate_y = 5, frame_mode = 32, unique_id = 5 },
+]
+
+[multi_cells.CellAnime0_1]
+properties = [
+  { sequence = "tale1", translate_x = -9, translate_y = -6, frame_mode = 32 },
+  { sequence = "Rear1", translate_x = 5, translate_y = -25, frame_mode = 32, unique_id = 1 },
+  { sequence = "head1", translate_y = -11, frame_mode = 32, unique_id = 2 },
+  { sequence = "Lear1", translate_x = -8, translate_y = -25, frame_mode = 32, unique_id = 3 },
+  { sequence = "body1", translate_y = 5, frame_mode = 32, unique_id = 4 },
+  { sequence = "foot1", translate_y = 5, frame_mode = 32, unique_id = 5 },
+]

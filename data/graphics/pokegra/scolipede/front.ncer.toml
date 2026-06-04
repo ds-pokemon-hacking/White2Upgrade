@@ -1,0 +1,63 @@
+format = "ncer"
+extended = 1
+
+size_boundary = 4
+
+[cells.karada01]
+unknown0 = 24
+objects = [
+  { position_y = 195, transformable = 1, double_sized = 1, position_x = 471, key_size = 2, tile_index = 5 },
+  { position_y = 195, transformable = 1, double_sized = 1, key_shape = 2, position_x = 511, key_size = 2, tile_index = 9 },
+  { position_y = 235, transformable = 1, double_sized = 1, key_shape = 1, position_x = 471, key_size = 2, tile_index = 133 },
+  { position_y = 235, transformable = 1, double_sized = 1, position_x = 511, key_size = 1, tile_index = 137 },
+]
+
+[cells.me]
+unknown0 = 12
+objects = [
+  { position_y = 221, transformable = 1, double_sized = 1, object_mode = 1, position_x = 500, key_size = 1, tile_index = 64 },
+  { position_y = 221, transformable = 1, double_sized = 1, position_x = 500, key_size = 1, tile_index = 197 },
+]
+
+[cells.tuno01]
+unknown0 = 13
+objects = [
+  { position_y = 228, transformable = 1, double_sized = 1, position_x = 483, key_size = 1, tile_index = 2 },
+  { position_y = 228, transformable = 1, double_sized = 1, key_shape = 2, position_x = 503, tile_index = 4 },
+  { position_y = 248, transformable = 1, double_sized = 1, key_shape = 1, position_x = 483, tile_index = 66 },
+  { position_y = 248, transformable = 1, double_sized = 1, position_x = 503, tile_index = 68 },
+]
+
+[cells.tuno02]
+unknown0 = 12
+objects = [
+  { position_y = 230, transformable = 1, double_sized = 1, position_x = 485, key_size = 1, tile_index = 98 },
+  { position_y = 230, transformable = 1, double_sized = 1, key_shape = 2, position_x = 505, tile_index = 100 },
+  { position_y = 250, transformable = 1, double_sized = 1, key_shape = 1, position_x = 485, tile_index = 162 },
+  { position_y = 250, transformable = 1, double_sized = 1, position_x = 505, tile_index = 164 },
+]
+
+[cells.tuno03]
+unknown0 = 9
+objects = [
+  { position_y = 238, transformable = 1, double_sized = 1, position_x = 499, key_size = 1, tile_index = 194 },
+  { position_y = 238, transformable = 1, double_sized = 1, key_shape = 2, position_x = 7, tile_index = 196 },
+  { position_y = 2, transformable = 1, double_sized = 1, key_shape = 1, position_x = 499, tile_index = 258 },
+  { position_y = 2, transformable = 1, double_sized = 1, position_x = 7, tile_index = 260 },
+]
+
+[cells.karada02_b]
+unknown0 = 29
+objects = [
+  { position_y = 214, transformable = 1, double_sized = 1, key_shape = 1, position_x = 446, key_size = 3, tile_index = 11 },
+  { position_y = 254, transformable = 1, double_sized = 1, key_shape = 1, position_x = 462, key_size = 2, tile_index = 139 },
+  { position_y = 254, transformable = 1, double_sized = 1, key_shape = 1, position_x = 494, key_size = 2, tile_index = 143 },
+]
+
+[cells.cell_6]
+unknown0 = 29
+objects = [
+  { position_y = 214, transformable = 1, double_sized = 1, key_shape = 1, position_x = 446, key_size = 3, tile_index = 203 },
+  { position_y = 254, transformable = 1, double_sized = 1, key_shape = 1, position_x = 462, key_size = 2, tile_index = 331 },
+  { position_y = 254, transformable = 1, double_sized = 1, key_shape = 1, position_x = 494, key_size = 2, tile_index = 335 },
+]

@@ -1,0 +1,16 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.nonstop]
+properties = [
+  { sequence = "wing_r", translate_x = 7, translate_y = -39, frame_mode = 33 },
+  { sequence = "head", translate_x = -11, translate_y = -45, frame_mode = 33, unique_id = 1 },
+  { sequence = "mouse", translate_x = -11, translate_y = -35, frame_mode = 33, unique_id = 2 },
+  { sequence = "body", translate_x = 1, translate_y = -39, frame_mode = 33, unique_id = 3 },
+  { sequence = "wing_l", translate_x = -7, translate_y = -41, frame_mode = 33, unique_id = 4 },
+  { sequence = "foot_l", translate_x = -10, translate_y = -34, frame_mode = 33, unique_id = 5 },
+  { sequence = "foot_r1", translate_x = 8, translate_y = -40, frame_mode = 33, unique_id = 6 },
+  { sequence = "foot_r2", translate_x = 7, translate_y = -35, frame_mode = 33, unique_id = 7 },
+  { sequence = "tail3", translate_x = 17, translate_y = -36, frame_mode = 33, unique_id = 8 },
+]

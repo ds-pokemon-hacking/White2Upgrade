@@ -42,10 +42,25 @@ def resolve_label(item, defines):
         return defines[item]
     return item
 
+def resolve_metadata_path(path):
+    source = Path(path)
+    if source.suffix in {'.yml', '.yaml'}:
+        toml_source = source.with_suffix('.toml')
+        if toml_source.exists():
+            return toml_source
+    return source
+
+def load_metadata(path):
+    source = resolve_metadata_path(path)
+    if source.suffix == '.toml':
+        with source.open('rb') as source_raw:
+            return tomllib.load(source_raw)
+    with source.open('r') as source_raw:
+        return yaml.safe_load(source_raw)
+
 def load_defines(path, defines : dict):
-    with Path(path).open('r') as INCLUDE_RAW:
-        INCLUDE = yaml.safe_load(INCLUDE_RAW)
-        defines |= flatten(INCLUDE['DEFINE'])
+    INCLUDE = load_metadata(path)
+    defines |= flatten(INCLUDE['DEFINE'])
 
 def load_source_data(path):
     source = Path(path)

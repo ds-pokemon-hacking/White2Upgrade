@@ -1,7 +1,7 @@
 from pathlib import Path
 from .serializer import Serializer
 from mkdata_util import *
-import yaml, struct
+import struct
 
 class EncounterSerializer(Serializer):
     def __init__(self):
@@ -16,7 +16,7 @@ class EncounterSerializer(Serializer):
             return 1
 
         ScriptPath = Path(__file__).resolve().parent.parent
-        load_defines((ScriptPath / 'enum/species.yml').as_posix(), defines)
+        load_defines((ScriptPath / 'enum/species.toml').as_posix(), defines)
         
         Encounters = load_source_data(Input)
         Output.parent.mkdir(exist_ok=True, parents=True)

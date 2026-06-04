@@ -1,0 +1,34 @@
+format = "ncer"
+extended = 1
+
+size_boundary = 4
+
+[cells.CellAnime01]
+unknown0 = 24
+objects = [
+  { position_y = 214, transformable = 1, double_sized = 1, object_mode = 1, position_x = 494, key_size = 1, tile_index = 32 },
+  { position_y = 192, transformable = 1, double_sized = 1, position_x = 480, key_size = 2, tile_index = 3 },
+  { position_y = 232, transformable = 1, double_sized = 1, key_shape = 1, position_x = 480, key_size = 2, tile_index = 131 },
+]
+
+[cells.CellAnime11]
+unknown0 = 15
+objects = [
+  { position_y = 216, transformable = 1, double_sized = 1, position_x = 488, key_size = 1, tile_index = 160 },
+  { position_y = 216, transformable = 1, double_sized = 1, key_shape = 2, position_x = 508, tile_index = 162 },
+  { position_y = 236, transformable = 1, double_sized = 1, key_shape = 1, position_x = 488, tile_index = 224 },
+  { position_y = 236, transformable = 1, double_sized = 1, position_x = 508, tile_index = 226 },
+]
+
+[cells.CellAnime11_1]
+unknown0 = 7
+objects = [
+  { position_y = 232, position_x = 504, tile_index = 195 },
+]
+
+[cells.CellAnime4]
+unknown0 = 6
+objects = [
+  { position_y = 237, position_x = 503, key_size = 1, tile_index = 7 },
+  { position_y = 237, key_shape = 2, position_x = 7, tile_index = 9 },
+]

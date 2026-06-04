@@ -1,0 +1,32 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.nonstop]
+properties = [
+  { sequence = "hand_Rc", translate_x = -24, translate_y = -9, frame_mode = 33 },
+  { sequence = "hand_Rb", translate_x = -8, translate_y = -8, frame_mode = 33, unique_id = 1 },
+  { sequence = "hand_Ra", translate_x = 6, translate_y = -13, frame_mode = 33, unique_id = 2 },
+  { sequence = "tail_c", translate_x = -35, translate_y = -51, frame_mode = 33, unique_id = 3 },
+  { sequence = "tail_b", translate_x = -46, translate_y = -36, frame_mode = 33, unique_id = 4 },
+  { sequence = "tail_a", translate_x = -24, translate_y = -10, frame_mode = 33, unique_id = 5 },
+  { sequence = "wing_R3b", translate_y = -33, frame_mode = 33, unique_id = 6 },
+  { sequence = "wing_R3a", translate_y = -33, frame_mode = 33, unique_id = 7 },
+  { sequence = "wing_R2b", translate_x = 5, translate_y = -43, frame_mode = 33, unique_id = 8 },
+  { sequence = "wing_R2a", translate_x = 2, translate_y = -39, frame_mode = 33, unique_id = 9 },
+  { sequence = "wing_R1b", translate_x = 6, translate_y = -49, frame_mode = 33, unique_id = 10 },
+  { sequence = "wing_R1a", translate_x = 5, translate_y = -48, frame_mode = 33, unique_id = 11 },
+  { sequence = "wing_L3a", translate_x = -3, translate_y = -33, frame_mode = 33, unique_id = 12 },
+  { sequence = "wing_L3b", translate_x = -3, translate_y = -33, frame_mode = 33, unique_id = 13 },
+  { sequence = "wing_L2a", translate_x = -2, translate_y = -37, frame_mode = 33, unique_id = 14 },
+  { sequence = "wing_L2b", translate_x = -2, translate_y = -37, frame_mode = 33, unique_id = 15 },
+  { sequence = "wing_L1a", translate_y = -47, frame_mode = 33, unique_id = 16 },
+  { sequence = "wing_L1b", translate_y = -47, frame_mode = 33, unique_id = 17 },
+  { sequence = "body_b", translate_x = -13, translate_y = -13, frame_mode = 33, unique_id = 18 },
+  { sequence = "body_a", translate_x = -3, translate_y = -17, frame_mode = 33, unique_id = 19 },
+  { sequence = "neck_c", translate_y = -26, frame_mode = 33, unique_id = 20 },
+  { sequence = "neck_b", translate_x = 2, translate_y = -34, frame_mode = 33, unique_id = 21 },
+  { sequence = "neck_a", translate_x = 5, translate_y = -43, frame_mode = 33, unique_id = 22 },
+  { sequence = "head", translate_x = 6, translate_y = -49, frame_mode = 33, unique_id = 23 },
+  { sequence = "hand_L", translate_x = -32, translate_y = -11, frame_mode = 33, unique_id = 24 },
+]

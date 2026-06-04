@@ -1,0 +1,42 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.CellAnime0]
+properties = [
+  { sequence = "flower", translate_x = -2, translate_y = -14, frame_mode = 32 },
+  { sequence = "leaf_a", translate_y = -13, frame_mode = 32, unique_id = 1 },
+  { sequence = "leaf_b", translate_x = -2, translate_y = -12, frame_mode = 32, unique_id = 2 },
+  { sequence = "body", translate_x = 1, translate_y = -17, frame_mode = 32, unique_id = 3 },
+  { sequence = "head", translate_x = -2, translate_y = -10, frame_mode = 32, unique_id = 4 },
+  { sequence = "foot_FL", translate_x = -1, translate_y = -5, frame_mode = 32, unique_id = 5 },
+  { sequence = "foot_BL", translate_x = 8, translate_y = -5, frame_mode = 32, unique_id = 6 },
+  { sequence = "foot_BR", translate_x = 3, translate_y = -5, frame_mode = 32, unique_id = 7 },
+  { sequence = "foot_FR", translate_x = -6, translate_y = -6, frame_mode = 32, unique_id = 8 },
+]
+
+[multi_cells.CellAnime0_1]
+properties = [
+  { sequence = "flower1", translate_x = -2, translate_y = -14, frame_mode = 32 },
+  { sequence = "leaf_a1", translate_y = -13, frame_mode = 32, unique_id = 1 },
+  { sequence = "leaf_b1", translate_x = -2, translate_y = -12, frame_mode = 32, unique_id = 2 },
+  { sequence = "body1", translate_x = 1, translate_y = -17, frame_mode = 32, unique_id = 3 },
+  { sequence = "head1", translate_x = -2, translate_y = -10, frame_mode = 32, unique_id = 4 },
+  { sequence = "foot_FL1", translate_x = -1, translate_y = -5, frame_mode = 32, unique_id = 5 },
+  { sequence = "foot_BL1", translate_x = 8, translate_y = -5, frame_mode = 32, unique_id = 6 },
+  { sequence = "foot_BR1", translate_x = 3, translate_y = -5, frame_mode = 32, unique_id = 7 },
+  { sequence = "foot_FR1", translate_x = -6, translate_y = -6, frame_mode = 32, unique_id = 8 },
+]
+
+[multi_cells.CellAnime0_2]
+properties = [
+  { sequence = "flower2", translate_x = -2, translate_y = -14, frame_mode = 32 },
+  { sequence = "leaf_a2", translate_y = -13, frame_mode = 32, unique_id = 1 },
+  { sequence = "leaf_b2", translate_x = -2, translate_y = -12, frame_mode = 32, unique_id = 2 },
+  { sequence = "body2", translate_x = 1, translate_y = -17, frame_mode = 32, unique_id = 3 },
+  { sequence = "head2", translate_x = -2, translate_y = -10, frame_mode = 32, unique_id = 4 },
+  { sequence = "foot_FL2", translate_x = -1, translate_y = -5, frame_mode = 32, unique_id = 5 },
+  { sequence = "foot_BL2", translate_x = 8, translate_y = -5, frame_mode = 32, unique_id = 6 },
+  { sequence = "foot_BR2", translate_x = 3, translate_y = -5, frame_mode = 32, unique_id = 7 },
+  { sequence = "foot_FR2", translate_x = -6, translate_y = -6, frame_mode = 32, unique_id = 8 },
+]

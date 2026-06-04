@@ -1,0 +1,21 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.nonstop]
+properties = [
+  { sequence = "l_hane", translate_x = 10, translate_y = -40, frame_mode = 32 },
+  { sequence = "hana", translate_x = -3, translate_y = -32, frame_mode = 32, unique_id = 1 },
+  { sequence = "kuchi", translate_x = 2, translate_y = -20, frame_mode = 32, unique_id = 2 },
+  { sequence = "atama02", translate_x = 2, translate_y = -20, frame_mode = 32, unique_id = 3 },
+  { sequence = "r_hane", translate_x = -6, translate_y = -37, frame_mode = 32, unique_id = 4 },
+]
+
+[multi_cells.nonstop_1]
+properties = [
+  { sequence = "l_hane_a", translate_x = 10, translate_y = -40, frame_mode = 32 },
+  { sequence = "hana_a", translate_x = -3, translate_y = -32, frame_mode = 32, unique_id = 1 },
+  { sequence = "kuchi_a", translate_x = 2, translate_y = -20, frame_mode = 32, unique_id = 2 },
+  { sequence = "atama02_a", translate_x = 2, translate_y = -20, frame_mode = 32, unique_id = 3 },
+  { sequence = "r_hane_a", translate_x = -6, translate_y = -37, frame_mode = 32, unique_id = 4 },
+]

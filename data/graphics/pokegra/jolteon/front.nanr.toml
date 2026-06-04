@@ -1,0 +1,107 @@
+format = "nanr"
+extended = 1
+
+[sequences.karada]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 9, animation_type = 1, cell = "karada", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 9, animation_type = 1, cell = "karada", scale_w = 1.0, scale_h = 1.02490234375 },
+  { duration_in_frames = 9, animation_type = 1, cell = "karada", scale_w = 1.0, scale_h = 1.050048828125 },
+  { duration_in_frames = 9, animation_type = 1, cell = "karada", scale_w = 1.0, scale_h = 1.074951171875 },
+  { duration_in_frames = 9, animation_type = 1, cell = "karada", scale_w = 1.0, scale_h = 1.10009765625 },
+  { duration_in_frames = 9, animation_type = 1, cell = "karada", scale_w = 1.0, scale_h = 1.074951171875 },
+  { duration_in_frames = 9, animation_type = 1, cell = "karada", scale_w = 1.0, scale_h = 1.050048828125 },
+  { duration_in_frames = 9, animation_type = 1, cell = "karada", scale_w = 1.0, scale_h = 1.02490234375 },
+  { duration_in_frames = 9, animation_type = 1, cell = "karada", scale_w = 1.0, scale_h = 1.0 },
+]
+
+[sequences.atama]
+animation_type = 2
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 9, animation_type = 2, cell = "atama", unknown0 = 48879 },
+  { duration_in_frames = 9, animation_type = 2, cell = "atama", unknown0 = 48879 },
+  { duration_in_frames = 9, animation_type = 2, cell = "atama", translate_y = -1, unknown0 = 48879 },
+  { duration_in_frames = 9, animation_type = 2, cell = "atama", translate_y = -2, unknown0 = 48879 },
+  { duration_in_frames = 9, animation_type = 2, cell = "atama", translate_y = -3, unknown0 = 48879 },
+  { duration_in_frames = 9, animation_type = 2, cell = "atama", translate_y = -2, unknown0 = 48879 },
+  { duration_in_frames = 9, animation_type = 2, cell = "atama", translate_y = -1, unknown0 = 48879 },
+  { duration_in_frames = 9, animation_type = 2, cell = "atama", unknown0 = 48879 },
+  { duration_in_frames = 9, animation_type = 2, cell = "atama", unknown0 = 48879 },
+]
+
+[sequences.sippo]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 9, animation_type = 1, cell = "sippo", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 9, animation_type = 1, cell = "sippo", rotate = 227, scale_w = 1.0, scale_h = 1.02490234375 },
+  { duration_in_frames = 9, animation_type = 1, cell = "sippo", rotate = 455, scale_w = 1.0, scale_h = 1.050048828125 },
+  { duration_in_frames = 9, animation_type = 1, cell = "sippo", rotate = 682, scale_w = 1.0, scale_h = 1.074951171875 },
+  { duration_in_frames = 9, animation_type = 1, cell = "sippo", rotate = 910, scale_w = 1.0, scale_h = 1.080078125 },
+  { duration_in_frames = 9, animation_type = 1, cell = "sippo", rotate = 682, scale_w = 1.0, scale_h = 1.074951171875 },
+  { duration_in_frames = 9, animation_type = 1, cell = "sippo", rotate = 455, scale_w = 1.0, scale_h = 1.050048828125 },
+  { duration_in_frames = 9, animation_type = 1, cell = "sippo", rotate = 227, scale_w = 1.0, scale_h = 1.02490234375 },
+  { duration_in_frames = 9, animation_type = 1, cell = "sippo", scale_w = 1.0, scale_h = 1.0 },
+]
+
+[sequences.sippo2]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 9, animation_type = 1, cell = "sippo2", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 9, animation_type = 1, cell = "sippo2", rotate = 910, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 9, animation_type = 1, cell = "sippo2", rotate = 1820, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 9, animation_type = 1, cell = "sippo2", rotate = 2730, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 9, animation_type = 1, cell = "sippo2", rotate = 3640, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 9, animation_type = 1, cell = "sippo2", rotate = 2730, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 9, animation_type = 1, cell = "sippo2", rotate = 1820, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 9, animation_type = 1, cell = "sippo2", rotate = 910, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 9, animation_type = 1, cell = "sippo2", scale_w = 1.0, scale_h = 1.0 },
+]
+
+[sequences.sippo3]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 9, animation_type = 1, cell = "sippo3", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 9, animation_type = 1, cell = "sippo3", rotate = 910, scale_w = 1.0, scale_h = 1.0, translate_y = 1 },
+  { duration_in_frames = 9, animation_type = 1, cell = "sippo3", rotate = 1820, scale_w = 1.0, scale_h = 1.0, translate_y = 2 },
+  { duration_in_frames = 9, animation_type = 1, cell = "sippo3", rotate = 2730, scale_w = 1.0, scale_h = 1.0, translate_y = 3 },
+  { duration_in_frames = 9, animation_type = 1, cell = "sippo3", rotate = 3640, scale_w = 1.0, scale_h = 1.0, translate_y = 6 },
+  { duration_in_frames = 9, animation_type = 1, cell = "sippo3", rotate = 2730, scale_w = 1.0, scale_h = 1.0, translate_y = 3 },
+  { duration_in_frames = 9, animation_type = 1, cell = "sippo3", rotate = 1820, scale_w = 1.0, scale_h = 1.0, translate_y = 2 },
+  { duration_in_frames = 9, animation_type = 1, cell = "sippo3", rotate = 910, scale_w = 1.0, scale_h = 1.0, translate_y = 1 },
+  { duration_in_frames = 9, animation_type = 1, cell = "sippo3", scale_w = 1.0, scale_h = 1.0 },
+]
+
+[sequences.atama_02]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 9, animation_type = 1, cell = "atama", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 9, animation_type = 1, cell = "atama", rotate = 65081, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 9, animation_type = 1, cell = "atama", rotate = 64626, scale_w = 1.0, scale_h = 1.0, translate_y = -1 },
+  { duration_in_frames = 9, animation_type = 1, cell = "atama", rotate = 64171, scale_w = 1.0, scale_h = 1.0, translate_y = -2 },
+  { duration_in_frames = 9, animation_type = 1, cell = "atama", rotate = 63716, scale_w = 1.0, scale_h = 1.0, translate_y = -3 },
+  { duration_in_frames = 9, animation_type = 1, cell = "atama", rotate = 64171, scale_w = 1.0, scale_h = 1.0, translate_y = -2 },
+  { duration_in_frames = 9, animation_type = 1, cell = "atama", rotate = 64626, scale_w = 1.0, scale_h = 1.0, translate_y = -1 },
+  { duration_in_frames = 9, animation_type = 1, cell = "atama", rotate = 65081, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 9, animation_type = 1, cell = "atama", scale_w = 1.0, scale_h = 1.0, translate_y = 1 },
+  { duration_in_frames = 9, animation_type = 1, cell = "atama", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 9, animation_type = 1, cell = "atama", rotate = 455, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 9, animation_type = 1, cell = "atama", rotate = 910, scale_w = 1.0, scale_h = 1.0, translate_y = -1 },
+  { duration_in_frames = 9, animation_type = 1, cell = "atama", rotate = 1365, scale_w = 1.0, scale_h = 1.0, translate_y = -2 },
+  { duration_in_frames = 9, animation_type = 1, cell = "atama", rotate = 1820, scale_w = 1.0, scale_h = 1.0, translate_y = -3 },
+  { duration_in_frames = 9, animation_type = 1, cell = "atama", rotate = 1365, scale_w = 1.0, scale_h = 1.0, translate_y = -2 },
+  { duration_in_frames = 9, animation_type = 1, cell = "atama", rotate = 910, scale_w = 1.0, scale_h = 1.0, translate_y = -1 },
+  { duration_in_frames = 9, animation_type = 1, cell = "atama", rotate = 455, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 9, animation_type = 1, cell = "atama", scale_w = 1.0, scale_h = 1.0, translate_y = 1 },
+]

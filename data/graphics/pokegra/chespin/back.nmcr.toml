@@ -1,0 +1,25 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.nonstop]
+properties = [
+  { sequence = "tire_r", translate_x = 20, translate_y = -23, frame_mode = 33 },
+  { sequence = "body", translate_y = -26, frame_mode = 33, unique_id = 1 },
+  { sequence = "handle", translate_y = -26, frame_mode = 33, unique_id = 2 },
+  { sequence = "tire_l", translate_x = -6, translate_y = -28, frame_mode = 33, unique_id = 3 },
+  { sequence = "ef", translate_y = -26, frame_mode = 33, unique_id = 4 },
+  { sequence = "handle_ef", translate_y = -26, frame_mode = 33, unique_id = 5 },
+  { sequence = "cutter", translate_x = 8, translate_y = -24, frame_mode = 33, unique_id = 6 },
+]
+
+[multi_cells.nonstop_1]
+properties = [
+  { sequence = "tire_r", translate_x = 20, translate_y = -23, frame_mode = 33 },
+  { sequence = "body", translate_y = -26, frame_mode = 33, unique_id = 1 },
+  { sequence = "handle", translate_y = -26, frame_mode = 33, unique_id = 2 },
+  { sequence = "tire_l", translate_x = -6, translate_y = -28, frame_mode = 33, unique_id = 3 },
+  { sequence = "ef", translate_y = -26, frame_mode = 33, unique_id = 4 },
+  { sequence = "handle_ef", translate_y = -26, frame_mode = 33, unique_id = 5 },
+  { sequence = "cutter_b", translate_x = 8, translate_y = -24, frame_mode = 33, unique_id = 6 },
+]

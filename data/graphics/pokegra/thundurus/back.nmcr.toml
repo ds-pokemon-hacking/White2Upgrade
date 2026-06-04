@@ -1,0 +1,36 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.nonstop]
+properties = [
+  { sequence = "o01", translate_x = -6, translate_y = -23, frame_mode = 32 },
+  { sequence = "kumo", translate_x = -5, translate_y = -19, frame_mode = 32, unique_id = 1 },
+  { sequence = "ude", translate_x = 1, translate_y = -48, frame_mode = 32, unique_id = 2 },
+  { sequence = "kami", translate_x = -3, translate_y = -64, frame_mode = 32, unique_id = 3 },
+  { sequence = "karada", translate_x = -3, translate_y = -27, frame_mode = 32, unique_id = 4 },
+  { sequence = "atama", translate_x = -3, translate_y = -51, frame_mode = 32, unique_id = 5 },
+  { sequence = "o02", translate_x = 23, translate_y = -69, frame_mode = 32, unique_id = 6 },
+]
+
+[multi_cells.nonstop_1]
+properties = [
+  { sequence = "o01_a", translate_x = -6, translate_y = -23, frame_mode = 32 },
+  { sequence = "kumo_a", translate_x = -5, translate_y = -19, frame_mode = 32, unique_id = 1 },
+  { sequence = "ude_a", translate_x = 1, translate_y = -48, frame_mode = 32, unique_id = 2 },
+  { sequence = "kami_a", translate_x = -3, translate_y = -64, frame_mode = 32, unique_id = 3 },
+  { sequence = "karada_a", translate_x = -3, translate_y = -27, frame_mode = 32, unique_id = 4 },
+  { sequence = "atama_a", translate_x = -3, translate_y = -51, frame_mode = 32, unique_id = 5 },
+  { sequence = "o02_a", translate_x = 23, translate_y = -69, frame_mode = 32, unique_id = 6 },
+]
+
+[multi_cells.nonstop_2]
+properties = [
+  { sequence = "o01_b", translate_x = -6, translate_y = -23, frame_mode = 32 },
+  { sequence = "kumo_b", translate_x = -5, translate_y = -19, frame_mode = 32, unique_id = 1 },
+  { sequence = "ude_b", translate_x = 1, translate_y = -48, frame_mode = 32, unique_id = 2 },
+  { sequence = "kami_b", translate_x = -3, translate_y = -64, frame_mode = 32, unique_id = 3 },
+  { sequence = "karada_b", translate_x = -3, translate_y = -27, frame_mode = 32, unique_id = 4 },
+  { sequence = "atama_b", translate_x = -3, translate_y = -51, frame_mode = 32, unique_id = 5 },
+  { sequence = "o02_b", translate_x = 23, translate_y = -69, frame_mode = 32, unique_id = 6 },
+]

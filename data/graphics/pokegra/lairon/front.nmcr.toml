@@ -1,0 +1,21 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.CellAnime0]
+properties = [
+  { sequence = "head", translate_y = -13, frame_mode = 32 },
+  { sequence = "footB", frame_mode = 32, unique_id = 1 },
+  { sequence = "body", translate_x = 5, translate_y = -7, frame_mode = 32, unique_id = 2 },
+  { sequence = "footA", frame_mode = 32, unique_id = 3 },
+  { sequence = "footC", translate_x = 15, translate_y = -4, frame_mode = 32, unique_id = 4 },
+]
+
+[multi_cells.CellAnime0_1]
+properties = [
+  { sequence = "head1", translate_y = -13, frame_mode = 32 },
+  { sequence = "footB1", frame_mode = 32, unique_id = 1 },
+  { sequence = "body1", translate_x = 5, translate_y = -7, frame_mode = 32, unique_id = 2 },
+  { sequence = "footA1", frame_mode = 32, unique_id = 3 },
+  { sequence = "footC1", translate_x = 15, translate_y = -4, frame_mode = 32, unique_id = 4 },
+]

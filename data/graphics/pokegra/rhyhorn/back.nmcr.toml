@@ -1,0 +1,29 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.stay]
+properties = [
+  { sequence = "body_b", translate_x = 3, translate_y = -62, frame_mode = 33 },
+  { sequence = "body_a", translate_x = 8, translate_y = -35, frame_mode = 33, unique_id = 1 },
+  { sequence = "gas_4", translate_x = -21, translate_y = -23, frame_mode = 33, unique_id = 2 },
+  { sequence = "gas_6", translate_x = -20, translate_y = -69, frame_mode = 33, unique_id = 3 },
+  { sequence = "gas_5", translate_x = -36, translate_y = -45, frame_mode = 33, unique_id = 4 },
+  { sequence = "body_c", translate_x = -16, translate_y = -47, frame_mode = 33, unique_id = 5 },
+  { sequence = "gas_1", translate_x = 32, translate_y = -46, frame_mode = 33, unique_id = 6 },
+  { sequence = "gas_2", translate_x = 26, translate_y = -66, frame_mode = 33, unique_id = 7 },
+  { sequence = "gas_3", translate_x = -5, translate_y = -74, frame_mode = 33, unique_id = 8 },
+]
+
+[multi_cells.stop]
+properties = [
+  { sequence = "body_b", translate_x = 3, translate_y = -62, frame_mode = 33 },
+  { sequence = "body_a", translate_x = 8, translate_y = -35, frame_mode = 33, unique_id = 1 },
+  { sequence = "gas_4_02", translate_x = -21, translate_y = -23, frame_mode = 33, unique_id = 2 },
+  { sequence = "gas_6_02", translate_x = -20, translate_y = -69, frame_mode = 33, unique_id = 3 },
+  { sequence = "gas_5_02", translate_x = -36, translate_y = -45, frame_mode = 33, unique_id = 4 },
+  { sequence = "body_c", translate_x = -16, translate_y = -47, frame_mode = 33, unique_id = 5 },
+  { sequence = "gas_1_02", translate_x = 32, translate_y = -46, frame_mode = 33, unique_id = 6 },
+  { sequence = "gas_2_02", translate_x = 26, translate_y = -66, frame_mode = 33, unique_id = 7 },
+  { sequence = "gas_3_02", translate_x = -5, translate_y = -74, frame_mode = 33, unique_id = 8 },
+]

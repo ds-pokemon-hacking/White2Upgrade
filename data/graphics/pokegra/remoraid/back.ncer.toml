@@ -1,0 +1,63 @@
+format = "ncer"
+extended = 1
+
+size_boundary = 4
+
+[cells.body]
+unknown0 = 21
+objects = [
+  { position_y = 209, transformable = 1, double_sized = 1, position_x = 477, key_size = 2, tile_index = 0 },
+]
+
+[cells.tsuno]
+unknown0 = 17
+objects = [
+  { position_y = 218, transformable = 1, double_sized = 1, position_x = 473, key_size = 1, tile_index = 100 },
+  { position_y = 218, transformable = 1, double_sized = 1, key_shape = 2, position_x = 493, tile_index = 102 },
+]
+
+[cells.tsuno_b]
+unknown0 = 18
+objects = [
+  { position_y = 205, transformable = 1, double_sized = 1, position_x = 483, key_size = 1, tile_index = 4 },
+  { position_y = 205, transformable = 1, double_sized = 1, key_shape = 2, position_x = 503, tile_index = 6 },
+  { position_y = 225, transformable = 1, double_sized = 1, key_shape = 1, position_x = 483, tile_index = 68 },
+  { position_y = 225, transformable = 1, double_sized = 1, position_x = 503, tile_index = 70 },
+]
+
+[cells.tsuno_c]
+unknown0 = 20
+objects = [
+  { position_y = 195, transformable = 1, double_sized = 1, key_shape = 2, position_x = 497, key_size = 2, tile_index = 7 },
+  { position_y = 195, transformable = 1, double_sized = 1, key_shape = 2, position_x = 5, key_size = 1, tile_index = 9 },
+]
+
+[cells.tsuno_d]
+unknown0 = 11
+objects = [
+  { position_y = 226, transformable = 1, double_sized = 1, position_x = 505, key_size = 1, tile_index = 135 },
+]
+
+[cells.tsuno_e]
+unknown0 = 13
+objects = [
+  { position_y = 216, transformable = 1, double_sized = 1, position_x = 503, key_size = 1, tile_index = 106 },
+]
+
+[cells.foot_L]
+unknown0 = 12
+objects = [
+  { position_y = 232, transformable = 1, double_sized = 1, position_x = 485, key_size = 1, tile_index = 229 },
+]
+
+[cells.foot_C]
+unknown0 = 10
+objects = [
+  { position_y = 236, transformable = 1, double_sized = 1, position_x = 495, key_size = 1, tile_index = 231 },
+]
+
+[cells.foot_R]
+unknown0 = 9
+objects = [
+  { position_y = 232, transformable = 1, double_sized = 1, position_x = 502, key_size = 1, tile_index = 233 },
+]

@@ -1,0 +1,70 @@
+format = "ncer"
+extended = 1
+
+size_boundary = 4
+padding_size = 2
+
+[cells.karada]
+unknown0 = 32
+objects = [
+  { position_y = 198, transformable = 1, double_sized = 1, position_x = 453, key_size = 3, tile_index = 0 },
+]
+
+[cells.te]
+unknown0 = 18
+objects = [
+  { position_y = 221, transformable = 1, double_sized = 1, position_x = 479, key_size = 2, tile_index = 8 },
+]
+
+[cells.momo]
+unknown0 = 17
+objects = [
+  { position_y = 225, transformable = 1, double_sized = 1, position_x = 478, key_size = 2, tile_index = 12 },
+]
+
+[cells.momo_b]
+unknown0 = 9
+objects = [
+  { position_y = 239, transformable = 1, double_sized = 1, position_x = 496, key_size = 1, tile_index = 256 },
+]
+
+[cells.senaka]
+unknown0 = 17
+objects = [
+  { position_y = 225, transformable = 1, double_sized = 1, position_x = 478, key_size = 2, tile_index = 16 },
+]
+
+[cells.hane]
+unknown0 = 20
+objects = [
+  { position_y = 226, transformable = 1, double_sized = 1, position_x = 463, key_size = 2, tile_index = 141 },
+  { position_y = 226, transformable = 1, double_sized = 1, key_shape = 2, position_x = 503, key_size = 2, tile_index = 145 },
+]
+
+[cells.hane_b]
+unknown0 = 19
+objects = [
+  { position_y = 224, transformable = 1, double_sized = 1, position_x = 470, key_size = 2, tile_index = 269 },
+  { position_y = 224, transformable = 1, double_sized = 1, key_shape = 2, position_x = 510, key_size = 2, tile_index = 273 },
+]
+
+[cells.ashi]
+unknown0 = 8
+objects = [
+  { position_y = 242, transformable = 1, double_sized = 1, position_x = 507, key_size = 1, tile_index = 261 },
+]
+
+[cells.o]
+unknown0 = 21
+objects = [
+  { position_y = 222, transformable = 1, double_sized = 1, position_x = 460, key_size = 2, tile_index = 136 },
+  { position_y = 222, transformable = 1, double_sized = 1, key_shape = 2, position_x = 504, key_size = 1, tile_index = 140 },
+  { position_y = 10, transformable = 1, double_sized = 1, key_shape = 1, position_x = 460, key_size = 1, tile_index = 264 },
+  { position_y = 10, transformable = 1, double_sized = 1, position_x = 504, tile_index = 268 },
+]
+
+[cells.ashi_b]
+unknown0 = 9
+objects = [
+  { position_y = 240, transformable = 1, double_sized = 1, position_x = 496, key_size = 1, tile_index = 258 },
+]

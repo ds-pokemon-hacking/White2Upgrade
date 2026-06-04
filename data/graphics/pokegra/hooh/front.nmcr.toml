@@ -1,0 +1,31 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.nonstop]
+properties = [
+  { sequence = "head012", translate_x = -17, translate_y = -34, frame_mode = 33 },
+  { sequence = "neck012", translate_x = -6, translate_y = -37, frame_mode = 33, unique_id = 1 },
+  { sequence = "r_wings02", translate_x = 7, translate_y = -36, frame_mode = 33, unique_id = 2 },
+  { sequence = "r_wings01", translate_x = 7, translate_y = -36, frame_mode = 33, unique_id = 3 },
+  { sequence = "body01", translate_x = 5, translate_y = -26, frame_mode = 33, unique_id = 4 },
+  { sequence = "tail03", translate_x = 18, translate_y = -56, frame_mode = 33, unique_id = 5 },
+  { sequence = "tail02", translate_x = 28, translate_y = -42, frame_mode = 33, unique_id = 6 },
+  { sequence = "tail01", translate_x = 18, translate_y = -31, frame_mode = 33, unique_id = 7 },
+  { sequence = "l_wings02", translate_x = -4, translate_y = -35, frame_mode = 33, unique_id = 8 },
+  { sequence = "l_wings01", translate_x = -4, translate_y = -35, frame_mode = 33, unique_id = 9 },
+]
+
+[multi_cells.nonstop_1]
+properties = [
+  { sequence = "head011", translate_x = -17, translate_y = -34, frame_mode = 33 },
+  { sequence = "neck011", translate_x = -6, translate_y = -37, frame_mode = 33, unique_id = 1 },
+  { sequence = "r_wings0221", translate_x = 7, translate_y = -36, frame_mode = 33, unique_id = 2 },
+  { sequence = "r_wings0121", translate_x = 7, translate_y = -36, frame_mode = 33, unique_id = 3 },
+  { sequence = "body013", translate_x = 5, translate_y = -26, frame_mode = 33, unique_id = 4 },
+  { sequence = "tail03", translate_x = 18, translate_y = -56, frame_mode = 33, unique_id = 5 },
+  { sequence = "tail02", translate_x = 28, translate_y = -42, frame_mode = 33, unique_id = 6 },
+  { sequence = "tail01", translate_x = 18, translate_y = -31, frame_mode = 33, unique_id = 7 },
+  { sequence = "l_wings0221", translate_x = -4, translate_y = -35, frame_mode = 33, unique_id = 8 },
+  { sequence = "l_wings0121", translate_x = -4, translate_y = -35, frame_mode = 33, unique_id = 9 },
+]

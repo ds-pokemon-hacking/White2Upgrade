@@ -1,0 +1,11 @@
+format = "nmar"
+
+[sequences.nonstop]
+cell_type = 2
+loop_mode = 2
+frames = [
+  { duration_in_frames = 126, multi_cell = "nonstop" },
+  { duration_in_frames = 114, multi_cell = "nonstop_1" },
+  { duration_in_frames = 126, multi_cell = "nonstop" },
+  { duration_in_frames = 201, multi_cell = "nonstop_2", padding_after = [204, 204] },
+]

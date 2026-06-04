@@ -1,0 +1,18 @@
+format = "nmar"
+
+[sequences.cellanime0]
+cell_type = 2
+loop_mode = 2
+frames = [
+  { duration_in_frames = 56, multi_cell = "cellanime0_1" },
+  { duration_in_frames = 56, multi_cell = "cellanime0_1" },
+  { duration_in_frames = 56, multi_cell = "cellanime0_1" },
+  { duration_in_frames = 140, multi_cell = "cellanime0" },
+  { duration_in_frames = 140, multi_cell = "cellanime0" },
+  { duration_in_frames = 88, multi_cell = "cellanime0_2", padding_after = [204, 204] },
+  { duration_in_frames = 88, multi_cell = "cellanime0_2", padding_after = [204, 204] },
+  { duration_in_frames = 140, multi_cell = "cellanime0" },
+  { duration_in_frames = 88, multi_cell = "cellanime0_2", padding_after = [204, 204] },
+  { duration_in_frames = 56, multi_cell = "cellanime0_1" },
+  { duration_in_frames = 56, multi_cell = "cellanime0_1" },
+]

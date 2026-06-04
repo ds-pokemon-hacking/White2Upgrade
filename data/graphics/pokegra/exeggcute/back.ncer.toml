@@ -1,0 +1,32 @@
+format = "ncer"
+extended = 1
+
+size_boundary = 4
+
+[cells.body]
+unknown0 = 20
+objects = [
+  { position_y = 245, transformable = 1, double_sized = 1, object_mode = 1, position_x = 11, tile_index = 0 },
+  { position_y = 216, transformable = 1, double_sized = 1, position_x = 472, key_size = 2, tile_index = 1 },
+  { position_y = 216, transformable = 1, double_sized = 1, key_shape = 2, position_x = 0, key_size = 2, tile_index = 5 },
+  { position_y = 0, transformable = 1, double_sized = 1, key_shape = 1, position_x = 472, key_size = 2, tile_index = 129 },
+  { position_y = 0, transformable = 1, double_sized = 1, position_x = 0, key_size = 1, tile_index = 133 },
+]
+
+[cells.mouth]
+unknown0 = 9
+objects = [
+  { position_y = 240, transformable = 1, double_sized = 1, position_x = 496, key_size = 1, tile_index = 39 },
+]
+
+[cells.cell_2]
+unknown0 = 9
+objects = [
+  { position_y = 240, transformable = 1, double_sized = 1, position_x = 496, key_size = 1, tile_index = 103 },
+]
+
+[cells.eyebrow]
+unknown0 = 8
+objects = [
+  { position_y = 247, transformable = 1, double_sized = 1, key_shape = 1, position_x = 493, tile_index = 7 },
+]

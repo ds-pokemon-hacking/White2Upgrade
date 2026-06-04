@@ -1,0 +1,11 @@
+format = "ncer"
+extended = 1
+
+size_boundary = 4
+
+[cells.L0]
+unknown0 = 34
+objects = [
+  { position_y = 240, transformable = 1, double_sized = 1, object_mode = 1, position_x = 496, key_size = 1, tile_index = 32 },
+  { position_y = 192, transformable = 1, double_sized = 1, position_x = 448, key_size = 3, tile_index = 2 },
+]

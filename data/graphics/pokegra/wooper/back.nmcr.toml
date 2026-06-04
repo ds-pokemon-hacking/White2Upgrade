@@ -1,0 +1,22 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.nonstop]
+properties = [
+  { sequence = "tail_c", translate_y = -32, frame_mode = 33 },
+  { sequence = "tail_b", translate_y = -32, frame_mode = 33, unique_id = 1 },
+  { sequence = "tail_a", translate_y = -32, frame_mode = 33, unique_id = 2 },
+  { sequence = "wing_R2", translate_y = -32, frame_mode = 33, unique_id = 3 },
+  { sequence = "wing_R1", translate_y = -32, frame_mode = 33, unique_id = 4 },
+  { sequence = "wing_L2", translate_y = -32, frame_mode = 33, unique_id = 5 },
+  { sequence = "wing_L1", translate_y = -32, frame_mode = 33, unique_id = 6 },
+  { sequence = "foot_R1", translate_y = -32, frame_mode = 33, unique_id = 7 },
+  { sequence = "foot_R2", translate_y = -32, frame_mode = 33, unique_id = 8 },
+  { sequence = "foot_R3", translate_y = -32, frame_mode = 33, unique_id = 9 },
+  { sequence = "body", translate_y = -32, frame_mode = 33, unique_id = 10 },
+  { sequence = "head", translate_y = -32, frame_mode = 33, unique_id = 11 },
+  { sequence = "foot_L1", translate_y = -32, frame_mode = 33, unique_id = 12 },
+  { sequence = "foot_L2", translate_y = -32, frame_mode = 33, unique_id = 13 },
+  { sequence = "foot_L3", translate_y = -32, frame_mode = 33, unique_id = 14 },
+]

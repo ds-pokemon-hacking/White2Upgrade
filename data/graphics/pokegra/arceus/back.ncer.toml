@@ -1,0 +1,54 @@
+format = "ncer"
+extended = 1
+
+size_boundary = 4
+
+[cells.body]
+unknown0 = 14
+objects = [
+  { position_y = 240, transformable = 1, double_sized = 1, key_shape = 1, position_x = 480, key_size = 2, tile_index = 0 },
+]
+
+[cells.face]
+unknown0 = 10
+objects = [
+  { position_y = 232, transformable = 1, double_sized = 1, position_x = 510, key_size = 1, tile_index = 4 },
+]
+
+[cells.hand]
+unknown0 = 4
+objects = [
+  { position_y = 248, transformable = 1, double_sized = 1, position_x = 504, tile_index = 67 },
+]
+
+[cells.foot]
+unknown0 = 4
+objects = [
+  { position_y = 248, transformable = 1, double_sized = 1, position_x = 504, tile_index = 65 },
+]
+
+[cells.flower]
+unknown0 = 9
+objects = [
+  { position_y = 236, transformable = 1, double_sized = 1, position_x = 496, key_size = 1, tile_index = 100 },
+  { position_y = 0, transformable = 1, double_sized = 1, key_shape = 1, position_x = 496, tile_index = 164 },
+]
+
+[cells.leaf]
+unknown0 = 10
+objects = [
+  { position_y = 241, transformable = 1, double_sized = 1, position_x = 490, key_size = 1, tile_index = 98 },
+]
+
+[cells.leaf_b]
+unknown0 = 9
+objects = [
+  { position_y = 245, transformable = 1, double_sized = 1, position_x = 492, key_size = 1, tile_index = 162 },
+]
+
+[cells.body_leaf]
+unknown0 = 19
+objects = [
+  { position_y = 222, transformable = 1, double_sized = 1, position_x = 473, key_size = 2, tile_index = 6 },
+  { position_y = 222, transformable = 1, double_sized = 1, key_shape = 2, position_x = 5, key_size = 1, tile_index = 10 },
+]

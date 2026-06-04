@@ -1,0 +1,41 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.stay]
+properties = [
+  { sequence = "tail", translate_x = -8, translate_y = -26, frame_mode = 33 },
+  { sequence = "fire_ashi", translate_x = -6, translate_y = -20, frame_mode = 33, unique_id = 1 },
+  { sequence = "fire_senaka", translate_x = -3, translate_y = -30, frame_mode = 33, unique_id = 2 },
+  { sequence = "leg_BR", translate_x = -4, translate_y = -15, frame_mode = 33, unique_id = 3 },
+  { sequence = "leg_BL", translate_x = -12, translate_y = -22, frame_mode = 33, unique_id = 4 },
+  { sequence = "body", translate_y = -23, frame_mode = 33, unique_id = 5 },
+  { sequence = "leg_FR", translate_x = 9, translate_y = -24, frame_mode = 33, unique_id = 6 },
+  { sequence = "leg_FL", translate_x = 4, translate_y = -21, frame_mode = 33, unique_id = 7 },
+  { sequence = "neck", translate_x = 3, translate_y = -29, frame_mode = 33, unique_id = 8 },
+  { sequence = "ear", translate_x = 12, translate_y = -42, frame_mode = 33, unique_id = 9 },
+  { sequence = "head", translate_x = 10, translate_y = -37, frame_mode = 33, unique_id = 10 },
+  { sequence = "foot_BR", translate_x = -3, frame_mode = 33, unique_id = 11 },
+  { sequence = "foot_FR", translate_x = 10, translate_y = -2, frame_mode = 33, unique_id = 12 },
+  { sequence = "foot_BL", translate_x = -13, translate_y = -2, frame_mode = 33, unique_id = 13 },
+  { sequence = "foot_FL", translate_x = 3, translate_y = -3, frame_mode = 33, unique_id = 14 },
+]
+
+[multi_cells.stop]
+properties = [
+  { sequence = "tail_02", translate_x = -8, translate_y = -26, frame_mode = 33 },
+  { sequence = "fire_ashi_02", translate_x = -6, translate_y = -20, frame_mode = 33, unique_id = 1 },
+  { sequence = "fire_senaka_02", translate_x = -3, translate_y = -30, frame_mode = 33, unique_id = 2 },
+  { sequence = "leg_BR", translate_x = -4, translate_y = -15, frame_mode = 33, unique_id = 3 },
+  { sequence = "leg_BL", translate_x = -12, translate_y = -22, frame_mode = 33, unique_id = 4 },
+  { sequence = "body", translate_y = -23, frame_mode = 33, unique_id = 5 },
+  { sequence = "leg_FR", translate_x = 9, translate_y = -24, frame_mode = 33, unique_id = 6 },
+  { sequence = "leg_FL", translate_x = 4, translate_y = -21, frame_mode = 33, unique_id = 7 },
+  { sequence = "neck_02", translate_x = 3, translate_y = -29, frame_mode = 33, unique_id = 8 },
+  { sequence = "ear", translate_x = 12, translate_y = -42, frame_mode = 33, unique_id = 9 },
+  { sequence = "head_02", translate_x = 10, translate_y = -37, frame_mode = 33, unique_id = 10 },
+  { sequence = "foot_BR", translate_x = -3, frame_mode = 33, unique_id = 11 },
+  { sequence = "foot_FR", translate_x = 10, translate_y = -2, frame_mode = 33, unique_id = 12 },
+  { sequence = "foot_BL", translate_x = -13, translate_y = -2, frame_mode = 33, unique_id = 13 },
+  { sequence = "foot_FL", translate_x = 3, translate_y = -3, frame_mode = 33, unique_id = 14 },
+]

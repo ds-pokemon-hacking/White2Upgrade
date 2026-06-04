@@ -1,0 +1,19 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.nonstop]
+properties = [
+  { sequence = "mimi02", translate_x = 14, translate_y = -19, frame_mode = 32 },
+  { sequence = "atama01", translate_x = 2, translate_y = -20, frame_mode = 32, unique_id = 1 },
+  { sequence = "o01", translate_x = 4, translate_y = -13, frame_mode = 32, unique_id = 2 },
+  { sequence = "mimi01", translate_x = -6, translate_y = -22, frame_mode = 32, unique_id = 3 },
+]
+
+[multi_cells.nonstop_1]
+properties = [
+  { sequence = "b_mimi02", translate_x = 14, translate_y = -19, frame_mode = 32 },
+  { sequence = "b_atama01", translate_x = 2, translate_y = -20, frame_mode = 32, unique_id = 1 },
+  { sequence = "b_o01", translate_x = 4, translate_y = -13, frame_mode = 32, unique_id = 2 },
+  { sequence = "b_mimi01", translate_x = -6, translate_y = -22, frame_mode = 32, unique_id = 3 },
+]

@@ -1,0 +1,23 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.CellAnime0]
+properties = [
+  { sequence = "tail", translate_x = -8, translate_y = -8, frame_mode = 32 },
+  { sequence = "head", translate_x = -1, translate_y = -6, frame_mode = 32, unique_id = 1 },
+  { sequence = "hand_R", translate_x = 10, translate_y = -25, frame_mode = 32, unique_id = 2 },
+  { sequence = "body", translate_x = -1, translate_y = -6, frame_mode = 32, unique_id = 3 },
+  { sequence = "foot_R", translate_x = 8, translate_y = -6, frame_mode = 32, unique_id = 4 },
+  { sequence = "hand_L", translate_x = -11, translate_y = -27, frame_mode = 32, unique_id = 5 },
+]
+
+[multi_cells.CellAnime0_1]
+properties = [
+  { sequence = "tail1", translate_x = -8, translate_y = -8, frame_mode = 32 },
+  { sequence = "head1", translate_x = -1, translate_y = -6, frame_mode = 32, unique_id = 1 },
+  { sequence = "hand_R1", translate_x = 10, translate_y = -25, frame_mode = 32, unique_id = 2 },
+  { sequence = "body1", translate_x = -1, translate_y = -6, frame_mode = 32, unique_id = 3 },
+  { sequence = "foot_R1", translate_x = 8, translate_y = -6, frame_mode = 32, unique_id = 4 },
+  { sequence = "hand_L1", translate_x = -11, translate_y = -27, frame_mode = 32, unique_id = 5 },
+]

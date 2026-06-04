@@ -1,0 +1,50 @@
+format = "ncer"
+extended = 1
+
+size_boundary = 4
+
+[cells.atama]
+unknown0 = 11
+objects = [
+  { position_y = 245, transformable = 1, double_sized = 1, object_mode = 1, key_shape = 1, position_x = 491, tile_index = 96 },
+  { position_y = 233, transformable = 1, double_sized = 1, position_x = 491, key_size = 1, tile_index = 1 },
+  { position_y = 233, transformable = 1, double_sized = 1, key_shape = 2, position_x = 511, tile_index = 3 },
+  { position_y = 253, transformable = 1, double_sized = 1, key_shape = 1, position_x = 491, tile_index = 65 },
+  { position_y = 253, transformable = 1, double_sized = 1, position_x = 511, tile_index = 67 },
+]
+
+[cells.karada]
+unknown0 = 14
+objects = [
+  { position_y = 234, transformable = 1, double_sized = 1, key_shape = 1, position_x = 481, key_size = 2, tile_index = 4 },
+  { position_y = 234, transformable = 1, double_sized = 1, key_shape = 2, position_x = 13, tile_index = 8 },
+  { position_y = 254, transformable = 1, double_sized = 1, key_shape = 1, position_x = 481, key_size = 1, tile_index = 68 },
+  { position_y = 254, transformable = 1, double_sized = 1, position_x = 13, tile_index = 72 },
+]
+
+[cells.hane1]
+unknown0 = 8
+objects = [
+  { position_y = 243, transformable = 1, double_sized = 1, position_x = 497, key_size = 1, tile_index = 14 },
+]
+
+[cells.hane2]
+unknown0 = 11
+objects = [
+  { position_y = 231, transformable = 1, double_sized = 1, position_x = 494, key_size = 1, tile_index = 9 },
+  { position_y = 231, transformable = 1, double_sized = 1, key_shape = 2, position_x = 2, tile_index = 11 },
+  { position_y = 251, transformable = 1, double_sized = 1, key_shape = 1, position_x = 494, tile_index = 73 },
+  { position_y = 251, transformable = 1, double_sized = 1, position_x = 2, tile_index = 75 },
+]
+
+[cells.asi]
+unknown0 = 10
+objects = [
+  { position_y = 234, transformable = 1, double_sized = 1, position_x = 495, key_size = 1, tile_index = 12 },
+]
+
+[cells.asi1]
+unknown0 = 10
+objects = [
+  { position_y = 234, transformable = 1, double_sized = 1, position_x = 498, key_size = 1, tile_index = 76 },
+]

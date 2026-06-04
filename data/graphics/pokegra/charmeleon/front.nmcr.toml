@@ -1,0 +1,45 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.stay]
+properties = [
+  { sequence = "atama", translate_x = 4, translate_y = -27, frame_mode = 33 },
+  { sequence = "asi1", translate_x = 10, translate_y = -4, frame_mode = 33, unique_id = 1 },
+  { sequence = "asi2", translate_x = 11, translate_y = -4, frame_mode = 33, unique_id = 2 },
+  { sequence = "te1", translate_x = 7, translate_y = -23, frame_mode = 33, unique_id = 3 },
+  { sequence = "karada", translate_x = 5, translate_y = -12, frame_mode = 33, unique_id = 4 },
+  { sequence = "te2", translate_x = -1, translate_y = -23, frame_mode = 33, unique_id = 5 },
+  { sequence = "asi3", translate_y = -5, frame_mode = 33, unique_id = 6 },
+  { sequence = "asi4", translate_x = -2, translate_y = -5, frame_mode = 33, unique_id = 7 },
+  { sequence = "hi", translate_x = 23, translate_y = -28, frame_mode = 33, unique_id = 8 },
+  { sequence = "o", translate_x = 8, translate_y = -8, frame_mode = 33, unique_id = 9 },
+]
+
+[multi_cells.stay_1]
+properties = [
+  { sequence = "atama2", translate_x = 4, translate_y = -27, frame_mode = 33 },
+  { sequence = "asi22", translate_x = 11, translate_y = -4, frame_mode = 33, unique_id = 1 },
+  { sequence = "asi12", translate_x = 10, translate_y = -4, frame_mode = 33, unique_id = 2 },
+  { sequence = "te12", translate_x = 7, translate_y = -23, frame_mode = 33, unique_id = 3 },
+  { sequence = "karada2", translate_x = 5, translate_y = -12, frame_mode = 33, unique_id = 4 },
+  { sequence = "te22", translate_x = -1, translate_y = -23, frame_mode = 33, unique_id = 5 },
+  { sequence = "asi32", translate_y = -5, frame_mode = 33, unique_id = 6 },
+  { sequence = "asi42", translate_x = -2, translate_y = -5, frame_mode = 33, unique_id = 7 },
+  { sequence = "hi2", translate_x = 23, translate_y = -28, frame_mode = 33, unique_id = 8 },
+  { sequence = "o2", translate_x = 8, translate_y = -8, frame_mode = 33, unique_id = 9 },
+]
+
+[multi_cells.stop]
+properties = [
+  { sequence = "atama1", translate_x = 4, translate_y = -27, frame_mode = 33 },
+  { sequence = "asi11", translate_x = 10, translate_y = -4, frame_mode = 33, unique_id = 1 },
+  { sequence = "asi21", translate_x = 11, translate_y = -4, frame_mode = 33, unique_id = 2 },
+  { sequence = "te11", translate_x = 7, translate_y = -23, frame_mode = 33, unique_id = 3 },
+  { sequence = "karada1", translate_x = 5, translate_y = -12, frame_mode = 33, unique_id = 4 },
+  { sequence = "te21", translate_x = -1, translate_y = -23, frame_mode = 33, unique_id = 5 },
+  { sequence = "asi31", translate_y = -5, frame_mode = 33, unique_id = 6 },
+  { sequence = "asi41", translate_x = -2, translate_y = -5, frame_mode = 33, unique_id = 7 },
+  { sequence = "hi1", translate_x = 23, translate_y = -28, frame_mode = 33, unique_id = 8 },
+  { sequence = "o1", translate_x = 8, translate_y = -8, frame_mode = 33, unique_id = 9 },
+]

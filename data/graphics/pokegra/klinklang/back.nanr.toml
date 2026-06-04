@@ -1,0 +1,40 @@
+format = "nanr"
+extended = 1
+
+[sequences.gear_L]
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 4, cell = "gear_L" },
+  { duration_in_frames = 4, cell = "gear_L_1" },
+  { duration_in_frames = 4, cell = "gear_L_2" },
+  { duration_in_frames = 4, cell = "gear_L_3" },
+]
+
+[sequences.L_circle]
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 4, cell = "L_circle", padding_after = [204, 204] },
+]
+
+[sequences.gear_S]
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 8, cell = "gear_S" },
+  { duration_in_frames = 8, cell = "gear_S_1" },
+  { duration_in_frames = 8, cell = "gear_S_2" },
+  { duration_in_frames = 8, cell = "gear_S_3" },
+  { duration_in_frames = 8, cell = "gear_S_5" },
+  { duration_in_frames = 8, cell = "gear_S_4" },
+  { duration_in_frames = 8, cell = "gear_S_1" },
+  { duration_in_frames = 8, cell = "gear_S_2" },
+]
+
+[sequences.S_circle]
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 4, cell = "S_circle", padding_after = [204, 204] },
+]

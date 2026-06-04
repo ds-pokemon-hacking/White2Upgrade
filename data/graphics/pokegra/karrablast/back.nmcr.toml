@@ -1,0 +1,39 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.nonstop]
+properties = [
+  { sequence = "o01", translate_x = -10, translate_y = -35, frame_mode = 32 },
+  { sequence = "ashi01", translate_x = -8, translate_y = -29, frame_mode = 32, unique_id = 1 },
+  { sequence = "te02", translate_x = 11, translate_y = -38, frame_mode = 32, unique_id = 2 },
+  { sequence = "body01", translate_x = -1, translate_y = -35, frame_mode = 32, unique_id = 3 },
+  { sequence = "mimi02", translate_x = 5, translate_y = -54, frame_mode = 32, unique_id = 4 },
+  { sequence = "mimi01", translate_x = 2, translate_y = -55, frame_mode = 32, unique_id = 5 },
+  { sequence = "atama01", translate_x = 3, translate_y = -47, frame_mode = 32, unique_id = 6 },
+  { sequence = "te01", translate_x = -8, translate_y = -37, frame_mode = 32, unique_id = 7 },
+]
+
+[multi_cells.nonstop_1]
+properties = [
+  { sequence = "b_o01", translate_x = -10, translate_y = -35, frame_mode = 32 },
+  { sequence = "b_ashi01", translate_x = -8, translate_y = -29, frame_mode = 32, unique_id = 1 },
+  { sequence = "b_te02", translate_x = 11, translate_y = -38, frame_mode = 32, unique_id = 2 },
+  { sequence = "b_body01", translate_x = -1, translate_y = -35, frame_mode = 32, unique_id = 3 },
+  { sequence = "b_mimi02", translate_x = 5, translate_y = -54, frame_mode = 32, unique_id = 4 },
+  { sequence = "b_mimi01", translate_x = 2, translate_y = -55, frame_mode = 32, unique_id = 5 },
+  { sequence = "b_atama01", translate_x = 3, translate_y = -47, frame_mode = 32, unique_id = 6 },
+  { sequence = "b_te01", translate_x = -8, translate_y = -37, frame_mode = 32, unique_id = 7 },
+]
+
+[multi_cells.nonstop_2]
+properties = [
+  { sequence = "c_o01", translate_x = -10, translate_y = -35, frame_mode = 32 },
+  { sequence = "c_ashi01", translate_x = -8, translate_y = -29, frame_mode = 32, unique_id = 1 },
+  { sequence = "c_te02", translate_x = 11, translate_y = -38, frame_mode = 32, unique_id = 2 },
+  { sequence = "c_body01", translate_x = -1, translate_y = -35, frame_mode = 32, unique_id = 3 },
+  { sequence = "c_mimi02", translate_x = 5, translate_y = -54, frame_mode = 32, unique_id = 4 },
+  { sequence = "c_mimi01", translate_x = 2, translate_y = -55, frame_mode = 32, unique_id = 5 },
+  { sequence = "c_atama01", translate_x = 3, translate_y = -47, frame_mode = 32, unique_id = 6 },
+  { sequence = "c_te01", translate_x = -8, translate_y = -37, frame_mode = 32, unique_id = 7 },
+]

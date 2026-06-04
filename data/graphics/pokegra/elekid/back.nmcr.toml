@@ -1,0 +1,25 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.CellAnime0]
+properties = [
+  { sequence = "mage", translate_x = -1, translate_y = -29, frame_mode = 32 },
+  { sequence = "atama", translate_x = 1, translate_y = -21, frame_mode = 32, unique_id = 1 },
+  { sequence = "omutu", translate_y = -6, frame_mode = 32, unique_id = 2 },
+  { sequence = "body", translate_y = -10, frame_mode = 32, unique_id = 3 },
+  { sequence = "hand", translate_x = 5, translate_y = -12, frame_mode = 32, unique_id = 4 },
+  { sequence = "foot_r", translate_x = 3, translate_y = -4, frame_mode = 32, unique_id = 5 },
+  { sequence = "foot_l", translate_x = -2, translate_y = -4, frame_mode = 32, unique_id = 6 },
+]
+
+[multi_cells.CellAnime0_1]
+properties = [
+  { sequence = "mage_b", translate_x = -1, translate_y = -29, frame_mode = 32 },
+  { sequence = "atama_b", translate_x = 1, translate_y = -21, frame_mode = 32, unique_id = 1 },
+  { sequence = "omutu_b", translate_y = -6, frame_mode = 32, unique_id = 2 },
+  { sequence = "body_b", translate_y = -10, frame_mode = 32, unique_id = 3 },
+  { sequence = "hand_b", translate_x = 5, translate_y = -12, frame_mode = 32, unique_id = 4 },
+  { sequence = "foot_r_b", translate_x = 3, translate_y = -4, frame_mode = 32, unique_id = 5 },
+  { sequence = "foot_l_b", translate_x = -2, translate_y = -4, frame_mode = 32, unique_id = 6 },
+]

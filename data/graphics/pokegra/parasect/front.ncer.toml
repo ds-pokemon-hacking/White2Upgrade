@@ -1,0 +1,58 @@
+format = "ncer"
+extended = 1
+
+size_boundary = 4
+
+[cells.body2]
+unknown0 = 17
+objects = [
+  { position_y = 248, transformable = 1, double_sized = 1, object_mode = 1, key_shape = 1, position_x = 480, key_size = 2, tile_index = 0 },
+  { position_y = 227, transformable = 1, double_sized = 1, position_x = 480, key_size = 2, tile_index = 19 },
+]
+
+[cells.hand_l]
+unknown0 = 9
+objects = [
+  { position_y = 237, transformable = 1, double_sized = 1, position_x = 497, key_size = 1, tile_index = 4 },
+  { position_y = 1, transformable = 1, double_sized = 1, key_shape = 1, position_x = 497, tile_index = 68 },
+]
+
+[cells.hand_r]
+unknown0 = 10
+objects = [
+  { position_y = 238, transformable = 1, double_sized = 1, position_x = 492, key_size = 1, tile_index = 132 },
+  { position_y = 238, transformable = 1, double_sized = 1, key_shape = 2, position_x = 0, tile_index = 134 },
+  { position_y = 2, transformable = 1, double_sized = 1, key_shape = 1, position_x = 492, tile_index = 196 },
+  { position_y = 2, transformable = 1, double_sized = 1, position_x = 0, tile_index = 198 },
+]
+
+[cells.foot]
+unknown0 = 6
+objects = [
+  { position_y = 248, transformable = 1, double_sized = 1, position_x = 504, key_size = 1, tile_index = 15 },
+]
+
+[cells.foot_1]
+unknown0 = 6
+objects = [
+  { position_y = 248, transformable = 1, double_sized = 1, position_x = 504, key_size = 1, tile_index = 79 },
+]
+
+[cells.kinoko1]
+unknown0 = 12
+objects = [
+  { position_y = 232, transformable = 1, double_sized = 1, position_x = 486, key_size = 1, tile_index = 6 },
+]
+
+[cells.kinoko2]
+unknown0 = 11
+objects = [
+  { position_y = 224, transformable = 1, double_sized = 1, position_x = 504, key_size = 1, tile_index = 8 },
+  { position_y = 244, transformable = 1, double_sized = 1, key_shape = 1, position_x = 504, tile_index = 72 },
+]
+
+[cells.foot_3]
+unknown0 = 3
+objects = [
+  { position_y = 248, position_x = 504, key_size = 1, tile_index = 12 },
+]

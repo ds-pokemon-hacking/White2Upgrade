@@ -1,0 +1,45 @@
+format = "ncer"
+extended = 1
+
+size_boundary = 4
+padding_size = 2
+
+[cells.CellAnime1]
+unknown0 = 28
+objects = [
+  { position_y = 192, transformable = 1, double_sized = 1, key_shape = 2, position_x = 472, key_size = 3, tile_index = 13 },
+  { position_y = 208, transformable = 1, double_sized = 1, key_shape = 2, position_x = 0, key_size = 2, tile_index = 17 },
+  { position_y = 240, transformable = 1, double_sized = 1, key_shape = 2, position_x = 0, key_size = 2, tile_index = 145 },
+]
+
+[cells.head]
+unknown0 = 15
+objects = [
+  { position_y = 232, transformable = 1, double_sized = 1, key_shape = 1, position_x = 480, key_size = 2, tile_index = 9 },
+  { position_y = 252, transformable = 1, double_sized = 1, key_shape = 1, position_x = 480, key_size = 1, tile_index = 73 },
+]
+
+[cells.partsA]
+unknown0 = 19
+objects = [
+  { position_y = 216, transformable = 1, double_sized = 1, key_shape = 1, position_x = 472, key_size = 2, tile_index = 2 },
+  { position_y = 216, transformable = 1, double_sized = 1, position_x = 0, key_size = 1, tile_index = 6 },
+  { position_y = 236, transformable = 1, double_sized = 1, key_shape = 1, position_x = 472, key_size = 1, tile_index = 66 },
+  { position_y = 236, transformable = 1, double_sized = 1, key_shape = 1, position_x = 0, tile_index = 70 },
+]
+
+[cells.partsB]
+unknown0 = 19
+objects = [
+  { position_y = 224, transformable = 1, double_sized = 1, position_x = 472, key_size = 2, tile_index = 98 },
+  { position_y = 224, transformable = 1, double_sized = 1, key_shape = 2, position_x = 0, key_size = 2, tile_index = 102 },
+]
+
+[cells.foot]
+unknown0 = 15
+objects = [
+  { position_y = 248, transformable = 1, double_sized = 1, key_shape = 1, position_x = 472, key_size = 2, tile_index = 226 },
+  { position_y = 248, transformable = 1, double_sized = 1, position_x = 0, key_size = 1, tile_index = 230 },
+  { position_y = 12, transformable = 1, double_sized = 1, key_shape = 1, position_x = 472, key_size = 1, tile_index = 290 },
+  { position_y = 12, transformable = 1, double_sized = 1, key_shape = 1, position_x = 0, tile_index = 294 },
+]

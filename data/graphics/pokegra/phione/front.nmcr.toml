@@ -1,0 +1,27 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.nonstop]
+properties = [
+  { sequence = "cles_l", translate_x = -3, translate_y = -24, frame_mode = 33 },
+  { sequence = "cles_c2", translate_x = -3, translate_y = -24, frame_mode = 33, unique_id = 1 },
+  { sequence = "atama", translate_x = -14, translate_y = -57, frame_mode = 33, unique_id = 2 },
+  { sequence = "body", translate_x = -3, translate_y = -24, frame_mode = 33, unique_id = 3 },
+  { sequence = "neck", translate_x = -3, translate_y = -24, frame_mode = 33, unique_id = 4 },
+  { sequence = "o", translate_x = -3, translate_y = -24, frame_mode = 33, unique_id = 5 },
+  { sequence = "cles_c1", translate_x = -3, translate_y = -24, frame_mode = 33, unique_id = 6 },
+  { sequence = "cles_r", translate_x = -3, translate_y = -24, frame_mode = 33, unique_id = 7 },
+]
+
+[multi_cells.nonstop_1]
+properties = [
+  { sequence = "cles_l", translate_x = -3, translate_y = -24, frame_mode = 33 },
+  { sequence = "cles_c2", translate_x = -3, translate_y = -24, frame_mode = 33, unique_id = 1 },
+  { sequence = "atama_b", translate_x = -14, translate_y = -57, frame_mode = 33, unique_id = 2 },
+  { sequence = "body", translate_x = -3, translate_y = -24, frame_mode = 33, unique_id = 3 },
+  { sequence = "neck_b", translate_x = -3, translate_y = -24, frame_mode = 33, unique_id = 4 },
+  { sequence = "o", translate_x = -3, translate_y = -24, frame_mode = 33, unique_id = 5 },
+  { sequence = "cles_c1", translate_x = -3, translate_y = -24, frame_mode = 33, unique_id = 6 },
+  { sequence = "cles_r", translate_x = -3, translate_y = -24, frame_mode = 33, unique_id = 7 },
+]

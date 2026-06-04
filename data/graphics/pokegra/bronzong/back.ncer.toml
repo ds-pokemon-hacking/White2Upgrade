@@ -1,0 +1,13 @@
+format = "ncer"
+extended = 1
+
+size_boundary = 4
+
+[cells.subete_1]
+unknown0 = 19
+objects = [
+  { position_y = 215, transformable = 1, double_sized = 1, position_x = 477, key_size = 2, tile_index = 0 },
+  { position_y = 215, transformable = 1, double_sized = 1, key_shape = 2, position_x = 9, key_size = 1, tile_index = 4 },
+  { position_y = 255, transformable = 1, double_sized = 1, key_shape = 1, position_x = 477, key_size = 2, tile_index = 128 },
+  { position_y = 255, transformable = 1, double_sized = 1, key_shape = 2, position_x = 9, tile_index = 132 },
+]

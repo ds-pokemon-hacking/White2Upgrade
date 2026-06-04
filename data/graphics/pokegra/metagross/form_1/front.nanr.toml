@@ -1,0 +1,21 @@
+format = "nanr"
+extended = 1
+
+[sequences.egg_ani01]
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 4, cell = "egg_ani01", padding_after = [204, 204] },
+]
+
+[sequences.egg_ani02]
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 24, cell = "egg_ani01", padding_after = [204, 204] },
+  { duration_in_frames = 4, cell = "egg_ani02" },
+  { duration_in_frames = 84, cell = "egg_ani02_1" },
+  { duration_in_frames = 4, cell = "egg_ani02_2" },
+  { duration_in_frames = 111, cell = "egg_ani02_3" },
+  { duration_in_frames = 154, cell = "egg_ani02_4", padding_after = [204, 204] },
+]

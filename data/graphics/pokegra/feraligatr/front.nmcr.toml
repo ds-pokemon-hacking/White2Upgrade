@@ -1,0 +1,31 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.CellAnime0]
+properties = [
+  { sequence = "l_arm01", translate_x = 4, translate_y = -23, frame_mode = 33 },
+  { sequence = "l_foot01", translate_x = 6, translate_y = -3, frame_mode = 33, unique_id = 1 },
+  { sequence = "l_leg01", translate_x = 5, translate_y = -14, frame_mode = 33, unique_id = 2 },
+  { sequence = "head01", translate_x = -3, translate_y = -33, frame_mode = 33, unique_id = 3 },
+  { sequence = "neck01", translate_x = -3, translate_y = -30, frame_mode = 33, unique_id = 4 },
+  { sequence = "body01", translate_x = -2, translate_y = -10, frame_mode = 33, unique_id = 5 },
+  { sequence = "r_arm01", translate_x = -13, translate_y = -25, frame_mode = 33, unique_id = 6 },
+  { sequence = "tail01", translate_x = 2, translate_y = -6, frame_mode = 33, unique_id = 7 },
+  { sequence = "r_foot01", translate_x = -14, translate_y = -5, frame_mode = 33, unique_id = 8 },
+  { sequence = "r_leg01", translate_x = -12, translate_y = -15, frame_mode = 33, unique_id = 9 },
+]
+
+[multi_cells.CellAnime0_1]
+properties = [
+  { sequence = "l_arm02", translate_x = 4, translate_y = -23, frame_mode = 33 },
+  { sequence = "l_foot02", translate_x = 6, translate_y = -3, frame_mode = 33, unique_id = 1 },
+  { sequence = "l_leg02", translate_x = 5, translate_y = -14, frame_mode = 33, unique_id = 2 },
+  { sequence = "head02", translate_x = -3, translate_y = -33, frame_mode = 33, unique_id = 3 },
+  { sequence = "body02", translate_x = -2, translate_y = -10, frame_mode = 33, unique_id = 4 },
+  { sequence = "neck02", translate_x = -3, translate_y = -30, frame_mode = 33, unique_id = 5 },
+  { sequence = "r_arm02", translate_x = -13, translate_y = -25, frame_mode = 33, unique_id = 6 },
+  { sequence = "tail02", translate_x = 2, translate_y = -6, frame_mode = 33, unique_id = 7 },
+  { sequence = "r_foot02", translate_x = -12, translate_y = -15, frame_mode = 33, unique_id = 8 },
+  { sequence = "r_leg02", translate_x = -12, translate_y = -15, frame_mode = 33, unique_id = 9 },
+]

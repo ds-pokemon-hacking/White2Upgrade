@@ -1,0 +1,13 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.nonstop]
+properties = [
+  { sequence = "Rwing", translate_y = -56, frame_mode = 32 },
+  { sequence = "foot", translate_x = -8, translate_y = -40, frame_mode = 32, unique_id = 1 },
+  { sequence = "mouthA", translate_y = -56, frame_mode = 32, unique_id = 2 },
+  { sequence = "body", translate_y = -56, frame_mode = 32, unique_id = 3 },
+  { sequence = "Lwing", translate_x = -16, translate_y = -48, frame_mode = 32, unique_id = 4 },
+  { sequence = "footL", translate_x = -16, translate_y = -40, frame_mode = 33, unique_id = 5 },
+]

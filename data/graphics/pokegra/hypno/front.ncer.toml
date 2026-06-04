@@ -1,0 +1,64 @@
+format = "ncer"
+extended = 1
+
+size_boundary = 4
+
+[cells.atama]
+unknown0 = 8
+objects = [
+  { position_y = 245, transformable = 1, object_mode = 1, position_x = 502, tile_index = 321 },
+  { position_y = 235, transformable = 1, position_x = 490, key_size = 2, tile_index = 161 },
+]
+
+[cells.karada]
+unknown0 = 8
+objects = [
+  { position_y = 234, transformable = 1, position_x = 493, key_size = 2, tile_index = 1 },
+  { position_y = 234, transformable = 1, key_shape = 2, position_x = 13, key_size = 1, tile_index = 5 },
+  { position_y = 10, transformable = 1, key_shape = 1, position_x = 493, key_size = 1, tile_index = 129 },
+  { position_y = 10, transformable = 1, position_x = 13, tile_index = 133 },
+]
+
+[cells.te1]
+unknown0 = 5
+objects = [
+  { position_y = 249, transformable = 1, position_x = 495, key_size = 1, tile_index = 70 },
+  { position_y = 249, transformable = 1, key_shape = 2, position_x = 511, tile_index = 72 },
+]
+
+[cells.te2]
+unknown0 = 6
+objects = [
+  { position_y = 242, position_x = 492, key_size = 1, tile_index = 12 },
+  { position_y = 242, key_shape = 2, position_x = 508, tile_index = 14 },
+  { position_y = 2, key_shape = 1, position_x = 492, tile_index = 76 },
+  { position_y = 2, position_x = 508, tile_index = 78 },
+]
+
+[cells.asi1]
+unknown0 = 4
+objects = [
+  { position_y = 249, transformable = 1, position_x = 498, key_size = 1, tile_index = 6 },
+  { position_y = 249, transformable = 1, key_shape = 2, position_x = 2, tile_index = 8 },
+]
+
+[cells.asi2]
+unknown0 = 4
+objects = [
+  { position_y = 254, transformable = 1, key_shape = 1, position_x = 498, tile_index = 134 },
+  { position_y = 254, transformable = 1, position_x = 2, tile_index = 136 },
+]
+
+[cells.asi3]
+unknown0 = 4
+objects = [
+  { position_y = 249, transformable = 1, position_x = 498, key_size = 1, tile_index = 9 },
+  { position_y = 249, transformable = 1, key_shape = 2, position_x = 2, tile_index = 11 },
+]
+
+[cells.asi4]
+unknown0 = 4
+objects = [
+  { position_y = 254, transformable = 1, key_shape = 1, position_x = 499, tile_index = 137 },
+  { position_y = 254, transformable = 1, position_x = 3, tile_index = 139 },
+]

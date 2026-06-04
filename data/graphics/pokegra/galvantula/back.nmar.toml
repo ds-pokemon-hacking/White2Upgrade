@@ -1,0 +1,11 @@
+format = "nmar"
+
+[sequences.CellAnime01]
+cell_type = 2
+loop_mode = 2
+frames = [
+  { duration_in_frames = 60, multi_cell = "CellAnime01" },
+  { duration_in_frames = 60, multi_cell = "CellAnime01" },
+  { duration_in_frames = 60, multi_cell = "CellAnime01" },
+  { duration_in_frames = 100, multi_cell = "CellAnime01_1" },
+]

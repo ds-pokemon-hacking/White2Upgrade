@@ -1,0 +1,134 @@
+format = "nanr"
+extended = 1
+
+[sequences.karada]
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 4, cell = "karada", padding_after = [204, 204] },
+  { cell = "karada", padding_after = [204, 204] },
+  { cell = "karada", padding_after = [204, 204] },
+  { cell = "karada", padding_after = [204, 204] },
+  { cell = "karada", padding_after = [204, 204] },
+  { cell = "karada", padding_after = [204, 204] },
+  { cell = "karada", padding_after = [204, 204] },
+  { cell = "karada", padding_after = [204, 204] },
+  { cell = "karada", padding_after = [204, 204] },
+]
+
+[sequences.hane_a]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 2, animation_type = 1, cell = "hane", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "hane", rotate = 910, scale_w = 0.699951171875, scale_h = 0.89990234375, translate_x = -5, translate_y = -1 },
+]
+
+[sequences.hane_b]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 2, animation_type = 1, cell = "hane_b", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "hane_b_1", rotate = 63534, scale_w = 0.89990234375, scale_h = 1.0, translate_y = 2 },
+]
+
+[sequences.ude_a]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 4, animation_type = 1, cell = "ude", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "ude", rotate = 63671, scale_w = 1.0, scale_h = 1.0, translate_x = -1 },
+  { duration_in_frames = 2, animation_type = 1, cell = "ude", rotate = 62897, scale_w = 1.0, scale_h = 1.0, translate_x = -1 },
+  { duration_in_frames = 2, animation_type = 1, cell = "ude", rotate = 60485, scale_w = 1.0, scale_h = 1.0, translate_x = -1 },
+  { duration_in_frames = 4, animation_type = 1, cell = "ude", rotate = 58073, scale_w = 1.0, scale_h = 1.0, translate_x = -1, translate_y = 1 },
+  { duration_in_frames = 2, animation_type = 1, cell = "ude", rotate = 60485, scale_w = 1.0, scale_h = 1.0, translate_x = -1 },
+  { duration_in_frames = 2, animation_type = 1, cell = "ude", rotate = 62897, scale_w = 1.0, scale_h = 1.0, translate_x = -1 },
+  { duration_in_frames = 2, animation_type = 1, cell = "ude", rotate = 63671, scale_w = 1.0, scale_h = 1.0, translate_x = -1 },
+  { duration_in_frames = 4, animation_type = 1, cell = "ude", scale_w = 1.0, scale_h = 1.0 },
+]
+
+[sequences.ude_b]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 4, animation_type = 1, cell = "ude_b", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "ude_b", rotate = 227, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "ude_b", rotate = 455, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "ude_b", rotate = 682, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "ude_b", rotate = 910, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "ude_b", rotate = 682, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "ude_b", rotate = 455, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "ude_b", rotate = 227, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 4, animation_type = 1, cell = "ude_b", scale_w = 1.0, scale_h = 1.0 },
+]
+
+[sequences.te_a]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 4, animation_type = 1, cell = "te", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "te", rotate = 2730, scale_w = 1.0, scale_h = 1.0, translate_x = 2, translate_y = -1 },
+  { duration_in_frames = 2, animation_type = 1, cell = "te", rotate = 3640, scale_w = 1.0, scale_h = 1.0, translate_x = 2, translate_y = -1 },
+  { duration_in_frames = 2, animation_type = 1, cell = "te", rotate = 5461, scale_w = 1.0, scale_h = 0.89990234375, translate_x = 2, translate_y = -2 },
+  { duration_in_frames = 4, animation_type = 1, cell = "te", rotate = 5461, scale_w = 1.0, scale_h = 0.800048828125, translate_x = 2, translate_y = -3 },
+  { duration_in_frames = 2, animation_type = 1, cell = "te", rotate = 5461, scale_w = 1.0, scale_h = 0.89990234375, translate_x = 2, translate_y = -2 },
+  { duration_in_frames = 2, animation_type = 1, cell = "te", rotate = 3640, scale_w = 1.0, scale_h = 1.0, translate_x = 2, translate_y = -1 },
+  { duration_in_frames = 2, animation_type = 1, cell = "te", rotate = 2730, scale_w = 1.0, scale_h = 1.0, translate_x = 2, translate_y = -1 },
+  { duration_in_frames = 4, animation_type = 1, cell = "te", scale_w = 1.0, scale_h = 1.0 },
+]
+
+[sequences.te_b]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 4, animation_type = 1, cell = "te_b", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "te_b", rotate = 64672, scale_w = 1.0, scale_h = 1.0, translate_x = 1 },
+  { duration_in_frames = 2, animation_type = 1, cell = "te_b", rotate = 63807, scale_w = 1.0, scale_h = 1.0, translate_x = 2 },
+  { duration_in_frames = 2, animation_type = 1, cell = "te_b", rotate = 62578, scale_w = 0.89990234375, scale_h = 1.0400390625, translate_y = -2 },
+  { duration_in_frames = 4, animation_type = 1, cell = "te_b", rotate = 59529, scale_w = 0.89990234375, scale_h = 1.0, translate_x = 1, translate_y = -3 },
+  { duration_in_frames = 2, animation_type = 1, cell = "te_b", rotate = 62578, scale_w = 0.89990234375, scale_h = 1.0400390625, translate_y = -2 },
+  { duration_in_frames = 2, animation_type = 1, cell = "te_b", rotate = 63807, scale_w = 1.0, scale_h = 1.0, translate_x = 2 },
+  { duration_in_frames = 2, animation_type = 1, cell = "te_b", rotate = 64672, scale_w = 1.0, scale_h = 1.0, translate_x = 1 },
+  { duration_in_frames = 4, animation_type = 1, cell = "te_b", scale_w = 1.0, scale_h = 1.0 },
+]
+
+[sequences.all]
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 4, cell = "karada", padding_after = [204, 204] },
+]
+
+[sequences.ude00]
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 4, cell = "ude", padding_after = [204, 204] },
+]
+
+[sequences.ude01]
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 4, cell = "ude_b", padding_after = [204, 204] },
+]
+
+[sequences.te00]
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 4, cell = "te", padding_after = [204, 204] },
+]
+
+[sequences.te01]
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 4, cell = "te_b", padding_after = [204, 204] },
+]

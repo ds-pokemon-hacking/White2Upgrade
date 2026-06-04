@@ -1,7 +1,7 @@
 from pathlib import Path
 from .serializer import Serializer
 from mkdata_util import *
-import yaml, struct
+import struct
 
 class GenericSerializer(Serializer):
     def __init__(self):
@@ -10,51 +10,50 @@ class GenericSerializer(Serializer):
     def Serialize(self, Arguments : dict) -> None:
         # Structure file; check if it exists.
         ScriptPath = Path(__file__).resolve().parent.parent
-        StructConfig = ScriptPath / Path(f'defs/{Arguments.ex_parameters["format"]}.yml')
+        StructConfig = resolve_metadata_path(ScriptPath / Path(f'defs/{Arguments.ex_parameters["format"]}.toml'))
         Input, Output = Path(Arguments.input), Path(Arguments.output)
         Output.parent.mkdir(exist_ok=True, parents=True)
         if not StructConfig.exists():
-            print(f'Structure configuration "{Arguments.ex_parameters["format"]}.yml" does not exist. Exiting.')
+            print(f'Structure configuration "{StructConfig}" does not exist. Exiting.')
             return 1
         
         # Read structure configuration.
-        with StructConfig.open('r') as STRUCT_DEF:
-            Configuration = yaml.safe_load(STRUCT_DEF)
-            if not 0 < len(Configuration.keys()) <= 2:
-                print(f'Invalid number of keys in "{Arguments.ex_parameters["format"]}.yml"!')
-                return 1
-            
-            structure = flatten(Configuration['STRUCTURE'])
-            
-            defines = {}
-            if 'INCLUDE' in Configuration.keys():
-                for include in Configuration['INCLUDE']:
-                    load_defines((ScriptPath / include).as_posix(), defines)
+        Configuration = load_metadata(StructConfig)
+        if not 0 < len(Configuration.keys()) <= 2:
+            print(f'Invalid number of keys in "{StructConfig}"!')
+            return 1
+        
+        structure = flatten(Configuration['STRUCTURE'])
+        
+        defines = {}
+        if 'INCLUDE' in Configuration.keys():
+            for include in Configuration['INCLUDE']:
+                load_defines((ScriptPath / include).as_posix(), defines)
 
-            format_string = ''
-            tree = structure.values()
-            tree_flat = flatten_yaml_tree(tree)
+        format_string = ''
+        tree = structure.values()
+        tree_flat = flatten_yaml_tree(tree)
 
-            def add_field(size):
-                nonlocal format_string
-                match size:
-                    case 's8':
-                        format_string += 'b'
-                    case 'u8':
-                        format_string += 'B'
-                    case 's16':
-                        format_string += 'h'
-                    case 'u16':
-                        format_string += 'H'
-                    case 's32':
-                        format_string += 'i'
-                    case 'u32':
-                        format_string += 'I'
-                    case _:
-                        format_string += 'X'
+        def add_field(size):
+            nonlocal format_string
+            match size:
+                case 's8':
+                    format_string += 'b'
+                case 'u8':
+                    format_string += 'B'
+                case 's16':
+                    format_string += 'h'
+                case 'u16':
+                    format_string += 'H'
+                case 's32':
+                    format_string += 'i'
+                case 'u32':
+                    format_string += 'I'
+                case _:
+                    format_string += 'X'
 
-            for e in tree_flat:
-                add_field(e)
+        for e in tree_flat:
+            add_field(e)
 
         with Output.open('wb') as OUT_DATA:
             IN_DATA_RAW = load_source_data(Input)

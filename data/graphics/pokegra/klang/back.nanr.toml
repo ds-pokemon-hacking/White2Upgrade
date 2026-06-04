@@ -1,0 +1,44 @@
+format = "nanr"
+extended = 1
+
+[sequences.gear_a]
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 4, cell = "gear" },
+  { duration_in_frames = 4, cell = "gear_1" },
+  { duration_in_frames = 4, cell = "gear_2" },
+  { duration_in_frames = 4, cell = "gear_3" },
+  { duration_in_frames = 4, cell = "gear" },
+  { duration_in_frames = 4, cell = "gear_1" },
+  { duration_in_frames = 4, cell = "gear_2" },
+  { duration_in_frames = 4, cell = "gear_3" },
+]
+
+[sequences.gear_b]
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 4, cell = "gear_b" },
+  { duration_in_frames = 4, cell = "gear_b_1" },
+  { duration_in_frames = 4, cell = "gear_b_2" },
+  { duration_in_frames = 4, cell = "gear_b_3" },
+  { duration_in_frames = 4, cell = "gear_b" },
+  { duration_in_frames = 4, cell = "gear_b_1" },
+  { duration_in_frames = 4, cell = "gear_b_2" },
+  { duration_in_frames = 4, cell = "gear_b_3" },
+]
+
+[sequences.circle_a]
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 4, cell = "circle", padding_after = [204, 204] },
+]
+
+[sequences.circle_b]
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 4, cell = "circle_b", padding_after = [204, 204] },
+]

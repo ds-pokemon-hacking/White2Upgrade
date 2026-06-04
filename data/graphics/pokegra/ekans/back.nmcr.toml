@@ -1,0 +1,14 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.nonstop]
+properties = [
+  { sequence = "o", translate_x = -12, translate_y = -30, frame_mode = 33 },
+  { sequence = "wing_r", translate_x = 1, translate_y = -47, frame_mode = 33, unique_id = 1 },
+  { sequence = "body", translate_x = -7, translate_y = -41, frame_mode = 33, unique_id = 2 },
+  { sequence = "asi", translate_x = -5, translate_y = -31, frame_mode = 33, unique_id = 3 },
+  { sequence = "kubi", translate_x = -4, translate_y = -50, frame_mode = 33, unique_id = 4 },
+  { sequence = "atama", translate_x = 3, translate_y = -57, frame_mode = 33, unique_id = 5 },
+  { sequence = "wing_l", translate_x = -6, translate_y = -48, frame_mode = 33, unique_id = 6 },
+]

@@ -1,0 +1,108 @@
+format = "nanr"
+extended = 1
+
+[sequences.head]
+animation_type = 2
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 3, animation_type = 2, cell = "head", unknown0 = 48879 },
+  { duration_in_frames = 6, animation_type = 2, cell = "head", translate_y = 2, unknown0 = 48879 },
+  { duration_in_frames = 6, animation_type = 2, cell = "head", translate_y = 3, unknown0 = 48879 },
+  { duration_in_frames = 6, animation_type = 2, cell = "head", translate_y = 4, unknown0 = 48879 },
+  { duration_in_frames = 6, animation_type = 2, cell = "head", translate_y = 4, unknown0 = 48879 },
+  { duration_in_frames = 6, animation_type = 2, cell = "head", translate_y = 3, unknown0 = 48879 },
+  { duration_in_frames = 6, animation_type = 2, cell = "head", translate_y = 1, unknown0 = 48879 },
+  { duration_in_frames = 3, animation_type = 2, cell = "head", unknown0 = 48879 },
+  { duration_in_frames = 6, animation_type = 2, cell = "head", unknown0 = 48879 },
+]
+
+[sequences.neck]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 6, animation_type = 1, cell = "neck", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "neck", scale_w = 1.050048828125, scale_h = 0.949951171875, translate_x = 1 },
+  { duration_in_frames = 6, animation_type = 1, cell = "neck", scale_w = 1.10009765625, scale_h = 0.89990234375, translate_x = 2, translate_y = 1 },
+  { duration_in_frames = 6, animation_type = 1, cell = "neck", scale_w = 1.14990234375, scale_h = 0.85009765625, translate_x = 3, translate_y = 2 },
+  { duration_in_frames = 6, animation_type = 1, cell = "neck", scale_w = 1.199951171875, scale_h = 0.800048828125, translate_x = 4, translate_y = 3 },
+  { duration_in_frames = 6, animation_type = 1, cell = "neck", scale_w = 1.14990234375, scale_h = 0.85009765625, translate_x = 3, translate_y = 3 },
+  { duration_in_frames = 6, animation_type = 1, cell = "neck", scale_w = 1.10009765625, scale_h = 0.89990234375, translate_x = 2, translate_y = 2 },
+  { duration_in_frames = 6, animation_type = 1, cell = "neck", scale_w = 1.050048828125, scale_h = 0.949951171875, translate_x = 1 },
+]
+
+[sequences.body]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 6, animation_type = 1, cell = "body", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "body", scale_w = 1.0625, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "body", scale_w = 1.125, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "body", scale_w = 1.1875, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "body", scale_w = 1.25, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "body", scale_w = 1.1875, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "body", scale_w = 1.125, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "body", scale_w = 1.0625, scale_h = 1.0 },
+]
+
+[sequences.mouth]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 3, animation_type = 1, cell = "mouth", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "mouth", scale_w = 0.97509765625, scale_h = 1.166748046875, translate_y = 2 },
+  { duration_in_frames = 6, animation_type = 1, cell = "mouth", scale_w = 0.949951171875, scale_h = 1.300048828125, translate_y = 3 },
+  { duration_in_frames = 6, animation_type = 1, cell = "mouth", scale_w = 0.925048828125, scale_h = 1.5, translate_y = 4 },
+  { duration_in_frames = 6, animation_type = 1, cell = "mouth", scale_w = 0.89990234375, scale_h = 1.300048828125, translate_y = 4 },
+  { duration_in_frames = 6, animation_type = 1, cell = "mouth", scale_w = 0.89990234375, scale_h = 1.300048828125, translate_y = 3 },
+  { duration_in_frames = 6, animation_type = 1, cell = "mouth", scale_w = 0.933349609375, scale_h = 1.199951171875, translate_y = 1 },
+  { duration_in_frames = 3, animation_type = 1, cell = "mouth", scale_w = 0.966552734375, scale_h = 1.10009765625 },
+  { duration_in_frames = 6, animation_type = 1, cell = "mouth", scale_w = 1.0, scale_h = 1.0 },
+]
+
+[sequences.shell]
+animation_type = 2
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 6, animation_type = 2, cell = "shell", unknown0 = 48879 },
+  { duration_in_frames = 6, animation_type = 2, cell = "shell", translate_y = 1, unknown0 = 48879 },
+  { duration_in_frames = 6, animation_type = 2, cell = "shell", translate_y = 2, unknown0 = 48879 },
+  { duration_in_frames = 6, animation_type = 2, cell = "shell", translate_y = 3, unknown0 = 48879 },
+  { duration_in_frames = 6, animation_type = 2, cell = "shell", translate_y = 3, unknown0 = 48879 },
+  { duration_in_frames = 6, animation_type = 2, cell = "shell", translate_y = 2, unknown0 = 48879 },
+  { duration_in_frames = 6, animation_type = 2, cell = "shell", translate_y = 1, unknown0 = 48879 },
+  { duration_in_frames = 6, animation_type = 2, cell = "shell", unknown0 = 48879 },
+]
+
+[sequences.fire]
+animation_type = 2
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 6, animation_type = 2, cell = "fire", unknown0 = 48879 },
+  { duration_in_frames = 6, animation_type = 2, cell = "fire_1", translate_y = 1, unknown0 = 48879 },
+  { duration_in_frames = 6, animation_type = 2, cell = "fire_2", translate_y = 2, unknown0 = 48879 },
+  { duration_in_frames = 6, animation_type = 2, cell = "fire_3", translate_y = 3, unknown0 = 48879 },
+  { duration_in_frames = 6, animation_type = 2, cell = "fire", translate_y = 3, unknown0 = 48879 },
+  { duration_in_frames = 6, animation_type = 2, cell = "fire_1", translate_y = 2, unknown0 = 48879 },
+  { duration_in_frames = 6, animation_type = 2, cell = "fire_2", translate_y = 1, unknown0 = 48879 },
+  { duration_in_frames = 6, animation_type = 2, cell = "fire_3", unknown0 = 48879 },
+]
+
+[sequences.fire_2]
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 6, cell = "fire" },
+  { duration_in_frames = 6, cell = "fire_1" },
+  { duration_in_frames = 6, cell = "fire_2" },
+  { duration_in_frames = 6, cell = "fire_3" },
+  { duration_in_frames = 6, cell = "fire" },
+  { duration_in_frames = 6, cell = "fire_1" },
+  { duration_in_frames = 6, cell = "fire_2" },
+  { duration_in_frames = 6, cell = "fire_3" },
+]

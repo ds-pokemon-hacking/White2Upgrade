@@ -1,0 +1,31 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.CellAnime0]
+properties = [
+  { sequence = "migiashi02", translate_x = 20, translate_y = -5, frame_mode = 32 },
+  { sequence = "hidariashi02", translate_x = -21, translate_y = -6, frame_mode = 32, unique_id = 1 },
+  { sequence = "kao", translate_x = -4, translate_y = -59, frame_mode = 32, unique_id = 2 },
+  { sequence = "migiude", translate_x = 8, translate_y = -45, frame_mode = 32, unique_id = 3 },
+  { sequence = "hara02", translate_x = -2, translate_y = -10, frame_mode = 32, unique_id = 4 },
+  { sequence = "hara01", translate_y = -14, frame_mode = 32, unique_id = 5 },
+  { sequence = "hidariashi", translate_x = -16, frame_mode = 32, unique_id = 6 },
+  { sequence = "migiashi", translate_x = 17, frame_mode = 32, unique_id = 7 },
+  { sequence = "hidariude", translate_x = -4, translate_y = -39, frame_mode = 32, unique_id = 8 },
+  { sequence = "o", translate_x = -11, translate_y = -18, frame_mode = 32, unique_id = 9 },
+]
+
+[multi_cells.CellAnime0_1]
+properties = [
+  { sequence = "migiashi02_a", translate_x = 20, translate_y = -5, frame_mode = 32 },
+  { sequence = "hidariashi02_a", translate_x = -21, translate_y = -6, frame_mode = 32, unique_id = 1 },
+  { sequence = "kao_a", translate_x = -4, translate_y = -59, frame_mode = 32, unique_id = 2 },
+  { sequence = "migiude_a", translate_x = 8, translate_y = -45, frame_mode = 32, unique_id = 3 },
+  { sequence = "hidariude_a", translate_x = -4, translate_y = -39, frame_mode = 32, unique_id = 4 },
+  { sequence = "hara02_a", translate_x = -2, translate_y = -10, frame_mode = 32, unique_id = 5 },
+  { sequence = "hara01_a", translate_y = -14, frame_mode = 32, unique_id = 6 },
+  { sequence = "hidariashi_a", translate_x = -16, frame_mode = 32, unique_id = 7 },
+  { sequence = "migiashi_a", translate_x = 17, frame_mode = 32, unique_id = 8 },
+  { sequence = "o_a", translate_x = -11, translate_y = -18, frame_mode = 32, unique_id = 9 },
+]

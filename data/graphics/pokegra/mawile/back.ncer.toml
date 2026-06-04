@@ -1,0 +1,65 @@
+format = "ncer"
+extended = 1
+
+size_boundary = 4
+padding_size = 2
+
+[cells.Lhand]
+unknown0 = 14
+objects = [
+  { position_y = 224, transformable = 1, double_sized = 1, position_x = 480, key_size = 1, tile_index = 193 },
+  { position_y = 224, transformable = 1, double_sized = 1, key_shape = 2, position_x = 500, tile_index = 195 },
+]
+
+[cells.head]
+unknown0 = 20
+objects = [
+  { position_y = 216, transformable = 1, double_sized = 1, position_x = 472, key_size = 2, tile_index = 34 },
+  { position_y = 216, transformable = 1, double_sized = 1, key_shape = 2, position_x = 4, key_size = 1, tile_index = 38 },
+]
+
+[cells.RhandB]
+unknown0 = 12
+objects = [
+  { position_y = 224, transformable = 1, double_sized = 1, position_x = 496, key_size = 1, tile_index = 196 },
+  { position_y = 224, transformable = 1, double_sized = 1, key_shape = 2, position_x = 4, tile_index = 198 },
+]
+
+[cells.RhandA]
+unknown0 = 10
+objects = [
+  { position_y = 228, transformable = 1, double_sized = 1, key_shape = 1, position_x = 504, tile_index = 261 },
+  { position_y = 228, transformable = 1, double_sized = 1, position_x = 12, tile_index = 263 },
+]
+
+[cells.body]
+unknown0 = 13
+objects = [
+  { position_y = 224, transformable = 1, double_sized = 1, position_x = 488, key_size = 1, tile_index = 290 },
+  { position_y = 224, transformable = 1, double_sized = 1, key_shape = 2, position_x = 508, tile_index = 292 },
+]
+
+[cells.LfootA]
+unknown0 = 12
+objects = [
+  { position_y = 232, transformable = 1, double_sized = 1, position_x = 488, key_size = 1, tile_index = 354 },
+]
+
+[cells.LfootB]
+unknown0 = 12
+objects = [
+  { position_y = 232, transformable = 1, double_sized = 1, position_x = 488, key_size = 1, tile_index = 418 },
+]
+
+[cells.RfootA]
+unknown0 = 10
+objects = [
+  { position_y = 232, transformable = 1, double_sized = 1, position_x = 496, key_size = 1, tile_index = 357 },
+  { position_y = 232, transformable = 1, double_sized = 1, key_shape = 2, position_x = 4, tile_index = 359 },
+]
+
+[cells.RfootB]
+unknown0 = 9
+objects = [
+  { position_y = 232, transformable = 1, double_sized = 1, position_x = 504, key_size = 1, tile_index = 422 },
+]

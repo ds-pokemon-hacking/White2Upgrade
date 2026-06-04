@@ -1,0 +1,55 @@
+format = "ncer"
+extended = 1
+
+size_boundary = 4
+padding_size = 2
+
+[cells.atama]
+unknown0 = 15
+objects = [
+  { position_y = 223, transformable = 1, double_sized = 1, object_mode = 1, position_x = 505, tile_index = 160 },
+  { position_y = 214, transformable = 1, double_sized = 1, position_x = 492, key_size = 1, tile_index = 6 },
+  { position_y = 214, transformable = 1, double_sized = 1, key_shape = 2, position_x = 0, tile_index = 8 },
+]
+
+[cells.ago]
+unknown0 = 12
+objects = [
+  { position_y = 221, transformable = 1, double_sized = 1, position_x = 498, key_size = 1, tile_index = 11 },
+]
+
+[cells.karada]
+unknown0 = 16
+objects = [
+  { position_y = 215, transformable = 1, double_sized = 1, key_shape = 2, position_x = 493, key_size = 2, tile_index = 16 },
+  { position_y = 215, transformable = 1, double_sized = 1, key_shape = 2, position_x = 1, key_size = 1, tile_index = 18 },
+]
+
+[cells.karada2]
+unknown0 = 15
+objects = [
+  { position_y = 236, transformable = 1, double_sized = 1, key_shape = 1, position_x = 476, key_size = 2, tile_index = 1 },
+  { position_y = 236, transformable = 1, double_sized = 1, key_shape = 2, position_x = 8, tile_index = 5 },
+  { position_y = 0, transformable = 1, double_sized = 1, key_shape = 1, position_x = 476, key_size = 1, tile_index = 65 },
+  { position_y = 0, transformable = 1, double_sized = 1, position_x = 8, tile_index = 69 },
+]
+
+[cells.karada3]
+unknown0 = 10
+objects = [
+  { position_y = 240, transformable = 1, double_sized = 1, position_x = 487, key_size = 1, tile_index = 97 },
+  { position_y = 240, transformable = 1, double_sized = 1, key_shape = 2, position_x = 507, tile_index = 99 },
+]
+
+[cells.karada4]
+unknown0 = 15
+objects = [
+  { position_y = 220, transformable = 1, double_sized = 1, key_shape = 2, position_x = 493, key_size = 2, tile_index = 13 },
+  { position_y = 220, transformable = 1, double_sized = 1, key_shape = 2, position_x = 1, key_size = 1, tile_index = 15 },
+]
+
+[cells.o]
+unknown0 = 15
+objects = [
+  { position_y = 216, transformable = 1, double_sized = 1, key_shape = 2, position_x = 496, key_size = 2, tile_index = 9 },
+]

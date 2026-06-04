@@ -1,0 +1,42 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.stay]
+properties = [
+  { sequence = "ear01", translate_x = -10, translate_y = -25, frame_mode = 32 },
+  { sequence = "pl_foot01", translate_x = -3, translate_y = -8, frame_mode = 32, unique_id = 1 },
+  { sequence = "pl_leg01", translate_x = -1, translate_y = -14, frame_mode = 32, unique_id = 2 },
+  { sequence = "ef02", translate_y = -23, frame_mode = 32, unique_id = 3 },
+  { sequence = "ef01", translate_y = -23, frame_mode = 32, unique_id = 4 },
+  { sequence = "head01", translate_y = -23, frame_mode = 32, unique_id = 5 },
+  { sequence = "body01", translate_y = -23, frame_mode = 32, unique_id = 6 },
+  { sequence = "b_leg01", translate_y = -23, frame_mode = 32, unique_id = 7 },
+  { sequence = "pr_leg01", translate_y = -23, frame_mode = 32, unique_id = 8 },
+]
+
+[multi_cells.stay_1]
+properties = [
+  { sequence = "ear02", translate_x = -10, translate_y = -25, frame_mode = 32 },
+  { sequence = "pl_foot01", translate_x = -3, translate_y = -8, frame_mode = 32, unique_id = 1 },
+  { sequence = "pl_leg02", translate_x = -1, translate_y = -14, frame_mode = 32, unique_id = 2 },
+  { sequence = "ef02_02", translate_y = -23, frame_mode = 32, unique_id = 3 },
+  { sequence = "ef01_02", translate_y = -23, frame_mode = 32, unique_id = 4 },
+  { sequence = "head02", translate_y = -23, frame_mode = 32, unique_id = 5 },
+  { sequence = "body02", translate_y = -23, frame_mode = 32, unique_id = 6 },
+  { sequence = "b_leg02", translate_y = -23, frame_mode = 32, unique_id = 7 },
+  { sequence = "pr_leg02", translate_y = -23, frame_mode = 32, unique_id = 8 },
+]
+
+[multi_cells.stop]
+properties = [
+  { sequence = "ear01", translate_x = -10, translate_y = -25, frame_mode = 33 },
+  { sequence = "pl_foot01", translate_x = -3, translate_y = -8, frame_mode = 33, unique_id = 1 },
+  { sequence = "pl_leg01", translate_x = -1, translate_y = -14, frame_mode = 33, unique_id = 2 },
+  { sequence = "ef02_03", translate_y = -23, frame_mode = 33, unique_id = 3 },
+  { sequence = "ef01_03", translate_y = -23, frame_mode = 33, unique_id = 4 },
+  { sequence = "head01", translate_y = -23, frame_mode = 33, unique_id = 5 },
+  { sequence = "body01", translate_y = -23, frame_mode = 33, unique_id = 6 },
+  { sequence = "b_leg01", translate_y = -23, frame_mode = 33, unique_id = 7 },
+  { sequence = "pr_leg01", translate_y = -23, frame_mode = 33, unique_id = 8 },
+]

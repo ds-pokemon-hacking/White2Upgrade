@@ -1,0 +1,50 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.stay]
+properties = [
+  { sequence = "atama", translate_x = 2, translate_y = -28, frame_mode = 32 },
+  { sequence = "hidari_ashi", translate_x = 8, translate_y = -9, frame_mode = 32, unique_id = 1 },
+  { sequence = "hidari_ashi02", translate_x = 8, translate_y = -7, frame_mode = 32, unique_id = 2 },
+  { sequence = "karada", translate_y = -17, frame_mode = 32, unique_id = 3 },
+  { sequence = "hidari_te", translate_x = 2, translate_y = -32, frame_mode = 32, unique_id = 4 },
+  { sequence = "migi_te", translate_x = -4, translate_y = -28, frame_mode = 32, unique_id = 5 },
+  { sequence = "migi_ashi", translate_x = -7, translate_y = -10, frame_mode = 32, unique_id = 6 },
+  { sequence = "migi_ashi02", translate_x = -7, translate_y = -7, frame_mode = 32, unique_id = 7 },
+  { sequence = "hi", translate_x = -3, translate_y = -6, frame_mode = 32, unique_id = 8 },
+  { sequence = "o02", translate_x = -3, translate_y = -6, frame_mode = 32, unique_id = 9 },
+  { sequence = "o", translate_x = -3, translate_y = -6, frame_mode = 32, unique_id = 10 },
+]
+
+[multi_cells.stop]
+properties = [
+  { sequence = "atama", translate_x = 2, translate_y = -28, frame_mode = 32 },
+  { sequence = "hidari_ashi", translate_x = 8, translate_y = -9, frame_mode = 32, unique_id = 1 },
+  { sequence = "hidari_ashi02", translate_x = 8, translate_y = -7, frame_mode = 32, unique_id = 2 },
+  { sequence = "karada", translate_y = -17, frame_mode = 32, unique_id = 3 },
+  { sequence = "hidari_te", translate_x = 2, translate_y = -32, frame_mode = 32, unique_id = 4 },
+  { sequence = "migi_te", translate_x = -4, translate_y = -28, frame_mode = 32, unique_id = 5 },
+  { sequence = "migi_ashi", translate_x = -7, translate_y = -10, frame_mode = 32, unique_id = 6 },
+  { sequence = "migi_ashi02", translate_x = -7, translate_y = -7, frame_mode = 32, unique_id = 7 },
+  { sequence = "hi_stop", translate_x = -3, translate_y = -6, frame_mode = 32, unique_id = 8 },
+  { sequence = "o02", translate_x = -3, translate_y = -6, frame_mode = 32, unique_id = 9 },
+  { sequence = "o", translate_x = -3, translate_y = -6, frame_mode = 32, unique_id = 10 },
+]
+
+[multi_cells.stay_1]
+properties = [
+  { sequence = "hidari_te2_b", translate_x = 13, translate_y = -26, frame_mode = 32 },
+  { sequence = "atama_b", translate_x = 2, translate_y = -28, frame_mode = 32, unique_id = 1 },
+  { sequence = "migi_te2_b", translate_x = -13, translate_y = -22, frame_mode = 32, unique_id = 2 },
+  { sequence = "hidari_ashi_b", translate_x = 8, translate_y = -9, frame_mode = 32, unique_id = 3 },
+  { sequence = "hidari_ashi02_b", translate_x = 8, translate_y = -7, frame_mode = 32, unique_id = 4 },
+  { sequence = "karada_b", translate_y = -17, frame_mode = 32, unique_id = 5 },
+  { sequence = "hidari_te1_b", translate_x = 2, translate_y = -32, frame_mode = 32, unique_id = 6 },
+  { sequence = "migi_te1_b", translate_x = -4, translate_y = -28, frame_mode = 32, unique_id = 7 },
+  { sequence = "migi_ashi_b", translate_x = -7, translate_y = -10, frame_mode = 32, unique_id = 8 },
+  { sequence = "migi_ashi02_b", translate_x = -7, translate_y = -7, frame_mode = 32, unique_id = 9 },
+  { sequence = "hi_b", translate_x = -3, translate_y = -6, frame_mode = 32, unique_id = 10 },
+  { sequence = "o02_b", translate_x = -3, translate_y = -6, frame_mode = 32, unique_id = 11 },
+  { sequence = "o_b", translate_x = -3, translate_y = -6, frame_mode = 32, unique_id = 12 },
+]

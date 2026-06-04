@@ -1,0 +1,54 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.stay]
+properties = [
+  { sequence = "me", translate_x = -5, translate_y = -27, frame_mode = 33 },
+  { sequence = "ue_kuchi", translate_x = -10, translate_y = -40, frame_mode = 33, unique_id = 1 },
+  { sequence = "me1", translate_x = -5, translate_y = -27, frame_mode = 33, unique_id = 2 },
+  { sequence = "shita_kuchi", translate_x = -4, translate_y = -30, frame_mode = 33, unique_id = 3 },
+  { sequence = "suna01_02", translate_x = 22, translate_y = -30, frame_mode = 33, unique_id = 4 },
+  { sequence = "suna01", translate_x = 22, translate_y = -30, frame_mode = 33, unique_id = 5 },
+  { sequence = "suna02_04", translate_x = -4, translate_y = -9, frame_mode = 33, unique_id = 6 },
+  { sequence = "suna02_03", translate_x = -4, translate_y = -9, frame_mode = 33, unique_id = 7 },
+  { sequence = "suna02_02", translate_x = -4, translate_y = -9, frame_mode = 33, unique_id = 8 },
+  { sequence = "suna021", translate_x = -4, translate_y = -9, frame_mode = 33, unique_id = 9 },
+  { sequence = "suna02", translate_x = -4, translate_y = -9, frame_mode = 33, unique_id = 10 },
+  { sequence = "ashi", translate_x = 7, translate_y = -21, frame_mode = 33, unique_id = 11 },
+  { sequence = "karada", translate_x = 6, translate_y = -19, frame_mode = 33, unique_id = 12 },
+]
+
+[multi_cells.stay_1]
+properties = [
+  { sequence = "me2", translate_x = -5, translate_y = -27, frame_mode = 33 },
+  { sequence = "ue_kuchi1", translate_x = -10, translate_y = -40, frame_mode = 33, unique_id = 1 },
+  { sequence = "me11", translate_x = -5, translate_y = -27, frame_mode = 33, unique_id = 2 },
+  { sequence = "shita_kuchi1", translate_x = -4, translate_y = -30, frame_mode = 33, unique_id = 3 },
+  { sequence = "suna01_02", translate_x = 22, translate_y = -30, frame_mode = 33, unique_id = 4 },
+  { sequence = "suna01", translate_x = 22, translate_y = -30, frame_mode = 33, unique_id = 5 },
+  { sequence = "suna02_04", translate_x = -4, translate_y = -9, frame_mode = 33, unique_id = 6 },
+  { sequence = "suna02_03", translate_x = -4, translate_y = -9, frame_mode = 33, unique_id = 7 },
+  { sequence = "suna02_02", translate_x = -4, translate_y = -9, frame_mode = 33, unique_id = 8 },
+  { sequence = "suna021", translate_x = -4, translate_y = -9, frame_mode = 33, unique_id = 9 },
+  { sequence = "suna02", translate_x = -4, translate_y = -9, frame_mode = 33, unique_id = 10 },
+  { sequence = "ashi1", translate_x = 7, translate_y = -21, frame_mode = 33, unique_id = 11 },
+  { sequence = "karada1", translate_x = 6, translate_y = -19, frame_mode = 33, unique_id = 12 },
+]
+
+[multi_cells.stop]
+properties = [
+  { sequence = "me2", translate_x = -5, translate_y = -27, frame_mode = 33 },
+  { sequence = "ue_kuchi1", translate_x = -10, translate_y = -40, frame_mode = 33, unique_id = 1 },
+  { sequence = "me11", translate_x = -5, translate_y = -27, frame_mode = 33, unique_id = 2 },
+  { sequence = "shita_kuchi1", translate_x = -4, translate_y = -30, frame_mode = 33, unique_id = 3 },
+  { sequence = "suna012_03", translate_x = 22, translate_y = -30, frame_mode = 33, unique_id = 4 },
+  { sequence = "suna01_03", translate_x = 22, translate_y = -30, frame_mode = 33, unique_id = 5 },
+  { sequence = "suna024_03", translate_x = -4, translate_y = -9, frame_mode = 33, unique_id = 6 },
+  { sequence = "suna023_03", translate_x = -4, translate_y = -9, frame_mode = 33, unique_id = 7 },
+  { sequence = "suna022_03", translate_x = -4, translate_y = -9, frame_mode = 33, unique_id = 8 },
+  { sequence = "suna021_03", translate_x = -4, translate_y = -9, frame_mode = 33, unique_id = 9 },
+  { sequence = "suna020_03", translate_x = -4, translate_y = -9, frame_mode = 33, unique_id = 10 },
+  { sequence = "ashi1", translate_x = 7, translate_y = -21, frame_mode = 33, unique_id = 11 },
+  { sequence = "karada1", translate_x = 6, translate_y = -19, frame_mode = 33, unique_id = 12 },
+]

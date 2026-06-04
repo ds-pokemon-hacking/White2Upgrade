@@ -1,0 +1,49 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.stay]
+properties = [
+  { sequence = "body__T", translate_x = -7, translate_y = -52, frame_mode = 33 },
+  { sequence = "wing", translate_x = -4, translate_y = -52, frame_mode = 33, unique_id = 1 },
+  { sequence = "leg_R", translate_x = -1, translate_y = -35, frame_mode = 33, unique_id = 2 },
+  { sequence = "body_U", translate_x = -5, translate_y = -43, frame_mode = 33, unique_id = 3 },
+  { sequence = "leg_L", translate_x = -11, translate_y = -37, frame_mode = 33, unique_id = 4 },
+  { sequence = "head", translate_x = -4, translate_y = -52, frame_mode = 33, unique_id = 5 },
+  { sequence = "hand_Rb", translate_x = 24, translate_y = -45, frame_mode = 33, unique_id = 6 },
+  { sequence = "hand_Ra", translate_x = 24, translate_y = -45, frame_mode = 33, unique_id = 7 },
+  { sequence = "hand_Lb", translate_x = -26, translate_y = -53, frame_mode = 33, unique_id = 8 },
+  { sequence = "hand_La", translate_x = -26, translate_y = -53, frame_mode = 33, unique_id = 9 },
+  { sequence = "arm_R", translate_x = 9, translate_y = -43, frame_mode = 33, unique_id = 10 },
+  { sequence = "arm_L", translate_x = -19, translate_y = -46, frame_mode = 33, unique_id = 11 },
+  { sequence = "tail_a", translate_x = -3, translate_y = -26, frame_mode = 33, unique_id = 12 },
+  { sequence = "tail_b", translate_x = 1, translate_y = -21, frame_mode = 33, unique_id = 13 },
+  { sequence = "tail_c", translate_x = 6, translate_y = -18, frame_mode = 33, unique_id = 14 },
+  { sequence = "tail_d", translate_x = 13, translate_y = -17, frame_mode = 33, unique_id = 15 },
+  { sequence = "tail_e", translate_x = 18, translate_y = -20, frame_mode = 33, unique_id = 16 },
+  { sequence = "claw_R", translate_x = 22, translate_y = -21, frame_mode = 33, unique_id = 17 },
+  { sequence = "claw_L", translate_x = 17, translate_y = -22, frame_mode = 33, unique_id = 18 },
+]
+
+[multi_cells.stop]
+properties = [
+  { sequence = "body__T1", translate_x = -7, translate_y = -52, frame_mode = 33 },
+  { sequence = "wing1", translate_x = -4, translate_y = -52, frame_mode = 33, unique_id = 1 },
+  { sequence = "leg_R1", translate_x = -1, translate_y = -35, frame_mode = 33, unique_id = 2 },
+  { sequence = "body_U1", translate_x = -5, translate_y = -43, frame_mode = 33, unique_id = 3 },
+  { sequence = "leg_L1", translate_x = -11, translate_y = -37, frame_mode = 33, unique_id = 4 },
+  { sequence = "head1", translate_x = -4, translate_y = -52, frame_mode = 33, unique_id = 5 },
+  { sequence = "hand_Rb1", translate_x = 24, translate_y = -45, frame_mode = 33, unique_id = 6 },
+  { sequence = "hand_Ra1", translate_x = 24, translate_y = -45, frame_mode = 33, unique_id = 7 },
+  { sequence = "hand_Lb1", translate_x = -26, translate_y = -53, frame_mode = 33, unique_id = 8 },
+  { sequence = "hand_La1", translate_x = -26, translate_y = -53, frame_mode = 33, unique_id = 9 },
+  { sequence = "arm_R1", translate_x = 9, translate_y = -43, frame_mode = 33, unique_id = 10 },
+  { sequence = "arm_L1", translate_x = -19, translate_y = -46, frame_mode = 33, unique_id = 11 },
+  { sequence = "tail_a1", translate_x = -3, translate_y = -26, frame_mode = 33, unique_id = 12 },
+  { sequence = "tail_b1", translate_x = 1, translate_y = -21, frame_mode = 33, unique_id = 13 },
+  { sequence = "tail_c1", translate_x = 6, translate_y = -18, frame_mode = 33, unique_id = 14 },
+  { sequence = "tail_d1", translate_x = 13, translate_y = -17, frame_mode = 33, unique_id = 15 },
+  { sequence = "tail_e1", translate_x = 18, translate_y = -20, frame_mode = 33, unique_id = 16 },
+  { sequence = "claw_R1", translate_x = 22, translate_y = -21, frame_mode = 33, unique_id = 17 },
+  { sequence = "claw_L1", translate_x = 17, translate_y = -22, frame_mode = 33, unique_id = 18 },
+]

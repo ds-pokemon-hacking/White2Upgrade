@@ -1,0 +1,41 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.CellAnime01]
+properties = [
+  { sequence = "LhairB", translate_y = -52, frame_mode = 32 },
+  { sequence = "LhairA", translate_y = -52, frame_mode = 32, unique_id = 1 },
+  { sequence = "RhairB", translate_x = 2, translate_y = -52, frame_mode = 32, unique_id = 2 },
+  { sequence = "RhairA", translate_x = 2, translate_y = -52, frame_mode = 32, unique_id = 3 },
+  { sequence = "mouth", frame_mode = 32, unique_id = 4 },
+  { sequence = "Rfoot", frame_mode = 32, unique_id = 5 },
+  { sequence = "Rwing", translate_x = 16, translate_y = -28, frame_mode = 32, unique_id = 6 },
+  { sequence = "head", translate_y = -20, frame_mode = 32, unique_id = 7 },
+  { sequence = "neck", translate_y = -20, frame_mode = 32, unique_id = 8 },
+  { sequence = "body", translate_y = -20, frame_mode = 32, unique_id = 9 },
+  { sequence = "Swing", translate_y = -20, frame_mode = 32, unique_id = 10 },
+  { sequence = "Lfoot", translate_y = -20, frame_mode = 32, unique_id = 11 },
+  { sequence = "taleB", translate_y = -20, frame_mode = 32, unique_id = 12 },
+  { sequence = "taleA", translate_y = -20, frame_mode = 32, unique_id = 13 },
+  { sequence = "Lwing", translate_y = -28, frame_mode = 32, unique_id = 14 },
+]
+
+[multi_cells.CellAnime01_1]
+properties = [
+  { sequence = "LhairB1", translate_y = -52, frame_mode = 32 },
+  { sequence = "LhairA1", translate_y = -52, frame_mode = 32, unique_id = 1 },
+  { sequence = "RhairB1", translate_x = 2, translate_y = -52, frame_mode = 32, unique_id = 2 },
+  { sequence = "RhairA1", translate_x = 2, translate_y = -52, frame_mode = 32, unique_id = 3 },
+  { sequence = "mouth1", frame_mode = 32, unique_id = 4 },
+  { sequence = "Rfoot", frame_mode = 32, unique_id = 5 },
+  { sequence = "Rwing", translate_x = 16, translate_y = -28, frame_mode = 32, unique_id = 6 },
+  { sequence = "head1", translate_y = -20, frame_mode = 32, unique_id = 7 },
+  { sequence = "neck1", translate_y = -20, frame_mode = 32, unique_id = 8 },
+  { sequence = "body1", translate_y = -20, frame_mode = 32, unique_id = 9 },
+  { sequence = "Swing1", translate_y = -20, frame_mode = 32, unique_id = 10 },
+  { sequence = "Lfoot", translate_y = -20, frame_mode = 32, unique_id = 11 },
+  { sequence = "taleB", translate_y = -20, frame_mode = 32, unique_id = 12 },
+  { sequence = "taleA", translate_y = -20, frame_mode = 32, unique_id = 13 },
+  { sequence = "Lwing", translate_y = -28, frame_mode = 32, unique_id = 14 },
+]

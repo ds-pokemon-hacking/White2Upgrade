@@ -1,0 +1,36 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.CellAnime0]
+properties = [
+  { sequence = "tsume_d", translate_x = 15, translate_y = -17, frame_mode = 32 },
+  { sequence = "tsume_e", translate_x = 9, translate_y = -12, frame_mode = 32, unique_id = 1 },
+  { sequence = "tsume_f", translate_x = 21, translate_y = -11, frame_mode = 32, unique_id = 2 },
+  { sequence = "tsume_a", translate_x = -34, translate_y = -26, frame_mode = 32, unique_id = 3 },
+  { sequence = "tsume_b", translate_x = -39, translate_y = -23, frame_mode = 32, unique_id = 4 },
+  { sequence = "tsume_c", translate_x = -31, translate_y = -20, frame_mode = 32, unique_id = 5 },
+  { sequence = "atama", translate_y = -43, frame_mode = 32, unique_id = 6 },
+  { sequence = "te_b", translate_x = 9, translate_y = -33, frame_mode = 32, unique_id = 7 },
+  { sequence = "te_a", translate_x = -15, translate_y = -40, frame_mode = 32, unique_id = 8 },
+]
+
+[multi_cells.CellAnime0_1]
+properties = [
+  { sequence = "atama1", translate_y = -43, frame_mode = 32 },
+  { sequence = "tsume_d1", translate_x = 15, translate_y = -17, frame_mode = 32, unique_id = 1 },
+  { sequence = "tsume_e1", translate_x = 9, translate_y = -12, frame_mode = 32, unique_id = 2 },
+  { sequence = "tsume_f1", translate_x = 21, translate_y = -11, frame_mode = 32, unique_id = 3 },
+  { sequence = "tsume_a1", translate_x = -34, translate_y = -26, frame_mode = 32, unique_id = 4 },
+  { sequence = "tsume_b1", translate_x = -39, translate_y = -23, frame_mode = 32, unique_id = 5 },
+  { sequence = "tsume_c1", translate_x = -31, translate_y = -20, frame_mode = 32, unique_id = 6 },
+  { sequence = "te_b1", translate_x = 9, translate_y = -33, frame_mode = 32, unique_id = 7 },
+  { sequence = "te_a1", translate_x = -15, translate_y = -40, frame_mode = 32, unique_id = 8 },
+]
+
+[multi_cells.CellAnime0_2]
+properties = [
+  { sequence = "atama2", translate_y = -43, frame_mode = 32 },
+  { sequence = "te_b2", translate_x = 9, translate_y = -33, frame_mode = 32, unique_id = 1 },
+  { sequence = "te_a2", translate_x = -15, translate_y = -40, frame_mode = 32, unique_id = 2 },
+]

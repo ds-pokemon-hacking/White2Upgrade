@@ -1,0 +1,71 @@
+format = "nanr"
+extended = 1
+
+[sequences.head01]
+animation_type = 2
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 6, animation_type = 2, cell = "head01", unknown0 = 48879 },
+  { duration_in_frames = 6, animation_type = 2, cell = "head01", unknown0 = 48879 },
+  { duration_in_frames = 6, animation_type = 2, cell = "head01", unknown0 = 48879 },
+  { duration_in_frames = 6, animation_type = 2, cell = "head01", unknown0 = 48879 },
+  { duration_in_frames = 6, animation_type = 2, cell = "head01", translate_y = 1, unknown0 = 48879 },
+  { duration_in_frames = 6, animation_type = 2, cell = "head01", unknown0 = 48879 },
+  { duration_in_frames = 6, animation_type = 2, cell = "head01", unknown0 = 48879 },
+  { duration_in_frames = 6, animation_type = 2, cell = "head01", unknown0 = 48879 },
+  { animation_type = 2, cell = "head01", unknown0 = 48879 },
+]
+
+[sequences.parts01]
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 6, cell = "parts01", padding_after = [204, 204] },
+  { duration_in_frames = 6, cell = "parts01", padding_after = [204, 204] },
+  { duration_in_frames = 6, cell = "parts01", padding_after = [204, 204] },
+  { duration_in_frames = 6, cell = "parts01", padding_after = [204, 204] },
+  { duration_in_frames = 6, cell = "parts01", padding_after = [204, 204] },
+  { duration_in_frames = 6, cell = "parts01", padding_after = [204, 204] },
+  { duration_in_frames = 6, cell = "parts01", padding_after = [204, 204] },
+  { duration_in_frames = 6, cell = "parts01", padding_after = [204, 204] },
+  { cell = "parts01", padding_after = [204, 204] },
+]
+
+[sequences.head02]
+animation_type = 2
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 6, animation_type = 2, cell = "head01", unknown0 = 48879 },
+  { duration_in_frames = 6, animation_type = 2, cell = "head01", unknown0 = 48879 },
+  { duration_in_frames = 6, animation_type = 2, cell = "head01", unknown0 = 48879 },
+  { duration_in_frames = 6, animation_type = 2, cell = "head01", unknown0 = 48879 },
+  { duration_in_frames = 6, animation_type = 2, cell = "head01", translate_y = 1, unknown0 = 48879 },
+  { duration_in_frames = 6, animation_type = 2, cell = "head01", unknown0 = 48879 },
+  { duration_in_frames = 6, animation_type = 2, cell = "head01", unknown0 = 48879 },
+  { duration_in_frames = 6, animation_type = 2, cell = "head01", unknown0 = 48879 },
+  { animation_type = 2, cell = "head01", unknown0 = 48879 },
+]
+
+[sequences.parts01_02]
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 6, cell = "parts01", padding_after = [204, 204] },
+  { duration_in_frames = 6, cell = "parts01", padding_after = [204, 204] },
+  { duration_in_frames = 6, cell = "parts01", padding_after = [204, 204] },
+  { duration_in_frames = 6, cell = "parts01", padding_after = [204, 204] },
+  { duration_in_frames = 6, cell = "parts01", padding_after = [204, 204] },
+  { duration_in_frames = 6, cell = "parts01", padding_after = [204, 204] },
+  { duration_in_frames = 6, cell = "parts01", padding_after = [204, 204] },
+  { duration_in_frames = 6, cell = "parts01", padding_after = [204, 204] },
+  { cell = "parts01", padding_after = [204, 204] },
+]
+
+[sequences.CellAnime0]
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 4, cell = "head01", padding_after = [204, 204] },
+]

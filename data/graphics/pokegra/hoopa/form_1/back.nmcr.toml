@@ -1,0 +1,12 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.nonstop]
+properties = [
+  { sequence = "fan", translate_x = 2, translate_y = -46, frame_mode = 33 },
+  { sequence = "body", translate_y = -38, frame_mode = 33, unique_id = 1 },
+  { sequence = "hand_r", translate_x = 2, translate_y = -46, frame_mode = 33, unique_id = 2 },
+  { sequence = "hand_l", translate_x = 2, translate_y = -46, frame_mode = 33, unique_id = 3 },
+  { sequence = "ef", translate_y = -38, frame_mode = 33, unique_id = 4 },
+]

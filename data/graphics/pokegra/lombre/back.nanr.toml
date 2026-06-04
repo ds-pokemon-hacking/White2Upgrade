@@ -1,0 +1,76 @@
+format = "nanr"
+extended = 1
+
+[sequences.karada]
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 4, cell = "karada", padding_after = [204, 204] },
+]
+
+[sequences.ashi1]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 16, animation_type = 1, cell = "ashi1", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 16, animation_type = 1, cell = "ashi1", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 16, animation_type = 1, cell = "ashi1", scale_w = 1.0, scale_h = 0.89990234375, translate_x = 1 },
+  { duration_in_frames = 16, animation_type = 1, cell = "ashi1", scale_w = 1.0, scale_h = 0.89990234375, translate_x = 2, translate_y = -1 },
+  { duration_in_frames = 16, animation_type = 1, cell = "ashi1", scale_w = 1.0, scale_h = 0.89990234375, translate_x = 2, translate_y = -1 },
+  { duration_in_frames = 16, animation_type = 1, cell = "ashi1", scale_w = 1.0, scale_h = 0.89990234375, translate_x = 2, translate_y = -1 },
+  { duration_in_frames = 16, animation_type = 1, cell = "ashi1", scale_w = 1.0, scale_h = 0.89990234375, translate_x = 2, translate_y = -1 },
+  { duration_in_frames = 16, animation_type = 1, cell = "ashi1", scale_w = 1.0, scale_h = 0.89990234375, translate_x = 1 },
+]
+
+[sequences.ashi2]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 16, animation_type = 1, cell = "ashi2", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 16, animation_type = 1, cell = "ashi2", scale_w = 1.0, scale_h = 1.0, translate_x = 1 },
+  { duration_in_frames = 16, animation_type = 1, cell = "ashi2", scale_w = 1.10009765625, scale_h = 0.89990234375, translate_x = 1, translate_y = 1 },
+  { duration_in_frames = 16, animation_type = 1, cell = "ashi2", scale_w = 1.10009765625, scale_h = 0.89990234375, translate_x = 1 },
+  { duration_in_frames = 16, animation_type = 1, cell = "ashi2", scale_w = 1.10009765625, scale_h = 0.89990234375, translate_x = 1 },
+  { duration_in_frames = 16, animation_type = 1, cell = "ashi2", scale_w = 1.10009765625, scale_h = 0.89990234375, translate_x = 1, translate_y = 1 },
+  { duration_in_frames = 16, animation_type = 1, cell = "ashi2", scale_w = 1.0, scale_h = 1.0, translate_x = 1 },
+  { duration_in_frames = 16, animation_type = 1, cell = "ashi2", scale_w = 1.0, scale_h = 1.0, translate_x = 1 },
+]
+
+[sequences.ashi3]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 16, animation_type = 1, cell = "ashi3", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 16, animation_type = 1, cell = "ashi3", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 16, animation_type = 1, cell = "ashi3", scale_w = 1.0, scale_h = 1.10009765625 },
+  { duration_in_frames = 16, animation_type = 1, cell = "ashi3", scale_w = 1.0, scale_h = 1.10009765625, translate_x = 1 },
+  { duration_in_frames = 16, animation_type = 1, cell = "ashi3", scale_w = 1.0, scale_h = 1.10009765625, translate_x = 1 },
+  { duration_in_frames = 16, animation_type = 1, cell = "ashi3", scale_w = 1.0, scale_h = 1.10009765625, translate_x = 1 },
+  { duration_in_frames = 16, animation_type = 1, cell = "ashi3", scale_w = 1.0, scale_h = 1.10009765625, translate_x = 1 },
+  { duration_in_frames = 16, animation_type = 1, cell = "ashi3", scale_w = 1.0, scale_h = 1.10009765625, translate_x = 1 },
+]
+
+[sequences.ashi4]
+animation_type = 2
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 16, animation_type = 2, cell = "ashi4", translate_x = 1, translate_y = -3, unknown0 = 48879 },
+  { duration_in_frames = 16, animation_type = 2, cell = "ashi4", translate_x = 1, translate_y = -3, unknown0 = 48879 },
+  { duration_in_frames = 16, animation_type = 2, cell = "ashi4", translate_x = 1, translate_y = -2, unknown0 = 48879 },
+  { duration_in_frames = 16, animation_type = 2, cell = "ashi4", translate_x = 1, translate_y = -1, unknown0 = 48879 },
+  { duration_in_frames = 16, animation_type = 2, cell = "ashi4", translate_x = 1, translate_y = -1, unknown0 = 48879 },
+  { duration_in_frames = 16, animation_type = 2, cell = "ashi4", translate_x = 1, translate_y = -2, unknown0 = 48879 },
+  { duration_in_frames = 16, animation_type = 2, cell = "ashi4", translate_x = 1, translate_y = -3, unknown0 = 48879 },
+  { duration_in_frames = 16, animation_type = 2, cell = "ashi4", translate_x = 1, translate_y = -3, unknown0 = 48879 },
+]
+
+[sequences.bace]
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 4, cell = "karada", padding_after = [204, 204] },
+]

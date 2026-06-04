@@ -1,0 +1,33 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.CellAnime0]
+properties = [
+  { sequence = "o", translate_x = -11, translate_y = -20, frame_mode = 32 },
+  { sequence = "leg_u_r", translate_y = -11, frame_mode = 32, unique_id = 1 },
+  { sequence = "foot_u_r", translate_x = 1, frame_mode = 32, unique_id = 2 },
+  { sequence = "body", translate_x = -1, translate_y = -18, frame_mode = 32, unique_id = 3 },
+  { sequence = "leg_m_r", translate_x = 11, translate_y = -14, frame_mode = 32, unique_id = 4 },
+  { sequence = "foot_m_r", translate_x = 13, translate_y = -4, frame_mode = 32, unique_id = 5 },
+  { sequence = "leg_u_l", translate_x = -15, translate_y = -11, frame_mode = 32, unique_id = 6 },
+  { sequence = "foot_u_l", translate_x = -15, translate_y = -1, frame_mode = 32, unique_id = 7 },
+  { sequence = "mimi_r", translate_x = 5, translate_y = -23, frame_mode = 32, unique_id = 8 },
+  { sequence = "atama", translate_x = 5, translate_y = -23, frame_mode = 32, unique_id = 9 },
+  { sequence = "mimi_l", translate_x = 5, translate_y = -23, frame_mode = 32, unique_id = 10 },
+]
+
+[multi_cells.CellAnime0_1]
+properties = [
+  { sequence = "o_b", translate_x = -11, translate_y = -20, frame_mode = 32 },
+  { sequence = "leg_u_r_b", translate_y = -11, frame_mode = 32, unique_id = 1 },
+  { sequence = "foot_u_r_b", translate_x = 1, frame_mode = 32, unique_id = 2 },
+  { sequence = "body_b", translate_x = -1, translate_y = -18, frame_mode = 32, unique_id = 3 },
+  { sequence = "leg_m_r_b", translate_x = 11, translate_y = -14, frame_mode = 32, unique_id = 4 },
+  { sequence = "foot_m_r_b", translate_x = 13, translate_y = -4, frame_mode = 32, unique_id = 5 },
+  { sequence = "leg_u_l_b", translate_x = -15, translate_y = -11, frame_mode = 32, unique_id = 6 },
+  { sequence = "foot_u_l_b", translate_x = -15, translate_y = -1, frame_mode = 32, unique_id = 7 },
+  { sequence = "mimi_r_b", translate_x = 5, translate_y = -23, frame_mode = 32, unique_id = 8 },
+  { sequence = "atama_b", translate_x = 5, translate_y = -23, frame_mode = 32, unique_id = 9 },
+  { sequence = "mimi_l_b", translate_x = 5, translate_y = -23, frame_mode = 32, unique_id = 10 },
+]

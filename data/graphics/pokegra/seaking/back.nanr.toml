@@ -1,0 +1,123 @@
+format = "nanr"
+extended = 1
+
+[sequences.sebire]
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 8, cell = "sebire" },
+  { duration_in_frames = 10, cell = "sebire_1" },
+  { duration_in_frames = 10, cell = "sebire_2" },
+  { duration_in_frames = 10, cell = "sebire_3" },
+]
+
+[sequences.karada]
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 4, cell = "karada", padding_after = [204, 204] },
+]
+
+[sequences.hire]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 2, animation_type = 1, cell = "hire", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 2, animation_type = 1, cell = "hire", rotate = 455, scale_w = 1.033447265625, scale_h = 0.89990234375 },
+  { duration_in_frames = 2, animation_type = 1, cell = "hire", rotate = 910, scale_w = 1.022216796875, scale_h = 0.800048828125 },
+  { duration_in_frames = 2, animation_type = 1, cell = "hire", rotate = 1365, scale_w = 1.01123046875, scale_h = 0.699951171875 },
+  { duration_in_frames = 2, animation_type = 1, cell = "hire", rotate = 1820, scale_w = 1.0, scale_h = 0.60009765625 },
+  { duration_in_frames = 2, animation_type = 1, cell = "hire", rotate = 1820, scale_w = 1.300048828125, scale_h = 0.39990234375 },
+  { duration_in_frames = 2, animation_type = 1, cell = "hire", rotate = 1690, scale_w = 1.27783203125, scale_h = 0.44287109375 },
+  { duration_in_frames = 2, animation_type = 1, cell = "hire", rotate = 1560, scale_w = 1.255615234375, scale_h = 0.485595703125 },
+  { duration_in_frames = 2, animation_type = 1, cell = "hire", rotate = 1430, scale_w = 1.2333984375, scale_h = 0.528564453125 },
+  { duration_in_frames = 2, animation_type = 1, cell = "hire", rotate = 1300, scale_w = 1.211181640625, scale_h = 0.571533203125 },
+  { duration_in_frames = 2, animation_type = 1, cell = "hire", rotate = 1040, scale_w = 1.166748046875, scale_h = 0.6572265625 },
+  { duration_in_frames = 2, animation_type = 1, cell = "hire", rotate = 1170, scale_w = 1.18896484375, scale_h = 0.6142578125 },
+  { duration_in_frames = 2, animation_type = 1, cell = "hire", rotate = 780, scale_w = 1.14453125, scale_h = 0.742919921875 },
+  { duration_in_frames = 2, animation_type = 1, cell = "hire", rotate = 650, scale_w = 1.122314453125, scale_h = 0.78564453125 },
+  { duration_in_frames = 2, animation_type = 1, cell = "hire", rotate = 910, scale_w = 1.10009765625, scale_h = 0.699951171875 },
+  { duration_in_frames = 2, animation_type = 1, cell = "hire", rotate = 520, scale_w = 1.0888671875, scale_h = 0.82861328125 },
+  { duration_in_frames = 2, animation_type = 1, cell = "hire", rotate = 390, scale_w = 1.077880859375, scale_h = 0.871337890625 },
+  { duration_in_frames = 2, animation_type = 1, cell = "hire", rotate = 260, scale_w = 1.066650390625, scale_h = 0.914306640625 },
+  { duration_in_frames = 2, animation_type = 1, cell = "hire", rotate = 130, scale_w = 1.0556640625, scale_h = 0.95703125 },
+]
+
+[sequences.obire1]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 6, animation_type = 1, cell = "obire1", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire1", rotate = 455, scale_w = 0.89990234375, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire1", rotate = 910, scale_w = 0.800048828125, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire1", rotate = 1365, scale_w = 0.699951171875, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire1", rotate = 1820, scale_w = 0.60009765625, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire1", rotate = 1456, scale_w = 0.64990234375, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire1", rotate = 1092, scale_w = 0.699951171875, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire1", rotate = 728, scale_w = 0.75, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire1", rotate = 364, scale_w = 0.800048828125, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire1", scale_w = 0.85009765625, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire1", rotate = 65172, scale_w = 0.89990234375, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire1", rotate = 64808, scale_w = 0.949951171875, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire1", rotate = 64444, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire1", rotate = 64080, scale_w = 1.050048828125, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire1", rotate = 63716, scale_w = 1.10009765625, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire1", rotate = 64171, scale_w = 1.074951171875, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire1", rotate = 64626, scale_w = 1.050048828125, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire1", rotate = 65081, scale_w = 1.02490234375, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire1", scale_w = 1.0, scale_h = 1.0 },
+]
+
+[sequences.obire2]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 6, animation_type = 1, cell = "obire2", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire2", rotate = 64626, scale_w = 1.02490234375, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire2", rotate = 63716, scale_w = 1.050048828125, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire2", rotate = 62806, scale_w = 1.074951171875, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire2", rotate = 61896, scale_w = 1.10009765625, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire2", rotate = 62502, scale_w = 1.066650390625, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire2", rotate = 63109, scale_w = 1.033447265625, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire2", rotate = 63716, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire2", rotate = 64323, scale_w = 0.966552734375, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire2", rotate = 64930, scale_w = 0.933349609375, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire2", scale_w = 0.89990234375, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire2", rotate = 606, scale_w = 0.86669921875, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire2", rotate = 1213, scale_w = 0.833251953125, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire2", rotate = 1820, scale_w = 0.800048828125, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire2", rotate = 1459, scale_w = 0.840087890625, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire2", rotate = 1099, scale_w = 0.8798828125, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire2", rotate = 739, scale_w = 0.919921875, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire2", rotate = 378, scale_w = 0.9599609375, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire2", rotate = 18, scale_w = 1.0, scale_h = 1.0, translate_x = 1 },
+]
+
+[sequences.obire3]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 6, animation_type = 1, cell = "obire3", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire3", rotate = 64854, scale_w = 1.125, scale_h = 0.949951171875 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire3", rotate = 64171, scale_w = 1.25, scale_h = 0.89990234375 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire3", rotate = 63489, scale_w = 1.375, scale_h = 0.85009765625 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire3", rotate = 62806, scale_w = 1.5, scale_h = 0.800048828125 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire3", rotate = 63413, scale_w = 1.4443359375, scale_h = 0.844482421875 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire3", rotate = 64019, scale_w = 1.388916015625, scale_h = 0.888916015625 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire3", rotate = 64626, scale_w = 1.333251953125, scale_h = 0.933349609375 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire3", rotate = 65233, scale_w = 1.27783203125, scale_h = 0.977783203125 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire3", rotate = 303, scale_w = 1.22216796875, scale_h = 1.022216796875 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire3", rotate = 910, scale_w = 1.166748046875, scale_h = 1.066650390625 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire3", rotate = 1517, scale_w = 1.111083984375, scale_h = 1.111083984375 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire3", rotate = 2123, scale_w = 1.0556640625, scale_h = 1.155517578125 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire3", rotate = 2730, scale_w = 1.0, scale_h = 1.199951171875 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire3", rotate = 2191, scale_w = 1.0, scale_h = 1.159912109375 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire3", rotate = 1652, scale_w = 1.0, scale_h = 1.1201171875 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire3", rotate = 1114, scale_w = 1.0, scale_h = 1.080078125 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire3", rotate = 575, scale_w = 1.0, scale_h = 1.0400390625 },
+  { duration_in_frames = 6, animation_type = 1, cell = "obire3", rotate = 36, scale_w = 1.0, scale_h = 1.0, translate_x = 1 },
+]

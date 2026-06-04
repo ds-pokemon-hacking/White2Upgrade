@@ -1,0 +1,19 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.CellAnime0]
+properties = [
+  { sequence = "head", translate_y = -21, frame_mode = 33 },
+  { sequence = "leaf_R", translate_y = -21, frame_mode = 33, unique_id = 1 },
+  { sequence = "leaf_L", translate_y = -21, frame_mode = 33, unique_id = 2 },
+  { sequence = "leaf_C", translate_y = -21, frame_mode = 33, unique_id = 3 },
+]
+
+[multi_cells.CellAnime0_1]
+properties = [
+  { sequence = "head", translate_y = -21, frame_mode = 33 },
+  { sequence = "leaf_R_2", translate_y = -21, frame_mode = 33, unique_id = 1 },
+  { sequence = "leaf_L_2", translate_y = -21, frame_mode = 33, unique_id = 2 },
+  { sequence = "leaf_C_2", translate_y = -21, frame_mode = 33, unique_id = 3 },
+]

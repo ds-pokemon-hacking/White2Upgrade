@@ -1,0 +1,659 @@
+
+sopc_height = 16
+
+[[entries]]
+role = "entry_17880"
+kind = "ncgr"
+raw = "entry_17880.png"
+lz11 = true
+
+[[entries]]
+role = "entry_17881.bin"
+kind = "empty"
+raw = "entry_17881.bin"
+lz11 = false
+
+[[entries]]
+role = "entry_17882"
+kind = "ncgr"
+raw = "entry_17882.png"
+lz11 = true
+
+[[entries]]
+role = "entry_17883.bin"
+kind = "empty"
+raw = "entry_17883.bin"
+lz11 = false
+
+[[entries]]
+role = "entry_17884.ncer"
+kind = "ncer"
+raw = "entry_17884.ncer.toml"
+lz11 = false
+
+[[entries]]
+role = "entry_17885.nanr"
+kind = "nanr"
+raw = "entry_17885.nanr.toml"
+depends_on = ["entry_17884.ncer.toml"]
+lz11 = true
+
+[[entries]]
+role = "entry_17886.nmcr"
+kind = "nmcr"
+raw = "entry_17886.nmcr.toml"
+depends_on = ["entry_17885.nanr.toml"]
+lz11 = false
+
+[[entries]]
+role = "entry_17887.nmar"
+kind = "nmar"
+raw = "entry_17887.nmar.toml"
+depends_on = ["entry_17885.nanr.toml", "entry_17886.nmcr.toml"]
+lz11 = false
+
+[[entries]]
+role = "entry_17888.bin"
+kind = "binary"
+raw = "entry_17888.bin"
+lz11 = false
+
+[[entries]]
+role = "entry_17889"
+kind = "ncgr"
+raw = "entry_17889.png"
+lz11 = true
+
+[[entries]]
+role = "entry_17890.bin"
+kind = "empty"
+raw = "entry_17890.bin"
+lz11 = false
+
+[[entries]]
+role = "entry_17891"
+kind = "ncgr"
+raw = "entry_17891.png"
+lz11 = true
+
+[[entries]]
+role = "entry_17892.bin"
+kind = "empty"
+raw = "entry_17892.bin"
+lz11 = false
+
+[[entries]]
+role = "entry_17893.ncer"
+kind = "ncer"
+raw = "entry_17893.ncer.toml"
+lz11 = false
+
+[[entries]]
+role = "entry_17894.nanr"
+kind = "nanr"
+raw = "entry_17894.nanr.toml"
+depends_on = ["entry_17893.ncer.toml"]
+lz11 = true
+
+[[entries]]
+role = "entry_17895.nmcr"
+kind = "nmcr"
+raw = "entry_17895.nmcr.toml"
+depends_on = ["entry_17894.nanr.toml"]
+lz11 = false
+
+[[entries]]
+role = "entry_17896.nmar"
+kind = "nmar"
+raw = "entry_17896.nmar.toml"
+depends_on = ["entry_17894.nanr.toml", "entry_17895.nmcr.toml"]
+lz11 = false
+
+[[entries]]
+role = "entry_17897.bin"
+kind = "binary"
+raw = "entry_17897.bin"
+lz11 = false
+
+[[entries]]
+role = "entry_17898"
+kind = "nclr"
+raw = "entry_17898.pal"
+lz11 = false
+
+[[entries]]
+role = "entry_17899"
+kind = "nclr"
+raw = "entry_17899.pal"
+lz11 = false
+
+[[entries]]
+role = "entry_17900"
+kind = "ncgr"
+raw = "entry_17900.png"
+lz11 = true
+
+[[entries]]
+role = "entry_17901.bin"
+kind = "empty"
+raw = "entry_17901.bin"
+lz11 = false
+
+[[entries]]
+role = "entry_17902"
+kind = "ncgr"
+raw = "entry_17902.png"
+lz11 = true
+
+[[entries]]
+role = "entry_17903.bin"
+kind = "empty"
+raw = "entry_17903.bin"
+lz11 = false
+
+[[entries]]
+role = "entry_17904.ncer"
+kind = "ncer"
+raw = "entry_17904.ncer.toml"
+lz11 = false
+
+[[entries]]
+role = "entry_17905.nanr"
+kind = "nanr"
+raw = "entry_17905.nanr.toml"
+depends_on = ["entry_17904.ncer.toml"]
+lz11 = true
+
+[[entries]]
+role = "entry_17906.nmcr"
+kind = "nmcr"
+raw = "entry_17906.nmcr.toml"
+depends_on = ["entry_17905.nanr.toml"]
+lz11 = false
+
+[[entries]]
+role = "entry_17907.nmar"
+kind = "nmar"
+raw = "entry_17907.nmar.toml"
+depends_on = ["entry_17905.nanr.toml", "entry_17906.nmcr.toml"]
+lz11 = false
+
+[[entries]]
+role = "entry_17908.bin"
+kind = "binary"
+raw = "entry_17908.bin"
+lz11 = false
+
+[[entries]]
+role = "entry_17909"
+kind = "ncgr"
+raw = "entry_17909.png"
+lz11 = true
+
+[[entries]]
+role = "entry_17910.bin"
+kind = "empty"
+raw = "entry_17910.bin"
+lz11 = false
+
+[[entries]]
+role = "entry_17911"
+kind = "ncgr"
+raw = "entry_17911.png"
+lz11 = true
+
+[[entries]]
+role = "entry_17912.bin"
+kind = "empty"
+raw = "entry_17912.bin"
+lz11 = false
+
+[[entries]]
+role = "entry_17913.ncer"
+kind = "ncer"
+raw = "entry_17913.ncer.toml"
+lz11 = false
+
+[[entries]]
+role = "entry_17914.nanr"
+kind = "nanr"
+raw = "entry_17914.nanr.toml"
+depends_on = ["entry_17913.ncer.toml"]
+lz11 = true
+
+[[entries]]
+role = "entry_17915.nmcr"
+kind = "nmcr"
+raw = "entry_17915.nmcr.toml"
+depends_on = ["entry_17914.nanr.toml"]
+lz11 = false
+
+[[entries]]
+role = "entry_17916.nmar"
+kind = "nmar"
+raw = "entry_17916.nmar.toml"
+depends_on = ["entry_17914.nanr.toml", "entry_17915.nmcr.toml"]
+lz11 = false
+
+[[entries]]
+role = "entry_17917.bin"
+kind = "binary"
+raw = "entry_17917.bin"
+lz11 = false
+
+[[entries]]
+role = "entry_17918"
+kind = "nclr"
+raw = "entry_17918.pal"
+lz11 = false
+
+[[entries]]
+role = "entry_17919"
+kind = "nclr"
+raw = "entry_17919.pal"
+lz11 = false
+
+[[entries]]
+role = "entry_17920"
+kind = "ncgr"
+raw = "entry_17920.png"
+lz11 = true
+
+[[entries]]
+role = "entry_17921.bin"
+kind = "empty"
+raw = "entry_17921.bin"
+lz11 = false
+
+[[entries]]
+role = "entry_17922"
+kind = "ncgr"
+raw = "entry_17922.png"
+lz11 = true
+
+[[entries]]
+role = "entry_17923.bin"
+kind = "empty"
+raw = "entry_17923.bin"
+lz11 = false
+
+[[entries]]
+role = "entry_17924.ncer"
+kind = "ncer"
+raw = "entry_17924.ncer.toml"
+lz11 = false
+
+[[entries]]
+role = "entry_17925.nanr"
+kind = "nanr"
+raw = "entry_17925.nanr.toml"
+depends_on = ["entry_17924.ncer.toml"]
+lz11 = true
+
+[[entries]]
+role = "entry_17926.nmcr"
+kind = "nmcr"
+raw = "entry_17926.nmcr.toml"
+depends_on = ["entry_17925.nanr.toml"]
+lz11 = false
+
+[[entries]]
+role = "entry_17927.nmar"
+kind = "nmar"
+raw = "entry_17927.nmar.toml"
+depends_on = ["entry_17925.nanr.toml", "entry_17926.nmcr.toml"]
+lz11 = false
+
+[[entries]]
+role = "entry_17928.bin"
+kind = "binary"
+raw = "entry_17928.bin"
+lz11 = false
+
+[[entries]]
+role = "entry_17929"
+kind = "ncgr"
+raw = "entry_17929.png"
+lz11 = true
+
+[[entries]]
+role = "entry_17930.bin"
+kind = "empty"
+raw = "entry_17930.bin"
+lz11 = false
+
+[[entries]]
+role = "entry_17931"
+kind = "ncgr"
+raw = "entry_17931.png"
+lz11 = true
+
+[[entries]]
+role = "entry_17932.bin"
+kind = "empty"
+raw = "entry_17932.bin"
+lz11 = false
+
+[[entries]]
+role = "entry_17933.ncer"
+kind = "ncer"
+raw = "entry_17933.ncer.toml"
+lz11 = false
+
+[[entries]]
+role = "entry_17934.nanr"
+kind = "nanr"
+raw = "entry_17934.nanr.toml"
+depends_on = ["entry_17933.ncer.toml"]
+lz11 = true
+
+[[entries]]
+role = "entry_17935.nmcr"
+kind = "nmcr"
+raw = "entry_17935.nmcr.toml"
+depends_on = ["entry_17934.nanr.toml"]
+lz11 = false
+
+[[entries]]
+role = "entry_17936.nmar"
+kind = "nmar"
+raw = "entry_17936.nmar.toml"
+depends_on = ["entry_17934.nanr.toml", "entry_17935.nmcr.toml"]
+lz11 = false
+
+[[entries]]
+role = "entry_17937.bin"
+kind = "binary"
+raw = "entry_17937.bin"
+lz11 = false
+
+[[entries]]
+role = "entry_17938"
+kind = "nclr"
+raw = "entry_17938.pal"
+lz11 = false
+high_bits = [15]
+
+[[entries]]
+role = "entry_17939"
+kind = "nclr"
+raw = "entry_17939.pal"
+lz11 = false
+
+[[entries]]
+role = "entry_17940"
+kind = "ncgr"
+raw = "entry_17940.png"
+sopc_height = 32
+lz11 = true
+
+[[entries]]
+role = "entry_17941.ncer"
+kind = "ncer"
+raw = "entry_17941.ncer.toml"
+lz11 = false
+
+[[entries]]
+role = "entry_17942.nanr"
+kind = "nanr"
+raw = "entry_17942.nanr.toml"
+depends_on = ["entry_17941.ncer.toml"]
+lz11 = true
+
+[[entries]]
+role = "entry_17943.nmcr"
+kind = "nmcr"
+raw = "entry_17943.nmcr.toml"
+depends_on = ["entry_17942.nanr.toml"]
+lz11 = false
+
+[[entries]]
+role = "entry_17944.nmar"
+kind = "nmar"
+raw = "entry_17944.nmar.toml"
+depends_on = ["entry_17942.nanr.toml", "entry_17943.nmcr.toml"]
+lz11 = false
+
+[[entries]]
+role = "entry_17945.bin"
+kind = "binary"
+raw = "entry_17945.bin"
+lz11 = false
+
+[[entries]]
+role = "entry_17946"
+kind = "ncgr"
+raw = "entry_17946.png"
+sopc_height = 32
+lz11 = true
+
+[[entries]]
+role = "entry_17947.ncer"
+kind = "ncer"
+raw = "entry_17947.ncer.toml"
+lz11 = false
+
+[[entries]]
+role = "entry_17948.nanr"
+kind = "nanr"
+raw = "entry_17948.nanr.toml"
+depends_on = ["entry_17947.ncer.toml"]
+lz11 = true
+
+[[entries]]
+role = "entry_17949.nmcr"
+kind = "nmcr"
+raw = "entry_17949.nmcr.toml"
+depends_on = ["entry_17948.nanr.toml"]
+lz11 = false
+
+[[entries]]
+role = "entry_17950.nmar"
+kind = "nmar"
+raw = "entry_17950.nmar.toml"
+depends_on = ["entry_17948.nanr.toml", "entry_17949.nmcr.toml"]
+lz11 = false
+
+[[entries]]
+role = "entry_17951.bin"
+kind = "binary"
+raw = "entry_17951.bin"
+lz11 = false
+
+[[entries]]
+role = "entry_17952"
+kind = "nclr"
+raw = "entry_17952.pal"
+lz11 = false
+
+[[entries]]
+role = "entry_17953"
+kind = "nclr"
+raw = "entry_17953.pal"
+lz11 = false
+
+[[entries]]
+role = "entry_17954"
+kind = "nclr"
+raw = "entry_17954.pal"
+lz11 = false
+
+[[entries]]
+role = "entry_17955"
+kind = "nclr"
+raw = "entry_17955.pal"
+lz11 = false
+
+[[entries]]
+role = "entry_17956"
+kind = "nclr"
+raw = "entry_17956.pal"
+lz11 = false
+
+[[entries]]
+role = "entry_17957"
+kind = "nclr"
+raw = "entry_17957.pal"
+lz11 = false
+
+[[entries]]
+role = "entry_17958"
+kind = "nclr"
+raw = "entry_17958.pal"
+lz11 = false
+
+[[entries]]
+role = "entry_17959"
+kind = "nclr"
+raw = "entry_17959.pal"
+lz11 = false
+
+[[entries]]
+role = "entry_17960"
+kind = "nclr"
+raw = "entry_17960.pal"
+lz11 = false
+
+[[entries]]
+role = "entry_17961"
+kind = "nclr"
+raw = "entry_17961.pal"
+lz11 = false
+
+[[entries]]
+role = "entry_17962"
+kind = "nclr"
+raw = "entry_17962.pal"
+lz11 = false
+
+[[entries]]
+role = "entry_17963"
+kind = "nclr"
+raw = "entry_17963.pal"
+lz11 = false
+
+[[entries]]
+role = "entry_17964"
+kind = "nclr"
+raw = "entry_17964.pal"
+lz11 = false
+
+[[entries]]
+role = "entry_17965"
+kind = "nclr"
+raw = "entry_17965.pal"
+lz11 = false
+
+[[entries]]
+role = "entry_17966"
+kind = "nclr"
+raw = "entry_17966.pal"
+lz11 = false
+
+[[entries]]
+role = "entry_17967"
+kind = "nclr"
+raw = "entry_17967.pal"
+lz11 = false
+
+[[entries]]
+role = "entry_17968"
+kind = "nclr"
+raw = "entry_17968.pal"
+lz11 = false
+
+[[entries]]
+role = "entry_17969"
+kind = "nclr"
+raw = "entry_17969.pal"
+lz11 = false
+
+[[entries]]
+role = "entry_17970"
+kind = "nclr"
+raw = "entry_17970.pal"
+lz11 = false
+
+[[entries]]
+role = "entry_17971"
+kind = "nclr"
+raw = "entry_17971.pal"
+lz11 = false
+
+[[entries]]
+role = "entry_17972"
+kind = "nclr"
+raw = "entry_17972.pal"
+lz11 = false
+
+[[entries]]
+role = "entry_17973"
+kind = "nclr"
+raw = "entry_17973.pal"
+lz11 = false
+
+[[entries]]
+role = "entry_17974"
+kind = "nclr"
+raw = "entry_17974.pal"
+lz11 = false
+
+[[entries]]
+role = "entry_17975"
+kind = "nclr"
+raw = "entry_17975.pal"
+lz11 = false
+
+[[entries]]
+role = "entry_17976"
+kind = "nclr"
+raw = "entry_17976.pal"
+lz11 = false
+
+[[entries]]
+role = "entry_17977"
+kind = "nclr"
+raw = "entry_17977.pal"
+lz11 = false
+
+[[entries]]
+role = "entry_17978"
+kind = "nclr"
+raw = "entry_17978.pal"
+lz11 = false
+
+[[entries]]
+role = "entry_17979"
+kind = "nclr"
+raw = "entry_17979.pal"
+lz11 = false
+
+[[entries]]
+role = "entry_17980"
+kind = "nclr"
+raw = "entry_17980.pal"
+lz11 = false
+
+[[entries]]
+role = "entry_17981"
+kind = "nclr"
+raw = "entry_17981.pal"
+lz11 = false
+
+[[entries]]
+role = "entry_17982"
+kind = "nclr"
+raw = "entry_17982.pal"
+lz11 = false
+
+[[entries]]
+role = "entry_17983"
+kind = "nclr"
+raw = "entry_17983.pal"
+lz11 = false
+
+[[entries]]
+role = "entry_17984"
+kind = "nclr"
+raw = "entry_17984.pal"
+lz11 = false

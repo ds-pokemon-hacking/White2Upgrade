@@ -1,0 +1,33 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.CellAnime0]
+properties = [
+  { sequence = "syokkaku_a", translate_y = -41, frame_mode = 32 },
+  { sequence = "head_a", translate_x = -6, translate_y = -64, frame_mode = 32, unique_id = 1 },
+  { sequence = "neck_a", translate_x = -6, translate_y = -44, frame_mode = 32, unique_id = 2 },
+  { sequence = "neck02_a", translate_x = -8, translate_y = -32, frame_mode = 32, unique_id = 3 },
+  { sequence = "hanabira_u_a", translate_y = -41, frame_mode = 32, unique_id = 4 },
+  { sequence = "hanabira_s_a", translate_y = -41, frame_mode = 32, unique_id = 5 },
+  { sequence = "body_a", translate_y = -41, frame_mode = 32, unique_id = 6 },
+  { sequence = "tail_a", translate_x = 21, translate_y = -27, frame_mode = 32, unique_id = 7 },
+  { sequence = "foot_b_a", translate_y = -41, frame_mode = 32, unique_id = 8 },
+  { sequence = "foot_fl_a", translate_y = -41, frame_mode = 32, unique_id = 9 },
+  { sequence = "foot_fr_a", translate_y = -41, frame_mode = 32, unique_id = 10 },
+]
+
+[multi_cells.CellAnime0_1]
+properties = [
+  { sequence = "syokkaku_b", translate_y = -41, frame_mode = 32 },
+  { sequence = "head_b", translate_x = -6, translate_y = -64, frame_mode = 32, unique_id = 1 },
+  { sequence = "neck_b", translate_x = -6, translate_y = -44, frame_mode = 32, unique_id = 2 },
+  { sequence = "neck02_b", translate_x = -8, translate_y = -32, frame_mode = 32, unique_id = 3 },
+  { sequence = "hanabira_u_b", translate_y = -41, frame_mode = 32, unique_id = 4 },
+  { sequence = "hanabira_s_b", translate_y = -41, frame_mode = 32, unique_id = 5 },
+  { sequence = "body_b", translate_y = -41, frame_mode = 32, unique_id = 6 },
+  { sequence = "tail_b", translate_x = 21, translate_y = -27, frame_mode = 32, unique_id = 7 },
+  { sequence = "foot_b_b", translate_y = -41, frame_mode = 32, unique_id = 8 },
+  { sequence = "foot_fl_b", translate_y = -41, frame_mode = 32, unique_id = 9 },
+  { sequence = "foot_fr_b", translate_y = -41, frame_mode = 32, unique_id = 10 },
+]

@@ -1,0 +1,25 @@
+format = "ncer"
+extended = 1
+
+size_boundary = 4
+
+[cells.all]
+unknown0 = 22
+objects = [
+  { position_y = 224, transformable = 1, double_sized = 1, object_mode = 1, position_x = 488, key_size = 1, tile_index = 0 },
+  { position_y = 224, transformable = 1, double_sized = 1, object_mode = 1, key_shape = 2, position_x = 508, tile_index = 2 },
+  { position_y = 200, transformable = 1, double_sized = 1, position_x = 480, key_size = 2, tile_index = 6 },
+  { position_y = 244, transformable = 1, double_sized = 1, key_shape = 1, position_x = 480, key_size = 1, tile_index = 134 },
+]
+
+[cells.Lfoot_0]
+unknown0 = 10
+objects = [
+  { position_y = 240, transformable = 1, double_sized = 1, position_x = 488, key_size = 1, tile_index = 198 },
+]
+
+[cells.Rfoot_0]
+unknown0 = 7
+objects = [
+  { position_y = 240, transformable = 1, double_sized = 1, position_x = 504, key_size = 1, tile_index = 201 },
+]

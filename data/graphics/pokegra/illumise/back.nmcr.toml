@@ -1,0 +1,17 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.nonstop]
+properties = [
+  { sequence = "Rfoot", translate_x = 6, translate_y = -18, frame_mode = 32 },
+  { sequence = "light", translate_y = -5, frame_mode = 32, unique_id = 1 },
+  { sequence = "Lwing", translate_x = -6, translate_y = -36, frame_mode = 32, unique_id = 2 },
+  { sequence = "Rwing", translate_x = -3, translate_y = -37, frame_mode = 32, unique_id = 3 },
+  { sequence = "Rhand", translate_x = 12, translate_y = -33, frame_mode = 32, unique_id = 4 },
+  { sequence = "body", translate_y = -5, frame_mode = 32, unique_id = 5 },
+  { sequence = "Lfoot", translate_x = -11, translate_y = -20, frame_mode = 32, unique_id = 6 },
+  { sequence = "Lhand", translate_x = -8, translate_y = -31, frame_mode = 32, unique_id = 7 },
+  { sequence = "Rparts", translate_x = 6, translate_y = -45, frame_mode = 32, unique_id = 8 },
+  { sequence = "Lparts", translate_x = -4, translate_y = -46, frame_mode = 32, unique_id = 9 },
+]

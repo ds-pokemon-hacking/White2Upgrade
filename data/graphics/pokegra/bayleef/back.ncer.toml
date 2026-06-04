@@ -1,0 +1,70 @@
+format = "ncer"
+extended = 1
+
+size_boundary = 4
+padding_size = 2
+
+[cells.ha]
+unknown0 = 10
+objects = [
+  { position_y = 242, key_shape = 1, position_x = 477, key_size = 2, tile_index = 9 },
+  { position_y = 242, key_shape = 2, position_x = 509, tile_index = 13 },
+  { position_y = 2, key_shape = 1, position_x = 477, key_size = 1, tile_index = 73 },
+  { position_y = 2, position_x = 509, tile_index = 77 },
+]
+
+[cells.atama]
+unknown0 = 18
+objects = [
+  { position_y = 239, transformable = 1, double_sized = 1, object_mode = 1, position_x = 511, tile_index = 0 },
+  { position_y = 217, transformable = 1, double_sized = 1, position_x = 481, key_size = 2, tile_index = 65 },
+]
+
+[cells.body]
+unknown0 = 14
+objects = [
+  { position_y = 235, transformable = 1, double_sized = 1, key_shape = 1, position_x = 479, key_size = 2, tile_index = 69 },
+  { position_y = 255, transformable = 1, double_sized = 1, key_shape = 1, position_x = 479, key_size = 1, tile_index = 133 },
+]
+
+[cells.o]
+unknown0 = 5
+objects = [
+  { position_y = 248, transformable = 1, double_sized = 1, position_x = 503, tile_index = 192 },
+]
+
+[cells.foot1]
+unknown0 = 9
+objects = [
+  { position_y = 241, transformable = 1, double_sized = 1, position_x = 495, key_size = 1, tile_index = 193 },
+]
+
+[cells.tume1]
+unknown0 = 4
+objects = [
+  { position_y = 248, transformable = 1, double_sized = 1, position_x = 504, tile_index = 199 },
+]
+
+[cells.foot2]
+unknown0 = 9
+objects = [
+  { position_y = 240, transformable = 1, double_sized = 1, position_x = 496, key_size = 1, tile_index = 195 },
+]
+
+[cells.tume2]
+unknown0 = 4
+objects = [
+  { position_y = 248, transformable = 1, double_sized = 1, position_x = 504, tile_index = 200 },
+]
+
+[cells.foot3]
+unknown0 = 9
+objects = [
+  { position_y = 240, transformable = 1, double_sized = 1, position_x = 496, key_size = 1, tile_index = 197 },
+]
+
+[cells.tume3]
+unknown0 = 4
+objects = [
+  { position_y = 248, transformable = 1, double_sized = 1, position_x = 504, tile_index = 201 },
+]

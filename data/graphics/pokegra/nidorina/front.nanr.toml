@@ -1,0 +1,102 @@
+format = "nanr"
+extended = 1
+
+[sequences.ata]
+animation_type = 2
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 10, animation_type = 2, cell = "ata", unknown0 = 48879 },
+  { duration_in_frames = 10, animation_type = 2, cell = "ata", translate_y = 1, unknown0 = 48879 },
+  { duration_in_frames = 10, animation_type = 2, cell = "ata", translate_y = 2, unknown0 = 48879 },
+  { duration_in_frames = 10, animation_type = 2, cell = "ata", translate_y = 1, unknown0 = 48879 },
+  { duration_in_frames = 10, animation_type = 2, cell = "ata", unknown0 = 48879 },
+]
+
+[sequences.mimi]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 10, animation_type = 1, cell = "mimi", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 10, animation_type = 1, cell = "mimi", rotate = 182, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 10, animation_type = 1, cell = "mimi", rotate = 364, scale_w = 1.0, scale_h = 1.0, translate_y = 1 },
+  { duration_in_frames = 10, animation_type = 1, cell = "mimi", rotate = 182, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 10, animation_type = 1, cell = "mimi", scale_w = 1.0, scale_h = 1.0 },
+]
+
+[sequences.mimi2]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 10, animation_type = 1, cell = "mimi2", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 10, animation_type = 1, cell = "mimi2", rotate = 182, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 10, animation_type = 1, cell = "mimi2", rotate = 364, scale_w = 1.0, scale_h = 1.0, translate_y = 1 },
+  { duration_in_frames = 10, animation_type = 1, cell = "mimi2", rotate = 182, scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 10, animation_type = 1, cell = "mimi2", scale_w = 1.0, scale_h = 1.0 },
+]
+
+[sequences.kara]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 10, animation_type = 1, cell = "kara", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 10, animation_type = 1, cell = "kara", scale_w = 1.02490234375, scale_h = 1.02490234375 },
+  { duration_in_frames = 10, animation_type = 1, cell = "kara", scale_w = 1.050048828125, scale_h = 1.050048828125, translate_y = 1 },
+  { duration_in_frames = 10, animation_type = 1, cell = "kara", scale_w = 1.02490234375, scale_h = 1.02490234375 },
+  { duration_in_frames = 10, animation_type = 1, cell = "kara", scale_w = 1.0, scale_h = 1.0 },
+]
+
+[sequences.asi]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 10, animation_type = 1, cell = "asi", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 10, animation_type = 1, cell = "asi", scale_w = 1.02490234375, scale_h = 1.0 },
+  { duration_in_frames = 10, animation_type = 1, cell = "asi", scale_w = 1.050048828125, scale_h = 1.0 },
+  { duration_in_frames = 10, animation_type = 1, cell = "asi", scale_w = 1.02490234375, scale_h = 1.0 },
+  { duration_in_frames = 10, animation_type = 1, cell = "asi", scale_w = 1.0, scale_h = 1.0 },
+]
+
+[sequences.asi2]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 10, animation_type = 1, cell = "asi2", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 10, animation_type = 1, cell = "asi2", scale_w = 1.02490234375, scale_h = 1.0 },
+  { duration_in_frames = 10, animation_type = 1, cell = "asi2", scale_w = 1.050048828125, scale_h = 1.0 },
+  { duration_in_frames = 10, animation_type = 1, cell = "asi2", scale_w = 1.02490234375, scale_h = 1.0 },
+  { duration_in_frames = 10, animation_type = 1, cell = "asi2", scale_w = 1.0, scale_h = 1.0 },
+]
+
+[sequences.asi3]
+animation_type = 1
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 10, animation_type = 1, cell = "asi3", scale_w = 1.0, scale_h = 1.0 },
+  { duration_in_frames = 10, animation_type = 1, cell = "asi3", scale_w = 1.02490234375, scale_h = 1.0 },
+  { duration_in_frames = 10, animation_type = 1, cell = "asi3", scale_w = 1.050048828125, scale_h = 1.0 },
+  { duration_in_frames = 10, animation_type = 1, cell = "asi3", scale_w = 1.02490234375, scale_h = 1.0 },
+  { duration_in_frames = 10, animation_type = 1, cell = "asi3", scale_w = 1.0, scale_h = 1.0 },
+]
+
+[sequences.a]
+cell_type = 1
+loop_mode = 2
+frames = [
+  { duration_in_frames = 16, cell = "ata" },
+  { duration_in_frames = 6, cell = "a" },
+  { duration_in_frames = 6, cell = "a_1" },
+  { duration_in_frames = 10, cell = "a_2" },
+  { duration_in_frames = 10, cell = "a_3", padding_after = [204, 204] },
+  { duration_in_frames = 10, cell = "a_1" },
+  { duration_in_frames = 10, cell = "a_2" },
+  { duration_in_frames = 10, cell = "a_3", padding_after = [204, 204] },
+  { duration_in_frames = 6, cell = "a" },
+  { duration_in_frames = 16, cell = "ata" },
+]

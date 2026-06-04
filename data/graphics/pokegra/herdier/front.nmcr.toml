@@ -1,0 +1,45 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.CellAnime0]
+properties = [
+  { sequence = "head01", translate_x = -5, translate_y = -15, frame_mode = 32 },
+  { sequence = "bl_foot01", translate_x = 7, translate_y = -9, frame_mode = 32, unique_id = 1 },
+  { sequence = "bl_leg01", translate_x = 7, translate_y = -9, frame_mode = 32, unique_id = 2 },
+  { sequence = "pl_foot01", translate_y = -9, frame_mode = 32, unique_id = 3 },
+  { sequence = "pl_leg01", translate_y = -9, frame_mode = 32, unique_id = 4 },
+  { sequence = "pr_foot01", translate_x = -7, translate_y = -8, frame_mode = 32, unique_id = 5 },
+  { sequence = "pr_leg01", translate_x = -7, translate_y = -8, frame_mode = 32, unique_id = 6 },
+  { sequence = "body01", translate_x = -1, translate_y = -10, frame_mode = 32, unique_id = 7 },
+  { sequence = "body02", translate_x = -1, translate_y = -10, frame_mode = 32, unique_id = 8 },
+  { sequence = "tail01", translate_x = 4, translate_y = -12, frame_mode = 32, unique_id = 9 },
+]
+
+[multi_cells.CellAnime0_1]
+properties = [
+  { sequence = "head02", translate_x = -5, translate_y = -15, frame_mode = 32 },
+  { sequence = "bl_foot01", translate_x = 7, translate_y = -9, frame_mode = 32, unique_id = 1 },
+  { sequence = "bl_leg02", translate_x = 7, translate_y = -9, frame_mode = 32, unique_id = 2 },
+  { sequence = "pl_foot01", translate_y = -9, frame_mode = 32, unique_id = 3 },
+  { sequence = "pl_leg02", translate_y = -9, frame_mode = 32, unique_id = 4 },
+  { sequence = "pr_foot01", translate_x = -7, translate_y = -8, frame_mode = 32, unique_id = 5 },
+  { sequence = "pr_leg02", translate_x = -7, translate_y = -8, frame_mode = 32, unique_id = 6 },
+  { sequence = "body01_02", translate_x = -1, translate_y = -10, frame_mode = 32, unique_id = 7 },
+  { sequence = "body02_02", translate_x = -1, translate_y = -10, frame_mode = 32, unique_id = 8 },
+  { sequence = "tail02", translate_x = 4, translate_y = -12, frame_mode = 32, unique_id = 9 },
+]
+
+[multi_cells.CellAnime0_2]
+properties = [
+  { sequence = "head03", translate_x = -5, translate_y = -15, frame_mode = 33 },
+  { sequence = "bl_foot03", translate_x = 7, translate_y = -9, frame_mode = 33, unique_id = 1 },
+  { sequence = "bl_leg03", translate_x = 7, translate_y = -9, frame_mode = 33, unique_id = 2 },
+  { sequence = "pl_foot03", translate_y = -9, frame_mode = 33, unique_id = 3 },
+  { sequence = "pl_leg03", translate_y = -9, frame_mode = 33, unique_id = 4 },
+  { sequence = "pr_foot03", translate_x = -7, translate_y = -8, frame_mode = 33, unique_id = 5 },
+  { sequence = "pr_leg03", translate_x = -7, translate_y = -8, frame_mode = 33, unique_id = 6 },
+  { sequence = "body01_03", translate_x = -1, translate_y = -10, frame_mode = 33, unique_id = 7 },
+  { sequence = "body02_03", translate_x = -1, translate_y = -10, frame_mode = 33, unique_id = 8 },
+  { sequence = "tail03", translate_x = 4, translate_y = -12, frame_mode = 33, unique_id = 9 },
+]

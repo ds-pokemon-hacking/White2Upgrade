@@ -1,0 +1,28 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.CellAnime0]
+properties = [
+  { sequence = "tume3", translate_x = 6, translate_y = -6, frame_mode = 32 },
+  { sequence = "tume2", translate_x = -4, translate_y = -3, frame_mode = 32, unique_id = 1 },
+  { sequence = "tume1", translate_x = -13, translate_y = -4, frame_mode = 32, unique_id = 2 },
+  { sequence = "foot2", translate_x = -4, translate_y = -7, frame_mode = 32, unique_id = 3 },
+  { sequence = "ha", translate_x = 6, translate_y = -35, frame_mode = 32, unique_id = 4 },
+  { sequence = "o", translate_x = -13, translate_y = -14, frame_mode = 32, unique_id = 5 },
+  { sequence = "body", translate_x = -2, translate_y = -13, frame_mode = 32, unique_id = 6 },
+  { sequence = "atama", translate_x = 2, translate_y = -19, frame_mode = 32, unique_id = 7 },
+  { sequence = "foot3", translate_x = 6, translate_y = -9, frame_mode = 32, unique_id = 8 },
+  { sequence = "foot1", translate_x = -12, translate_y = -8, frame_mode = 32, unique_id = 9 },
+]
+
+[multi_cells.CellAnime0_1]
+properties = [
+  { sequence = "foot2_b", translate_x = -4, translate_y = -7, frame_mode = 32 },
+  { sequence = "ha_b", translate_x = 6, translate_y = -35, frame_mode = 32, unique_id = 1 },
+  { sequence = "o_b", translate_x = -13, translate_y = -14, frame_mode = 32, unique_id = 2 },
+  { sequence = "body_b", translate_x = -2, translate_y = -13, frame_mode = 32, unique_id = 3 },
+  { sequence = "atama_b", translate_x = 2, translate_y = -19, frame_mode = 32, unique_id = 4 },
+  { sequence = "foot3_b", translate_x = 6, translate_y = -9, frame_mode = 32, unique_id = 5 },
+  { sequence = "foot1_b", translate_x = -12, translate_y = -8, frame_mode = 32, unique_id = 6 },
+]

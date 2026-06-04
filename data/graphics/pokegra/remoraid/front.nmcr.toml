@@ -1,0 +1,18 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.CellAnime0]
+properties = [
+  { sequence = "tsuno_C", frame_mode = 33 },
+  { sequence = "tsuno_R", frame_mode = 33, unique_id = 1 },
+  { sequence = "hand_R", frame_mode = 33, unique_id = 2 },
+  { sequence = "foot_RF", frame_mode = 33, unique_id = 3 },
+  { sequence = "foot_RB", frame_mode = 33, unique_id = 4 },
+  { sequence = "mouth", frame_mode = 33, unique_id = 5 },
+  { sequence = "body", frame_mode = 33, unique_id = 6 },
+  { sequence = "tsuno_L", frame_mode = 33, unique_id = 7 },
+  { sequence = "hand_L", frame_mode = 33, unique_id = 8 },
+  { sequence = "foot_L", frame_mode = 33, unique_id = 9 },
+  { sequence = "tail", frame_mode = 33, unique_id = 10 },
+]

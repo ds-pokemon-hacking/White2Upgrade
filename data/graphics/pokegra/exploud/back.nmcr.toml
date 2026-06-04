@@ -1,0 +1,27 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.CellAnime0]
+properties = [
+  { sequence = "te_a2", translate_x = 10, translate_y = -25, frame_mode = 32 },
+  { sequence = "karada3", translate_x = -3, translate_y = -29, frame_mode = 32, unique_id = 1 },
+  { sequence = "mimi_a2", translate_x = 9, translate_y = -57, frame_mode = 32, unique_id = 2 },
+  { sequence = "mimi_b2", translate_x = -10, translate_y = -54, frame_mode = 32, unique_id = 3 },
+  { sequence = "kuchi_a2", translate_x = 6, translate_y = -28, frame_mode = 32, unique_id = 4 },
+  { sequence = "ashi_a2", translate_x = -16, translate_y = -8, frame_mode = 32, unique_id = 5 },
+  { sequence = "ashi_b2", translate_x = 10, translate_y = -8, frame_mode = 32, unique_id = 6 },
+  { sequence = "te_b2", translate_x = -15, translate_y = -30, frame_mode = 32, unique_id = 7 },
+]
+
+[multi_cells.CellAnime0_1]
+properties = [
+  { sequence = "te_a1", translate_x = 10, translate_y = -25, frame_mode = 32 },
+  { sequence = "karada2", translate_x = -3, translate_y = -29, frame_mode = 32, unique_id = 1 },
+  { sequence = "mimi_a1", translate_x = 9, translate_y = -57, frame_mode = 32, unique_id = 2 },
+  { sequence = "mimi_b1", translate_x = -10, translate_y = -54, frame_mode = 32, unique_id = 3 },
+  { sequence = "kuchi_a1", translate_x = 6, translate_y = -28, frame_mode = 32, unique_id = 4 },
+  { sequence = "ashi_a1", translate_x = -16, translate_y = -8, frame_mode = 32, unique_id = 5 },
+  { sequence = "ashi_b1", translate_x = 10, translate_y = -8, frame_mode = 32, unique_id = 6 },
+  { sequence = "te_b1", translate_x = -15, translate_y = -30, frame_mode = 32, unique_id = 7 },
+]

@@ -1,0 +1,18 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.CellAnime0]
+properties = [
+  { sequence = "head", translate_x = 5, translate_y = -19, frame_mode = 32 },
+  { sequence = "sipo", translate_x = 8, translate_y = -11, frame_mode = 32, unique_id = 1 },
+  { sequence = "te", translate_x = 4, translate_y = 6, frame_mode = 32, unique_id = 2 },
+]
+
+[multi_cells.CellAnime0_1]
+properties = [
+  { sequence = "head1", translate_x = 5, translate_y = -19, frame_mode = 32 },
+  { sequence = "sipo1", translate_x = 8, translate_y = -11, frame_mode = 32, unique_id = 1 },
+  { sequence = "r_foot01", translate_x = -5, translate_y = -1, frame_mode = 32, unique_id = 2 },
+  { sequence = "l_foot01", translate_x = 11, frame_mode = 32, unique_id = 3 },
+]

@@ -1,0 +1,33 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.CellAnime0]
+properties = [
+  { sequence = "CellAnime1", translate_y = -1, frame_mode = 33 },
+  { sequence = "Lear", translate_x = -16, translate_y = -45, frame_mode = 32, unique_id = 1 },
+  { sequence = "Rear", translate_x = 6, translate_y = -45, frame_mode = 32, unique_id = 2 },
+  { sequence = "head", translate_y = -1, frame_mode = 32, unique_id = 3 },
+  { sequence = "neck", translate_y = -1, frame_mode = 32, unique_id = 4 },
+  { sequence = "RFfoot", translate_y = -1, frame_mode = 32, unique_id = 5 },
+  { sequence = "body", translate_y = -1, frame_mode = 32, unique_id = 6 },
+  { sequence = "tale", translate_x = 8, translate_y = -21, frame_mode = 32, unique_id = 7 },
+  { sequence = "LFfoot", translate_y = -1, frame_mode = 32, unique_id = 8 },
+  { sequence = "LBfoot", translate_y = -1, frame_mode = 32, unique_id = 9 },
+  { sequence = "RBfoot", translate_y = -1, frame_mode = 32, unique_id = 10 },
+]
+
+[multi_cells.CellAnime0_1]
+properties = [
+  { sequence = "CellAnime1", translate_y = -1, frame_mode = 33 },
+  { sequence = "Lear1", translate_x = -16, translate_y = -45, frame_mode = 32, unique_id = 1 },
+  { sequence = "Rear1", translate_x = 6, translate_y = -45, frame_mode = 32, unique_id = 2 },
+  { sequence = "head1", translate_y = -1, frame_mode = 32, unique_id = 3 },
+  { sequence = "neck1", translate_y = -1, frame_mode = 32, unique_id = 4 },
+  { sequence = "RFfoot1", translate_x = -9, translate_y = -1, frame_mode = 32, unique_id = 5 },
+  { sequence = "body1", translate_y = -1, frame_mode = 32, unique_id = 6 },
+  { sequence = "LFfoot1", translate_x = -6, translate_y = -1, frame_mode = 32, unique_id = 7 },
+  { sequence = "tale1", translate_x = 8, translate_y = -21, frame_mode = 32, unique_id = 8 },
+  { sequence = "LBfoot1", translate_y = -1, frame_mode = 32, unique_id = 9 },
+  { sequence = "RBfoot1", translate_x = 7, translate_y = -2, frame_mode = 32, unique_id = 10 },
+]

@@ -1,0 +1,54 @@
+format = "ncer"
+extended = 1
+
+size_boundary = 4
+padding_size = 2
+
+[cells.head01]
+unknown0 = 19
+objects = [
+  { position_y = 220, transformable = 1, double_sized = 1, position_x = 473, key_size = 2, tile_index = 1 },
+  { position_y = 220, transformable = 1, double_sized = 1, key_shape = 2, position_x = 5, key_size = 1, tile_index = 5 },
+]
+
+[cells.body01]
+unknown0 = 19
+objects = [
+  { position_y = 220, transformable = 1, double_sized = 1, position_x = 473, key_size = 2, tile_index = 6 },
+  { position_y = 220, transformable = 1, double_sized = 1, key_shape = 2, position_x = 5, key_size = 1, tile_index = 10 },
+]
+
+[cells.tail01]
+unknown0 = 11
+objects = [
+  { position_y = 239, transformable = 1, double_sized = 1, position_x = 485, key_size = 1, tile_index = 11 },
+  { position_y = 239, transformable = 1, double_sized = 1, key_shape = 2, position_x = 505, tile_index = 13 },
+]
+
+[cells.foot01]
+unknown0 = 8
+objects = [
+  { position_y = 243, transformable = 1, double_sized = 1, position_x = 497, key_size = 1, tile_index = 75 },
+]
+
+[cells.r_wings01]
+unknown0 = 14
+objects = [
+  { position_y = 231, transformable = 1, double_sized = 1, key_shape = 1, position_x = 492, key_size = 2, tile_index = 19 },
+  { position_y = 231, transformable = 1, double_sized = 1, position_x = 20, key_size = 1, tile_index = 23 },
+  { position_y = 251, transformable = 1, double_sized = 1, key_shape = 1, position_x = 492, key_size = 1, tile_index = 83 },
+  { position_y = 251, transformable = 1, double_sized = 1, key_shape = 1, position_x = 20, tile_index = 87 },
+]
+
+[cells.l_wings01]
+unknown0 = 19
+objects = [
+  { position_y = 232, transformable = 1, double_sized = 1, key_shape = 1, position_x = 461, key_size = 2, tile_index = 14 },
+  { position_y = 232, transformable = 1, double_sized = 1, key_shape = 2, position_x = 505, tile_index = 18 },
+  { position_y = 252, transformable = 1, double_sized = 1, key_shape = 1, position_x = 461, key_size = 1, tile_index = 78 },
+  { position_y = 252, transformable = 1, double_sized = 1, position_x = 505, tile_index = 82 },
+]
+
+[cells.cell_6]
+objects = [
+]

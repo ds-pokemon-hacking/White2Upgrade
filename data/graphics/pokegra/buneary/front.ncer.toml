@@ -1,0 +1,44 @@
+format = "ncer"
+extended = 1
+
+size_boundary = 4
+padding_size = 2
+
+[cells.head01]
+unknown0 = 23
+objects = [
+  { position_y = 231, transformable = 1, double_sized = 1, object_mode = 1, key_shape = 1, position_x = 476, key_size = 1, tile_index = 32 },
+  { position_y = 199, transformable = 1, double_sized = 1, position_x = 473, key_size = 2, tile_index = 4 },
+  { position_y = 199, transformable = 1, double_sized = 1, key_shape = 2, position_x = 1, key_size = 2, tile_index = 8 },
+  { position_y = 239, transformable = 1, double_sized = 1, key_shape = 1, position_x = 473, key_size = 2, tile_index = 132 },
+  { position_y = 239, transformable = 1, double_sized = 1, position_x = 1, key_size = 1, tile_index = 136 },
+  { position_y = 3, transformable = 1, double_sized = 1, key_shape = 1, position_x = 473, key_size = 1, tile_index = 196 },
+  { position_y = 3, transformable = 1, double_sized = 1, key_shape = 1, position_x = 1, tile_index = 200 },
+]
+
+[cells.parts01]
+unknown0 = 13
+objects = [
+  { position_y = 233, transformable = 1, double_sized = 1, key_shape = 2, position_x = 485, key_size = 2, tile_index = 10 },
+  { position_y = 233, transformable = 1, double_sized = 1, key_shape = 2, position_x = 505, key_size = 1, tile_index = 12 },
+]
+
+[cells.parts02]
+unknown0 = 8
+objects = [
+  { position_y = 245, transformable = 1, double_sized = 1, position_x = 500, key_size = 1, tile_index = 13 },
+  { position_y = 245, transformable = 1, double_sized = 1, key_shape = 2, position_x = 8, tile_index = 15 },
+  { position_y = 9, transformable = 1, double_sized = 1, key_shape = 1, position_x = 500, tile_index = 77 },
+  { position_y = 9, transformable = 1, double_sized = 1, position_x = 8, tile_index = 79 },
+]
+
+[cells.parts03]
+unknown0 = 11
+objects = [
+  { position_y = 243, transformable = 1, double_sized = 1, key_shape = 1, position_x = 491, key_size = 2, tile_index = 16 },
+  { position_y = 7, transformable = 1, double_sized = 1, key_shape = 1, position_x = 491, key_size = 1, tile_index = 80 },
+]
+
+[cells.cell_4]
+objects = [
+]

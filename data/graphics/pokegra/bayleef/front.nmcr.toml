@@ -1,0 +1,25 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.CellAnime0]
+properties = [
+  { sequence = "leg_kotei_a", translate_y = -22, frame_mode = 32 },
+  { sequence = "head_a", translate_y = -22, frame_mode = 32, unique_id = 1 },
+  { sequence = "leaf_a", translate_y = -22, frame_mode = 32, unique_id = 2 },
+  { sequence = "body_a", translate_y = -22, frame_mode = 32, unique_id = 3 },
+  { sequence = "tail_a", translate_x = 5, translate_y = -15, frame_mode = 32, unique_id = 4 },
+  { sequence = "leg_f_a", translate_y = -22, frame_mode = 32, unique_id = 5 },
+  { sequence = "leg_b_a", translate_y = -22, frame_mode = 32, unique_id = 6 },
+]
+
+[multi_cells.CellAnime0_1]
+properties = [
+  { sequence = "leg_f_l_b", translate_x = -4, translate_y = -6, frame_mode = 32 },
+  { sequence = "head_b", translate_y = -22, frame_mode = 32, unique_id = 1 },
+  { sequence = "leaf_b", translate_y = -22, frame_mode = 32, unique_id = 2 },
+  { sequence = "body_b", translate_y = -22, frame_mode = 32, unique_id = 3 },
+  { sequence = "tail_b", translate_x = 5, translate_y = -15, frame_mode = 32, unique_id = 4 },
+  { sequence = "leg_b_l_b", translate_x = 6, translate_y = -8, frame_mode = 32, unique_id = 5 },
+  { sequence = "leg_f_r_b", translate_x = -13, translate_y = -7, frame_mode = 32, unique_id = 6 },
+]

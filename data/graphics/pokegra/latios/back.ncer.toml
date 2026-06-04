@@ -1,0 +1,55 @@
+format = "ncer"
+extended = 1
+
+size_boundary = 4
+
+[cells.atama]
+unknown0 = 18
+objects = [
+  { position_y = 243, transformable = 1, double_sized = 1, object_mode = 1, key_shape = 1, position_x = 510, tile_index = 0 },
+  { position_y = 222, transformable = 1, double_sized = 1, position_x = 480, key_size = 2, tile_index = 8 },
+]
+
+[cells.karada]
+unknown0 = 20
+objects = [
+  { position_y = 223, transformable = 1, double_sized = 1, position_x = 466, key_size = 2, tile_index = 256 },
+  { position_y = 223, transformable = 1, double_sized = 1, key_shape = 2, position_x = 506, key_size = 2, tile_index = 260 },
+  { position_y = 223, transformable = 1, double_sized = 1, key_shape = 2, position_x = 14, key_size = 1, tile_index = 262 },
+]
+
+[cells.te_b]
+unknown0 = 11
+objects = [
+  { position_y = 244, transformable = 1, double_sized = 1, key_shape = 1, position_x = 490, key_size = 2, tile_index = 12 },
+]
+
+[cells.o]
+unknown0 = 10
+objects = [
+  { position_y = 239, transformable = 1, double_sized = 1, position_x = 492, key_size = 1, tile_index = 140 },
+  { position_y = 239, transformable = 1, double_sized = 1, key_shape = 2, position_x = 0, tile_index = 142 },
+  { position_y = 3, transformable = 1, double_sized = 1, key_shape = 1, position_x = 492, tile_index = 204 },
+  { position_y = 3, transformable = 1, double_sized = 1, position_x = 0, tile_index = 206 },
+]
+
+[cells.o_b]
+unknown0 = 8
+objects = [
+  { position_y = 245, transformable = 1, double_sized = 1, position_x = 499, key_size = 1, tile_index = 137 },
+  { position_y = 245, transformable = 1, double_sized = 1, key_shape = 2, position_x = 7, tile_index = 139 },
+  { position_y = 9, transformable = 1, double_sized = 1, key_shape = 1, position_x = 499, tile_index = 201 },
+  { position_y = 9, transformable = 1, double_sized = 1, position_x = 7, tile_index = 203 },
+]
+
+[cells.hane]
+unknown0 = 19
+objects = [
+  { position_y = 218, transformable = 1, double_sized = 1, position_x = 475, key_size = 2, tile_index = 128 },
+]
+
+[cells.hane_b]
+unknown0 = 18
+objects = [
+  { position_y = 214, transformable = 1, double_sized = 1, position_x = 487, key_size = 2, tile_index = 132 },
+]

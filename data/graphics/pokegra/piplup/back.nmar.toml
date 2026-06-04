@@ -1,0 +1,33 @@
+format = "nmar"
+
+[sequences.stay]
+cell_type = 2
+loop_mode = 2
+frames = [
+  { duration_in_frames = 80, multi_cell = "stay" },
+  { duration_in_frames = 80, multi_cell = "stay" },
+  { duration_in_frames = 80, multi_cell = "stay" },
+  { duration_in_frames = 80, multi_cell = "stay" },
+  { duration_in_frames = 80, multi_cell = "stay_1" },
+]
+
+[sequences.stop]
+cell_type = 2
+loop_mode = 2
+frames = [
+  { duration_in_frames = 80, multi_cell = "stop", padding_after = [204, 204] },
+]
+
+[sequences.CellAnime0]
+cell_type = 2
+loop_mode = 2
+frames = [
+  { duration_in_frames = 4, multi_cell = "stay" },
+]
+
+[sequences.CellAnime1]
+cell_type = 2
+loop_mode = 2
+frames = [
+  { duration_in_frames = 4, multi_cell = "stay_1" },
+]

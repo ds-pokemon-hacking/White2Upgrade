@@ -28,16 +28,58 @@ namespace w2u {
 			u8 shinyForms[11];
 		};
 
-        extern "C" b32 PokeDex_IsCaught(void *pDexAddress, u16 species);
-        extern "C" b32 PokeDex_IsSeen(void *pDexAddress, u16 species);
-        extern "C" b32 PML_PkmIsRegionalDexExclude(u32 species);
-        extern "C" b32 PML_PkmIsNationalDexExclude(u32 species);
-        extern "C" u16 *PML_PersonalLoadRegionalDexTable(HeapID heapId, u16 *regionalDexCount);
-        extern "C" s16 getIndexNumOfPkmForm(u16 species);
-		extern "C" s32 getIndexPokemonWithForms(u32 species);
-		extern "C" PersonalData* PML_PersonalLoad(u16 species, u16 form, u16 heapId);
-		extern "C" u32 PML_PersonalGetParam(PersonalData* personal, PersonalField field);
-		extern "C" void PML_PersonalFree(PersonalData* personal);
+        using PokeDexFlagFn = b32 (*)(void *pDexAddress, u16 species);
+        using SpeciesFlagFn = b32 (*)(u32 species);
+        using ArcToolReadHeapNewLZGetLenFn = void *(*)(ArcTool *arc, u32 fileId, u32 unused, HeapID heapId, u32 *fileLength);
+        using PersonalLoadFn = PersonalData *(*)(u16 species, u16 form, u16 heapId);
+        using PersonalGetParamFn = u32 (*)(PersonalData *personal, PersonalField field);
+        using PersonalGetParamSingleFn = u32 (*)(u16 species, u16 form, PersonalField field);
+        using PersonalFreeFn = void (*)(PersonalData *personal);
+        using HeapFreeFn = void (*)(void *ptr);
+
+        static inline b32 PokeDex_IsCaughtAbs(void *pDexAddress, u16 species) {
+            return reinterpret_cast<PokeDexFlagFn>(0x0200D661)(pDexAddress, species);
+        }
+
+        static inline b32 PokeDex_IsSeenAbs(void *pDexAddress, u16 species) {
+            return reinterpret_cast<PokeDexFlagFn>(0x0200D7F5)(pDexAddress, species);
+        }
+
+        static inline b32 PML_PkmIsRegionalDexExcludeAbs(u32 species) {
+            return reinterpret_cast<SpeciesFlagFn>(0x0200CF11)(species);
+        }
+
+        static inline b32 PML_PkmIsNationalDexExcludeAbs(u32 species) {
+            return reinterpret_cast<SpeciesFlagFn>(0x0200CEF1)(species);
+        }
+
+        static inline void *GFL_ArcToolReadHeapNewLZGetLenAbs(ArcTool *arc, u32 fileId, u32 unused, HeapID heapId, u32 *fileLength) {
+            return reinterpret_cast<ArcToolReadHeapNewLZGetLenFn>(0x0204B63D)(arc, fileId, unused, heapId, fileLength);
+        }
+
+        static inline PersonalData *PML_PersonalLoadAbs(u16 species, u16 form, u16 heapId) {
+            return reinterpret_cast<PersonalLoadFn>(0x020202A1)(species, form, heapId);
+        }
+
+        static inline u32 PML_PersonalGetParamAbs(PersonalData *personal, PersonalField field) {
+            return reinterpret_cast<PersonalGetParamFn>(0x020202D9)(personal, field);
+        }
+
+        static inline u32 PML_PersonalGetParamSingleAbs(u16 species, u16 form, PersonalField field) {
+            return reinterpret_cast<PersonalGetParamSingleFn>(0x0201EF49)(species, form, field);
+        }
+
+        static inline void PML_PersonalFreeAbs(PersonalData *personal) {
+            reinterpret_cast<PersonalFreeFn>(0x020202D1)(personal);
+        }
+
+        static inline void GFL_HeapFreeAbs(void *ptr) {
+            reinterpret_cast<HeapFreeFn>(0x0203A279)(ptr);
+        }
+
+        extern "C" u16 *THUMB_BRANCH_PML_PersonalLoadRegionalDexTable(HeapID heapId, u16 *regionalDexCount);
+        extern "C" s16 THUMB_BRANCH_getIndexNumOfPkmForm(u16 species);
+		extern "C" s32 THUMB_BRANCH_getIndexPokemonWithForms(u32 species);
 
         extern ArcTool **g_PMLPersonalArcBW2 = (ArcTool **)0x2141428;
 
@@ -49,7 +91,7 @@ namespace w2u {
         extern "C" u16 *THUMB_BRANCH_PML_PersonalLoadRegionalDexTable(HeapID heapId, u16 *regionalDexCount) {
             u16 v3 = 0;
             u32 fileLength;
-            u16 *result = (u16 *)GFL_ArcToolReadHeapNewLZGetLen(*g_PMLPersonalArcBW2, REGIONAL_DEX_FILE_INDEX, 0, heapId, &fileLength);
+            u16 *result = (u16 *)GFL_ArcToolReadHeapNewLZGetLenAbs(*g_PMLPersonalArcBW2, REGIONAL_DEX_FILE_INDEX, 0, heapId, &fileLength);
             u32 v5 = (fileLength << 15 >> 16);
             if (regionalDexCount) {
                 for (u32 i = 0; i < v5; i++) {
@@ -65,39 +107,39 @@ namespace w2u {
         extern "C" u16 THUMB_BRANCH_PokeDex_GetCaughtNoNational(void *pDexAddress) {
             u16 caught_number = 0;
             for (s32 i = 1; i <= SPECIES_CNT; ++i) {
-                caught_number += PokeDex_IsCaught(pDexAddress, i);
+                caught_number += PokeDex_IsCaughtAbs(pDexAddress, i);
             }
             return caught_number;
         }
 
         extern "C" u32 THUMB_BRANCH_PokeDex_GetSeenNoUnovaPermissive(void *pDexAddress, HeapID heapId) {
             u32 v3 = 0;
-            u16 *RegionalDexTable = (u16 *)PML_PersonalLoadRegionalDexTable(heapId, 0);
+            u16 *RegionalDexTable = (u16 *)THUMB_BRANCH_PML_PersonalLoadRegionalDexTable(heapId, 0);
             for (u32 i = 1; i <= SPECIES_CNT; i++) {
-                if (PokeDex_IsSeen(pDexAddress, i) && RegionalDexTable[i] != 999 && PML_PkmIsRegionalDexExclude(i) ){
+                if (PokeDex_IsSeenAbs(pDexAddress, i) && RegionalDexTable[i] != 999 && PML_PkmIsRegionalDexExcludeAbs(i) ){
                     v3++;
                 }
             }
-            GFL_HeapFree(RegionalDexTable);
+            GFL_HeapFreeAbs(RegionalDexTable);
             return v3;
         }
 
         extern "C" u32 THUMB_BRANCH_PokeDex_GetCaughtNoUnova(void *pDexAddress, HeapID heapId) {
             u32 v3 = 0;
-            u16 *RegionalDexTable = (u16 *)PML_PersonalLoadRegionalDexTable(heapId, 0);
+            u16 *RegionalDexTable = (u16 *)THUMB_BRANCH_PML_PersonalLoadRegionalDexTable(heapId, 0);
             for (u32 i = 1; i <= SPECIES_CNT; i++){
-                if (PokeDex_IsCaught(pDexAddress, i) && RegionalDexTable[i] != 999) {
+                if (PokeDex_IsCaughtAbs(pDexAddress, i) && RegionalDexTable[i] != 999) {
                     v3++;
                 }
             }
-            GFL_HeapFree(RegionalDexTable);
+            GFL_HeapFreeAbs(RegionalDexTable);
             return v3;
         }
 
         extern "C" u32 THUMB_BRANCH_PokeDex_GetCaughtNoPermissive(void *pDexAddress) {
             u32 v2 = 0;
             for (s32 i = 1; i <= SPECIES_CNT; ++i) {
-                if (PokeDex_IsCaught(pDexAddress, i) && PML_PkmIsNationalDexExclude(i)) {
+                if (PokeDex_IsCaughtAbs(pDexAddress, i) && PML_PkmIsNationalDexExcludeAbs(i)) {
                     v2++;
                 }
             }
@@ -106,20 +148,20 @@ namespace w2u {
 
         extern "C" u32 THUMB_BRANCH_PokeDex_GetCaughtNoUnovaPermissive(void *pDexAddress, HeapID heapId) {
             u32 v3 = 0;
-            u16 *RegionalDexTable = (u16 *)PML_PersonalLoadRegionalDexTable(heapId, 0);
+            u16 *RegionalDexTable = (u16 *)THUMB_BRANCH_PML_PersonalLoadRegionalDexTable(heapId, 0);
             for (u32 i = 1; i <= SPECIES_CNT; i++) {
-                if (PokeDex_IsCaught(pDexAddress, i) && RegionalDexTable[i] != 999 && PML_PkmIsRegionalDexExclude(i)) {
+                if (PokeDex_IsCaughtAbs(pDexAddress, i) && RegionalDexTable[i] != 999 && PML_PkmIsRegionalDexExcludeAbs(i)) {
                     v3++;
                 }
             }
-            GFL_HeapFree(RegionalDexTable);
+            GFL_HeapFreeAbs(RegionalDexTable);
             return v3;
         }
 
         extern "C" u16 THUMB_BRANCH_PokeDex_GetSeenNoNational(void *pDexAddress) {
             u16 v2 = 0;
             for (s32 i = 1; i <= SPECIES_CNT; ++i) {
-                if (PokeDex_IsSeen(pDexAddress, i)) {
+                if (PokeDex_IsSeenAbs(pDexAddress, i)) {
                     ++v2;
                 }
             }
@@ -128,13 +170,13 @@ namespace w2u {
 
         extern "C" u32 THUMB_BRANCH_PokeDex_GetSeenNoUnova(void *pDexAddress, HeapID heapId) {
             u32 v3 = 0;
-            u16 *RegionalDexTable = (u16 *)PML_PersonalLoadRegionalDexTable(heapId, 0);
+            u16 *RegionalDexTable = (u16 *)THUMB_BRANCH_PML_PersonalLoadRegionalDexTable(heapId, 0);
             for (u32 i = 1; i <= SPECIES_CNT; i++) {
-                if (PokeDex_IsSeen(pDexAddress, i) && RegionalDexTable[i] != 999) {
+                if (PokeDex_IsSeenAbs(pDexAddress, i) && RegionalDexTable[i] != 999) {
                     v3++;
                 }
             }
-            GFL_HeapFree(RegionalDexTable);
+            GFL_HeapFreeAbs(RegionalDexTable);
             return v3;
         }
 
@@ -179,7 +221,7 @@ namespace w2u {
 				return -1;
 			}
 
-			s16 formListIdx = getIndexNumOfPkmForm(species);
+			s16 formListIdx = THUMB_BRANCH_getIndexNumOfPkmForm(species);
 			if ( formListIdx == -1 ) {
 				return 1;
 			}
@@ -278,7 +320,7 @@ namespace w2u {
 		
 		extern "C" void THUMB_BRANCH_SAFESTACK_GetPkmDataFromPokedex(PokedexSave* pokedex, int species, int* sex, int* shiny, int* form, u16 heapID) {
 			// Find the index of the first form of the Pokémon.
-			s16 formListIdx = getIndexNumOfPkmForm(species);
+			s16 formListIdx = THUMB_BRANCH_getIndexNumOfPkmForm(species);
 			u32 group = (species - 1) >> 3;
 			u8 mask = (u8)(1 << ((species - 1) & 7));
 
@@ -309,7 +351,7 @@ namespace w2u {
 				}
 			}
 			else {
-				s32 formIdx = getIndexPokemonWithForms(species);
+				s32 formIdx = THUMB_BRANCH_getIndexPokemonWithForms(species);
 		
 				Poke_form pokemonFormList[POKE_FORM_LIST_SIZE];
 				if (!ReadDataFromFile("poke_form_list.bin", POKE_FORM_LIST_SIZE * sizeof(Poke_form), (u8*)pokemonFormList)) {
@@ -345,12 +387,12 @@ namespace w2u {
 				}
 			}
 		
-			PersonalData* personal = PML_PersonalLoad(species, *form, heapID);
-			if (PML_PersonalGetParam(personal, Personal_GenderProb) == 255)
+			PersonalData* personal = PML_PersonalLoadAbs(species, *form, heapID);
+			if (PML_PersonalGetParamAbs(personal, Personal_GenderProb) == 255)
 			{
 				*sex = 2;
 			}
-			PML_PersonalFree(personal);
+			PML_PersonalFreeAbs(personal);
 		}
     }
 }

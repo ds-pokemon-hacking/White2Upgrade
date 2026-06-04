@@ -1,0 +1,17 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.CellAnime0]
+properties = [
+  { sequence = "tsuno", translate_x = -1, translate_y = -32, frame_mode = 32 },
+  { sequence = "atama", translate_x = 2, translate_y = -30, frame_mode = 32, unique_id = 1 },
+  { sequence = "karada", translate_y = -24, frame_mode = 32, unique_id = 2 },
+]
+
+[multi_cells.CellAnime0_1]
+properties = [
+  { sequence = "tsuno1", translate_x = -1, translate_y = -32, frame_mode = 32 },
+  { sequence = "atama1", translate_x = 2, translate_y = -30, frame_mode = 32, unique_id = 1 },
+  { sequence = "karada1", translate_y = -24, frame_mode = 32, unique_id = 2 },
+]

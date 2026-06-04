@@ -1,0 +1,16 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.nonstop]
+properties = [
+  { sequence = "hane2_r", translate_x = 1, translate_y = -30, frame_mode = 33 },
+  { sequence = "hane1_r", translate_x = 1, translate_y = -35, frame_mode = 33, unique_id = 1 },
+  { sequence = "hane2_l", translate_x = -4, translate_y = -29, frame_mode = 33, unique_id = 2 },
+  { sequence = "hane1_l", translate_x = -3, translate_y = -37, frame_mode = 33, unique_id = 3 },
+  { sequence = "body", translate_y = -33, frame_mode = 33, unique_id = 4 },
+  { sequence = "o", translate_x = -1, translate_y = -29, frame_mode = 33, unique_id = 5 },
+  { sequence = "atama", translate_x = 2, translate_y = -41, frame_mode = 33, unique_id = 6 },
+  { sequence = "syokkaku_r", translate_x = 6, translate_y = -46, frame_mode = 33, unique_id = 7 },
+  { sequence = "syokkaku_l", translate_x = 1, translate_y = -47, frame_mode = 33, unique_id = 8 },
+]

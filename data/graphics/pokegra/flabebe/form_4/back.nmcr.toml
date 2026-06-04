@@ -1,0 +1,16 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.CellAnime01]
+properties = [
+  { sequence = "foot", translate_y = -40, frame_mode = 32 },
+  { sequence = "partsA", translate_y = -40, frame_mode = 32, unique_id = 1 },
+  { sequence = "head", translate_y = -40, frame_mode = 32, unique_id = 2 },
+  { sequence = "partsB", translate_y = -40, frame_mode = 32, unique_id = 3 },
+]
+
+[multi_cells.CellAnime01_1]
+properties = [
+  { sequence = "CellAnime2", translate_y = -46, frame_mode = 32 },
+]

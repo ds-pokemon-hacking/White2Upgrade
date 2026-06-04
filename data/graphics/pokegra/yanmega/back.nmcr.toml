@@ -1,0 +1,23 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.nonstop]
+properties = [
+  { sequence = "r_wings01", translate_x = 1, translate_y = -31, frame_mode = 33 },
+  { sequence = "foot01", translate_x = -5, translate_y = -20, frame_mode = 33, unique_id = 1 },
+  { sequence = "tail01", translate_x = -14, translate_y = -31, frame_mode = 33, unique_id = 2 },
+  { sequence = "body01", translate_x = 2, translate_y = -27, frame_mode = 33, unique_id = 3 },
+  { sequence = "head01", translate_x = 7, translate_y = -38, frame_mode = 33, unique_id = 4 },
+  { sequence = "l_wings01", translate_x = -2, translate_y = -34, frame_mode = 33, unique_id = 5 },
+]
+
+[multi_cells.nonstop_1]
+properties = [
+  { sequence = "r_wings02", translate_x = 1, translate_y = -31, frame_mode = 33 },
+  { sequence = "foot02", translate_x = -5, translate_y = -20, frame_mode = 33, unique_id = 1 },
+  { sequence = "tail02", translate_x = -14, translate_y = -31, frame_mode = 33, unique_id = 2 },
+  { sequence = "body02", translate_x = 2, translate_y = -27, frame_mode = 33, unique_id = 3 },
+  { sequence = "head02", translate_x = 7, translate_y = -38, frame_mode = 33, unique_id = 4 },
+  { sequence = "l_wings02", translate_x = -2, translate_y = -34, frame_mode = 33, unique_id = 5 },
+]

@@ -17,7 +17,17 @@
 
 namespace w2u {
     namespace pokegra {
-        extern "C" u32 PML_PersonalGetParamSingle(u32, u32, u32);
+        using PersonalGetParamSingleFn = u32 (*)(u16 species, u16 form, PersonalField field);
+        using ArcSysGetDataLengthFn = u32 (*)(int arcId, u16 datId);
+
+        static inline u32 PML_PersonalGetParamSingleAbs(u16 species, u16 form, PersonalField field) {
+            return reinterpret_cast<PersonalGetParamSingleFn>(0x0201EF49)(species, form, field);
+        }
+
+        static inline u32 GFL_ArcSysGetDataLengthAbs(int arcId, u16 datId) {
+            return reinterpret_cast<ArcSysGetDataLengthFn>(0x0204AA31)(arcId, datId);
+        }
+
         extern "C" void THUMB_BRANCH_SAFESTACK_GetPokemonDataIDBase(u32 ARCID, u32 Species, u32 Form, u32 Gender, b32 isRare, b32 isBackSprite, b32 isEgg, u32 *SpeciesData, u32 *OffsetBase, u32 *pGender, u32 *pValidRarity, u32 *pValidRareForme, b32 linearGraphics) {
 			u32 actual_index = 0;
             // An actual Pokémon; calculate its base index.
@@ -47,9 +57,9 @@ namespace w2u {
             // Handle forms.
             // In our case, we pushed the form data back.
             if (Form) {
-                u32 FormCount = PML_PersonalGetParamSingle(Species, 0, Personal_FormeCount);
-                u32 FormSpriteOffset = PML_PersonalGetParamSingle(Species, 0, Personal_FormeSpritesOffset);
-                u32 SpriteForme = PML_PersonalGetParamSingle(Species, 0, Personal_SpriteForme);
+                u32 FormCount = PML_PersonalGetParamSingleAbs(Species, 0, Personal_FormeCount);
+                u32 FormSpriteOffset = PML_PersonalGetParamSingleAbs(Species, 0, Personal_FormeSpritesOffset);
+                u32 SpriteForme = PML_PersonalGetParamSingleAbs(Species, 0, Personal_SpriteForme);
 
                 if (Form < FormCount) {
                     // Form is valid. Check if it is a rare forme.
@@ -69,7 +79,7 @@ namespace w2u {
             switch (Gender) {
             case 1:
                 // In case of female Pokemon, check for alternate gender sprite.
-                if (!GFL_ArcSysGetDataLength(ARCID, actual_index + 1)) {
+                if (!GFL_ArcSysGetDataLengthAbs(ARCID, actual_index + 1)) {
                     // Set to default if ther is none.
                     Gender = 0;
                 }
@@ -112,9 +122,9 @@ namespace w2u {
             else if (Form) {
                 // Handle forms.
                 // The starting index has been pushed back.
-                u32 formCount = PML_PersonalGetParamSingle(Species, 0, Personal_FormeCount);
-                u32 formSpriteOffset = PML_PersonalGetParamSingle(Species, 0, Personal_FormeSpritesOffset);
-                u32 formSprite = PML_PersonalGetParamSingle(Species, 0, Personal_SpriteForme);
+                u32 formCount = PML_PersonalGetParamSingleAbs(Species, 0, Personal_FormeCount);
+                u32 formSpriteOffset = PML_PersonalGetParamSingleAbs(Species, 0, Personal_FormeSpritesOffset);
+                u32 formSprite = PML_PersonalGetParamSingleAbs(Species, 0, Personal_SpriteForme);
                 // Forme is valid.
 				if (Form < formCount && !formSprite) {
                     iconIndex = 2 * (formSpriteOffset + Form - 1) + ICON_FORM_START;
@@ -125,7 +135,7 @@ namespace w2u {
             switch (Gender) {
             case 1:
                 // In case of female Pokemon, check for alternate gender icon.
-                if (!GFL_ArcSysGetDataLength(7u, iconIndex + 1)) {
+                if (!GFL_ArcSysGetDataLengthAbs(7u, iconIndex + 1)) {
                     // Set to default if ther is none.
                     Gender = 0;
                 }
@@ -152,9 +162,9 @@ namespace w2u {
 			else if (Form) {
 				// Handle forms.
                 // The starting index has been pushed back.
-				u32 formSpriteOffset = PML_PersonalGetParamSingle(Species, 0, Personal_FormeSpritesOffset);
-				u32 formSprite = PML_PersonalGetParamSingle(Species, 0, Personal_SpriteForme);
-				u32 formCount = PML_PersonalGetParamSingle(Species, 0, Personal_FormeCount);
+				u32 formSpriteOffset = PML_PersonalGetParamSingleAbs(Species, 0, Personal_FormeSpritesOffset);
+				u32 formSprite = PML_PersonalGetParamSingleAbs(Species, 0, Personal_SpriteForme);
+				u32 formCount = PML_PersonalGetParamSingleAbs(Species, 0, Personal_FormeCount);
 				// Form is valid.
 				if (Form < formCount && !formSprite) {
 					paletteIndex = formSpriteOffset + (Form - 1) + (EGG_INDEX + 2);

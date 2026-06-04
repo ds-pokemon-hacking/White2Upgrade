@@ -1,0 +1,39 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.CellAnime0]
+properties = [
+  { sequence = "asi_r", translate_x = -6, frame_mode = 32 },
+  { sequence = "leg_r", translate_x = -6, frame_mode = 32, unique_id = 1 },
+  { sequence = "hana_r", translate_x = -1, translate_y = -25, frame_mode = 32, unique_id = 2 },
+  { sequence = "te_r", translate_x = -1, translate_y = -25, frame_mode = 32, unique_id = 3 },
+  { sequence = "ude_r", translate_x = -1, translate_y = -25, frame_mode = 32, unique_id = 4 },
+  { sequence = "atama_ke1", translate_x = 2, translate_y = -32, frame_mode = 32, unique_id = 5 },
+  { sequence = "atama", translate_x = 2, translate_y = -32, frame_mode = 32, unique_id = 6 },
+  { sequence = "atama_ke_2", translate_x = 1, translate_y = -33, frame_mode = 32, unique_id = 7 },
+  { sequence = "body", translate_x = 2, translate_y = -17, frame_mode = 32, unique_id = 8 },
+  { sequence = "te_l", translate_x = 4, translate_y = -22, frame_mode = 32, unique_id = 9 },
+  { sequence = "ude_l", translate_x = 4, translate_y = -22, frame_mode = 32, unique_id = 10 },
+  { sequence = "asi_l", translate_x = 9, translate_y = -1, frame_mode = 32, unique_id = 11 },
+  { sequence = "leg_l", translate_x = 9, translate_y = -1, frame_mode = 32, unique_id = 12 },
+  { sequence = "manto", translate_x = 1, translate_y = -24, frame_mode = 32, unique_id = 13 },
+]
+
+[multi_cells.CellAnime0_1]
+properties = [
+  { sequence = "asi_r_b", translate_x = -6, frame_mode = 32 },
+  { sequence = "leg_r_b", translate_x = -6, frame_mode = 32, unique_id = 1 },
+  { sequence = "hana_r_b", translate_x = -1, translate_y = -25, frame_mode = 32, unique_id = 2 },
+  { sequence = "te_r_b", translate_x = -1, translate_y = -25, frame_mode = 32, unique_id = 3 },
+  { sequence = "ude_r_b", translate_x = -1, translate_y = -25, frame_mode = 32, unique_id = 4 },
+  { sequence = "atama_ke1_b", translate_x = 2, translate_y = -32, frame_mode = 32, unique_id = 5 },
+  { sequence = "atama_b", translate_x = 2, translate_y = -32, frame_mode = 32, unique_id = 6 },
+  { sequence = "atama_ke_2_b", translate_x = 1, translate_y = -33, frame_mode = 32, unique_id = 7 },
+  { sequence = "body_b", translate_x = 2, translate_y = -17, frame_mode = 32, unique_id = 8 },
+  { sequence = "te_l_b", translate_x = 4, translate_y = -22, frame_mode = 32, unique_id = 9 },
+  { sequence = "ude_l_b", translate_x = 4, translate_y = -22, frame_mode = 32, unique_id = 10 },
+  { sequence = "asi_l_b", translate_x = 9, translate_y = -1, frame_mode = 32, unique_id = 11 },
+  { sequence = "leg_l_b", translate_x = 9, translate_y = -1, frame_mode = 32, unique_id = 12 },
+  { sequence = "manto_b", translate_x = 1, translate_y = -24, frame_mode = 32, unique_id = 13 },
+]

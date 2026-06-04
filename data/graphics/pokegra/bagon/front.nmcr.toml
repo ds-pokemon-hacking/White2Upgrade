@@ -1,0 +1,16 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.CellAnime0]
+properties = [
+  { sequence = "CellAnime11", frame_mode = 32 },
+  { sequence = "CellAnime01", frame_mode = 32, unique_id = 1 },
+]
+
+[multi_cells.CellAnime0_1]
+properties = [
+  { sequence = "CellAnime5", frame_mode = 32 },
+  { sequence = "CellAnime3", frame_mode = 32, unique_id = 1 },
+  { sequence = "CellAnime2", frame_mode = 32, unique_id = 2 },
+]

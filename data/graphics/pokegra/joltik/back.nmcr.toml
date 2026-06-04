@@ -1,0 +1,19 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.CellAnime0]
+properties = [
+  { sequence = "hire01", translate_x = 8, translate_y = -50, frame_mode = 32 },
+  { sequence = "body01", translate_x = 1, translate_y = -43, frame_mode = 32, unique_id = 1 },
+  { sequence = "te02", translate_x = 4, translate_y = -32, frame_mode = 32, unique_id = 2 },
+  { sequence = "te01", translate_x = 1, translate_y = -57, frame_mode = 32, unique_id = 3 },
+]
+
+[multi_cells.CellAnime0_1]
+properties = [
+  { sequence = "b_hire01", translate_x = 8, translate_y = -50, frame_mode = 32 },
+  { sequence = "b_body01", translate_x = 1, translate_y = -43, frame_mode = 32, unique_id = 1 },
+  { sequence = "b_te02", translate_x = 4, translate_y = -32, frame_mode = 32, unique_id = 2 },
+  { sequence = "b_te01", translate_x = 1, translate_y = -57, frame_mode = 32, unique_id = 3 },
+]

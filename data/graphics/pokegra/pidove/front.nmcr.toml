@@ -1,0 +1,16 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.nonstop]
+properties = [
+  { sequence = "smoke_d", translate_x = -1, translate_y = -74, frame_mode = 33 },
+  { sequence = "smoke_c", translate_x = -20, translate_y = -64, frame_mode = 33, unique_id = 1 },
+  { sequence = "smoke_b", translate_x = -32, translate_y = -40, frame_mode = 33, unique_id = 2 },
+  { sequence = "smoke_a", translate_x = -12, translate_y = -29, frame_mode = 33, unique_id = 3 },
+  { sequence = "hand_left", translate_x = 6, translate_y = -44, frame_mode = 33, unique_id = 4 },
+  { sequence = "foot_L", translate_x = 19, translate_y = -42, frame_mode = 33, unique_id = 5 },
+  { sequence = "nouse", translate_x = -7, translate_y = -27, frame_mode = 33, unique_id = 6 },
+  { sequence = "body", translate_x = 3, translate_y = -39, frame_mode = 33, unique_id = 7 },
+  { sequence = "foot_R", translate_x = 8, translate_y = -37, frame_mode = 33, unique_id = 8 },
+]

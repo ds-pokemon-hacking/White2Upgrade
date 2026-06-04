@@ -1,0 +1,30 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.multi_cell_0]
+properties = [
+  { sequence = "wing", translate_y = -8, frame_mode = 32 },
+  { sequence = "tale", translate_y = -8, frame_mode = 32, unique_id = 1 },
+  { sequence = "head", translate_x = 1, translate_y = -21, frame_mode = 32, unique_id = 2 },
+  { sequence = "body", translate_y = -8, frame_mode = 32, unique_id = 3 },
+  { sequence = "foot", translate_y = -8, frame_mode = 32, unique_id = 4 },
+]
+
+[multi_cells.CellAnime01]
+properties = [
+  { sequence = "wing1", translate_y = -8, frame_mode = 32 },
+  { sequence = "tale1", translate_y = -8, frame_mode = 32, unique_id = 1 },
+  { sequence = "head1", translate_x = 1, translate_y = -21, frame_mode = 32, unique_id = 2 },
+  { sequence = "body1", translate_y = -8, frame_mode = 32, unique_id = 3 },
+  { sequence = "foot", translate_y = -8, frame_mode = 32, unique_id = 4 },
+]
+
+[multi_cells.CellAnime01_1]
+properties = [
+  { sequence = "wing2", translate_y = -8, frame_mode = 32 },
+  { sequence = "tale2", translate_y = -8, frame_mode = 32, unique_id = 1 },
+  { sequence = "head2", translate_x = 1, translate_y = -21, frame_mode = 32, unique_id = 2 },
+  { sequence = "body2", translate_y = -8, frame_mode = 32, unique_id = 3 },
+  { sequence = "foot", translate_y = -8, frame_mode = 32, unique_id = 4 },
+]

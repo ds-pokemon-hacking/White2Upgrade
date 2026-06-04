@@ -1,0 +1,16 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.CellAnime01]
+properties = [
+  { sequence = "mouth", translate_y = -26, frame_mode = 32 },
+  { sequence = "Rhair", translate_x = 26, translate_y = -22, frame_mode = 32, unique_id = 1 },
+  { sequence = "Rhand", translate_y = -26, frame_mode = 32, unique_id = 2 },
+  { sequence = "Lhand", translate_y = -26, frame_mode = 32, unique_id = 3 },
+  { sequence = "tale", translate_x = -11, translate_y = -11, frame_mode = 32, unique_id = 4 },
+  { sequence = "bodyB", translate_y = -26, frame_mode = 32, unique_id = 5 },
+  { sequence = "bodyA", translate_y = -26, frame_mode = 32, unique_id = 6 },
+  { sequence = "Lhair", translate_x = 11, translate_y = -19, frame_mode = 32, unique_id = 7 },
+  { sequence = "parts", translate_y = -26, frame_mode = 32, unique_id = 8 },
+]

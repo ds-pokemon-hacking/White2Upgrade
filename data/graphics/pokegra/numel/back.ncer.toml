@@ -1,0 +1,30 @@
+format = "ncer"
+extended = 1
+
+size_boundary = 4
+padding_size = 2
+
+[cells.karada]
+unknown0 = 16
+objects = [
+  { position_y = 219, position_x = 463, key_size = 3, tile_index = 0 },
+  { position_y = 219, key_shape = 2, position_x = 15, key_size = 3, tile_index = 8 },
+]
+
+[cells.o]
+unknown0 = 20
+objects = [
+  { position_y = 215, transformable = 1, double_sized = 1, position_x = 471, key_size = 2, tile_index = 12 },
+]
+
+[cells.hire]
+unknown0 = 17
+objects = [
+  { position_y = 224, transformable = 1, double_sized = 1, position_x = 481, key_size = 2, tile_index = 140 },
+]
+
+[cells.hire_b]
+unknown0 = 8
+objects = [
+  { position_y = 242, transformable = 1, double_sized = 1, position_x = 498, key_size = 1, tile_index = 268 },
+]

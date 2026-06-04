@@ -1,0 +1,84 @@
+format = "ncer"
+extended = 1
+
+size_boundary = 4
+padding_size = 2
+
+[cells.CellAnime01]
+unknown0 = 27
+objects = [
+  { position_y = 176, transformable = 1, double_sized = 1, position_x = 480, key_size = 2, tile_index = 2 },
+]
+
+[cells.CellAnime11]
+unknown0 = 20
+objects = [
+  { position_y = 196, transformable = 1, double_sized = 1, key_shape = 2, position_x = 493, key_size = 2, tile_index = 162 },
+  { position_y = 196, transformable = 1, double_sized = 1, key_shape = 2, position_x = 1, key_size = 1, tile_index = 164 },
+]
+
+[cells.CellAnime2]
+unknown0 = 16
+objects = [
+  { position_y = 206, transformable = 1, double_sized = 1, position_x = 501, key_size = 1, tile_index = 165 },
+]
+
+[cells.CellAnime3]
+unknown0 = 17
+objects = [
+  { position_y = 205, transformable = 1, double_sized = 1, position_x = 491, key_size = 1, tile_index = 229 },
+]
+
+[cells.CellAnime4]
+unknown0 = 7
+objects = [
+  { position_y = 244, transformable = 1, double_sized = 1, position_x = 501, key_size = 1, tile_index = 70 },
+]
+
+[cells.CellAnime5]
+unknown0 = 8
+objects = [
+  { position_y = 238, transformable = 1, double_sized = 1, position_x = 503, key_size = 1, tile_index = 6 },
+]
+
+[cells.CellAnime6]
+unknown0 = 18
+objects = [
+  { position_y = 213, transformable = 1, double_sized = 1, position_x = 491, key_size = 2, tile_index = 8 },
+]
+
+[cells.CellAnime7]
+unknown0 = 10
+objects = [
+  { position_y = 241, transformable = 1, double_sized = 1, position_x = 490, key_size = 1, tile_index = 76 },
+]
+
+[cells.CellAnime8]
+unknown0 = 10
+objects = [
+  { position_y = 238, transformable = 1, double_sized = 1, position_x = 489, key_size = 1, tile_index = 12 },
+]
+
+[cells.CellAnime9]
+unknown0 = 21
+objects = [
+  { position_y = 214, transformable = 1, double_sized = 1, position_x = 469, key_size = 2, tile_index = 14 },
+]
+
+[cells.CellAnime10]
+unknown0 = 9
+objects = [
+  { position_y = 242, transformable = 1, double_sized = 1, position_x = 495, key_size = 1, tile_index = 168 },
+  { position_y = 242, transformable = 1, double_sized = 1, key_shape = 2, position_x = 3, tile_index = 170 },
+  { position_y = 6, transformable = 1, double_sized = 1, key_shape = 1, position_x = 495, tile_index = 232 },
+  { position_y = 6, transformable = 1, double_sized = 1, position_x = 3, tile_index = 234 },
+]
+
+[cells.CellAnime111]
+unknown0 = 9
+objects = [
+  { position_y = 242, transformable = 1, double_sized = 1, position_x = 492, key_size = 1, tile_index = 171 },
+  { position_y = 242, transformable = 1, double_sized = 1, key_shape = 2, position_x = 0, tile_index = 173 },
+  { position_y = 6, transformable = 1, double_sized = 1, key_shape = 1, position_x = 492, tile_index = 235 },
+  { position_y = 6, transformable = 1, double_sized = 1, position_x = 0, tile_index = 237 },
+]

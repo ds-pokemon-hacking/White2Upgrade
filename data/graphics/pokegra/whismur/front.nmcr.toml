@@ -1,0 +1,19 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.multi_cell_0]
+properties = [
+  { sequence = "wakka", translate_y = -35, frame_mode = 33 },
+  { sequence = "karada", translate_y = -35, frame_mode = 33, unique_id = 1 },
+  { sequence = "hane_b", translate_x = 5, translate_y = -35, frame_mode = 33, unique_id = 2 },
+  { sequence = "hane_a", translate_y = -35, frame_mode = 33, unique_id = 3 },
+]
+
+[multi_cells.CellAnime0]
+properties = [
+  { sequence = "CellAnime1", translate_y = -35, frame_mode = 33 },
+  { sequence = "CellAnime0", translate_y = -35, frame_mode = 33, unique_id = 1 },
+  { sequence = "CellAnime3", translate_y = -35, frame_mode = 33, unique_id = 2 },
+  { sequence = "CellAnime2", translate_y = -35, frame_mode = 33, unique_id = 3 },
+]

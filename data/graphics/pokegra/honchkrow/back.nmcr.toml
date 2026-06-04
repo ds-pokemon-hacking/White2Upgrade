@@ -1,0 +1,20 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.nonstop]
+properties = [
+  { sequence = "ear_R", translate_x = 3, translate_y = -64, frame_mode = 33 },
+  { sequence = "fur_R", translate_y = -60, frame_mode = 33, unique_id = 1 },
+  { sequence = "hat_T", translate_x = 1, translate_y = -62, frame_mode = 33, unique_id = 2 },
+  { sequence = "ear_L", translate_x = -8, translate_y = -57, frame_mode = 33, unique_id = 3 },
+  { sequence = "fur_L", translate_x = -10, translate_y = -57, frame_mode = 33, unique_id = 4 },
+  { sequence = "hat_B", translate_x = 1, translate_y = -62, frame_mode = 33, unique_id = 5 },
+  { sequence = "head", translate_x = 1, translate_y = -53, frame_mode = 33, unique_id = 6 },
+  { sequence = "body", translate_x = 1, translate_y = -50, frame_mode = 33, unique_id = 7 },
+  { sequence = "skirt_R", translate_x = 2, translate_y = -48, frame_mode = 33, unique_id = 8 },
+  { sequence = "red", translate_x = 2, translate_y = -48, frame_mode = 33, unique_id = 9 },
+  { sequence = "skirt_Ca", translate_x = 2, translate_y = -48, frame_mode = 33, unique_id = 10 },
+  { sequence = "skirt_Cb", translate_x = 2, translate_y = -48, frame_mode = 33, unique_id = 11 },
+  { sequence = "skirt_L", translate_x = 2, translate_y = -48, frame_mode = 33, unique_id = 12 },
+]

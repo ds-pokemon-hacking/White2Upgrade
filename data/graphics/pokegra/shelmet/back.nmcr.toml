@@ -1,0 +1,25 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.CellAnime01]
+properties = [
+  { sequence = "body", translate_x = -1, translate_y = -44, frame_mode = 33 },
+  { sequence = "ice_Rc", translate_x = 17, translate_y = -14, frame_mode = 33, unique_id = 1 },
+  { sequence = "ice_Rb", translate_x = 19, translate_y = -21, frame_mode = 33, unique_id = 2 },
+  { sequence = "ice_Ra", translate_x = 17, translate_y = -28, frame_mode = 33, unique_id = 3 },
+  { sequence = "ice_Lc", translate_x = -23, translate_y = -14, frame_mode = 33, unique_id = 4 },
+  { sequence = "ice_Lb", translate_x = -18, translate_y = -18, frame_mode = 33, unique_id = 5 },
+  { sequence = "ice_La", translate_x = -14, translate_y = -24, frame_mode = 33, unique_id = 6 },
+]
+
+[multi_cells.CellAnime01_1]
+properties = [
+  { sequence = "body1", translate_x = -1, translate_y = -44, frame_mode = 33 },
+  { sequence = "ice_Ra1", translate_x = 17, translate_y = -28, frame_mode = 33, unique_id = 1 },
+  { sequence = "ice_Rb1", translate_x = 19, translate_y = -21, frame_mode = 33, unique_id = 2 },
+  { sequence = "ice_Rc1", translate_x = 17, translate_y = -14, frame_mode = 33, unique_id = 3 },
+  { sequence = "ice_La1", translate_x = -14, translate_y = -24, frame_mode = 33, unique_id = 4 },
+  { sequence = "ice_Lb1", translate_x = -18, translate_y = -18, frame_mode = 33, unique_id = 5 },
+  { sequence = "ice_Lc1", translate_x = -23, translate_y = -14, frame_mode = 33, unique_id = 6 },
+]

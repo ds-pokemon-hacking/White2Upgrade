@@ -1,0 +1,59 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.stay]
+properties = [
+  { sequence = "fire_La", translate_x = 3, translate_y = 37, frame_mode = 33 },
+  { sequence = "hand_La", translate_x = 3, translate_y = 37, frame_mode = 33, unique_id = 1 },
+  { sequence = "hand_L", translate_x = 3, translate_y = 37, frame_mode = 33, unique_id = 2 },
+  { sequence = "fire_Lb", translate_x = 3, translate_y = 37, frame_mode = 33, unique_id = 3 },
+  { sequence = "hand_Lb", translate_x = 3, translate_y = 37, frame_mode = 33, unique_id = 4 },
+  { sequence = "fire_Ra", translate_x = -3, translate_y = 37, frame_mode = 33, unique_id = 5 },
+  { sequence = "hand_Ra", translate_x = -4, translate_y = 37, frame_mode = 33, unique_id = 6 },
+  { sequence = "body_b", translate_y = 36, frame_mode = 33, unique_id = 7 },
+  { sequence = "body", translate_y = 36, frame_mode = 33, unique_id = 8 },
+  { sequence = "arm_L", translate_x = 3, translate_y = 37, frame_mode = 33, unique_id = 9 },
+  { sequence = "hand_R", translate_x = -3, translate_y = 37, frame_mode = 33, unique_id = 10 },
+  { sequence = "arm_R", translate_x = -3, translate_y = 37, frame_mode = 33, unique_id = 11 },
+  { sequence = "fire_Rb", translate_x = -3, translate_y = 37, frame_mode = 33, unique_id = 12 },
+  { sequence = "hand_Rb", translate_x = -3, translate_y = 37, frame_mode = 33, unique_id = 13 },
+  { sequence = "fire", translate_x = 1, translate_y = 15, frame_mode = 33, unique_id = 14 },
+]
+
+[multi_cells.stay_1]
+properties = [
+  { sequence = "fire_La1", translate_x = 3, translate_y = 37, frame_mode = 33 },
+  { sequence = "hand_La1", translate_x = 3, translate_y = 37, frame_mode = 33, unique_id = 1 },
+  { sequence = "hand_L1", translate_x = 3, translate_y = 37, frame_mode = 33, unique_id = 2 },
+  { sequence = "fire_Lb1", translate_x = 3, translate_y = 37, frame_mode = 33, unique_id = 3 },
+  { sequence = "hand_Lb1", translate_x = 3, translate_y = 37, frame_mode = 33, unique_id = 4 },
+  { sequence = "fire_Ra1", translate_x = -3, translate_y = 37, frame_mode = 33, unique_id = 5 },
+  { sequence = "hand_Ra1", translate_x = -4, translate_y = 37, frame_mode = 33, unique_id = 6 },
+  { sequence = "body_b1", translate_y = 36, frame_mode = 33, unique_id = 7 },
+  { sequence = "body1", translate_y = 36, frame_mode = 33, unique_id = 8 },
+  { sequence = "arm_L1", translate_x = 3, translate_y = 37, frame_mode = 33, unique_id = 9 },
+  { sequence = "hand_R1", translate_x = -3, translate_y = 37, frame_mode = 33, unique_id = 10 },
+  { sequence = "arm_R1", translate_x = -3, translate_y = 37, frame_mode = 33, unique_id = 11 },
+  { sequence = "fire_Rb1", translate_x = -3, translate_y = 37, frame_mode = 33, unique_id = 12 },
+  { sequence = "hand_Rb1", translate_x = -3, translate_y = 37, frame_mode = 33, unique_id = 13 },
+  { sequence = "fire1", translate_x = 1, translate_y = 15, frame_mode = 33, unique_id = 14 },
+]
+
+[multi_cells.stop]
+properties = [
+  { sequence = "fire_La2", translate_x = 3, translate_y = 37, frame_mode = 33 },
+  { sequence = "hand_La", translate_x = 3, translate_y = 37, frame_mode = 33, unique_id = 1 },
+  { sequence = "hand_L", translate_x = 3, translate_y = 37, frame_mode = 33, unique_id = 2 },
+  { sequence = "fire_Lb2", translate_x = 3, translate_y = 37, frame_mode = 33, unique_id = 3 },
+  { sequence = "hand_Lb", translate_x = 3, translate_y = 37, frame_mode = 33, unique_id = 4 },
+  { sequence = "fire_Ra2", translate_x = -3, translate_y = 37, frame_mode = 33, unique_id = 5 },
+  { sequence = "hand_Ra", translate_x = -4, translate_y = 37, frame_mode = 33, unique_id = 6 },
+  { sequence = "body2", translate_y = 36, frame_mode = 33, unique_id = 7 },
+  { sequence = "arm_L", translate_x = 3, translate_y = 37, frame_mode = 33, unique_id = 8 },
+  { sequence = "hand_R", translate_x = -3, translate_y = 37, frame_mode = 33, unique_id = 9 },
+  { sequence = "arm_R", translate_x = -3, translate_y = 37, frame_mode = 33, unique_id = 10 },
+  { sequence = "fire_Rb2", translate_x = -3, translate_y = 37, frame_mode = 33, unique_id = 11 },
+  { sequence = "hand_Rb", translate_x = -3, translate_y = 37, frame_mode = 33, unique_id = 12 },
+  { sequence = "fire2", translate_x = 1, translate_y = 15, frame_mode = 33, unique_id = 13 },
+]

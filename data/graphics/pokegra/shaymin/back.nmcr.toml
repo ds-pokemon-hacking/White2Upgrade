@@ -1,0 +1,43 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.stay]
+properties = [
+  { sequence = "hand_R", translate_x = 7, translate_y = -42, frame_mode = 33 },
+  { sequence = "robe_arm_R", translate_x = 6, translate_y = -44, frame_mode = 33, unique_id = 1 },
+  { sequence = "sholder_R", translate_x = 6, translate_y = -44, frame_mode = 33, unique_id = 2 },
+  { sequence = "robe", translate_y = -32, frame_mode = 33, unique_id = 3 },
+  { sequence = "hair", translate_x = 4, translate_y = -59, frame_mode = 33, unique_id = 4 },
+  { sequence = "head", translate_x = 4, translate_y = -59, frame_mode = 33, unique_id = 5 },
+  { sequence = "hand_L", translate_x = -9, translate_y = -41, frame_mode = 33, unique_id = 6 },
+  { sequence = "sholder_L", translate_x = -9, translate_y = -44, frame_mode = 33, unique_id = 7 },
+  { sequence = "robe_arm_L", translate_x = -9, translate_y = -44, frame_mode = 33, unique_id = 8 },
+]
+
+[multi_cells.stay_1]
+properties = [
+  { sequence = "hand_R1", translate_x = 7, translate_y = -42, frame_mode = 33 },
+  { sequence = "robe_arm_R1", translate_x = 6, translate_y = -44, frame_mode = 33, unique_id = 1 },
+  { sequence = "sholder_R1", translate_x = 6, translate_y = -44, frame_mode = 33, unique_id = 2 },
+  { sequence = "hand_R11", translate_x = 7, translate_y = -42, frame_mode = 33, unique_id = 3 },
+  { sequence = "robe", translate_y = -32, frame_mode = 33, unique_id = 4 },
+  { sequence = "hair", translate_x = 4, translate_y = -59, frame_mode = 33, unique_id = 5 },
+  { sequence = "head", translate_x = 4, translate_y = -59, frame_mode = 33, unique_id = 6 },
+  { sequence = "hand_L", translate_x = -9, translate_y = -41, frame_mode = 33, unique_id = 7 },
+  { sequence = "sholder_L", translate_x = -9, translate_y = -44, frame_mode = 33, unique_id = 8 },
+  { sequence = "robe_arm_L", translate_x = -9, translate_y = -44, frame_mode = 33, unique_id = 9 },
+]
+
+[multi_cells.stop]
+properties = [
+  { sequence = "hand_R", translate_x = 7, translate_y = -42, frame_mode = 33 },
+  { sequence = "robe_arm_R2", translate_x = 6, translate_y = -44, frame_mode = 33, unique_id = 1 },
+  { sequence = "sholder_R", translate_x = 6, translate_y = -44, frame_mode = 33, unique_id = 2 },
+  { sequence = "robe1", translate_y = -32, frame_mode = 33, unique_id = 3 },
+  { sequence = "hair1", translate_x = 4, translate_y = -59, frame_mode = 33, unique_id = 4 },
+  { sequence = "head", translate_x = 4, translate_y = -59, frame_mode = 33, unique_id = 5 },
+  { sequence = "hand_L", translate_x = -9, translate_y = -41, frame_mode = 33, unique_id = 6 },
+  { sequence = "sholder_L", translate_x = -9, translate_y = -44, frame_mode = 33, unique_id = 7 },
+  { sequence = "robe_arm_L1", translate_x = -9, translate_y = -44, frame_mode = 33, unique_id = 8 },
+]

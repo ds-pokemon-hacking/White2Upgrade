@@ -1,0 +1,37 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.stay]
+properties = [
+  { sequence = "te02", translate_x = 13, translate_y = -28, frame_mode = 33 },
+  { sequence = "te01", translate_x = 7, translate_y = -33, frame_mode = 33, unique_id = 1 },
+  { sequence = "atama", translate_x = 5, translate_y = -46, frame_mode = 33, unique_id = 2 },
+  { sequence = "ago", translate_x = 4, translate_y = -42, frame_mode = 33, unique_id = 3 },
+  { sequence = "asi01", translate_x = 10, translate_y = -9, frame_mode = 33, unique_id = 4 },
+  { sequence = "asi02", translate_x = 13, translate_y = -3, frame_mode = 33, unique_id = 5 },
+  { sequence = "karada", translate_x = 1, translate_y = -23, frame_mode = 33, unique_id = 6 },
+  { sequence = "te04", translate_x = -10, translate_y = -32, frame_mode = 33, unique_id = 7 },
+  { sequence = "te03", translate_x = 2, translate_y = -34, frame_mode = 33, unique_id = 8 },
+  { sequence = "asi03", translate_x = -2, translate_y = -7, frame_mode = 33, unique_id = 9 },
+  { sequence = "asi04", translate_x = -3, translate_y = -6, frame_mode = 33, unique_id = 10 },
+  { sequence = "o", translate_x = 16, translate_y = 5, frame_mode = 33, unique_id = 11 },
+  { sequence = "h001", translate_x = 28, translate_y = -25, frame_mode = 33, unique_id = 12 },
+]
+
+[multi_cells.stop]
+properties = [
+  { sequence = "te021", translate_x = 13, translate_y = -28, frame_mode = 33 },
+  { sequence = "te011", translate_x = 7, translate_y = -33, frame_mode = 33, unique_id = 1 },
+  { sequence = "atama1", translate_x = 5, translate_y = -46, frame_mode = 33, unique_id = 2 },
+  { sequence = "ago1", translate_x = 4, translate_y = -42, frame_mode = 33, unique_id = 3 },
+  { sequence = "asi011", translate_x = 10, translate_y = -9, frame_mode = 33, unique_id = 4 },
+  { sequence = "asi021", translate_x = 13, translate_y = -3, frame_mode = 33, unique_id = 5 },
+  { sequence = "karada1", translate_x = 1, translate_y = -23, frame_mode = 33, unique_id = 6 },
+  { sequence = "te041", translate_x = -10, translate_y = -32, frame_mode = 33, unique_id = 7 },
+  { sequence = "te031", translate_x = 2, translate_y = -34, frame_mode = 33, unique_id = 8 },
+  { sequence = "asi031", translate_x = -2, translate_y = -7, frame_mode = 33, unique_id = 9 },
+  { sequence = "asi041", translate_x = -3, translate_y = -6, frame_mode = 33, unique_id = 10 },
+  { sequence = "o1", translate_x = 16, translate_y = 5, frame_mode = 33, unique_id = 11 },
+  { sequence = "h0012", translate_x = 30, translate_y = -27, frame_mode = 33, unique_id = 12 },
+]

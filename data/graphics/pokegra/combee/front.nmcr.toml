@@ -1,0 +1,18 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.nonstop]
+properties = [
+  { sequence = "te_l", translate_x = 3, translate_y = -33, frame_mode = 33 },
+  { sequence = "shotukaku02", translate_x = -2, translate_y = -43, frame_mode = 33, unique_id = 1 },
+  { sequence = "shotukaku01", translate_x = -6, translate_y = -43, frame_mode = 33, unique_id = 2 },
+  { sequence = "atama", translate_y = -38, frame_mode = 33, unique_id = 3 },
+  { sequence = "karada", translate_x = -1, translate_y = -30, frame_mode = 33, unique_id = 4 },
+  { sequence = "te_r", translate_x = -5, translate_y = -32, frame_mode = 33, unique_id = 5 },
+  { sequence = "o", translate_x = 4, translate_y = -26, frame_mode = 33, unique_id = 6 },
+  { sequence = "hidari_hane01", translate_x = 3, translate_y = -36, frame_mode = 33, unique_id = 7 },
+  { sequence = "hidari_hane02", translate_x = 1, translate_y = -32, frame_mode = 33, unique_id = 8 },
+  { sequence = "migi_hane01", translate_x = -3, translate_y = -35, frame_mode = 33, unique_id = 9 },
+  { sequence = "migihane02", translate_x = 1, translate_y = -32, frame_mode = 33, unique_id = 10 },
+]

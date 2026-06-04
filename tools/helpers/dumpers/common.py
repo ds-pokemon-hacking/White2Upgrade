@@ -4,6 +4,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from struct import unpack_from
 from typing import Any
+import tomllib
 
 from ndspy import narc
 
@@ -39,7 +40,9 @@ NARCS: dict[str, NarcSpec] = {
     "trpoke": NarcSpec("trpoke", "a/0/9/2", "Trainer parties"),
     "pokegra_battle": NarcSpec("pokegra_battle", "a/0/0/4", "Battle sprite assets"),
     "pokegra_icons": NarcSpec("pokegra_icons", "a/0/0/7", "Pokemon icon assets"),
+    "pokegra_footprints": NarcSpec("pokegra_footprints", "a/1/6/5", "Pokemon footprint assets"),
     "system_text": NarcSpec("system_text", "a/0/0/2", "System message files"),
+    "game_text": NarcSpec("game_text", "a/0/0/3", "Map and event message files"),
 }
 
 
@@ -92,22 +95,12 @@ def read_narc_files(path: Path) -> list[bytes]:
 
 
 def load_label_map(enum_name: str) -> dict[int, str]:
-    path = REPO_ROOT / "tools" / "mkdata" / "enum" / f"{enum_name}.yml"
+    path = REPO_ROOT / "tools" / "mkdata" / "enum" / f"{enum_name}.toml"
     labels: dict[int, str] = {}
-    for line in path.read_text().splitlines():
-        line = line.strip()
-        if not line or line == "DEFINE:" or line.startswith("#"):
-            continue
-        if line.startswith("- "):
-            line = line[2:]
-        if ":" not in line:
-            continue
-        key, value = line.split(":", 1)
-        value = value.strip()
-        try:
-            labels[int(value, 0)] = key.strip()
-        except ValueError:
-            continue
+    with path.open("rb") as enum_file:
+        defines = tomllib.load(enum_file).get("DEFINE", {})
+    for key, value in defines.items():
+        labels[int(value)] = key
     return labels
 
 

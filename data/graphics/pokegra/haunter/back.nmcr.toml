@@ -1,0 +1,41 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.stay]
+properties = [
+  { sequence = "gb", translate_x = 24, translate_y = -46, frame_mode = 33 },
+  { sequence = "ga", translate_x = 18, translate_y = -25, frame_mode = 33, unique_id = 1 },
+  { sequence = "g9", translate_x = 19, translate_y = -59, frame_mode = 33, unique_id = 2 },
+  { sequence = "g8", translate_x = -20, translate_y = -22, frame_mode = 33, unique_id = 3 },
+  { sequence = "g7", translate_x = -31, translate_y = -61, frame_mode = 33, unique_id = 4 },
+  { sequence = "g6", translate_x = -33, translate_y = -32, frame_mode = 33, unique_id = 5 },
+  { sequence = "g5", translate_x = -30, translate_y = -40, frame_mode = 33, unique_id = 6 },
+  { sequence = "g4", translate_x = -16, translate_y = -68, frame_mode = 33, unique_id = 7 },
+  { sequence = "g3", translate_x = -22, translate_y = -71, frame_mode = 33, unique_id = 8 },
+  { sequence = "g2", translate_x = 2, translate_y = -73, frame_mode = 33, unique_id = 9 },
+  { sequence = "g1", translate_x = 8, translate_y = -69, frame_mode = 33, unique_id = 10 },
+  { sequence = "gose", translate_y = -46, frame_mode = 33, unique_id = 11 },
+  { sequence = "mouth", translate_y = -45, frame_mode = 33, unique_id = 12 },
+  { sequence = "gas_b", translate_x = -1, translate_y = -46, frame_mode = 33, unique_id = 13 },
+  { sequence = "gas_a", translate_x = -3, translate_y = -45, frame_mode = 33, unique_id = 14 },
+]
+
+[multi_cells.stop]
+properties = [
+  { sequence = "gb_02", translate_x = 24, translate_y = -46, frame_mode = 33 },
+  { sequence = "ga_02", translate_x = 18, translate_y = -25, frame_mode = 33, unique_id = 1 },
+  { sequence = "g9_02", translate_x = 19, translate_y = -59, frame_mode = 33, unique_id = 2 },
+  { sequence = "g8_02", translate_x = -20, translate_y = -22, frame_mode = 33, unique_id = 3 },
+  { sequence = "g7_02", translate_x = -31, translate_y = -61, frame_mode = 33, unique_id = 4 },
+  { sequence = "g6_02", translate_x = -33, translate_y = -32, frame_mode = 33, unique_id = 5 },
+  { sequence = "g5_02", translate_x = -30, translate_y = -40, frame_mode = 33, unique_id = 6 },
+  { sequence = "g4_02", translate_x = -16, translate_y = -68, frame_mode = 33, unique_id = 7 },
+  { sequence = "g3_02", translate_x = -22, translate_y = -71, frame_mode = 33, unique_id = 8 },
+  { sequence = "g2_02", translate_x = 2, translate_y = -73, frame_mode = 33, unique_id = 9 },
+  { sequence = "g1_02", translate_x = 8, translate_y = -69, frame_mode = 33, unique_id = 10 },
+  { sequence = "gose", translate_y = -46, frame_mode = 33, unique_id = 11 },
+  { sequence = "mouth", translate_y = -45, frame_mode = 33, unique_id = 12 },
+  { sequence = "gas_b_02", translate_x = -1, translate_y = -46, frame_mode = 33, unique_id = 13 },
+  { sequence = "gas_a_02", translate_x = -3, translate_y = -45, frame_mode = 33, unique_id = 14 },
+]

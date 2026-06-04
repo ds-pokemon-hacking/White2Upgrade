@@ -1,0 +1,22 @@
+format = "nmar"
+
+[sequences.stay]
+cell_type = 2
+loop_mode = 2
+frames = [
+  { duration_in_frames = 72, multi_cell = "stay" },
+  { duration_in_frames = 72, multi_cell = "stay" },
+  { duration_in_frames = 72, multi_cell = "stay" },
+  { duration_in_frames = 72, multi_cell = "stay" },
+  { duration_in_frames = 28, multi_cell = "stay_1" },
+  { duration_in_frames = 28, multi_cell = "stay_1" },
+  { duration_in_frames = 28, multi_cell = "stay_1" },
+  { duration_in_frames = 8, multi_cell = "stay_1" },
+]
+
+[sequences.stop]
+cell_type = 2
+loop_mode = 2
+frames = [
+  { duration_in_frames = 72, multi_cell = "stop", padding_after = [204, 204] },
+]

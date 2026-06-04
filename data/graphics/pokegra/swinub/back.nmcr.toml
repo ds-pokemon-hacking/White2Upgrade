@@ -1,0 +1,23 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.stay]
+properties = [
+  { sequence = "shell", translate_x = -2, translate_y = -18, frame_mode = 33 },
+  { sequence = "mouth", translate_x = 16, translate_y = -33, frame_mode = 33, unique_id = 1 },
+  { sequence = "body", translate_x = 3, translate_y = -11, frame_mode = 33, unique_id = 2 },
+  { sequence = "head", translate_x = 8, translate_y = -28, frame_mode = 33, unique_id = 3 },
+  { sequence = "neck", translate_x = 9, translate_y = -23, frame_mode = 33, unique_id = 4 },
+  { sequence = "fire", translate_x = -14, translate_y = -39, frame_mode = 33, unique_id = 5 },
+]
+
+[multi_cells.stop]
+properties = [
+  { sequence = "shell", translate_x = -2, translate_y = -18, frame_mode = 33 },
+  { sequence = "mouth", translate_x = 16, translate_y = -33, frame_mode = 33, unique_id = 1 },
+  { sequence = "body", translate_x = 3, translate_y = -11, frame_mode = 33, unique_id = 2 },
+  { sequence = "head", translate_x = 8, translate_y = -28, frame_mode = 33, unique_id = 3 },
+  { sequence = "neck", translate_x = 9, translate_y = -23, frame_mode = 33, unique_id = 4 },
+  { sequence = "fire_2", translate_x = -14, translate_y = -39, frame_mode = 33, unique_id = 5 },
+]

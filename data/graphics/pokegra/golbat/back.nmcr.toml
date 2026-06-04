@@ -1,0 +1,15 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.nonstop]
+properties = [
+  { sequence = "wing_R", translate_x = 11, translate_y = -38, frame_mode = 33 },
+  { sequence = "tail", translate_x = 2, translate_y = -40, frame_mode = 33, unique_id = 1 },
+  { sequence = "ear_R", translate_x = 15, translate_y = -41, frame_mode = 33, unique_id = 2 },
+  { sequence = "mouth_B", translate_x = 7, translate_y = -38, frame_mode = 33, unique_id = 3 },
+  { sequence = "mouth_T", translate_x = 14, translate_y = -36, frame_mode = 33, unique_id = 4 },
+  { sequence = "body", translate_x = 6, translate_y = -40, frame_mode = 33, unique_id = 5 },
+  { sequence = "ear_L", translate_x = 11, translate_y = -45, frame_mode = 33, unique_id = 6 },
+  { sequence = "wing_L", translate_x = 3, translate_y = -43, frame_mode = 33, unique_id = 7 },
+]

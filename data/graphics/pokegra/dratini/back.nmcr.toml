@@ -1,0 +1,15 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.nonstop]
+properties = [
+  { sequence = "tail", translate_x = -8, translate_y = -45, frame_mode = 33 },
+  { sequence = "foot_R", translate_x = -2, translate_y = -40, frame_mode = 33, unique_id = 1 },
+  { sequence = "foot_L", translate_x = -12, translate_y = -40, frame_mode = 33, unique_id = 2 },
+  { sequence = "wing_R", translate_x = 3, translate_y = -54, frame_mode = 33, unique_id = 3 },
+  { sequence = "tosaka", translate_x = 20, translate_y = -68, frame_mode = 33, unique_id = 4 },
+  { sequence = "body", translate_x = -4, translate_y = -48, frame_mode = 33, unique_id = 5 },
+  { sequence = "head", translate_x = 7, translate_y = -58, frame_mode = 33, unique_id = 6 },
+  { sequence = "wing_L", translate_y = -55, frame_mode = 33, unique_id = 7 },
+]

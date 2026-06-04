@@ -1,0 +1,45 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.stay]
+properties = [
+  { sequence = "tail01", translate_x = -1, translate_y = -11, frame_mode = 33 },
+  { sequence = "ef01", translate_x = -15, translate_y = -36, frame_mode = 33, unique_id = 1 },
+  { sequence = "r_foot01", translate_x = 6, translate_y = -1, frame_mode = 33, unique_id = 2 },
+  { sequence = "r_leg01", translate_x = 6, translate_y = -3, frame_mode = 33, unique_id = 3 },
+  { sequence = "r_arm01", translate_x = 7, translate_y = -21, frame_mode = 33, unique_id = 4 },
+  { sequence = "body01", translate_x = 1, translate_y = -10, frame_mode = 33, unique_id = 5 },
+  { sequence = "head01", translate_x = 6, translate_y = -26, frame_mode = 33, unique_id = 6 },
+  { sequence = "l_foot01", translate_x = -5, translate_y = -2, frame_mode = 33, unique_id = 7 },
+  { sequence = "l_leg01", translate_x = -5, translate_y = -4, frame_mode = 33, unique_id = 8 },
+  { sequence = "l_arm01", translate_x = 8, translate_y = -21, frame_mode = 33, unique_id = 9 },
+]
+
+[multi_cells.stay_1]
+properties = [
+  { sequence = "tail02", translate_x = -1, translate_y = -11, frame_mode = 33 },
+  { sequence = "ef02", translate_x = -15, translate_y = -36, frame_mode = 33, unique_id = 1 },
+  { sequence = "r_foot02", translate_x = 6, translate_y = -1, frame_mode = 33, unique_id = 2 },
+  { sequence = "r_leg02", translate_x = 6, translate_y = -3, frame_mode = 33, unique_id = 3 },
+  { sequence = "r_arm02", translate_x = 7, translate_y = -21, frame_mode = 33, unique_id = 4 },
+  { sequence = "body02", translate_x = 1, translate_y = -10, frame_mode = 33, unique_id = 5 },
+  { sequence = "head02", translate_x = 6, translate_y = -26, frame_mode = 33, unique_id = 6 },
+  { sequence = "l_foot02", translate_x = -5, translate_y = -2, frame_mode = 33, unique_id = 7 },
+  { sequence = "l_leg02", translate_x = -5, translate_y = -4, frame_mode = 33, unique_id = 8 },
+  { sequence = "l_arm02", translate_x = 8, translate_y = -21, frame_mode = 33, unique_id = 9 },
+]
+
+[multi_cells.stop]
+properties = [
+  { sequence = "tail011", translate_x = -1, translate_y = -11, frame_mode = 33 },
+  { sequence = "ef011", translate_x = -15, translate_y = -36, frame_mode = 33, unique_id = 1 },
+  { sequence = "r_foot011", translate_x = 6, translate_y = -1, frame_mode = 33, unique_id = 2 },
+  { sequence = "r_leg011", translate_x = 6, translate_y = -3, frame_mode = 33, unique_id = 3 },
+  { sequence = "r_arm011", translate_x = 7, translate_y = -21, frame_mode = 33, unique_id = 4 },
+  { sequence = "body011", translate_x = 1, translate_y = -10, frame_mode = 33, unique_id = 5 },
+  { sequence = "head011", translate_x = 6, translate_y = -26, frame_mode = 33, unique_id = 6 },
+  { sequence = "l_foot011", translate_x = -5, translate_y = -2, frame_mode = 33, unique_id = 7 },
+  { sequence = "l_leg011", translate_x = -5, translate_y = -4, frame_mode = 33, unique_id = 8 },
+  { sequence = "l_arm011", translate_x = 8, translate_y = -21, frame_mode = 33, unique_id = 9 },
+]

@@ -1,0 +1,17 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.CellAnime0]
+properties = [
+  { sequence = "eye01", translate_y = -26, frame_mode = 33 },
+  { sequence = "parts01", translate_y = -26, frame_mode = 33, unique_id = 1 },
+  { sequence = "head01", translate_y = -26, frame_mode = 33, unique_id = 2 },
+]
+
+[multi_cells.CellAnime0_1]
+properties = [
+  { sequence = "eye02", translate_y = -26, frame_mode = 33 },
+  { sequence = "head02", translate_y = -26, frame_mode = 33, unique_id = 1 },
+  { sequence = "parts02", translate_y = -26, frame_mode = 33, unique_id = 2 },
+]

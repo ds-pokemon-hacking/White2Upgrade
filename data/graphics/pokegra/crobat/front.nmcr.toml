@@ -1,0 +1,22 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.CellAnime0]
+properties = [
+  { sequence = "syokkaku_l", translate_y = -24, frame_mode = 33 },
+  { sequence = "syokkaku_r", translate_y = -24, frame_mode = 33, unique_id = 1 },
+  { sequence = "syokkaku_moto", translate_y = -24, frame_mode = 33, unique_id = 2 },
+  { sequence = "foot_sfl", translate_y = -24, frame_mode = 33, unique_id = 3 },
+  { sequence = "foot_fl", translate_x = 10, translate_y = -11, frame_mode = 33, unique_id = 4 },
+  { sequence = "foot_sbl", translate_y = -24, frame_mode = 33, unique_id = 5 },
+  { sequence = "foot_bl", translate_x = 16, translate_y = -16, frame_mode = 33, unique_id = 6 },
+  { sequence = "head", translate_y = -24, frame_mode = 33, unique_id = 7 },
+  { sequence = "body", translate_y = -24, frame_mode = 33, unique_id = 8 },
+  { sequence = "foot_sfr", translate_y = -24, frame_mode = 33, unique_id = 9 },
+  { sequence = "foot_fr", translate_x = -27, translate_y = -15, frame_mode = 33, unique_id = 10 },
+  { sequence = "foot_sbr", translate_y = -24, frame_mode = 33, unique_id = 11 },
+  { sequence = "foot_br", translate_x = -23, translate_y = -20, frame_mode = 33, unique_id = 12 },
+  { sequence = "kiba_l", translate_x = -10, translate_y = -5, frame_mode = 33, unique_id = 13 },
+  { sequence = "kiba_r", translate_x = -18, translate_y = -6, frame_mode = 33, unique_id = 14 },
+]

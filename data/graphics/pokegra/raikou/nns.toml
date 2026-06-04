@@ -1,0 +1,130 @@
+species = 243
+symbol = "SPECIES_RAIKOU"
+block = 242
+label = "base"
+
+[[entries]]
+role = "front.0"
+kind = "ncgr"
+raw = "front.0.png"
+lz11 = true
+
+[[entries]]
+role = "front.1"
+kind = "empty"
+raw = "front.1.bin"
+lz11 = false
+
+[[entries]]
+role = "front.2"
+kind = "ncgr"
+raw = "front.2.png"
+lz11 = true
+
+[[entries]]
+role = "front.3"
+kind = "empty"
+raw = "front.3.bin"
+lz11 = false
+
+[[entries]]
+role = "front"
+kind = "ncer"
+raw = "front.ncer.toml"
+lz11 = false
+
+[[entries]]
+role = "front"
+kind = "nanr"
+raw = "front.nanr.toml"
+depends_on = ["front.ncer.toml"]
+lz11 = true
+
+[[entries]]
+role = "front"
+kind = "nmcr"
+raw = "front.nmcr.toml"
+depends_on = ["front.nanr.toml"]
+lz11 = false
+
+[[entries]]
+role = "front"
+kind = "nmar"
+raw = "front.nmar.toml"
+depends_on = ["front.nanr.toml", "front.nmcr.toml"]
+lz11 = false
+
+[[entries]]
+role = "front.params"
+kind = "binary"
+raw = "front.params.bin"
+lz11 = false
+
+[[entries]]
+role = "back.0"
+kind = "ncgr"
+raw = "back.0.png"
+lz11 = true
+
+[[entries]]
+role = "back.1"
+kind = "empty"
+raw = "back.1.bin"
+lz11 = false
+
+[[entries]]
+role = "back.2"
+kind = "ncgr"
+raw = "back.2.png"
+lz11 = true
+
+[[entries]]
+role = "back.3"
+kind = "empty"
+raw = "back.3.bin"
+lz11 = false
+
+[[entries]]
+role = "back"
+kind = "ncer"
+raw = "back.ncer.toml"
+lz11 = false
+
+[[entries]]
+role = "back"
+kind = "nanr"
+raw = "back.nanr.toml"
+depends_on = ["back.ncer.toml"]
+lz11 = true
+
+[[entries]]
+role = "back"
+kind = "nmcr"
+raw = "back.nmcr.toml"
+depends_on = ["back.nanr.toml"]
+lz11 = false
+
+[[entries]]
+role = "back"
+kind = "nmar"
+raw = "back.nmar.toml"
+depends_on = ["back.nanr.toml", "back.nmcr.toml"]
+lz11 = false
+
+[[entries]]
+role = "back.params"
+kind = "binary"
+raw = "back.params.bin"
+lz11 = false
+
+[[entries]]
+role = "normal"
+kind = "nclr"
+raw = "normal.pal"
+lz11 = false
+
+[[entries]]
+role = "shiny"
+kind = "nclr"
+raw = "shiny.pal"
+lz11 = false

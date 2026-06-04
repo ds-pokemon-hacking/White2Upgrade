@@ -1,0 +1,20 @@
+format = "nmar"
+
+[sequences.Anime01]
+cell_type = 2
+loop_mode = 2
+frames = [
+  { duration_in_frames = 176, multi_cell = "Anime01" },
+  { duration_in_frames = 176, multi_cell = "Anime01" },
+  { duration_in_frames = 96, multi_cell = "Anime01_1" },
+]
+
+[sequences.Anime02]
+cell_type = 2
+loop_mode = 2
+frames = [
+  { duration_in_frames = 8, multi_cell = "Anime01_1" },
+  { duration_in_frames = 8, multi_cell = "Anime01" },
+  { duration_in_frames = 8, multi_cell = "Anime01" },
+  { duration_in_frames = 8, multi_cell = "Anime01" },
+]

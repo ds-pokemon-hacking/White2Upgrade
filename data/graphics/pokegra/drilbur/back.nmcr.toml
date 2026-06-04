@@ -1,0 +1,27 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.nonstop]
+properties = [
+  { sequence = "ke01_a", translate_x = -2, translate_y = -51, frame_mode = 32 },
+  { sequence = "r_hane_a", translate_x = 4, translate_y = -53, frame_mode = 32, unique_id = 1 },
+  { sequence = "atama_a", translate_x = 2, translate_y = -47, frame_mode = 32, unique_id = 2 },
+  { sequence = "ke02_a", translate_y = -54, frame_mode = 32, unique_id = 3 },
+  { sequence = "o_a", translate_x = -3, translate_y = -42, frame_mode = 32, unique_id = 4 },
+  { sequence = "karada_a", translate_x = 1, translate_y = -48, frame_mode = 32, unique_id = 5 },
+  { sequence = "ashi_a", translate_x = 13, translate_y = -45, frame_mode = 32, unique_id = 6 },
+  { sequence = "l_hane_a", translate_x = -7, translate_y = -58, frame_mode = 32, unique_id = 7 },
+]
+
+[multi_cells.nonstop_1]
+properties = [
+  { sequence = "ke01", translate_x = -2, translate_y = -48, frame_mode = 32 },
+  { sequence = "r_hane", translate_x = 4, translate_y = -50, frame_mode = 32, unique_id = 1 },
+  { sequence = "atama", translate_x = 2, translate_y = -44, frame_mode = 32, unique_id = 2 },
+  { sequence = "ke02", translate_y = -51, frame_mode = 32, unique_id = 3 },
+  { sequence = "o", translate_x = -3, translate_y = -39, frame_mode = 32, unique_id = 4 },
+  { sequence = "karada", translate_x = 1, translate_y = -45, frame_mode = 32, unique_id = 5 },
+  { sequence = "ashi", translate_x = 13, translate_y = -42, frame_mode = 32, unique_id = 6 },
+  { sequence = "l_hane", translate_x = -7, translate_y = -55, frame_mode = 32, unique_id = 7 },
+]

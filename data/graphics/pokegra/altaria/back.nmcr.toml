@@ -1,0 +1,14 @@
+format = "nmcr"
+
+unknown0 = 48879
+
+[multi_cells.nonstop]
+properties = [
+  { sequence = "Rhair", translate_x = -3, translate_y = -46, frame_mode = 32 },
+  { sequence = "Lhair", translate_x = -3, translate_y = -46, frame_mode = 32, unique_id = 1 },
+  { sequence = "tale", translate_x = -8, translate_y = -30, frame_mode = 32, unique_id = 2 },
+  { sequence = "RwingA", translate_y = -32, frame_mode = 32, unique_id = 3 },
+  { sequence = "body", translate_y = -16, frame_mode = 32, unique_id = 4 },
+  { sequence = "foot", translate_y = -16, frame_mode = 32, unique_id = 5 },
+  { sequence = "LwingA", translate_x = -8, translate_y = -36, frame_mode = 32, unique_id = 6 },
+]
